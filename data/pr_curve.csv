@@ -1,0 +1,323 @@
+test,position,recall_so_far,precision_so_far,real_hotspot
+Fixed test,1,0.0417,1.0,Yes
+Fixed test,2,0.0833,1.0,Yes
+Fixed test,3,0.125,1.0,Yes
+Fixed test,4,0.1667,1.0,Yes
+Fixed test,5,0.1667,0.8,No
+Fixed test,6,0.1667,0.6667,No
+Fixed test,7,0.1667,0.5714,No
+Fixed test,8,0.1667,0.5,No
+Fixed test,9,0.2083,0.5556,Yes
+Fixed test,10,0.25,0.6,Yes
+Fixed test,11,0.25,0.5455,No
+Fixed test,12,0.2917,0.5833,Yes
+Fixed test,13,0.2917,0.5385,No
+Fixed test,14,0.3333,0.5714,Yes
+Fixed test,15,0.3333,0.5333,No
+Fixed test,16,0.3333,0.5,No
+Fixed test,17,0.375,0.5294,Yes
+Fixed test,18,0.4167,0.5556,Yes
+Fixed test,19,0.4167,0.5263,No
+Fixed test,20,0.4167,0.5,No
+Fixed test,21,0.4583,0.5238,Yes
+Fixed test,22,0.4583,0.5,No
+Fixed test,23,0.5,0.5217,Yes
+Fixed test,24,0.5417,0.5417,Yes
+Fixed test,25,0.5833,0.56,Yes
+Fixed test,26,0.625,0.5769,Yes
+Fixed test,27,0.625,0.5556,No
+Fixed test,28,0.625,0.5357,No
+Fixed test,29,0.625,0.5172,No
+Fixed test,30,0.625,0.5,No
+Fixed test,31,0.625,0.4839,No
+Fixed test,32,0.6667,0.5,Yes
+Fixed test,33,0.6667,0.4848,No
+Fixed test,34,0.6667,0.4706,No
+Fixed test,35,0.6667,0.4571,No
+Fixed test,36,0.6667,0.4444,No
+Fixed test,37,0.6667,0.4324,No
+Fixed test,38,0.6667,0.4211,No
+Fixed test,39,0.6667,0.4103,No
+Fixed test,40,0.7083,0.425,Yes
+Fixed test,41,0.7083,0.4146,No
+Fixed test,42,0.7083,0.4048,No
+Fixed test,43,0.7083,0.3953,No
+Fixed test,44,0.7083,0.3864,No
+Fixed test,45,0.7083,0.3778,No
+Fixed test,46,0.7083,0.3696,No
+Fixed test,47,0.7083,0.3617,No
+Fixed test,48,0.7083,0.3542,No
+Fixed test,49,0.7083,0.3469,No
+Fixed test,50,0.75,0.36,Yes
+Fixed test,51,0.75,0.3529,No
+Fixed test,52,0.7917,0.3654,Yes
+Fixed test,53,0.8333,0.3774,Yes
+Fixed test,54,0.8333,0.3704,No
+Fixed test,55,0.8333,0.3636,No
+Fixed test,56,0.8333,0.3571,No
+Fixed test,57,0.875,0.3684,Yes
+Fixed test,58,0.875,0.3621,No
+Fixed test,59,0.875,0.3559,No
+Fixed test,60,0.875,0.35,No
+Fixed test,61,0.875,0.3443,No
+Fixed test,62,0.875,0.3387,No
+Fixed test,63,0.875,0.3333,No
+Fixed test,64,0.9167,0.3438,Yes
+Fixed test,65,0.9167,0.3385,No
+Fixed test,66,0.9167,0.3333,No
+Fixed test,67,0.9167,0.3284,No
+Fixed test,68,0.9167,0.3235,No
+Fixed test,69,0.9167,0.3188,No
+Fixed test,70,0.9167,0.3143,No
+Fixed test,71,0.9167,0.3099,No
+Fixed test,72,0.9167,0.3056,No
+Fixed test,73,0.9167,0.3014,No
+Fixed test,74,0.9167,0.2973,No
+Fixed test,75,0.9167,0.2933,No
+Fixed test,76,0.9167,0.2895,No
+Fixed test,77,0.9167,0.2857,No
+Fixed test,78,0.9167,0.2821,No
+Fixed test,79,0.9167,0.2785,No
+Fixed test,80,0.9167,0.275,No
+Fixed test,81,0.9167,0.2716,No
+Fixed test,82,0.9167,0.2683,No
+Fixed test,83,0.9167,0.2651,No
+Fixed test,84,0.9167,0.2619,No
+Fixed test,85,0.9167,0.2588,No
+Fixed test,86,0.9167,0.2558,No
+Fixed test,87,0.9167,0.2529,No
+Fixed test,88,0.9583,0.2614,Yes
+Fixed test,89,0.9583,0.2584,No
+Fixed test,90,0.9583,0.2556,No
+Fixed test,91,0.9583,0.2527,No
+Fixed test,92,0.9583,0.25,No
+Fixed test,93,1.0,0.2581,Yes
+Fixed test,94,1.0,0.2553,No
+Fixed test,95,1.0,0.2526,No
+Fixed test,96,1.0,0.25,No
+Fixed test,97,1.0,0.2474,No
+Fixed test,98,1.0,0.2449,No
+Fixed test,99,1.0,0.2424,No
+Fixed test,100,1.0,0.24,No
+Fixed test,101,1.0,0.2376,No
+Fixed test,102,1.0,0.2353,No
+Fixed test,103,1.0,0.233,No
+Fixed test,104,1.0,0.2308,No
+Fixed test,105,1.0,0.2286,No
+Fixed test,106,1.0,0.2264,No
+Fixed test,107,1.0,0.2243,No
+Fixed test,108,1.0,0.2222,No
+Fixed test,109,1.0,0.2202,No
+Fixed test,110,1.0,0.2182,No
+Fixed test,111,1.0,0.2162,No
+Fixed test,112,1.0,0.2143,No
+Fixed test,113,1.0,0.2124,No
+Fixed test,114,1.0,0.2105,No
+Fixed test,115,1.0,0.2087,No
+Fixed test,116,1.0,0.2069,No
+Fixed test,117,1.0,0.2051,No
+Fixed test,118,1.0,0.2034,No
+Fixed test,119,1.0,0.2017,No
+Fixed test,120,1.0,0.2,No
+Fixed test,121,1.0,0.1983,No
+Fixed test,122,1.0,0.1967,No
+Fixed test,123,1.0,0.1951,No
+Fixed test,124,1.0,0.1935,No
+Fixed test,125,1.0,0.192,No
+Fixed test,126,1.0,0.1905,No
+Fixed test,127,1.0,0.189,No
+Fixed test,128,1.0,0.1875,No
+Fixed test,129,1.0,0.186,No
+Fixed test,130,1.0,0.1846,No
+Fixed test,131,1.0,0.1832,No
+Fixed test,132,1.0,0.1818,No
+Fixed test,133,1.0,0.1805,No
+Fixed test,134,1.0,0.1791,No
+Fixed test,135,1.0,0.1778,No
+Fixed test,136,1.0,0.1765,No
+Fixed test,137,1.0,0.1752,No
+Fixed test,138,1.0,0.1739,No
+Fixed test,139,1.0,0.1727,No
+Fixed test,140,1.0,0.1714,No
+Fixed test,141,1.0,0.1702,No
+Fixed test,142,1.0,0.169,No
+Fixed test,143,1.0,0.1678,No
+Fixed test,144,1.0,0.1667,No
+Fixed test,145,1.0,0.1655,No
+Fixed test,146,1.0,0.1644,No
+Fixed test,147,1.0,0.1633,No
+Fixed test,148,1.0,0.1622,No
+Fixed test,149,1.0,0.1611,No
+Fixed test,150,1.0,0.16,No
+Fixed test,151,1.0,0.1589,No
+Fixed test,152,1.0,0.1579,No
+Fixed test,153,1.0,0.1569,No
+Fixed test,154,1.0,0.1558,No
+Fixed test,155,1.0,0.1548,No
+Fixed test,156,1.0,0.1538,No
+Fixed test,157,1.0,0.1529,No
+Fixed test,158,1.0,0.1519,No
+Fixed test,159,1.0,0.1509,No
+Fixed test,160,1.0,0.15,No
+Fixed test,161,1.0,0.1491,No
+Walk-forward,1,0.0417,1.0,Yes
+Walk-forward,2,0.0833,1.0,Yes
+Walk-forward,3,0.125,1.0,Yes
+Walk-forward,4,0.125,0.75,No
+Walk-forward,5,0.125,0.6,No
+Walk-forward,6,0.1667,0.6667,Yes
+Walk-forward,7,0.1667,0.5714,No
+Walk-forward,8,0.1667,0.5,No
+Walk-forward,9,0.1667,0.4444,No
+Walk-forward,10,0.2083,0.5,Yes
+Walk-forward,11,0.2083,0.4545,No
+Walk-forward,12,0.25,0.5,Yes
+Walk-forward,13,0.25,0.4615,No
+Walk-forward,14,0.2917,0.5,Yes
+Walk-forward,15,0.3333,0.5333,Yes
+Walk-forward,16,0.3333,0.5,No
+Walk-forward,17,0.3333,0.4706,No
+Walk-forward,18,0.375,0.5,Yes
+Walk-forward,19,0.4167,0.5263,Yes
+Walk-forward,20,0.4167,0.5,No
+Walk-forward,21,0.4167,0.4762,No
+Walk-forward,22,0.4167,0.4545,No
+Walk-forward,23,0.4583,0.4783,Yes
+Walk-forward,24,0.4583,0.4583,No
+Walk-forward,25,0.4583,0.44,No
+Walk-forward,26,0.4583,0.4231,No
+Walk-forward,27,0.4583,0.4074,No
+Walk-forward,28,0.5,0.4286,Yes
+Walk-forward,29,0.5,0.4138,No
+Walk-forward,30,0.5,0.4,No
+Walk-forward,31,0.5417,0.4194,Yes
+Walk-forward,32,0.5833,0.4375,Yes
+Walk-forward,33,0.625,0.4545,Yes
+Walk-forward,34,0.625,0.4412,No
+Walk-forward,35,0.6667,0.4571,Yes
+Walk-forward,36,0.6667,0.4444,No
+Walk-forward,37,0.6667,0.4324,No
+Walk-forward,38,0.6667,0.4211,No
+Walk-forward,39,0.6667,0.4103,No
+Walk-forward,40,0.6667,0.4,No
+Walk-forward,41,0.6667,0.3902,No
+Walk-forward,42,0.6667,0.381,No
+Walk-forward,43,0.6667,0.3721,No
+Walk-forward,44,0.6667,0.3636,No
+Walk-forward,45,0.6667,0.3556,No
+Walk-forward,46,0.6667,0.3478,No
+Walk-forward,47,0.6667,0.3404,No
+Walk-forward,48,0.7083,0.3542,Yes
+Walk-forward,49,0.75,0.3673,Yes
+Walk-forward,50,0.75,0.36,No
+Walk-forward,51,0.75,0.3529,No
+Walk-forward,52,0.75,0.3462,No
+Walk-forward,53,0.7917,0.3585,Yes
+Walk-forward,54,0.7917,0.3519,No
+Walk-forward,55,0.7917,0.3455,No
+Walk-forward,56,0.7917,0.3393,No
+Walk-forward,57,0.7917,0.3333,No
+Walk-forward,58,0.7917,0.3276,No
+Walk-forward,59,0.8333,0.339,Yes
+Walk-forward,60,0.8333,0.3333,No
+Walk-forward,61,0.875,0.3443,Yes
+Walk-forward,62,0.875,0.3387,No
+Walk-forward,63,0.875,0.3333,No
+Walk-forward,64,0.875,0.3281,No
+Walk-forward,65,0.875,0.3231,No
+Walk-forward,66,0.875,0.3182,No
+Walk-forward,67,0.875,0.3134,No
+Walk-forward,68,0.875,0.3088,No
+Walk-forward,69,0.9167,0.3188,Yes
+Walk-forward,70,0.9167,0.3143,No
+Walk-forward,71,0.9167,0.3099,No
+Walk-forward,72,0.9167,0.3056,No
+Walk-forward,73,0.9167,0.3014,No
+Walk-forward,74,0.9167,0.2973,No
+Walk-forward,75,0.9167,0.2933,No
+Walk-forward,76,0.9167,0.2895,No
+Walk-forward,77,0.9167,0.2857,No
+Walk-forward,78,0.9167,0.2821,No
+Walk-forward,79,0.9167,0.2785,No
+Walk-forward,80,0.9167,0.275,No
+Walk-forward,81,0.9167,0.2716,No
+Walk-forward,82,0.9167,0.2683,No
+Walk-forward,83,0.9167,0.2651,No
+Walk-forward,84,0.9167,0.2619,No
+Walk-forward,85,0.9167,0.2588,No
+Walk-forward,86,0.9167,0.2558,No
+Walk-forward,87,0.9583,0.2644,Yes
+Walk-forward,88,0.9583,0.2614,No
+Walk-forward,89,0.9583,0.2584,No
+Walk-forward,90,0.9583,0.2556,No
+Walk-forward,91,0.9583,0.2527,No
+Walk-forward,92,0.9583,0.25,No
+Walk-forward,93,0.9583,0.2473,No
+Walk-forward,94,0.9583,0.2447,No
+Walk-forward,95,0.9583,0.2421,No
+Walk-forward,96,0.9583,0.2396,No
+Walk-forward,97,0.9583,0.2371,No
+Walk-forward,98,0.9583,0.2347,No
+Walk-forward,99,0.9583,0.2323,No
+Walk-forward,100,0.9583,0.23,No
+Walk-forward,101,0.9583,0.2277,No
+Walk-forward,102,1.0,0.2353,Yes
+Walk-forward,103,1.0,0.233,No
+Walk-forward,104,1.0,0.2308,No
+Walk-forward,105,1.0,0.2286,No
+Walk-forward,106,1.0,0.2264,No
+Walk-forward,107,1.0,0.2243,No
+Walk-forward,108,1.0,0.2222,No
+Walk-forward,109,1.0,0.2202,No
+Walk-forward,110,1.0,0.2182,No
+Walk-forward,111,1.0,0.2162,No
+Walk-forward,112,1.0,0.2143,No
+Walk-forward,113,1.0,0.2124,No
+Walk-forward,114,1.0,0.2105,No
+Walk-forward,115,1.0,0.2087,No
+Walk-forward,116,1.0,0.2069,No
+Walk-forward,117,1.0,0.2051,No
+Walk-forward,118,1.0,0.2034,No
+Walk-forward,119,1.0,0.2017,No
+Walk-forward,120,1.0,0.2,No
+Walk-forward,121,1.0,0.1983,No
+Walk-forward,122,1.0,0.1967,No
+Walk-forward,123,1.0,0.1951,No
+Walk-forward,124,1.0,0.1935,No
+Walk-forward,125,1.0,0.192,No
+Walk-forward,126,1.0,0.1905,No
+Walk-forward,127,1.0,0.189,No
+Walk-forward,128,1.0,0.1875,No
+Walk-forward,129,1.0,0.186,No
+Walk-forward,130,1.0,0.1846,No
+Walk-forward,131,1.0,0.1832,No
+Walk-forward,132,1.0,0.1818,No
+Walk-forward,133,1.0,0.1805,No
+Walk-forward,134,1.0,0.1791,No
+Walk-forward,135,1.0,0.1778,No
+Walk-forward,136,1.0,0.1765,No
+Walk-forward,137,1.0,0.1752,No
+Walk-forward,138,1.0,0.1739,No
+Walk-forward,139,1.0,0.1727,No
+Walk-forward,140,1.0,0.1714,No
+Walk-forward,141,1.0,0.1702,No
+Walk-forward,142,1.0,0.169,No
+Walk-forward,143,1.0,0.1678,No
+Walk-forward,144,1.0,0.1667,No
+Walk-forward,145,1.0,0.1655,No
+Walk-forward,146,1.0,0.1644,No
+Walk-forward,147,1.0,0.1633,No
+Walk-forward,148,1.0,0.1622,No
+Walk-forward,149,1.0,0.1611,No
+Walk-forward,150,1.0,0.16,No
+Walk-forward,151,1.0,0.1589,No
+Walk-forward,152,1.0,0.1579,No
+Walk-forward,153,1.0,0.1569,No
+Walk-forward,154,1.0,0.1558,No
+Walk-forward,155,1.0,0.1548,No
+Walk-forward,156,1.0,0.1538,No
+Walk-forward,157,1.0,0.1529,No
+Walk-forward,158,1.0,0.1519,No
+Walk-forward,159,1.0,0.1509,No
+Walk-forward,160,1.0,0.15,No
+Walk-forward,161,1.0,0.1491,No

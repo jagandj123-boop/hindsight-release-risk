@@ -1,0 +1,16 @@
+model,check,pr_auc,recall,precision,mcc,share_of_hotspots_in_top_20pct,flagged,caught,false_alarms,missed,correctly_left_alone,model_order,final_model
+Always high,Training checks,0.238,,,,,,,,,,1,No
+Usual-rate rule,Training checks,0.69,,,,,,,,,,2,No
+Logistic regression,Training checks,0.747,,,,,,,,,,3,No
+Decision tree,Training checks,0.718,,,,,,,,,,4,No
+Random forest,Training checks,0.836,,,,,,,,,,5,Yes
+Always high,Fixed test,0.149,1.0,0.149,0.0,0.083,161.0,24.0,137.0,0.0,0.0,1,No
+Usual-rate rule,Fixed test,0.487,0.75,0.391,0.43,0.5,46.0,18.0,28.0,6.0,109.0,2,No
+Logistic regression,Fixed test,0.496,0.833,0.328,0.392,0.5,61.0,20.0,41.0,4.0,96.0,3,No
+Decision tree,Fixed test,0.367,0.5,0.286,0.228,0.458,42.0,12.0,30.0,12.0,107.0,4,No
+Random forest,Fixed test,0.557,0.667,0.421,0.424,0.667,38.0,16.0,22.0,8.0,115.0,5,Yes
+Always high,Walk-forward,0.149,1.0,0.149,0.0,0.083,161.0,24.0,137.0,0.0,0.0,1,No
+Usual-rate rule,Walk-forward,0.487,0.75,0.391,0.43,0.5,46.0,18.0,28.0,6.0,109.0,2,No
+Logistic regression,Walk-forward,0.478,0.792,0.328,0.376,0.458,58.0,19.0,39.0,5.0,98.0,3,No
+Decision tree,Walk-forward,0.387,0.792,0.333,0.383,0.5,57.0,19.0,38.0,5.0,99.0,4,No
+Random forest,Walk-forward,0.499,0.667,0.432,0.435,0.583,37.0,16.0,21.0,8.0,116.0,5,Yes

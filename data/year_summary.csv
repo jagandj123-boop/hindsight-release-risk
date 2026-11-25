@@ -1,0 +1,54 @@
+vendor,year,effort_coverage,release_testing_person_days,defects_counted,critical_high,critical_high_share,defects_per_10pd,critical_high_per_10pd,reopen_share,median_days_to_resolve
+All,2016,No tracker data,,114,45,0.395,,,0.044,95.5
+Vendor A,2016,No tracker data,,105,43,0.41,,,0.048,54.0
+Vendor C,2016,No tracker data,,2,2,1.0,,,0.0,48.0
+All,2017,No tracker data,,158,58,0.367,,,0.006,0.0
+Vendor A,2017,No tracker data,,55,31,0.564,,,0.018,25.0
+Vendor B,2017,No tracker data,,93,23,0.247,,,0.0,0.0
+Vendor C,2017,No tracker data,,4,2,0.5,,,0.0,518.0
+All,2018,December only,51.0,225,122,0.542,,,0.009,41.0
+Vendor A,2018,December only,51.0,98,61,0.622,,,0.0,34.0
+Vendor B,2018,December only,0.0,4,3,0.75,,,0.0,450.5
+Vendor C,2018,December only,0.0,94,39,0.415,,,0.021,458.0
+Vendor E,2018,December only,0.0,4,2,0.5,,,0.0,55.5
+All,2019,Full year,421.1,335,204,0.609,7.95,4.84,0.036,32.0
+Vendor A,2019,Full year,313.0,230,161,0.7,7.35,5.14,0.009,28.0
+Vendor B,2019,Full year,47.8,42,6,0.143,8.8,1.26,0.071,687.0
+Vendor C,2019,Full year,60.4,41,20,0.488,6.79,3.31,0.171,37.5
+All,2020,Full year,401.3,263,133,0.506,6.55,3.31,0.034,39.0
+Vendor A,2020,Full year,161.7,85,53,0.624,5.26,3.28,0.012,10.0
+Vendor B,2020,Full year,145.0,70,21,0.3,4.83,1.45,0.029,155.0
+Vendor C,2020,Full year,89.6,101,57,0.564,11.27,6.36,0.059,36.0
+Vendor E,2020,Full year,5.0,3,0,0.0,6.0,0.0,0.0,29.0
+All,2021,Full year,579.9,231,104,0.45,3.98,1.79,0.017,28.5
+Vendor A,2021,Full year,272.8,100,47,0.47,3.67,1.72,0.01,12.0
+Vendor B,2021,Full year,113.8,32,4,0.125,2.81,0.35,0.0,166.0
+Vendor C,2021,Full year,169.4,92,51,0.554,5.43,3.01,0.033,37.0
+Vendor E,2021,Full year,24.0,7,2,0.286,2.92,0.83,0.0,9.0
+All,2022,Full year,604.8,183,66,0.361,3.03,1.09,0.027,28.5
+Vendor A,2022,Full year,102.5,34,13,0.382,3.32,1.27,0.029,12.0
+Vendor B,2022,Full year,189.5,41,22,0.537,2.16,1.16,0.0,15.0
+Vendor C,2022,Full year,312.8,107,31,0.29,3.42,0.99,0.037,44.0
+All,2023,Full year,433.9,175,88,0.503,4.03,2.03,0.029,9.0
+Vendor A,2023,Full year,189.2,69,40,0.58,3.65,2.11,0.014,12.0
+Vendor B,2023,Full year,138.9,27,11,0.407,1.94,0.79,0.037,13.5
+Vendor C,2023,Full year,86.6,43,21,0.488,4.96,2.42,0.07,16.0
+Vendor D,2023,Full year,3.5,0,0,,0.0,0.0,,
+Vendor E,2023,Full year,15.7,7,2,0.286,4.46,1.27,0.0,0.0
+All,2024,Full year,610.9,319,122,0.382,5.22,2.0,0.022,22.0
+Vendor A,2024,Full year,284.0,154,79,0.513,5.42,2.78,0.032,13.0
+Vendor B,2024,Full year,221.3,110,11,0.1,4.97,0.5,0.009,56.0
+Vendor C,2024,Full year,78.0,53,32,0.604,6.79,4.1,0.019,25.0
+Vendor D,2024,Full year,27.5,0,0,,0.0,0.0,,
+All,2025,Full year,703.6,264,110,0.417,3.75,1.56,0.03,15.0
+Vendor A,2025,Full year,441.2,174,70,0.402,3.94,1.59,0.034,10.0
+Vendor B,2025,Full year,177.2,66,26,0.394,3.73,1.47,0.015,80.0
+Vendor C,2025,Full year,14.0,24,14,0.583,17.08,9.96,0.042,18.5
+Vendor D,2025,Full year,60.2,0,0,,0.0,0.0,,
+Vendor E,2025,Full year,11.0,0,0,,0.0,0.0,,
+All,2026,January to October,414.5,208,56,0.269,4.83,1.33,0.019,7.0
+Vendor A,2026,January to October,321.2,132,43,0.326,3.95,1.31,0.015,5.0
+Vendor B,2026,January to October,26.0,15,4,0.267,5.0,1.54,0.0,5.0
+Vendor C,2026,January to October,60.8,55,7,0.127,9.05,1.15,0.036,10.5
+Vendor D,2026,January to October,6.0,1,0,0.0,1.67,0.0,0.0,
+Vendor E,2026,January to October,0.5,0,0,,0.0,0.0,,

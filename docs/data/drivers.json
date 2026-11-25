@@ -1,0 +1,18 @@
+[
+["rank","driver","drop_in_pr_auc"],
+[1,"Usual severity-weighted rate (Critical 8, High 4, Medium 2, Low 1)",0.064],
+[2,"Recent rate (recent releases count more)",0.063],
+[3,"Usual rate (defects per 10 person-days in earlier releases)",0.06],
+[4,"Earlier reopened defects (fix churn)",0.044],
+[5,"Share of the stream's earlier defects",0.037],
+[6,"Rate in the last finished release",0.027],
+[7,"Which component",0.025],
+[8,"Share of earlier releases with defects",0.025],
+[9,"Number of earlier releases",0.019],
+[10,"Defects in the 90 days before the release",0.011],
+[11,"Days since the last release finished",0.007],
+[12,"Number of earlier releases with defects",0.005],
+[13,"Which vendor",0.005],
+[14,"Other releases running at the same time",0.001],
+[15,"Shared work with another vendor",0.001]
+]

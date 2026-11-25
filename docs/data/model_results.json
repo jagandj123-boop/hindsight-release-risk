@@ -1,0 +1,18 @@
+[
+["model","check","pr_auc","recall","precision","mcc","share_of_hotspots_in_top_20pct","flagged","caught","false_alarms","missed","correctly_left_alone","model_order","final_model"],
+["Always high","Training checks",0.238,null,null,null,null,null,null,null,null,null,1,"No"],
+["Usual-rate rule","Training checks",0.69,null,null,null,null,null,null,null,null,null,2,"No"],
+["Logistic regression","Training checks",0.747,null,null,null,null,null,null,null,null,null,3,"No"],
+["Decision tree","Training checks",0.718,null,null,null,null,null,null,null,null,null,4,"No"],
+["Random forest","Training checks",0.836,null,null,null,null,null,null,null,null,null,5,"Yes"],
+["Always high","Fixed test",0.149,1,0.149,0,0.083,161,24,137,0,0,1,"No"],
+["Usual-rate rule","Fixed test",0.487,0.75,0.391,0.43,0.5,46,18,28,6,109,2,"No"],
+["Logistic regression","Fixed test",0.496,0.833,0.328,0.392,0.5,61,20,41,4,96,3,"No"],
+["Decision tree","Fixed test",0.367,0.5,0.286,0.228,0.458,42,12,30,12,107,4,"No"],
+["Random forest","Fixed test",0.557,0.667,0.421,0.424,0.667,38,16,22,8,115,5,"Yes"],
+["Always high","Walk-forward",0.149,1,0.149,0,0.083,161,24,137,0,0,1,"No"],
+["Usual-rate rule","Walk-forward",0.487,0.75,0.391,0.43,0.5,46,18,28,6,109,2,"No"],
+["Logistic regression","Walk-forward",0.478,0.792,0.328,0.376,0.458,58,19,39,5,98,3,"No"],
+["Decision tree","Walk-forward",0.387,0.792,0.333,0.383,0.5,57,19,38,5,99,4,"No"],
+["Random forest","Walk-forward",0.499,0.667,0.432,0.435,0.583,37,16,21,8,116,5,"Yes"]
+]

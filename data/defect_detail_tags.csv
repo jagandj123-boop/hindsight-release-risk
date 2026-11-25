@@ -1,0 +1,3198 @@
+defect,detail_tag
+D-0001,Recall
+D-0005,System tag 2
+D-0008,Hardware
+D-0009,XML
+D-0012,Till flow
+D-0013,Hardware
+D-0014,Loyalty cards
+D-0021,Loyalty cards
+D-0022,UI
+D-0023,UI
+D-0024,UI
+D-0036,Loyalty cards
+D-0037,UI
+D-0038,Loyalty cards
+D-0042,Saved transactions
+D-0044,Till flow
+D-0044,UI
+D-0045,Weighted items
+D-0047,Cache
+D-0047,System tag 8
+D-0050,Recall
+D-0051,Till flow
+D-0052,UI
+D-0053,Saved transactions
+D-0055,System tag 2
+D-0057,UI
+D-0057,Workflow / customer journey
+D-0058,UI
+D-0066,Till flow
+D-0066,UI
+D-0070,System tag 10
+D-0070,XML
+D-0071,UI
+D-0073,Till flow
+D-0074,UI
+D-0076,System tag 6
+D-0076,UI
+D-0078,UI
+D-0083,UI
+D-0084,Loyalty cards
+D-0087,System tag 5
+D-0088,System tag 5
+D-0089,Loyalty cards
+D-0089,UI
+D-0089,Workflow / customer journey
+D-0091,UI
+D-0092,UI
+D-0093,UI
+D-0095,XML
+D-0096,Workflow / customer journey
+D-0098,UI
+D-0099,UI
+D-0099,Workflow / customer journey
+D-0100,UI
+D-0102,UI
+D-0103,UI
+D-0104,UI
+D-0105,Saved transactions
+D-0105,UI
+D-0107,UI
+D-0108,Workflow / customer journey
+D-0109,UI
+D-0110,UI
+D-0110,Workflow / customer journey
+D-0111,Configuration
+D-0111,UI
+D-0112,Saved transactions
+D-0112,UI
+D-0113,UI
+D-0114,UI
+D-0117,System tag 5
+D-0119,Till flow
+D-0119,XML
+D-0120,UI
+D-0122,UI
+D-0122,Vouchers
+D-0124,Customer display
+D-0124,UI
+D-0125,Customer display
+D-0125,UI
+D-0126,Saved transactions
+D-0126,UI
+D-0128,Customer display
+D-0128,UI
+D-0129,Workflow / customer journey
+D-0130,Customer display
+D-0130,UI
+D-0130,Workflow / customer journey
+D-0132,Customer display
+D-0132,UI
+D-0133,Customer display
+D-0133,UI
+D-0133,Workflow / customer journey
+D-0134,Till flow
+D-0136,Customer display
+D-0136,UI
+D-0137,UI
+D-0138,Till flow
+D-0138,UI
+D-0139,Customer display
+D-0139,UI
+D-0141,Customer display
+D-0141,UI
+D-0142,Recall
+D-0142,Saved transactions
+D-0142,UI
+D-0143,Workflow / customer journey
+D-0144,Recall
+D-0144,UI
+D-0146,XML
+D-0147,UI
+D-0148,Recall
+D-0148,Saved transactions
+D-0150,Weighted items
+D-0151,Hardware
+D-0151,System tag 5
+D-0152,System tag 5
+D-0154,UI
+D-0154,Workflow / customer journey
+D-0155,Hardware
+D-0157,UI
+D-0157,XML
+D-0158,UI
+D-0158,XML
+D-0159,UI
+D-0161,UI
+D-0162,UI
+D-0162,Workflow / customer journey
+D-0163,UI
+D-0169,XML
+D-0170,UI
+D-0171,UI
+D-0173,UI
+D-0173,Workflow / customer journey
+D-0174,Recall
+D-0174,Saved transactions
+D-0174,UI
+D-0175,UI
+D-0176,UI
+D-0176,Workflow / customer journey
+D-0177,UI
+D-0179,UI
+D-0179,Workflow / customer journey
+D-0180,UI
+D-0181,Workflow / customer journey
+D-0183,Workflow / customer journey
+D-0184,Workflow / customer journey
+D-0185,Workflow / customer journey
+D-0186,UI
+D-0186,Workflow / customer journey
+D-0187,UI
+D-0187,Workflow / customer journey
+D-0188,Age restriction
+D-0188,UI
+D-0188,Workflow / customer journey
+D-0189,Workflow / customer journey
+D-0191,UI
+D-0191,Workflow / customer journey
+D-0192,Workflow / customer journey
+D-0193,Recall
+D-0193,Saved transactions
+D-0193,Workflow / customer journey
+D-0193,XML
+D-0194,Workflow (returns scenario)
+D-0195,UI
+D-0195,Workflow / customer journey
+D-0196,UI
+D-0196,Workflow / customer journey
+D-0197,Workflow / customer journey
+D-0198,Workflow / customer journey
+D-0199,UI
+D-0199,Workflow / customer journey
+D-0200,UI
+D-0200,Workflow / customer journey
+D-0201,UI
+D-0201,Workflow / customer journey
+D-0202,UI
+D-0206,Customer display
+D-0206,UI
+D-0206,Workflow / customer journey
+D-0207,Recall
+D-0207,UI
+D-0207,Workflow / customer journey
+D-0209,UI
+D-0213,UI
+D-0214,UI
+D-0215,UI
+D-0215,Workflow / customer journey
+D-0218,UI
+D-0218,Workflow / customer journey
+D-0219,UI
+D-0219,Workflow / customer journey
+D-0220,UI
+D-0220,Workflow / customer journey
+D-0221,UI
+D-0221,Workflow / customer journey
+D-0222,Weighted items
+D-0224,UI
+D-0225,UI
+D-0226,Coupons
+D-0231,UI
+D-0233,UI
+D-0235,UI
+D-0236,UI
+D-0237,Documentation
+D-0237,Product images
+D-0237,UI
+D-0239,UI
+D-0242,UI
+D-0243,Documentation
+D-0243,UI
+D-0244,Hardware
+D-0244,Weighted items
+D-0245,UI
+D-0246,UI
+D-0247,Weighted items
+D-0249,Coupons
+D-0249,UI
+D-0250,UI
+D-0250,Workflow / customer journey
+D-0253,UI
+D-0254,UI
+D-0254,Workflow / customer journey
+D-0255,UI
+D-0257,Weighted items
+D-0260,Loyalty cards
+D-0260,UI
+D-0260,Workflow / customer journey
+D-0261,UI
+D-0262,UI
+D-0263,UI
+D-0264,Weighted items
+D-0265,UI
+D-0266,UI
+D-0266,Weighted items
+D-0268,Hardware
+D-0268,UI
+D-0269,Weighted items
+D-0270,UI
+D-0270,Weighted items
+D-0270,Workflow / customer journey
+D-0271,UI
+D-0272,UI
+D-0275,UI
+D-0278,UI
+D-0280,Workflow / customer journey
+D-0282,UI
+D-0286,UI
+D-0287,UI
+D-0289,UI
+D-0290,UI
+D-0291,UI
+D-0291,Workflow / customer journey
+D-0292,UI
+D-0293,UI
+D-0294,Weighted items
+D-0295,Hardware
+D-0295,Weighted items
+D-0296,UI
+D-0297,Coupons
+D-0297,UI
+D-0298,UI
+D-0299,Coupons
+D-0299,Documentation
+D-0299,Vouchers
+D-0300,UI
+D-0302,UI
+D-0303,UI
+D-0305,UI
+D-0306,Age restriction
+D-0306,UI
+D-0307,Product images
+D-0307,UI
+D-0307,Workflow / customer journey
+D-0308,UI
+D-0309,Weighted items
+D-0310,UI
+D-0310,Weighted items
+D-0311,UI
+D-0312,Hardware
+D-0313,Coupons
+D-0313,UI
+D-0315,UI
+D-0316,UI
+D-0316,Weighted items
+D-0317,UI
+D-0317,Workflow / customer journey
+D-0319,UI
+D-0321,Hardware
+D-0323,UI
+D-0324,Hardware
+D-0324,UI
+D-0325,UI
+D-0326,UI
+D-0327,UI
+D-0329,Coupons
+D-0329,UI
+D-0332,UI
+D-0333,UI
+D-0335,Workflow / customer journey
+D-0340,Till flow
+D-0343,System tag 2
+D-0345,Workflow / customer journey
+D-0349,UI
+D-0350,Loyalty cards
+D-0351,UI
+D-0352,System tag 2
+D-0352,Workflow / customer journey
+D-0353,System tag 2
+D-0354,UI
+D-0355,Customer display
+D-0355,UI
+D-0356,UI
+D-0357,Customer display
+D-0357,UI
+D-0358,Weighted items
+D-0362,UI
+D-0362,Workflow / customer journey
+D-0363,System tag 2
+D-0364,Workflow / customer journey
+D-0367,Saved transactions
+D-0367,UI
+D-0368,Saved transactions
+D-0369,Workflow / customer journey
+D-0370,System tag 2
+D-0375,System tag 2
+D-0375,Till flow
+D-0376,UI
+D-0377,Coupons
+D-0377,UI
+D-0378,UI
+D-0379,Weighted items
+D-0380,Recall
+D-0382,Workflow / customer journey
+D-0384,UI
+D-0386,Age restriction
+D-0388,Workflow / customer journey
+D-0389,System tag 2
+D-0391,Loyalty cards
+D-0392,Vouchers
+D-0393,System tag 2
+D-0395,Recall
+D-0396,System tag 2
+D-0399,Workflow / customer journey
+D-0400,Hardware
+D-0400,UI
+D-0401,Workflow / customer journey
+D-0402,UI
+D-0403,Vouchers
+D-0403,Workflow / customer journey
+D-0405,Hardware
+D-0405,UI
+D-0408,System tag 2
+D-0409,Workflow / customer journey
+D-0410,Recall
+D-0410,Saved transactions
+D-0410,Workflow / customer journey
+D-0411,Store management app
+D-0412,Store management app
+D-0412,Workflow / customer journey
+D-0413,Store management app
+D-0414,Store management app
+D-0419,Till flow
+D-0420,Workflow / customer journey
+D-0422,Workflow / customer journey
+D-0423,Back-office suite
+D-0424,XML
+D-0425,Recall
+D-0425,Workflow / customer journey
+D-0426,Store management app
+D-0427,Store management app
+D-0427,UI
+D-0428,Store management app
+D-0428,UI
+D-0429,Store management app
+D-0430,Store management app
+D-0430,Workflow / customer journey
+D-0431,Store management app
+D-0431,UI
+D-0432,Store management app
+D-0433,Store management app
+D-0434,Store management app
+D-0437,Store management app
+D-0438,Store management app
+D-0438,UI
+D-0440,Store management app
+D-0441,UI
+D-0444,UI
+D-0444,Workflow / customer journey
+D-0448,Age restriction
+D-0448,UI
+D-0449,Hardware
+D-0449,UI
+D-0450,UI
+D-0451,UI
+D-0452,Recall
+D-0452,Workflow / customer journey
+D-0453,Recall
+D-0453,Workflow / customer journey
+D-0454,Recall
+D-0454,Workflow / customer journey
+D-0455,UI
+D-0457,Hardware
+D-0458,UI
+D-0459,System tag 2
+D-0460,UI
+D-0462,Recall
+D-0463,UI
+D-0467,Vouchers
+D-0470,Recall
+D-0478,Store management app
+D-0479,Store management app
+D-0480,Store management app
+D-0482,Store management app
+D-0483,Store management app
+D-0484,Store management app
+D-0484,UI
+D-0486,Store management app
+D-0486,UI
+D-0488,Store management app
+D-0490,Store management app
+D-0490,UI
+D-0491,Configuration
+D-0491,Store management app
+D-0492,Store management app
+D-0492,UI
+D-0493,UI
+D-0493,Workflow / customer journey
+D-0494,Store management app
+D-0494,UI
+D-0495,Store management app
+D-0496,Store management app
+D-0496,UI
+D-0497,Store management app
+D-0497,UI
+D-0498,Store management app
+D-0498,UI
+D-0499,Store management app
+D-0500,Store management app
+D-0501,Store management app
+D-0501,UI
+D-0502,Store management app
+D-0502,UI
+D-0503,Store management app
+D-0506,Store management app
+D-0506,UI
+D-0507,Store management app
+D-0508,Store management app
+D-0510,Store management app
+D-0510,UI
+D-0511,Store management app
+D-0512,Store management app
+D-0512,UI
+D-0513,Store management app
+D-0513,UI
+D-0514,Back-office suite
+D-0514,System tag 5
+D-0517,Store management app
+D-0519,Store management app
+D-0519,UI
+D-0521,Hardware
+D-0522,Coupons
+D-0522,Workflow / customer journey
+D-0523,Coupons
+D-0525,Store management app
+D-0527,Store management app
+D-0528,Store management app
+D-0529,Store management app
+D-0530,Store management app
+D-0530,UI
+D-0531,Store management app
+D-0531,UI
+D-0532,Store management app
+D-0533,Store management app
+D-0533,UI
+D-0535,Store management app
+D-0535,UI
+D-0537,Store management app
+D-0538,UI
+D-0540,Workflow / customer journey
+D-0542,Store management app
+D-0543,Store management app
+D-0544,Store management app
+D-0544,UI
+D-0545,Workflow / customer journey
+D-0546,Store management app
+D-0547,Store management app
+D-0548,Store management app
+D-0549,Store management app
+D-0550,Store management app
+D-0551,Store management app
+D-0553,Recall
+D-0553,Till flow
+D-0553,UI
+D-0554,UI
+D-0556,Workflow / customer journey
+D-0558,Workflow / customer journey
+D-0562,Hardware
+D-0562,Product images
+D-0562,UI
+D-0562,Workflow / customer journey
+D-0564,Hardware
+D-0564,UI
+D-0565,Loyalty cards
+D-0565,Scanner wall
+D-0566,Store management app
+D-0566,UI
+D-0569,UI
+D-0570,XML
+D-0574,Recall
+D-0574,Vouchers
+D-0576,UI
+D-0578,Coupons
+D-0579,Hardware
+D-0579,UI
+D-0582,Hardware
+D-0582,Loyalty cards
+D-0582,Vouchers
+D-0583,Coupons
+D-0584,Hardware
+D-0585,Loyalty cards
+D-0585,Vouchers
+D-0587,Hardware
+D-0588,Vouchers
+D-0589,Hardware
+D-0590,Store management app
+D-0591,Store management app
+D-0591,UI
+D-0592,Vouchers
+D-0593,Hardware
+D-0594,Hardware
+D-0596,Age restriction
+D-0597,Back-office suite
+D-0602,UI
+D-0604,UI
+D-0605,UI
+D-0606,UI
+D-0607,UI
+D-0611,Hardware
+D-0614,Back-office suite
+D-0614,Till flow
+D-0615,Back-office suite
+D-0615,Marketing voucher
+D-0615,Vouchers
+D-0617,Workflow / customer journey
+D-0618,Back-office suite
+D-0618,XML
+D-0619,Back-office suite
+D-0619,Marketing voucher
+D-0619,Vouchers
+D-0620,Back-office suite
+D-0620,XML
+D-0621,Back-office suite
+D-0621,XML
+D-0622,Age restriction
+D-0622,Back-office suite
+D-0622,Marketing voucher
+D-0622,Vouchers
+D-0623,System tag 9
+D-0623,XML
+D-0624,Back-office suite
+D-0624,Coupons
+D-0624,UI
+D-0624,XML
+D-0625,Back-office suite
+D-0625,Coupons
+D-0625,Marketing voucher
+D-0625,Vouchers
+D-0625,Workflow / customer journey
+D-0626,Back-office suite
+D-0626,Marketing voucher
+D-0626,Vouchers
+D-0627,Back-office suite
+D-0627,Marketing voucher
+D-0627,Vouchers
+D-0628,UI
+D-0631,UI
+D-0632,System tag 3
+D-0632,XML
+D-0633,Vouchers
+D-0635,Customer display
+D-0635,UI
+D-0636,Customer display
+D-0636,UI
+D-0637,User maintenance
+D-0638,UI
+D-0639,UI
+D-0640,Hardware
+D-0640,Weighted items
+D-0642,Documentation
+D-0643,Documentation
+D-0644,Documentation
+D-0645,Documentation
+D-0645,Loyalty cards
+D-0645,Recall
+D-0646,Documentation
+D-0647,Documentation
+D-0648,Documentation
+D-0648,UI
+D-0649,Documentation
+D-0649,UI
+D-0650,Documentation
+D-0650,UI
+D-0652,Documentation
+D-0653,UI
+D-0654,UI
+D-0655,Documentation
+D-0656,Documentation
+D-0656,UI
+D-0657,Documentation
+D-0658,Documentation
+D-0659,Hardware
+D-0659,UI
+D-0661,Back-office suite
+D-0661,Configuration
+D-0662,Back-office suite
+D-0662,XML
+D-0663,Documentation
+D-0663,UI
+D-0664,UI
+D-0665,Documentation
+D-0665,UI
+D-0667,Age restriction
+D-0667,Workflow / customer journey
+D-0669,Hardware
+D-0670,UI
+D-0671,Recall
+D-0671,Till flow
+D-0671,UI
+D-0671,Weighted items
+D-0672,Recall
+D-0672,Till flow
+D-0672,Weighted items
+D-0673,UI
+D-0674,Documentation
+D-0675,UI
+D-0676,Documentation
+D-0676,UI
+D-0678,Hardware
+D-0679,Saved transactions
+D-0681,Hardware
+D-0682,SCCM
+D-0683,SCCM
+D-0685,UI
+D-0687,Hardware
+D-0687,Recall
+D-0689,UI
+D-0691,Customer display
+D-0691,UI
+D-0694,XML
+D-0695,Loyalty cards
+D-0698,UI
+D-0699,UI
+D-0700,UI
+D-0701,Customer display
+D-0701,UI
+D-0702,System tag 2
+D-0703,XML
+D-0704,XML
+D-0705,System tag 2
+D-0706,System tag 2
+D-0707,System tag 2
+D-0710,System tag 2
+D-0712,System tag 2
+D-0714,System tag 2
+D-0715,UI
+D-0717,Till flow
+D-0720,Loyalty cards
+D-0721,Hardware
+D-0724,UI
+D-0725,Workflow / customer journey
+D-0729,Store management app
+D-0731,Customer display
+D-0731,UI
+D-0732,UI
+D-0733,UI
+D-0733,Workflow / customer journey
+D-0733,XML
+D-0734,Weighted items
+D-0735,Vouchers
+D-0738,User maintenance
+D-0741,System tag 7
+D-0742,Loyalty cards
+D-0744,UI
+D-0746,UI
+D-0749,Loyalty cards
+D-0750,UI
+D-0751,UI
+D-0752,Loyalty cards
+D-0753,UI
+D-0755,Store management app
+D-0756,Hardware
+D-0756,UI
+D-0757,UI
+D-0759,UI
+D-0761,Customer display
+D-0761,Product images
+D-0761,UI
+D-0762,UI
+D-0762,XML
+D-0763,XML
+D-0764,UI
+D-0764,XML
+D-0765,XML
+D-0766,XML
+D-0767,XML
+D-0768,XML
+D-0769,XML
+D-0770,System tag 2
+D-0770,XML
+D-0771,XML
+D-0772,XML
+D-0773,Documentation
+D-0776,Weighted items
+D-0777,Weighted items
+D-0777,Workflow / customer journey
+D-0778,Till flow
+D-0779,UI
+D-0780,UI
+D-0781,UI
+D-0783,UI
+D-0784,System tag 2
+D-0785,Coupons
+D-0785,UI
+D-0786,UI
+D-0786,Workflow / customer journey
+D-0788,Weighted items
+D-0789,System tag 2
+D-0792,Vouchers
+D-0794,Recall
+D-0794,Saved transactions
+D-0798,Recall
+D-0807,Till flow
+D-0809,Recall
+D-0811,Loyalty cards
+D-0811,System tag 2
+D-0812,Recall
+D-0812,UI
+D-0814,UI
+D-0815,Vouchers
+D-0816,UI
+D-0817,Recall
+D-0818,Loyalty cards
+D-0823,Hardware
+D-0826,UI
+D-0827,Workflow / customer journey
+D-0829,Marketing voucher
+D-0829,Vouchers
+D-0829,Workflow / customer journey
+D-0831,Workflow / customer journey
+D-0831,XML
+D-0836,User maintenance
+D-0836,Workflow / customer journey
+D-0838,Loyalty cards
+D-0838,UI
+D-0839,Workflow / customer journey
+D-0841,Till flow
+D-0841,UI
+D-0842,Hardware
+D-0842,UI
+D-0843,Loyalty cards
+D-0843,UI
+D-0844,Weighted items
+D-0845,Coupons
+D-0853,Recall
+D-0853,Saved transactions
+D-0854,Workflow / customer journey
+D-0856,UI
+D-0857,UI
+D-0858,UI
+D-0864,Till flow
+D-0864,UI
+D-0865,Till flow
+D-0865,XML
+D-0866,Till flow
+D-0867,Till flow
+D-0867,XML
+D-0871,Configuration
+D-0873,XML
+D-0876,UI
+D-0876,XML
+D-0877,UI
+D-0877,Workflow / customer journey
+D-0878,UI
+D-0879,UI
+D-0880,UI
+D-0882,UI
+D-0882,XML
+D-0884,Coupons
+D-0885,Weighted items
+D-0885,Workflow / customer journey
+D-0886,UI
+D-0887,XML
+D-0888,UI
+D-0889,UI
+D-0889,Workflow / customer journey
+D-0891,UI
+D-0891,Workflow / customer journey
+D-0892,UI
+D-0893,UI
+D-0894,UI
+D-0895,UI
+D-0896,UI
+D-0897,System tag 2
+D-0898,UI
+D-0900,UI
+D-0901,Hardware
+D-0903,Store management app
+D-0905,XML
+D-0906,Documentation
+D-0906,UI
+D-0908,Age restriction
+D-0910,XML
+D-0911,UI
+D-0912,Hardware
+D-0912,Workflow / customer journey
+D-0913,Documentation
+D-0913,UI
+D-0916,Hardware
+D-0916,Weighted items
+D-0918,Weighted items
+D-0923,UI
+D-0924,Workflow / customer journey
+D-0925,UI
+D-0925,Weighted items
+D-0927,Coupons
+D-0927,UI
+D-0930,UI
+D-0931,Workflow / customer journey
+D-0932,System tag 2
+D-0932,XML
+D-0933,UI
+D-0937,XML
+D-0939,Workflow / customer journey
+D-0940,Loyalty cards
+D-0940,System tag 2
+D-0941,Coupons
+D-0942,Till flow
+D-0943,Recall
+D-0943,Workflow / customer journey
+D-0944,Back-office suite
+D-0945,Coupons
+D-0946,Back-office suite
+D-0947,System tag 2
+D-0947,Vouchers
+D-0947,XML
+D-0948,Coupons
+D-0948,Loyalty cards
+D-0949,Coupons
+D-0950,Hardware
+D-0950,System tag 5
+D-0951,System tag 5
+D-0953,Hardware
+D-0955,Coupons
+D-0957,System tag 2
+D-0958,System tag 2
+D-0958,XML
+D-0959,Coupons
+D-0963,Weighted items
+D-0964,Till flow
+D-0966,Configuration
+D-0966,UI
+D-0967,Coupons
+D-0969,Till flow
+D-0969,Workflow / customer journey
+D-0970,Store management app
+D-0974,Coupons
+D-0976,Till flow
+D-0979,Staff discount
+D-0979,XML
+D-0980,Loyalty cards
+D-0980,System tag 2
+D-0982,Configuration
+D-0982,Workflow / customer journey
+D-0983,Coupons
+D-0987,UI
+D-0989,Coupons
+D-0989,Loyalty cards
+D-0990,Workflow / customer journey
+D-0993,System tag 2
+D-0993,UI
+D-0994,Coupons
+D-0996,System tag 1
+D-0996,System tag 2
+D-0996,Workflow / customer journey
+D-0997,Coupons
+D-0999,Hardware
+D-0999,Weighted items
+D-1002,UI
+D-1003,Coupons
+D-1005,Recall
+D-1006,Recall
+D-1007,XML
+D-1008,UI
+D-1010,Recall
+D-1010,Workflow / customer journey
+D-1014,Recall
+D-1015,Store management app
+D-1015,UI
+D-1016,Store management app
+D-1016,UI
+D-1019,UI
+D-1022,Configuration
+D-1024,Back-office suite
+D-1024,XML
+D-1026,Age restriction
+D-1026,Configuration
+D-1027,Marketing voucher
+D-1027,Vouchers
+D-1027,Workflow / customer journey
+D-1028,System tag 2
+D-1029,Coupons
+D-1031,System tag 2
+D-1031,Workflow / customer journey
+D-1033,Workflow / customer journey
+D-1035,Loyalty cards
+D-1035,XML
+D-1037,Marketing voucher
+D-1037,System tag 2
+D-1037,Vouchers
+D-1038,Coupons
+D-1039,Coupons
+D-1039,Weighted items
+D-1044,System tag 2
+D-1045,Coupons
+D-1046,Coupons
+D-1047,Coupons
+D-1050,Coupons
+D-1051,UI
+D-1052,Configuration
+D-1053,XML
+D-1054,Hardware
+D-1054,UI
+D-1055,Hardware
+D-1056,Hardware
+D-1057,Hardware
+D-1057,Workflow / customer journey
+D-1058,Coupons
+D-1059,Hardware
+D-1059,Marketing voucher
+D-1059,Vouchers
+D-1060,Hardware
+D-1060,UI
+D-1061,Hardware
+D-1061,UI
+D-1062,Hardware
+D-1062,UI
+D-1063,System tag 2
+D-1066,UI
+D-1066,Workflow / customer journey
+D-1067,UI
+D-1068,Hardware
+D-1068,SCCM
+D-1068,UI
+D-1069,UI
+D-1073,Hardware
+D-1074,Hardware
+D-1074,SCCM
+D-1075,System tag 1
+D-1076,Hardware
+D-1077,Hardware
+D-1079,UI
+D-1081,Hardware
+D-1081,SCCM
+D-1084,Hardware
+D-1085,User maintenance
+D-1086,Customer display
+D-1086,Product images
+D-1086,UI
+D-1088,Back-office suite
+D-1088,XML
+D-1089,Hardware
+D-1089,Workflow / customer journey
+D-1092,Recall
+D-1092,Till flow
+D-1093,System tag 1
+D-1093,System tag 7
+D-1093,Till flow
+D-1094,Hardware
+D-1094,Loyalty cards
+D-1094,System tag 7
+D-1095,System tag 5
+D-1097,Configuration
+D-1097,System tag 7
+D-1098,System tag 7
+D-1099,Coupons
+D-1100,Customer display
+D-1100,Product images
+D-1100,UI
+D-1101,Customer display
+D-1101,Product images
+D-1101,UI
+D-1101,Weighted items
+D-1102,Product images
+D-1102,UI
+D-1104,Hardware
+D-1105,System tag 1
+D-1105,Workflow / customer journey
+D-1106,System tag 1
+D-1106,System tag 7
+D-1107,System tag 7
+D-1109,System tag 7
+D-1111,UI
+D-1112,UI
+D-1114,Workflow / customer journey
+D-1114,XML
+D-1117,Loyalty cards
+D-1118,Hardware
+D-1119,System tag 1
+D-1119,System tag 7
+D-1121,System tag 7
+D-1123,UI
+D-1124,System tag 1
+D-1125,Workflow / customer journey
+D-1126,Hardware
+D-1127,Back-office suite
+D-1128,Loyalty cards
+D-1129,Recall
+D-1130,Loyalty cards
+D-1130,Recall
+D-1130,UI
+D-1131,Hardware
+D-1131,Recall
+D-1131,Weighted items
+D-1132,System tag 1
+D-1132,System tag 7
+D-1132,UI
+D-1133,Loyalty cards
+D-1133,System tag 7
+D-1134,UI
+D-1134,Workflow / customer journey
+D-1135,Age restriction
+D-1137,Till flow
+D-1141,Till flow
+D-1142,System tag 2
+D-1143,UI
+D-1144,Coupons
+D-1144,UI
+D-1145,User maintenance
+D-1145,Workflow / customer journey
+D-1148,XML
+D-1152,UI
+D-1154,UI
+D-1157,Loyalty cards
+D-1157,UI
+D-1158,Coupons
+D-1159,Workflow / customer journey
+D-1160,UI
+D-1161,UI
+D-1162,UI
+D-1162,Workflow / customer journey
+D-1163,UI
+D-1166,Hardware
+D-1167,UI
+D-1168,UI
+D-1169,UI
+D-1171,UI
+D-1172,Workflow / customer journey
+D-1173,UI
+D-1174,Workflow / customer journey
+D-1175,Store management app
+D-1176,Workflow / customer journey
+D-1177,System tag 2
+D-1182,Recall
+D-1182,UI
+D-1182,Workflow / customer journey
+D-1183,UI
+D-1184,UI
+D-1184,Workflow / customer journey
+D-1185,UI
+D-1185,Workflow / customer journey
+D-1188,Mobile attendant
+D-1188,Workflow / customer journey
+D-1189,Mobile attendant
+D-1189,Workflow / customer journey
+D-1190,Mobile attendant
+D-1190,Workflow / customer journey
+D-1192,Workflow / customer journey
+D-1194,UI
+D-1195,UI
+D-1196,UI
+D-1196,Workflow / customer journey
+D-1197,UI
+D-1199,UI
+D-1200,SCCM
+D-1201,SCCM
+D-1201,UI
+D-1202,Coupons
+D-1202,UI
+D-1203,Loyalty cards
+D-1203,UI
+D-1204,Coupons
+D-1205,Coupons
+D-1207,Hardware
+D-1208,UI
+D-1211,UI
+D-1215,Customer display
+D-1215,Product images
+D-1215,UI
+D-1215,Weighted items
+D-1216,Hardware
+D-1218,Hardware
+D-1218,UI
+D-1219,Hardware
+D-1219,UI
+D-1220,UI
+D-1222,Till flow
+D-1222,UI
+D-1228,UI
+D-1230,UI
+D-1232,UI
+D-1233,Hardware
+D-1233,Weighted items
+D-1234,Back-office suite
+D-1236,Workflow / customer journey
+D-1237,UI
+D-1238,UI
+D-1238,Workflow / customer journey
+D-1241,Age restriction
+D-1241,Recall
+D-1241,UI
+D-1242,UI
+D-1243,UI
+D-1244,UI
+D-1244,Workflow / customer journey
+D-1245,Workflow / customer journey
+D-1246,Workflow / customer journey
+D-1248,Loyalty cards
+D-1249,Loyalty cards
+D-1251,Hardware
+D-1252,Hardware
+D-1254,System tag 2
+D-1254,Workflow / customer journey
+D-1256,System tag 2
+D-1256,XML
+D-1257,System tag 2
+D-1257,XML
+D-1258,Loyalty cards
+D-1258,System tag 2
+D-1259,Scanner wall
+D-1262,Loyalty cards
+D-1262,System tag 2
+D-1269,Hardware
+D-1269,Workflow / customer journey
+D-1270,UI
+D-1271,Coupons
+D-1272,Workflow / customer journey
+D-1274,UI
+D-1274,Weighted items
+D-1275,UI
+D-1275,Weighted items
+D-1279,System tag 2
+D-1280,Hardware
+D-1281,Coupons
+D-1284,SCCM
+D-1284,Workflow / customer journey
+D-1285,UI
+D-1286,Pack your own bag
+D-1286,SCCM
+D-1288,UI
+D-1289,Configuration
+D-1292,Hardware
+D-1292,Loyalty cards
+D-1293,Workflow / customer journey
+D-1295,SCCM
+D-1296,SCCM
+D-1296,UI
+D-1297,Workflow / customer journey
+D-1300,UI
+D-1301,UI
+D-1303,Hardware
+D-1304,Loyalty cards
+D-1304,Recall
+D-1305,Coupons
+D-1306,Store management app
+D-1307,Workflow / customer journey
+D-1308,Coupons
+D-1311,UI
+D-1312,UI
+D-1314,UI
+D-1315,UI
+D-1316,Hardware
+D-1318,Weighted items
+D-1319,UI
+D-1320,UI
+D-1322,Hardware
+D-1325,Till flow
+D-1325,UI
+D-1325,Vouchers
+D-1326,Hardware
+D-1326,UI
+D-1326,Weighted items
+D-1327,Coupons
+D-1328,UI
+D-1329,UI
+D-1330,Product images
+D-1330,UI
+D-1331,UI
+D-1332,Recall
+D-1332,UI
+D-1333,UI
+D-1334,UI
+D-1336,Product images
+D-1336,UI
+D-1340,Coupons
+D-1342,UI
+D-1343,Coupons
+D-1343,UI
+D-1344,Loyalty cards
+D-1344,Product images
+D-1344,UI
+D-1345,Configuration
+D-1345,Hardware
+D-1345,UI
+D-1346,UI
+D-1347,UI
+D-1351,UI
+D-1352,Hardware
+D-1353,Hardware
+D-1353,UI
+D-1354,UI
+D-1355,Workflow / customer journey
+D-1358,UI
+D-1360,Coupons
+D-1361,UI
+D-1361,Workflow / customer journey
+D-1363,Coupons
+D-1363,UI
+D-1368,UI
+D-1369,SCCM
+D-1369,UI
+D-1370,Product images
+D-1370,SCCM
+D-1370,UI
+D-1371,SCCM
+D-1372,SCCM
+D-1373,Product images
+D-1373,UI
+D-1374,Hardware
+D-1374,UI
+D-1375,UI
+D-1376,Workflow / customer journey
+D-1377,Store management app
+D-1379,UI
+D-1380,UI
+D-1381,Store management app
+D-1382,Store management app
+D-1382,UI
+D-1383,Store management app
+D-1384,Store management app
+D-1384,UI
+D-1388,UI
+D-1389,Store management app
+D-1390,Configuration
+D-1393,UI
+D-1393,Workflow / customer journey
+D-1394,UI
+D-1395,UI
+D-1396,UI
+D-1397,UI
+D-1398,Store management app
+D-1399,System tag 1
+D-1399,System tag 2
+D-1400,UI
+D-1401,Hardware
+D-1401,UI
+D-1401,Weighted items
+D-1404,UI
+D-1408,Workflow / customer journey
+D-1410,UI
+D-1411,Workflow / customer journey
+D-1414,UI
+D-1415,UI
+D-1416,UI
+D-1417,UI
+D-1418,UI
+D-1419,UI
+D-1420,Hardware
+D-1420,Weighted items
+D-1422,UI
+D-1423,UI
+D-1424,Coupons
+D-1425,Coupons
+D-1425,UI
+D-1427,Workflow / customer journey
+D-1433,Till flow
+D-1433,UI
+D-1434,Marketing voucher
+D-1434,Vouchers
+D-1435,Hardware
+D-1438,UI
+D-1439,UI
+D-1440,UI
+D-1442,System tag 3
+D-1442,Till flow
+D-1442,XML
+D-1443,Workflow / customer journey
+D-1445,Loyalty cards
+D-1445,Workflow / customer journey
+D-1446,Configuration
+D-1446,UI
+D-1449,UI
+D-1450,UI
+D-1452,UI
+D-1453,UI
+D-1455,Age restriction
+D-1456,Workflow / customer journey
+D-1457,Till flow
+D-1457,Vouchers
+D-1458,Vouchers
+D-1460,Till flow
+D-1460,UI
+D-1461,Till flow
+D-1461,UI
+D-1462,Hardware
+D-1464,Returns check service
+D-1465,System tag 1
+D-1466,Workflow / customer journey
+D-1467,Workflow / customer journey
+D-1469,UI
+D-1472,Loyalty cards
+D-1472,UI
+D-1473,UI
+D-1474,Configuration
+D-1474,UI
+D-1476,Customer display
+D-1476,Product images
+D-1476,UI
+D-1477,UI
+D-1478,Till flow
+D-1479,Workflow / customer journey
+D-1480,UI
+D-1480,Workflow / customer journey
+D-1481,UI
+D-1482,Coupons
+D-1483,Loyalty cards
+D-1484,Back-office suite
+D-1484,Workflow / customer journey
+D-1486,UI
+D-1488,Coupons
+D-1488,UI
+D-1490,Documentation
+D-1490,Vouchers
+D-1491,UI
+D-1495,UI
+D-1496,UI
+D-1499,UI
+D-1501,UI
+D-1502,Workflow / customer journey
+D-1503,UI
+D-1506,Configuration
+D-1506,Coupons
+D-1507,Coupons
+D-1507,Marketing voucher
+D-1507,Vouchers
+D-1508,UI
+D-1509,Hardware
+D-1511,Configuration
+D-1513,UI
+D-1514,EUC
+D-1515,Store management app
+D-1517,Coupons
+D-1517,Vouchers
+D-1517,Workflow / customer journey
+D-1518,Coupons
+D-1518,Vouchers
+D-1518,Workflow / customer journey
+D-1519,Till flow
+D-1519,UI
+D-1520,Coupons
+D-1521,Vouchers
+D-1522,Hardware
+D-1522,Scanner wall
+D-1525,UI
+D-1525,Weighted items
+D-1526,UI
+D-1527,UI
+D-1530,Hardware
+D-1530,UI
+D-1531,Coupons
+D-1532,Documentation
+D-1532,Hardware
+D-1533,Hardware
+D-1534,UI
+D-1535,Hardware
+D-1535,Weighted items
+D-1537,Hardware
+D-1541,Store management app
+D-1542,System tag 2
+D-1542,UI
+D-1543,System tag 2
+D-1543,UI
+D-1544,System tag 2
+D-1544,UI
+D-1545,Coupons
+D-1545,System tag 2
+D-1546,System tag 2
+D-1549,Back-office suite
+D-1549,Till flow
+D-1549,XML
+D-1550,UI
+D-1552,Hardware
+D-1552,Scanner wall
+D-1553,System tag 3
+D-1553,XML
+D-1555,UI
+D-1557,Till flow
+D-1558,Hardware
+D-1560,Workflow / customer journey
+D-1562,Back-office suite
+D-1562,XML
+D-1563,Back-office suite
+D-1564,UI
+D-1566,Back-office suite
+D-1566,XML
+D-1571,System tag 2
+D-1572,Till flow
+D-1572,UI
+D-1574,Configuration
+D-1574,EUC
+D-1575,UI
+D-1580,EUC
+D-1580,Hardware
+D-1581,Hardware
+D-1582,UI
+D-1584,UI
+D-1584,Workflow / customer journey
+D-1585,EUC
+D-1585,Till flow
+D-1585,Workflow / customer journey
+D-1588,User maintenance
+D-1588,XML
+D-1589,Till flow
+D-1589,Vouchers
+D-1590,Back-office suite
+D-1591,Vouchers
+D-1594,Vouchers
+D-1595,Age restriction
+D-1595,UI
+D-1596,Back-office suite
+D-1597,User maintenance
+D-1597,Workflow / customer journey
+D-1598,System tag 1
+D-1598,System tag 2
+D-1598,Workflow / customer journey
+D-1599,Workflow / customer journey
+D-1606,EUC
+D-1609,Coupons
+D-1610,Coupons
+D-1611,Product images
+D-1611,UI
+D-1613,Workflow / customer journey
+D-1614,Workflow / customer journey
+D-1615,Product images
+D-1615,UI
+D-1615,Workflow / customer journey
+D-1616,Recall
+D-1616,System tag 1
+D-1616,Workflow / customer journey
+D-1618,System tag 1
+D-1618,System tag 2
+D-1618,Workflow / customer journey
+D-1621,EUC
+D-1621,SCCM
+D-1623,UI
+D-1624,UI
+D-1625,Mobile attendant
+D-1625,UI
+D-1627,Mobile attendant
+D-1627,UI
+D-1627,Workflow / customer journey
+D-1628,Mobile attendant
+D-1628,UI
+D-1629,Mobile attendant
+D-1629,UI
+D-1630,Mobile attendant
+D-1630,UI
+D-1631,Mobile attendant
+D-1631,UI
+D-1632,Hardware
+D-1632,Mobile attendant
+D-1632,UI
+D-1633,Documentation
+D-1633,Mobile attendant
+D-1633,UI
+D-1634,Mobile attendant
+D-1634,UI
+D-1635,UI
+D-1635,Workflow / customer journey
+D-1636,UI
+D-1637,Mobile attendant
+D-1637,UI
+D-1638,Mobile attendant
+D-1638,UI
+D-1639,Mobile attendant
+D-1639,UI
+D-1640,Mobile attendant
+D-1640,UI
+D-1641,System tag 1
+D-1641,Vouchers
+D-1643,UI
+D-1644,EUC
+D-1646,SCCM
+D-1646,Workflow / customer journey
+D-1647,Mobile attendant
+D-1648,Configuration
+D-1649,Recall
+D-1649,UI
+D-1650,Hardware
+D-1650,Scanner wall
+D-1651,Configuration
+D-1653,Workflow / customer journey
+D-1654,Configuration
+D-1655,EUC
+D-1658,Loyalty cards
+D-1658,Recall
+D-1658,UI
+D-1659,Workflow / customer journey
+D-1660,Workflow / customer journey
+D-1661,EUC
+D-1663,Workflow / customer journey
+D-1666,Workflow / customer journey
+D-1669,Till flow
+D-1670,Workflow / customer journey
+D-1671,Recall
+D-1671,System tag 1
+D-1674,Workflow / customer journey
+D-1681,Workflow / customer journey
+D-1682,UI
+D-1684,UI
+D-1688,UI
+D-1689,UI
+D-1693,Workflow / customer journey
+D-1695,UI
+D-1696,Workflow / customer journey
+D-1701,System tag 2
+D-1704,Hardware
+D-1704,UI
+D-1705,UI
+D-1707,Hardware
+D-1707,UI
+D-1708,Workflow / customer journey
+D-1709,UI
+D-1710,UI
+D-1711,UI
+D-1712,Loyalty cards
+D-1712,UI
+D-1712,Workflow / customer journey
+D-1715,UI
+D-1716,UI
+D-1717,UI
+D-1718,Recall
+D-1718,Workflow / customer journey
+D-1719,UI
+D-1720,Loyalty cards
+D-1720,UI
+D-1721,Loyalty cards
+D-1721,UI
+D-1722,Hardware
+D-1722,UI
+D-1723,Loyalty cards
+D-1723,UI
+D-1724,Loyalty cards
+D-1724,UI
+D-1725,Loyalty cards
+D-1725,UI
+D-1726,Hardware
+D-1726,UI
+D-1727,UI
+D-1727,Workflow / customer journey
+D-1728,UI
+D-1730,UI
+D-1731,UI
+D-1732,Loyalty cards
+D-1733,UI
+D-1734,UI
+D-1737,UI
+D-1739,UI
+D-1740,UI
+D-1741,Loyalty cards
+D-1741,UI
+D-1742,UI
+D-1743,UI
+D-1746,Workflow / customer journey
+D-1747,UI
+D-1748,Product images
+D-1748,UI
+D-1749,UI
+D-1751,UI
+D-1754,UI
+D-1755,UI
+D-1758,UI
+D-1759,UI
+D-1760,Workflow / customer journey
+D-1761,UI
+D-1763,UI
+D-1764,UI
+D-1765,UI
+D-1766,UI
+D-1767,UI
+D-1768,UI
+D-1769,UI
+D-1773,UI
+D-1775,UI
+D-1776,Workflow / customer journey
+D-1777,UI
+D-1778,UI
+D-1779,UI
+D-1780,Workflow / customer journey
+D-1781,Hardware
+D-1781,UI
+D-1782,Attendant app
+D-1785,UI
+D-1786,Store management app
+D-1786,UI
+D-1787,UI
+D-1788,UI
+D-1789,UI
+D-1790,Configuration
+D-1790,Coupons
+D-1790,SCCM
+D-1791,SCCM
+D-1792,Attendant app
+D-1792,UI
+D-1793,UI
+D-1794,Hardware
+D-1795,Attendant app
+D-1795,Hardware
+D-1796,XML
+D-1797,SCCM
+D-1798,Hardware
+D-1799,SCCM
+D-1799,UI
+D-1800,Hardware
+D-1800,UI
+D-1801,SCCM
+D-1802,Workflow / customer journey
+D-1803,Mobile attendant
+D-1804,UI
+D-1805,UI
+D-1806,UI
+D-1808,SCCM
+D-1809,UI
+D-1810,Store management app
+D-1810,Workflow / customer journey
+D-1812,UI
+D-1813,Loyalty cards
+D-1814,Coupons
+D-1815,Coupons
+D-1816,Recall
+D-1816,System tag 1
+D-1817,Recall
+D-1817,Workflow / customer journey
+D-1820,UI
+D-1820,Workflow / customer journey
+D-1821,UI
+D-1823,Hardware
+D-1823,UI
+D-1823,Weighted items
+D-1825,Hardware
+D-1825,UI
+D-1829,Recall
+D-1829,Workflow / customer journey
+D-1831,Workflow / customer journey
+D-1834,Workflow / customer journey
+D-1835,EUC
+D-1835,UI
+D-1836,Product images
+D-1836,SCCM
+D-1836,UI
+D-1837,Product images
+D-1837,SCCM
+D-1837,UI
+D-1838,Product images
+D-1838,SCCM
+D-1838,UI
+D-1839,Configuration
+D-1840,EUC
+D-1840,Product images
+D-1840,SCCM
+D-1840,UI
+D-1841,Workflow / customer journey
+D-1842,EUC
+D-1842,Product images
+D-1842,SCCM
+D-1842,UI
+D-1843,EUC
+D-1843,Product images
+D-1843,SCCM
+D-1843,UI
+D-1844,EUC
+D-1844,Product images
+D-1844,SCCM
+D-1844,UI
+D-1845,EUC
+D-1845,Hardware
+D-1845,SCCM
+D-1846,EUC
+D-1846,SCCM
+D-1847,EUC
+D-1847,Product images
+D-1847,SCCM
+D-1847,UI
+D-1848,EUC
+D-1849,UI
+D-1853,Loyalty cards
+D-1853,Product images
+D-1853,UI
+D-1855,SCCM
+D-1855,UI
+D-1856,UI
+D-1858,UI
+D-1858,Weighted items
+D-1859,UI
+D-1860,Hardware
+D-1860,UI
+D-1865,UI
+D-1866,Coupons
+D-1866,UI
+D-1866,Vouchers
+D-1869,Mobile attendant
+D-1870,Hardware
+D-1870,UI
+D-1871,Hardware
+D-1871,UI
+D-1873,Hardware
+D-1873,SCCM
+D-1873,UI
+D-1873,Workflow / customer journey
+D-1875,EUC
+D-1875,Workstation
+D-1876,EUC
+D-1876,Workstation
+D-1877,Hardware
+D-1877,SCCM
+D-1878,Hardware
+D-1878,SCCM
+D-1878,UI
+D-1881,Loyalty cards
+D-1884,Workflow / customer journey
+D-1885,Configuration
+D-1885,Hardware
+D-1885,UI
+D-1887,User maintenance
+D-1887,Workflow / customer journey
+D-1890,Recall
+D-1890,Till flow
+D-1891,UI
+D-1892,UI
+D-1893,SCCM
+D-1893,Workflow / customer journey
+D-1894,Recall
+D-1895,UI
+D-1897,Coupons
+D-1897,UI
+D-1897,Vouchers
+D-1898,Attendant app
+D-1899,Attendant app
+D-1899,UI
+D-1900,Attendant app
+D-1900,UI
+D-1902,Attendant app
+D-1902,UI
+D-1903,UI
+D-1904,Attendant app
+D-1904,Workflow / customer journey
+D-1905,Workflow / customer journey
+D-1906,Coupons
+D-1906,UI
+D-1909,UI
+D-1911,SCCM
+D-1912,EUC
+D-1912,SCCM
+D-1913,UI
+D-1914,EUC
+D-1916,UI
+D-1917,UI
+D-1921,UI
+D-1921,Workflow / customer journey
+D-1922,UI
+D-1923,User maintenance
+D-1924,User maintenance
+D-1926,User maintenance
+D-1927,Attendant app
+D-1929,UI
+D-1930,Hardware
+D-1933,Hardware
+D-1933,UI
+D-1934,XML
+D-1936,XML
+D-1937,Back-office suite
+D-1937,User maintenance
+D-1938,UI
+D-1939,Recall
+D-1940,UI
+D-1941,Attendant app
+D-1941,UI
+D-1942,Attendant app
+D-1943,Attendant app
+D-1943,UI
+D-1944,Attendant app
+D-1944,UI
+D-1945,Attendant app
+D-1945,UI
+D-1947,Store management app
+D-1947,UI
+D-1948,User maintenance
+D-1951,UI
+D-1951,Weighted items
+D-1953,Age restriction
+D-1953,UI
+D-1954,UI
+D-1955,Vouchers
+D-1957,UI
+D-1957,Weighted items
+D-1959,UI
+D-1960,Weighted items
+D-1962,Hardware
+D-1963,Recall
+D-1963,UI
+D-1964,UI
+D-1965,Hardware
+D-1965,Recall
+D-1965,UI
+D-1966,Hardware
+D-1966,UI
+D-1966,Weighted items
+D-1967,Hardware
+D-1967,UI
+D-1968,Loyalty cards
+D-1968,UI
+D-1969,Weighted items
+D-1970,Hardware
+D-1970,UI
+D-1971,Weighted items
+D-1972,UI
+D-1972,Weighted items
+D-1973,Hardware
+D-1973,Workflow / customer journey
+D-1974,Hardware
+D-1974,System tag 1
+D-1975,Store management app
+D-1976,Hardware
+D-1977,UI
+D-1978,Vouchers
+D-1982,Coupons
+D-1983,Till flow
+D-1983,UI
+D-1983,Weighted items
+D-1983,Workflow / customer journey
+D-1984,UI
+D-1985,Hardware
+D-1985,UI
+D-1986,Hardware
+D-1990,UI
+D-1991,UI
+D-1991,Vouchers
+D-1991,Workflow / customer journey
+D-1992,Hardware
+D-1992,Recall
+D-1992,Weighted items
+D-1993,Workflow / customer journey
+D-1994,System tag 2
+D-1996,UI
+D-1996,Weighted items
+D-1997,SCCM
+D-1998,Hardware
+D-1998,UI
+D-1999,Weighted items
+D-2004,Age restriction
+D-2004,UI
+D-2006,User maintenance
+D-2007,Hardware
+D-2008,Back-office suite
+D-2009,System tag 1
+D-2009,UI
+D-2010,Recall
+D-2012,EUC
+D-2013,EUC
+D-2013,UI
+D-2014,Back-office suite
+D-2014,System tag 3
+D-2014,Till flow
+D-2014,XML
+D-2017,UI
+D-2018,Vouchers
+D-2019,Vouchers
+D-2020,Configuration
+D-2022,Store management app
+D-2022,System tag 1
+D-2022,UI
+D-2023,Vouchers
+D-2025,EUC
+D-2025,Hardware
+D-2025,Scanner scales
+D-2025,UI
+D-2026,EUC
+D-2026,Weighted items
+D-2027,UI
+D-2028,Customer display
+D-2028,EUC
+D-2028,UI
+D-2029,Hardware
+D-2029,Scanner scales
+D-2029,UI
+D-2029,Weighted items
+D-2030,EUC
+D-2030,UI
+D-2031,EUC
+D-2031,Product images
+D-2031,UI
+D-2032,EUC
+D-2032,Hardware
+D-2033,Customer display
+D-2033,EUC
+D-2033,UI
+D-2034,EUC
+D-2034,Hardware
+D-2035,EUC
+D-2035,UI
+D-2039,UI
+D-2040,EUC
+D-2040,Hardware
+D-2040,UI
+D-2042,EUC
+D-2043,EUC
+D-2044,Customer display
+D-2044,EUC
+D-2044,UI
+D-2045,EUC
+D-2045,UI
+D-2046,Customer display
+D-2046,EUC
+D-2046,UI
+D-2047,Workflow / customer journey
+D-2052,UI
+D-2053,EUC
+D-2053,UI
+D-2055,EUC
+D-2056,User maintenance
+D-2056,XML
+D-2057,EUC
+D-2059,System tag 1
+D-2059,Till flow
+D-2059,UI
+D-2059,XML
+D-2060,Till flow
+D-2060,XML
+D-2061,EUC
+D-2061,Hardware
+D-2062,EUC
+D-2062,Hardware
+D-2064,EUC
+D-2064,Hardware
+D-2065,Customer display
+D-2065,EUC
+D-2065,UI
+D-2066,Hardware
+D-2067,EUC
+D-2067,Hardware
+D-2067,Scanner scales
+D-2068,EUC
+D-2069,EUC
+D-2076,EUC
+D-2076,Hardware
+D-2076,Weighted items
+D-2076,Workflow / customer journey
+D-2078,System tag 4
+D-2079,Weighted items
+D-2081,Hardware
+D-2081,UI
+D-2083,Weighted items
+D-2085,Hardware
+D-2086,Store management app
+D-2086,UI
+D-2088,UI
+D-2088,Workflow / customer journey
+D-2093,Coupons
+D-2093,System tag 1
+D-2093,System tag 4
+D-2093,Till flow
+D-2102,Workflow / customer journey
+D-2103,EUC
+D-2103,Hardware
+D-2105,Store management app
+D-2105,UI
+D-2113,Till flow
+D-2113,Vouchers
+D-2115,Back-office suite
+D-2115,System tag 3
+D-2117,Back-office suite
+D-2117,Store management app
+D-2117,UI
+D-2118,UI
+D-2120,User maintenance
+D-2121,Hardware
+D-2123,EUC
+D-2124,EUC
+D-2125,Back-office suite
+D-2125,Coupons
+D-2125,Vouchers
+D-2126,Back-office suite
+D-2128,Back-office suite
+D-2128,Store management app
+D-2128,UI
+D-2130,Till flow
+D-2131,Workflow / customer journey
+D-2132,Till flow
+D-2133,Recall
+D-2134,Back-office suite
+D-2134,Store management app
+D-2134,UI
+D-2135,UI
+D-2135,Workflow / customer journey
+D-2136,UI
+D-2136,Workflow / customer journey
+D-2137,EUC
+D-2138,Store management app
+D-2138,UI
+D-2139,Workflow / customer journey
+D-2140,Attendant app
+D-2140,UI
+D-2141,UI
+D-2144,Hardware
+D-2145,Store management app
+D-2145,UI
+D-2146,UI
+D-2146,Workflow / customer journey
+D-2147,Attendant app
+D-2147,UI
+D-2148,EUC
+D-2151,UI
+D-2152,Store management app
+D-2152,UI
+D-2153,Store management app
+D-2153,UI
+D-2155,Till flow
+D-2155,UI
+D-2157,System tag 3
+D-2157,XML
+D-2159,Attendant app
+D-2159,UI
+D-2161,Attendant app
+D-2161,Workflow / customer journey
+D-2163,Hardware
+D-2164,EUC
+D-2164,UI
+D-2165,EUC
+D-2165,UI
+D-2166,EUC
+D-2166,Hardware
+D-2169,UI
+D-2170,System tag 3
+D-2170,XML
+D-2172,EUC
+D-2172,Hardware
+D-2174,EUC
+D-2175,Recall
+D-2175,Saved transactions
+D-2175,Workflow / customer journey
+D-2176,EUC
+D-2177,EUC
+D-2177,UI
+D-2179,EUC
+D-2179,UI
+D-2180,System tag 1
+D-2180,Workflow / customer journey
+D-2182,Vouchers
+D-2184,Weighted items
+D-2188,UI
+D-2191,Hardware
+D-2191,Scanner scales
+D-2192,Hardware
+D-2192,UI
+D-2192,Weighted items
+D-2193,UI
+D-2193,Weighted items
+D-2195,UI
+D-2195,Weighted items
+D-2198,UI
+D-2199,UI
+D-2201,EUC
+D-2201,UI
+D-2202,EUC
+D-2202,UI
+D-2203,EUC
+D-2203,Workflow / customer journey
+D-2204,Attendant app
+D-2205,Attendant app
+D-2205,UI
+D-2206,Attendant app
+D-2206,Workflow / customer journey
+D-2207,User maintenance
+D-2208,User maintenance
+D-2208,Workflow / customer journey
+D-2211,Back-office suite
+D-2211,System tag 3
+D-2211,Till flow
+D-2211,XML
+D-2212,Back-office suite
+D-2213,Back-office suite
+D-2214,Back-office suite
+D-2215,User maintenance
+D-2215,Workflow / customer journey
+D-2216,Workflow / customer journey
+D-2218,EUC
+D-2218,UI
+D-2219,Coupons
+D-2219,EUC
+D-2220,EUC
+D-2221,EUC
+D-2222,Loyalty cards
+D-2222,System tag 4
+D-2222,UI
+D-2223,Configuration
+D-2223,Hardware
+D-2224,Back-office suite
+D-2224,User maintenance
+D-2229,UI
+D-2230,Loyalty cards
+D-2230,System tag 4
+D-2230,UI
+D-2231,Attendant app
+D-2231,Configuration
+D-2231,Documentation
+D-2231,UI
+D-2232,Attendant app
+D-2232,Configuration
+D-2232,Documentation
+D-2232,UI
+D-2233,Attendant app
+D-2233,Configuration
+D-2233,UI
+D-2234,Attendant app
+D-2234,Configuration
+D-2234,UI
+D-2235,Attendant app
+D-2235,Configuration
+D-2235,UI
+D-2236,EUC
+D-2236,SCCM
+D-2238,UI
+D-2239,Attendant app
+D-2239,Configuration
+D-2240,Attendant app
+D-2240,Configuration
+D-2240,Workflow / customer journey
+D-2241,Attendant app
+D-2241,Configuration
+D-2242,Attendant app
+D-2242,Configuration
+D-2242,UI
+D-2243,Attendant app
+D-2244,Attendant app
+D-2244,Configuration
+D-2244,Documentation
+D-2244,UI
+D-2245,Coupons
+D-2245,Till flow
+D-2246,Configuration
+D-2246,EUC
+D-2246,SCCM
+D-2246,System tag 4
+D-2247,Coupons
+D-2248,Coupons
+D-2249,Till flow
+D-2249,UI
+D-2250,Configuration
+D-2251,Coupons
+D-2253,Hardware
+D-2257,Loyalty cards
+D-2257,System tag 4
+D-2257,UI
+D-2257,XML
+D-2258,UI
+D-2260,Back-office suite
+D-2261,EUC
+D-2262,EUC
+D-2262,UI
+D-2264,User maintenance
+D-2265,Back-office suite
+D-2265,User maintenance
+D-2266,EUC
+D-2268,Coupons
+D-2268,Till flow
+D-2268,UI
+D-2269,Coupons
+D-2270,Coupons
+D-2271,Coupons
+D-2273,Store management app
+D-2273,System tag 1
+D-2273,UI
+D-2274,Store management app
+D-2274,System tag 1
+D-2274,UI
+D-2275,System tag 1
+D-2278,Coupons
+D-2279,Coupons
+D-2279,Vouchers
+D-2282,Workflow / customer journey
+D-2285,Coupons
+D-2285,EUC
+D-2288,Attendant app
+D-2288,UI
+D-2290,EUC
+D-2291,Attendant app
+D-2291,Scanner wall
+D-2291,UI
+D-2293,Attendant app
+D-2293,UI
+D-2294,Back-office suite
+D-2295,Back-office suite
+D-2298,Scanner wall
+D-2299,Hardware
+D-2299,Scanner wall
+D-2300,Back-office suite
+D-2300,Store management app
+D-2300,UI
+D-2301,Coupons
+D-2301,Workflow / customer journey
+D-2303,UI
+D-2303,User maintenance
+D-2304,UI
+D-2304,User maintenance
+D-2306,EUC
+D-2308,Hardware
+D-2311,EUC
+D-2311,UI
+D-2312,EUC
+D-2312,UI
+D-2313,EUC
+D-2315,EUC
+D-2315,UI
+D-2316,EUC
+D-2316,UI
+D-2318,Hardware
+D-2320,EUC
+D-2320,Hardware
+D-2322,Attendant app
+D-2322,UI
+D-2323,Hardware
+D-2323,UI
+D-2328,EUC
+D-2329,EUC
+D-2329,UI
+D-2330,EUC
+D-2331,Customer display
+D-2331,EUC
+D-2331,UI
+D-2332,Customer display
+D-2332,EUC
+D-2332,UI
+D-2333,Customer display
+D-2333,EUC
+D-2333,UI
+D-2334,Customer display
+D-2334,EUC
+D-2334,UI
+D-2335,EUC
+D-2335,Hardware
+D-2335,Scanner scales
+D-2336,EUC
+D-2336,UI
+D-2337,EUC
+D-2337,UI
+D-2341,Back-office suite
+D-2341,Store management app
+D-2341,UI
+D-2342,Store management app
+D-2342,System tag 1
+D-2342,UI
+D-2343,EUC
+D-2343,Hardware
+D-2343,UI
+D-2344,UI
+D-2344,User maintenance
+D-2345,XML
+D-2346,Back-office suite
+D-2347,UI
+D-2348,EUC
+D-2350,EUC
+D-2350,Hardware
+D-2354,EUC
+D-2355,EUC
+D-2355,SCCM
+D-2356,Store management app
+D-2356,UI
+D-2358,Workflow / customer journey
+D-2359,Hardware
+D-2360,Store management app
+D-2361,Back-office suite
+D-2363,UI
+D-2364,Hardware
+D-2365,Hardware
+D-2366,Hardware
+D-2366,UI
+D-2367,System tag 3
+D-2368,Hardware
+D-2368,UI
+D-2368,Weighted items
+D-2368,Workflow / customer journey
+D-2369,Hardware
+D-2369,UI
+D-2369,Workflow / customer journey
+D-2370,UI
+D-2371,UI
+D-2372,Documentation
+D-2372,System tag 11
+D-2374,Documentation
+D-2375,UI
+D-2378,UI
+D-2380,UI
+D-2381,Documentation
+D-2381,Product images
+D-2381,UI
+D-2382,Hardware
+D-2382,UI
+D-2383,UI
+D-2385,Workflow / customer journey
+D-2386,UI
+D-2388,Documentation
+D-2388,UI
+D-2389,UI
+D-2390,UI
+D-2392,UI
+D-2393,UI
+D-2394,Product images
+D-2394,UI
+D-2395,Product images
+D-2395,UI
+D-2396,UI
+D-2397,Coupons
+D-2398,Marketing voucher
+D-2398,UI
+D-2398,Vouchers
+D-2399,Loyalty cards
+D-2399,UI
+D-2401,XML
+D-2402,UI
+D-2403,Weighted items
+D-2404,UI
+D-2404,Weighted items
+D-2405,UI
+D-2406,EUC
+D-2407,Loyalty cards
+D-2407,UI
+D-2409,Product images
+D-2409,UI
+D-2410,Hardware
+D-2411,Hardware
+D-2411,UI
+D-2412,UI
+D-2413,UI
+D-2414,UI
+D-2415,UI
+D-2417,XML
+D-2418,UI
+D-2419,UI
+D-2421,UI
+D-2422,UI
+D-2423,UI
+D-2424,Documentation
+D-2424,Weighted items
+D-2425,UI
+D-2426,Documentation
+D-2426,Weighted items
+D-2427,UI
+D-2428,UI
+D-2430,UI
+D-2431,UI
+D-2432,UI
+D-2433,Age restriction
+D-2433,Documentation
+D-2433,UI
+D-2434,XML
+D-2435,UI
+D-2435,Workflow / customer journey
+D-2436,UI
+D-2436,Workflow / customer journey
+D-2437,Age restriction
+D-2437,Documentation
+D-2437,UI
+D-2438,Documentation
+D-2438,Product images
+D-2438,UI
+D-2439,Documentation
+D-2439,Product images
+D-2439,UI
+D-2439,Workflow / customer journey
+D-2440,UI
+D-2441,Workflow / customer journey
+D-2441,XML
+D-2442,UI
+D-2442,XML
+D-2443,UI
+D-2444,UI
+D-2446,UI
+D-2447,Documentation
+D-2447,Hardware
+D-2447,UI
+D-2448,XML
+D-2449,Recall
+D-2449,UI
+D-2449,Workflow / customer journey
+D-2450,UI
+D-2451,UI
+D-2452,Documentation
+D-2452,UI
+D-2454,Documentation
+D-2454,UI
+D-2455,System tag 2
+D-2456,Loyalty cards
+D-2456,UI
+D-2457,EUC
+D-2457,Hardware
+D-2458,Workflow / customer journey
+D-2459,UI
+D-2460,UI
+D-2463,System tag 3
+D-2463,Workflow / customer journey
+D-2468,Product images
+D-2468,UI
+D-2470,EUC
+D-2470,Workflow / customer journey
+D-2471,Workflow / customer journey
+D-2473,Weighted items
+D-2474,UI
+D-2475,UI
+D-2476,UI
+D-2477,Workflow / customer journey
+D-2479,UI
+D-2479,Weighted items
+D-2480,Recall
+D-2480,UI
+D-2481,EUC
+D-2483,UI
+D-2483,Workflow / customer journey
+D-2487,UI
+D-2487,Workflow / customer journey
+D-2488,Loyalty cards
+D-2488,UI
+D-2488,Workflow / customer journey
+D-2489,Recall
+D-2489,UI
+D-2489,Workflow / customer journey
+D-2490,System tag 3
+D-2490,Workflow / customer journey
+D-2491,Store management app
+D-2492,Back-office suite
+D-2492,XML
+D-2493,Back-office suite
+D-2493,XML
+D-2494,UI
+D-2495,UI
+D-2497,UI
+D-2498,EUC
+D-2498,Hardware
+D-2499,User maintenance
+D-2499,Workflow / customer journey
+D-2502,Till flow
+D-2504,EUC
+D-2504,Hardware
+D-2504,UI
+D-2504,Workflow / customer journey
+D-2506,Hardware
+D-2506,UI
+D-2507,Recall
+D-2507,Workflow / customer journey
+D-2508,EUC
+D-2508,SCCM
+D-2511,Configuration
+D-2512,Loyalty cards
+D-2512,UI
+D-2512,Workflow / customer journey
+D-2513,Workflow / customer journey
+D-2514,EUC
+D-2514,UI
+D-2516,UI
+D-2517,User maintenance
+D-2517,Workflow / customer journey
+D-2518,Back-office suite
+D-2519,Till flow
+D-2519,UI
+D-2520,XML
+D-2521,Hardware
+D-2521,Workflow / customer journey
+D-2525,Product images
+D-2525,UI
+D-2531,User maintenance
+D-2531,Workflow / customer journey
+D-2533,UI
+D-2534,Product images
+D-2534,UI
+D-2535,Product images
+D-2535,UI
+D-2536,Product images
+D-2536,UI
+D-2537,Back-office suite
+D-2539,UI
+D-2539,Workflow / customer journey
+D-2540,EUC
+D-2544,Hardware
+D-2546,Product images
+D-2546,UI
+D-2548,UI
+D-2549,Configuration
+D-2550,UI
+D-2555,UI
+D-2557,Product images
+D-2557,UI
+D-2561,Back-office suite
+D-2562,Back-office suite
+D-2563,UI
+D-2564,Recall
+D-2564,Workflow / customer journey
+D-2565,Hardware
+D-2565,SCCM
+D-2566,UI
+D-2568,Hardware
+D-2568,Weighted items
+D-2569,System tag 3
+D-2569,Till flow
+D-2569,XML
+D-2570,Store management app
+D-2570,Workflow / customer journey
+D-2571,Configuration
+D-2573,Workflow / customer journey
+D-2574,EUC
+D-2575,EUC
+D-2576,EUC
+D-2578,Workflow / customer journey
+D-2579,Loyalty cards
+D-2579,Marketing voucher
+D-2579,UI
+D-2579,Vouchers
+D-2580,System tag 3
+D-2580,XML
+D-2581,System tag 3
+D-2581,XML
+D-2583,EUC
+D-2583,UI
+D-2586,UI
+D-2587,UI
+D-2588,Configuration
+D-2588,Hardware
+D-2588,UI
+D-2588,Weighted items
+D-2589,Hardware
+D-2589,Scanner scales
+D-2589,UI
+D-2589,Weighted items
+D-2590,Hardware
+D-2590,UI
+D-2590,Weighted items
+D-2591,UI
+D-2592,Product images
+D-2592,UI
+D-2594,UI
+D-2596,UI
+D-2601,Hardware
+D-2601,UI
+D-2601,Weighted items
+D-2602,Recall
+D-2602,System tag 1
+D-2602,Workflow / customer journey
+D-2603,Store management app
+D-2603,System tag 1
+D-2603,UI
+D-2609,Product images
+D-2609,UI
+D-2610,System tag 7
+D-2611,UI
+D-2612,UI
+D-2613,UI
+D-2613,Workflow / customer journey
+D-2614,Back-office suite
+D-2614,Store management app
+D-2614,UI
+D-2615,Product images
+D-2615,UI
+D-2616,Marketing voucher
+D-2616,System tag 4
+D-2616,Vouchers
+D-2617,Marketing voucher
+D-2617,System tag 4
+D-2618,Marketing voucher
+D-2618,System tag 4
+D-2618,Vouchers
+D-2619,UI
+D-2621,Age restriction
+D-2621,Marketing voucher
+D-2621,System tag 4
+D-2621,Vouchers
+D-2622,Coupons
+D-2622,Marketing voucher
+D-2622,System tag 4
+D-2622,Vouchers
+D-2622,XML
+D-2623,Coupons
+D-2623,Marketing voucher
+D-2623,System tag 4
+D-2623,Vouchers
+D-2625,Workflow / customer journey
+D-2627,XML
+D-2629,Till flow
+D-2631,User maintenance
+D-2633,User maintenance
+D-2634,System tag 3
+D-2634,XML
+D-2636,UI
+D-2638,UI
+D-2639,Age restriction
+D-2639,UI
+D-2640,UI
+D-2641,Age restriction
+D-2641,UI
+D-2643,Hardware
+D-2644,Age restriction
+D-2644,UI
+D-2645,Hardware
+D-2645,UI
+D-2645,Weighted items
+D-2646,Product images
+D-2646,UI
+D-2647,EUC
+D-2648,Recall
+D-2649,Coupons
+D-2649,UI
+D-2650,EUC
+D-2651,Product images
+D-2651,UI
+D-2652,UI
+D-2653,Product images
+D-2653,UI
+D-2654,Hardware
+D-2655,Configuration
+D-2655,Product images
+D-2655,UI
+D-2656,Workflow / customer journey
+D-2659,Product images
+D-2659,UI
+D-2660,Product images
+D-2660,UI
+D-2661,UI
+D-2661,Workflow / customer journey
+D-2662,Workflow / customer journey
+D-2666,UI
+D-2668,Weighted items
+D-2668,Workflow / customer journey
+D-2669,UI
+D-2671,Product images
+D-2671,UI
+D-2674,Store management app
+D-2674,Workflow / customer journey
+D-2675,Workflow / customer journey
+D-2676,UI
+D-2679,Configuration
+D-2679,Weighted items
+D-2680,UI
+D-2680,Workflow / customer journey
+D-2682,UI
+D-2683,UI
+D-2684,UI
+D-2685,UI
+D-2686,Weighted items
+D-2686,Workflow / customer journey
+D-2688,Back-office suite
+D-2688,User maintenance
+D-2689,Back-office suite
+D-2690,Till flow
+D-2690,UI
+D-2690,XML
+D-2691,UI
+D-2692,EUC
+D-2692,SCCM
+D-2693,Configuration
+D-2695,XML
+D-2697,EUC
+D-2697,Product images
+D-2697,UI
+D-2698,XML
+D-2699,UI
+D-2702,System tag 3
+D-2702,XML
+D-2704,UI
+D-2704,Workflow / customer journey
+D-2705,Configuration
+D-2707,Back-office suite
+D-2709,Hardware
+D-2709,UI
+D-2710,UI
+D-2710,Workflow / customer journey
+D-2711,Configuration
+D-2712,UI
+D-2713,Customer display
+D-2713,Hardware
+D-2713,UI
+D-2714,Store management app
+D-2715,Store management app
+D-2715,System tag 1
+D-2715,UI
+D-2716,EUC
+D-2716,UI
+D-2720,Hardware
+D-2720,UI
+D-2722,EUC
+D-2722,UI
+D-2723,EUC
+D-2728,Configuration
+D-2728,Hardware
+D-2731,UI
+D-2732,UI
+D-2733,EUC
+D-2733,Workflow / customer journey
+D-2736,Hardware
+D-2737,UI
+D-2738,UI
+D-2739,Workflow / customer journey
+D-2740,Hardware
+D-2743,UI
+D-2745,UI
+D-2746,Hardware
+D-2746,UI
+D-2747,Hardware
+D-2747,UI
+D-2747,Weighted items
+D-2748,Hardware
+D-2748,UI
+D-2749,UI
+D-2751,Documentation
+D-2752,Receipt timer
+D-2753,Hardware
+D-2753,Weighted items
+D-2754,Workflow / customer journey
+D-2756,UI
+D-2759,UI
+D-2759,Weighted items
+D-2761,User maintenance
+D-2762,User maintenance
+D-2763,UI
+D-2763,Weighted items
+D-2763,Workflow / customer journey
+D-2765,Hardware
+D-2765,UI
+D-2766,Hardware
+D-2766,Scanner scales
+D-2766,UI
+D-2766,Weighted items
+D-2767,UI
+D-2767,Workflow / customer journey
+D-2769,Hardware
+D-2770,Back-office suite
+D-2774,Till flow
+D-2775,Product images
+D-2775,UI
+D-2776,Weighted items
+D-2777,UI
+D-2778,Coupons
+D-2779,UI
+D-2780,XML
+D-2781,Coupons
+D-2781,System tag 4
+D-2782,Documentation
+D-2785,UI
+D-2788,UI
+D-2791,Workflow / customer journey
+D-2792,Recall
+D-2792,Workflow / customer journey
+D-2794,UI
+D-2795,Workflow / customer journey
+D-2796,UI
+D-2797,Store management app
+D-2801,UI
+D-2805,System tag 4
+D-2807,EUC
+D-2807,Hardware
+D-2808,UI
+D-2809,Hardware
+D-2810,Product images
+D-2810,SCCM
+D-2810,UI
+D-2813,Hardware
+D-2813,SCCM
+D-2815,Till flow
+D-2817,UI
+D-2819,Hardware
+D-2820,UI
+D-2821,Till flow
+D-2821,UI
+D-2825,Hardware
+D-2825,UI
+D-2829,UI
+D-2830,EUC
+D-2831,Workflow / customer journey
+D-2832,Till flow
+D-2832,UI
+D-2833,Hardware
+D-2833,UI
+D-2834,UI
+D-2836,EUC
+D-2837,UI
+D-2838,UI
+D-2839,Hardware
+D-2839,UI
+D-2840,Workflow / customer journey
+D-2841,UI
+D-2843,UI
+D-2844,UI
+D-2845,UI
+D-2846,Till flow
+D-2847,UI
+D-2849,Documentation
+D-2850,UI
+D-2851,UI
+D-2852,UI
+D-2855,Back-office suite
+D-2856,System tag 3
+D-2856,XML
+D-2857,EUC
+D-2858,EUC
+D-2859,EUC
+D-2862,System tag 3
+D-2862,XML
+D-2863,Documentation
+D-2863,XML
+D-2864,Back-office suite
+D-2865,EUC
+D-2866,UI
+D-2867,UI
+D-2868,Workflow / customer journey
+D-2869,Store management app
+D-2872,UI
+D-2874,Back-office suite
+D-2875,UI
+D-2876,UI
+D-2876,Workflow / customer journey
+D-2877,UI
+D-2878,UI
+D-2879,Documentation
+D-2879,UI
+D-2879,Workflow / customer journey
+D-2882,Till flow
+D-2882,UI
+D-2883,Till flow
+D-2883,UI
+D-2884,Till flow
+D-2884,UI
+D-2885,Hardware
+D-2887,Hardware
+D-2887,UI
+D-2888,System tag 3
+D-2888,Workflow / customer journey
+D-2890,UI
+D-2892,UI
+D-2892,Workflow / customer journey
+D-2893,Hardware
+D-2893,UI
+D-2894,Store management app
+D-2894,Workflow / customer journey
+D-2896,XML
+D-2897,Configuration
+D-2897,SCCM
+D-2898,Workflow / customer journey
+D-2899,Hardware
+D-2900,SCCM
+D-2900,Workflow / customer journey
+D-2902,Hardware
+D-2903,Store management app
+D-2904,Customer display
+D-2904,UI
+D-2905,Recall
+D-2905,UI
+D-2906,EUC
+D-2907,EUC
+D-2907,Hardware
+D-2907,Scanner scales
+D-2908,Workflow / customer journey
+D-2909,Back-office suite
+D-2909,Till flow
+D-2910,Coupons
+D-2911,Coupons
+D-2911,UI
+D-2912,Coupons
+D-2912,UI
+D-2913,Coupons
+D-2913,UI
+D-2914,Coupons
+D-2915,Coupons
+D-2916,Coupons
+D-2916,UI
+D-2917,Coupons
+D-2918,Coupons
+D-2918,UI
+D-2919,Coupons
+D-2919,UI
+D-2920,Coupons
+D-2920,UI
+D-2921,Coupons
+D-2921,UI
+D-2922,Coupons
+D-2922,UI
+D-2922,XML
+D-2923,Coupons
+D-2926,EUC
+D-2927,Coupons
+D-2928,Coupons
+D-2929,Coupons
+D-2930,Coupons
+D-2931,EUC
+D-2932,Recall
+D-2932,Workflow / customer journey
+D-2933,EUC
+D-2933,Hardware
+D-2935,UI
+D-2936,System tag 1
+D-2937,Till flow
+D-2938,Configuration
+D-2939,Workflow / customer journey
+D-2940,Back-office suite
+D-2940,System tag 3
+D-2940,XML
+D-2941,Till flow
+D-2942,Configuration
+D-2944,Back-office suite
+D-2945,Store management app
+D-2946,Store management app
+D-2946,System tag 1
+D-2946,UI
+D-2954,EUC
+D-2955,Handset model
+D-2955,Hardware
+D-2956,Coupons
+D-2956,Handset model
+D-2956,UI
+D-2957,Handset model
+D-2957,Hardware
+D-2957,UI
+D-2958,Handset model
+D-2958,Hardware
+D-2959,Handset model
+D-2959,Hardware
+D-2960,Handset model
+D-2960,Hardware
+D-2961,Handset model
+D-2961,Product images
+D-2961,UI
+D-2962,Handset model
+D-2962,UI
+D-2963,Handset model
+D-2963,UI
+D-2964,Handset model
+D-2964,UI
+D-2965,Handset model
+D-2965,UI
+D-2966,Handset model
+D-2966,UI
+D-2967,Handset model
+D-2967,UI
+D-2968,Handset model
+D-2969,Handset model
+D-2969,UI
+D-2970,Handset model
+D-2971,Handset model
+D-2971,Hardware
+D-2971,UI
+D-2971,Workflow / customer journey
+D-2972,Handset model
+D-2972,Hardware
+D-2972,Workflow / customer journey
+D-2974,Handset model
+D-2974,Hardware
+D-2974,UI
+D-2975,Handset model
+D-2975,Hardware
+D-2976,Handset model
+D-2976,Hardware
+D-2976,UI
+D-2977,Handset model
+D-2977,Hardware
+D-2977,UI
+D-2978,Handset model
+D-2978,Hardware
+D-2978,UI
+D-2979,Handset model
+D-2980,Handset model
+D-2980,Hardware
+D-2981,Handset model
+D-2981,Hardware
+D-2981,UI
+D-2982,Handset model
+D-2982,UI
+D-2983,Handset model
+D-2983,UI
+D-2984,System tag 3
+D-2984,XML
+D-2985,Handset model
+D-2986,Store management app
+D-2986,Workflow / customer journey
+D-2987,Handset model
+D-2987,UI
+D-2988,Handset model
+D-2988,Hardware
+D-2988,UI
+D-2989,Handset model
+D-2989,UI
+D-2990,Coupons
+D-2990,Handset model
+D-2990,UI
+D-2991,Handset model
+D-2991,UI
+D-2992,UI
+D-2992,XML
+D-2993,Handset model
+D-2994,Handset model
+D-2995,Workflow / customer journey
+D-2996,Workflow / customer journey
+D-2997,Handset model
+D-2997,Hardware
+D-2997,UI
+D-2998,Handset model
+D-3000,System tag 1
+D-3001,Handset model
+D-3001,Hardware
+D-3002,Handset model
+D-3003,Handset model
+D-3004,Handset model
+D-3004,UI
+D-3005,Handset model
+D-3006,Handset model
+D-3006,UI
+D-3007,Handset model
+D-3008,Handset model
+D-3008,UI
+D-3009,Handset model
+D-3009,UI
+D-3011,Store management app
+D-3011,System tag 1
+D-3011,UI
+D-3013,UI
+D-3014,Back-office suite
+D-3014,System tag 3
+D-3014,User maintenance
+D-3014,XML
+D-3015,UI
+D-3015,XML
+D-3016,UI
+D-3016,Workflow / customer journey
+D-3020,Vouchers
+D-3021,UI
+D-3021,Vouchers
+D-3022,UI
+D-3023,EUC
+D-3025,Workflow / customer journey
+D-3026,UI
+D-3027,UI
+D-3027,Workflow / customer journey
+D-3029,Vouchers
+D-3029,Workflow / customer journey
+D-3030,Coupons
+D-3030,Hardware
+D-3030,Vouchers
+D-3030,Workflow / customer journey
+D-3031,UI
+D-3031,Vouchers
+D-3032,Vouchers
+D-3032,XML
+D-3033,Vouchers
+D-3033,Workflow / customer journey
+D-3035,Coupons
+D-3035,UI
+D-3035,Vouchers
+D-3036,Hardware
+D-3036,UI
+D-3037,Vouchers
+D-3037,XML
+D-3038,System tag 3
+D-3038,Vouchers
+D-3038,XML
+D-3039,SCCM
+D-3040,System tag 3
+D-3040,XML
+D-3044,Configuration
+D-3044,Hardware
+D-3044,Weighted items
+D-3045,UI
+D-3045,Vouchers
+D-3048,Vouchers
+D-3049,Hardware
+D-3049,UI
+D-3051,UI
+D-3052,XML
+D-3053,Hardware
+D-3053,UI
+D-3054,SCCM
+D-3054,Vouchers
+D-3055,SCCM
+D-3055,UI
+D-3055,Vouchers
+D-3056,SCCM
+D-3056,Till flow
+D-3056,Vouchers
+D-3057,Hardware
+D-3057,UI
+D-3058,Workflow / customer journey
+D-3059,EUC
+D-3060,EUC
+D-3061,EUC
+D-3061,UI
+D-3062,Configuration
+D-3062,SCCM
+D-3063,Configuration
+D-3063,SCCM
+D-3064,EUC
+D-3065,Hardware
+D-3068,UI
+D-3069,UI
+D-3070,UI
+D-3071,UI
+D-3072,UI
+D-3073,UI
+D-3074,UI
+D-3077,EUC
+D-3078,EUC
+D-3079,UI
+D-3080,Hardware
+D-3080,UI
+D-3081,Hardware
+D-3081,UI
+D-3081,Weighted items
+D-3082,Hardware
+D-3082,Weighted items
+D-3084,System tag 3
+D-3084,XML
+D-3085,Back-office suite
+D-3089,EUC
+D-3090,Back-office suite
+D-3091,UI
+D-3091,Weighted items
+D-3093,EUC
+D-3093,UI
+D-3094,EUC
+D-3094,UI
+D-3095,EUC
+D-3095,UI
+D-3096,EUC
+D-3096,UI
+D-3097,EUC
+D-3097,Hardware
+D-3097,UI
+D-3098,EUC
+D-3098,UI
+D-3099,EUC
+D-3099,UI
+D-3100,EUC
+D-3101,UI
+D-3103,Back-office suite
+D-3103,User maintenance
+D-3104,XML
+D-3106,Store management app
+D-3106,System tag 1
+D-3106,UI
+D-3107,XML
+D-3110,Back-office suite
+D-3110,System tag 3
+D-3110,User maintenance
+D-3110,XML
+D-3111,XML
+D-3112,Back-office suite
+D-3112,System tag 3
+D-3112,XML
+D-3114,Back-office suite
+D-3115,Store management app
+D-3115,System tag 1
+D-3115,UI
+D-3116,EUC
+D-3117,Configuration
+D-3121,Product images
+D-3121,UI
+D-3122,Loyalty cards
+D-3122,UI
+D-3126,UI
+D-3128,UI
+D-3134,Workflow / customer journey
+D-3135,Workflow / customer journey
+D-3136,System tag 3
+D-3136,XML
+D-3137,Till flow
+D-3137,UI
+D-3138,UI
+D-3138,Workflow / customer journey
+D-3144,Workflow / customer journey
+D-3145,Workflow / customer journey
+D-3145,XML
+D-3146,Product images
+D-3146,UI
+D-3148,UI
+D-3149,UI

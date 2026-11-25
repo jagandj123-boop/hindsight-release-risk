@@ -1,0 +1,8 @@
+[
+["vendor","stream","releases_in_model","releases_judged","clean_releases","clean_share","defects_per_10pd","defects_counted","critical_high_share","reopen_share","median_days_to_resolve","accepted_or_wont_fix_share","avg_test_runs","ptf_drops_per_release","note"],
+["Vendor A","Vendor A",18,18,11,0.611,4.64,1236,0.519,0.02,18.5,0.075,1.39,2.44,null],
+["Vendor B","Vendor B",14,14,8,0.571,4.15,500,0.262,0.016,26,0.07,1.21,null,null],
+["Vendor C","Vendor C",12,12,5,0.417,6.87,616,0.448,0.047,30,0.036,1.33,null,null],
+["Vendor D","Vendor D",3,0,0,null,0.62,1,0,0,null,0,1,null,"Few releases and defects: read with care"],
+["Vendor E","Vendor E",5,5,3,0.6,3.23,21,0.286,0,13,0,1.2,null,"Few releases and defects: read with care"]
+]

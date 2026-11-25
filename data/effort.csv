@@ -1,0 +1,1533 @@
+year,month,work_group,group_detail,testing_type,phase,person_days,test_cases_planned,test_cases_run,defects_reported,release,stream
+2026,9,Out of scope,Performance testing,Non-functional,Execution,9.5,4.0,4.0,,,
+2026,9,Out of scope,Performance testing,Non-functional,Execution,4.5,4.0,4.0,1.0,,
+2026,9,Out of scope,Performance testing,Non-functional,Design,2.0,,,,,
+2026,9,Out of scope,Performance testing,Non-functional,Execution,2.0,4.0,4.0,,1.56,Vendor A
+2026,9,Release work,Vendor A,Functional,Design,6.0,200.0,200.0,,1.56,Vendor A
+2026,9,Release work,Vendor A,Functional,Execution,28.0,1440.0,335.0,,1.56,Vendor A
+2026,9,Release work,Vendor A,Functional,Design,10.0,450.0,,,1.56,Vendor A
+2026,9,Release work,Vendor A,Automation,Execution,3.0,300.0,100.0,,1.56,Vendor A
+2026,9,Other,Sales audit system,Regression,Execution,1.0,30.0,30.0,,,
+2026,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2026,9,Release work,Vendor B,Regression,Execution,5.0,120.0,120.0,,,
+2026,9,Release work,Shared: Vendor A + Vendor D,Regression,Execution,2.0,34.0,34.0,,1.56,Vendor A
+2026,9,Release work,Shared: Vendor A + Vendor D,Regression,Execution,2.0,34.0,34.0,,1.56,Vendor A
+2026,9,Release work,Shared: Vendor A + Vendor D,Regression,Execution,1.0,20.0,20.0,,1.56,Vendor A
+2026,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,9,Other,Other system 1,Regression,Execution,1.0,20.0,20.0,,,
+2026,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.4,10.0,10.0,,,
+2026,9,Release work,Vendor B,Regression,Execution,4.0,380.0,100.0,,,
+2026,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,8,Out of scope,Performance testing,Non-functional,Execution,4.0,4.0,4.0,3.0,,
+2026,8,Out of scope,Performance testing,Non-functional,Execution,9.5,4.0,4.0,,,
+2026,8,Out of scope,Performance testing,Non-functional,Execution,4.5,4.0,4.0,,,
+2026,8,Out of scope,Performance testing,Non-functional,Design,1.0,,,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,5.0,5.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,5.0,,,,
+2026,8,Release work,Vendor A,Functional,Design,6.0,21.0,21.0,,1.55,Vendor A
+2026,8,Release work,Vendor A,Functional,Design,0.0,50.0,,,1.56,Vendor A
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,8,Other,Sales audit system,Regression,Execution,1.0,30.0,30.0,,,
+2026,8,Other,Store inventory system,Regression,Execution,1.0,30.0,30.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,30.0,30.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,10.0,10.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,10.0,10.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,10.0,10.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,10.0,10.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,35.0,35.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Design,2.0,35.0,35.0,,,
+2026,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,15.0,15.0,,,
+2026,8,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.5,20.0,20.0,,,
+2026,7,Out of scope,Performance testing,Non-functional,Design,10.0,,,,,
+2026,7,Out of scope,Performance testing,Non-functional,Execution,10.0,4.0,4.0,3.0,,
+2026,7,Out of scope,Performance testing,Non-functional,Execution,0.5,,,,,
+2026,7,Release and upgrade work,Shared: Vendor C + upgrade,Non-functional,Execution,1.0,5.0,5.0,,,
+2026,7,Out of scope,Performance testing,Non-functional,Execution,0.5,,,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,7,Release work,Vendor A,Regression,Execution,5.0,180.0,177.0,,1.54,Vendor A
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,5.0,5.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,15.0,15.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,80.0,20.0,,,
+2026,7,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.3,15.0,15.0,,,
+2026,7,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.3,15.0,15.0,,,
+2026,7,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.3,15.0,15.0,,,
+2026,7,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.3,15.0,15.0,,,
+2026,7,Release work,Vendor C,Regression,Execution,0.3,15.0,15.0,,,
+2026,7,Other,Gift cards,Regression,Execution,0.5,25.0,25.0,,,
+2026,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.4,20.0,20.0,,,
+2026,7,Release work,Vendor A,Functional,Design,,60.0,60.0,,1.55,Vendor A
+2026,6,Out of scope,Performance testing,Non-functional,Design,19.0,,,1.0,,
+2026,6,Out of scope,Performance testing,Non-functional,Execution,3.0,4.0,4.0,,,
+2026,6,Release work,Vendor A,Regression,Documentation,2.0,1350.0,,,1.54,Vendor A
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,4.0,80.0,80.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,60.0,40.0,,,
+2026,6,Out of scope,Automation upkeep,Functional,Execution,1.0,2.0,2.0,,1.54,Vendor A
+2026,6,Release work,Vendor A,Regression,Execution,4.0,125.0,125.0,,1.55,Vendor A
+2026,6,Other,Test support,Regression,Not given,0.0,,,,,
+2026,6,Release work,Vendor B,Regression,Execution,6.0,155.0,155.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,,,
+2026,6,Release work,Vendor A,Regression,Execution,6.0,180.0,180.0,,1.54,Vendor A
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,15.0,15.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2026,6,Release work,Vendor C,Regression,Execution,0.5,30.0,30.0,,,
+2026,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,30.0,30.0,,,
+2026,5,Out of scope,Performance testing,Non-functional,Design,17.5,,,,,
+2026,5,Out of scope,Performance testing,Non-functional,Execution,0.5,,,,,
+2026,5,Release work,Vendor A,Functional,Execution,7.5,550.0,150.0,,1.54,Vendor A
+2026,5,Release work,Vendor A,Regression,Execution,37.2,1350.0,930.0,,1.54,Vendor A
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,30.0,30.0,,,
+2026,5,Release work,Vendor A,Regression,Execution,1.0,20.0,20.0,,1.54,Vendor A
+2026,5,Release work,Vendor C,Regression,Execution,0.0,40.0,,,,
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.0,30.0,,,,
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.8,60.0,20.0,,,
+2026,5,Other,Test support,Regression,Execution,2.0,40.0,40.0,,,
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,5.0,5.0,,,
+2026,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,40.0,40.0,,,
+2026,5,Other,Sales audit system,Regression,Execution,1.5,80.0,80.0,,,
+2026,5,Out of scope,Automation upkeep,Automation,Design,2.0,5.0,5.0,,1.54,Vendor A
+2026,4,Out of scope,Performance testing,Non-functional,Execution,9.0,4.0,4.0,3.0,1.54,Vendor A
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,1.0,4.0,4.0,,,
+2026,4,Out of scope,Performance testing,Non-functional,Design,9.0,,,1.0,,
+2026,4,Release work,Vendor A,Functional,Execution,20.4,450.0,408.0,,1.54,Vendor A
+2026,4,Release work,Vendor A,Regression,Execution,16.8,700.0,420.0,,1.54,Vendor A
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,4,Release work,Vendor A,Regression,Execution,5.0,500.0,500.0,,1.54,Vendor A
+2026,4,Release work,Vendor A,Regression,Execution,0.8,70.0,16.0,,1.53,Vendor A
+2026,4,Release work,Vendor C,Regression,Execution,1.0,30.0,30.0,,,
+2026,4,Release work,Vendor A,Regression,Execution,2.0,45.0,45.0,,1.53,Vendor A
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,5.0,60.0,60.0,,,
+2026,4,Release work,Vendor A,Functional,Execution,0.5,10.0,10.0,,1.53,Vendor A
+2026,4,Release work,Vendor A,Regression,Execution,3.5,60.0,60.0,,1.53,Vendor A
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,15.0,15.0,,,
+2026,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,30.0,30.0,,,
+2026,4,Other,Gift cards,Regression,Execution,1.0,10.0,10.0,,,
+2026,4,Release work,Vendor B,Regression,Execution,3.0,90.0,40.0,,,
+2026,4,Other,Sales audit system,Regression,Execution,1.0,30.0,30.0,,,
+2026,4,Out of scope,Not test work,Not given,Not given,0.0,,,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,4.0,4.0,4.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,4.0,4.0,4.0,1.0,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,10.5,4.0,4.0,,,
+2026,3,Out of scope,Performance testing,Non-functional,Design,0.5,,,,,
+2026,3,Out of scope,Performance testing,Non-functional,Execution,2.0,4.0,4.0,,,
+2026,3,Release work,Vendor C,Regression,Execution,12.0,700.0,310.0,,,
+2026,3,Out of scope,Automation upkeep,Automation,Execution,1.0,5.0,5.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,10.0,10.0,,,
+2026,3,Other,Other system 1,Regression,Execution,0.8,20.0,20.0,,,
+2026,3,Other,Sales audit system,Regression,Execution,2.5,80.0,80.0,,,
+2026,3,Release work,Vendor C,Regression,Execution,14.0,360.0,360.0,,,
+2026,3,Out of scope,Automation upkeep,Automation,Execution,1.5,30.0,30.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.7,20.0,20.0,,,
+2026,3,Release work,Vendor A,Functional,Design,8.0,430.0,,,1.54,Vendor A
+2026,3,Release work,Vendor A,Functional,Execution,12.0,430.0,150.0,,1.54,Vendor A
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,4.0,60.0,60.0,,,
+2026,3,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.3,15.0,15.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,15.0,15.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,15.0,15.0,,,
+2026,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,50.0,50.0,,,
+2026,3,Release work,Vendor D,Regression,Execution,3.0,60.0,60.0,,,
+2026,3,Release work,Vendor A,Regression,Execution,4.0,70.0,70.0,,1.53,Vendor A
+2026,3,Release work,Vendor A,Automation,Execution,3.0,150.0,150.0,,1.54,Vendor A
+2026,3,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.6,25.0,25.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,13.5,4.0,4.0,2.0,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,2.0,4.0,4.0,,,
+2026,2,Out of scope,Performance testing,Non-functional,Design,0.5,,,,,
+2026,2,Out of scope,Performance testing,Non-functional,Execution,3.0,4.0,4.0,1.0,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,10.0,,,
+2026,2,Other,Store inventory system,Regression,Execution,1.0,10.0,10.0,,,
+2026,2,Other,Sales audit system,Regression,Execution,2.0,60.0,60.0,,,
+2026,2,Out of scope,Automation upkeep,Automation,Design,4.0,10.0,10.0,,1.53,Vendor A
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,20.0,20.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2026,2,Release work,Vendor A,Regression,Execution,3.0,750.0,60.0,,1.53,Vendor A
+2026,2,Release work,Vendor A,Functional,Execution,1.0,20.0,20.0,,1.53,Vendor A
+2026,2,Release work,Vendor A,Regression,Execution,1.5,30.0,30.0,,1.53,Vendor A
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2026,2,Release work,Shared: Vendor A + Vendor D,Regression,Execution,1.0,10.0,10.0,,1.53,Vendor A
+2026,2,Release work,Vendor C,Regression,Execution,30.0,700.0,440.0,,,
+2026,2,Out of scope,Not test work,Regression,Execution,0.0,,,43.0,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.0,,,,,
+2026,2,Release work,Vendor C,Regression,Execution,0.2,20.0,20.0,,,
+2026,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,10.0,10.0,,,
+2026,1,Out of scope,Performance testing,Non-functional,Execution,10.0,4.0,4.0,,1.53,Vendor A
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,5.0,4.0,4.0,,,
+2026,1,Out of scope,Performance testing,Non-functional,Design,2.0,,,,,
+2026,1,Release work,Vendor A,Automation,Execution,3.0,810.0,810.0,,1.53,Vendor A
+2026,1,Release work,Vendor A,Automation,Execution,3.0,600.0,600.0,,1.53,Vendor A
+2026,1,Release work,Vendor A,Functional,Execution,0.5,10.0,10.0,,1.52,Vendor A
+2026,1,Release work,Vendor A,Functional,Execution,1.0,20.0,20.0,,1.52,Vendor A
+2026,1,Release work,Vendor A,Regression,Execution,0.5,10.0,10.0,,1.52,Vendor A
+2026,1,Release work,Vendor A,Regression,Execution,1.0,20.0,20.0,,1.52,Vendor A
+2026,1,Out of scope,Not test work,Functional,Execution,,,,3.0,,
+2026,1,Out of scope,Not test work,Regression,Execution,,,,7.0,,
+2026,1,Release work,Vendor A,Functional,Execution,17.0,460.0,311.0,12.0,1.53,Vendor A
+2026,1,Release work,Vendor A,Regression,Execution,31.0,810.0,770.0,0.0,1.53,Vendor A
+2026,1,Other,Store inventory system,Regression,Execution,2.0,60.0,60.0,,,
+2026,1,Other,Sales audit system,Regression,Execution,2.0,60.0,60.0,,,
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,20.0,,,
+2026,1,Release work,Vendor C,Regression,Execution,1.0,25.0,25.0,,,
+2026,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,,,
+2026,1,Release work,Vendor A,Regression,Execution,1.0,20.0,,,1.52,Vendor A
+2021,7,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,7,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,7,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,7,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2021,8,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,8,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,8,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,8,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2021,10,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,10,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,10,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,10,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2021,9,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,9,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,9,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,9,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2021,11,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,11,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,11,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,11,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2021,12,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,12,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2021,12,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2021,12,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2022,1,Programme work,Programme work,Regression,Execution,3.0,55.0,55.0,2.0,,
+2022,1,Programme work,Programme work,Automation,Execution,2.0,328.0,328.0,5.0,,
+2022,1,Programme work,Programme work,Functional,Execution,1.0,174.0,174.0,3.0,,
+2022,1,Programme work,Programme work,Non-functional,Execution,1.0,20.0,20.0,1.0,,
+2018,12,Other,General,Not given,Not given,3.0,60.0,60.0,,,
+2018,12,Release work,Vendor A,Not given,Not given,3.0,73.0,73.0,,,
+2018,12,Release work,Vendor A,Not given,Not given,42.0,763.0,763.0,,1.37,Vendor A
+2018,12,Release work,Vendor A,Not given,Not given,4.0,77.0,77.0,,1.37,Vendor A
+2018,12,Other,General,Not given,Not given,,,,,,
+2018,12,Out of scope,Not test work,Not given,Not given,,230.0,80.0,,,
+2018,12,Release work,Vendor A,Not given,Not given,2.0,2.0,6.0,,,
+2018,12,Out of scope,Not test work,Not given,Not given,,1.0,2.0,,,
+2018,12,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Not given,,35.0,12.0,,,
+2018,12,Other,Ad hoc and exploratory,Not given,Not given,,,16.0,,,
+2019,4,Release work,Vendor B,Not given,Design and execution,2.0,56.0,53.0,0.0,,
+2019,4,Release work,Vendor B,Not given,Design and execution,0.5,11.0,11.0,0.0,,
+2019,4,Release work,Vendor B,Not given,Design and execution,0.25,14.0,14.0,0.0,,
+2019,4,Release work,Vendor C,Not given,Design and execution,0.5,12.0,12.0,1.0,,
+2019,4,Release work,Vendor A,Not given,Design,5.0,53.0,,,1.39,Vendor A
+2019,4,Release work,Vendor A,Not given,Execution,6.0,341.0,341.0,3.0,1.37,Vendor A
+2019,5,Release work,Vendor A,Not given,Execution,11.0,611.0,393.0,9.0,1.39,Vendor A
+2019,5,Release work,Vendor A,Not given,Execution,8.0,157.0,120.0,3.0,1.39,Vendor A
+2019,5,Release work,Vendor A,Not given,Design,5.0,157.0,147.0,,1.39,Vendor A
+2019,5,Release work,Vendor A,Not given,Design,8.0,136.0,84.0,,1.39,Vendor A
+2019,5,Release work,Vendor A,Not given,Execution,3.0,341.0,12.0,0.0,1.39,Vendor A
+2019,5,Release work,Vendor B,Not given,Execution,1.5,40.0,40.0,2.0,,
+2019,5,Release work,Vendor C,Not given,Execution,0.25,20.0,20.0,0.0,,
+2019,5,Out of scope,Performance testing,Not given,Execution,5.0,1.0,1.0,0.0,,
+2019,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,17.0,857.0,345.0,26.0,,
+2019,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,5.0,37.0,37.0,1.0,,
+2019,5,Release work,Vendor C,Not given,Execution,1.5,26.0,26.0,5.0,,
+2019,5,Release work,Vendor B,Not given,Design,0.25,12.0,12.0,,,
+2019,5,Release work,Vendor C,Not given,Execution,1.5,49.0,49.0,1.0,,
+2019,6,Release work,Vendor A,Not given,Execution,10.0,341.0,166.0,9.0,1.37,Vendor A
+2019,6,Release work,Vendor A,Not given,Design,2.0,190.0,190.0,,1.39,Vendor A
+2019,6,Release work,Vendor A,Not given,Execution,10.0,507.0,210.0,2.0,1.39,Vendor A
+2019,6,Release work,Vendor A,Not given,Execution,10.0,,127.0,15.0,1.39,Vendor A
+2019,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,828.0,169.0,33.0,,
+2019,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,1.0,30.0,30.0,,,
+2019,6,Release work,Vendor C,Not given,Execution,0.38,20.0,20.0,2.0,,
+2019,6,Release work,Vendor B,Not given,Execution,0.25,20.0,6.0,0.0,,
+2019,6,Release work,Vendor C,Not given,Execution,0.25,10.0,10.0,0.0,,
+2019,6,Release work,Vendor A,Not given,Execution,1.0,20.0,7.0,0.0,1.39,Vendor A
+2019,6,Release work,Vendor A,Not given,Design,1.0,148.0,12.0,,1.39,Vendor A
+2019,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,10.0,104.0,104.0,1.0,,
+2019,7,Release work,Vendor A,Not given,Execution,1.0,20.0,13.0,1.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Execution,15.0,267.0,256.0,6.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Design,0.5,157.0,9.0,,1.39,Vendor A
+2019,7,Release work,Vendor C,Not given,Execution,0.25,10.0,10.0,0.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.75,45.0,29.0,0.0,,
+2019,7,Release work,Vendor C,Not given,Execution,0.25,25.0,25.0,0.0,,
+2019,7,Release work,Vendor C,Not given,Execution,1.5,28.0,28.0,8.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,820.0,105.0,2.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,3.0,18.0,18.0,0.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.5,1.0,1.0,0.0,,
+2019,7,Release work,Vendor A,Not given,Design,8.0,94.0,94.0,,1.39,Vendor A
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,0.5,1.0,1.0,,,
+2019,7,Release work,Vendor B,Not given,Design,5.0,302.0,302.0,,CI 2,Vendor B
+2019,7,Release work,Vendor A,Not given,Execution,10.0,390.0,131.0,10.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Execution,5.0,609.0,72.0,6.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Execution,6.0,653.0,202.0,3.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Design,2.0,653.0,653.0,,1.39,Vendor A
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,142.0,142.0,2.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,6.0,6.0,0.0,,
+2019,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,1.0,1.0,0.0,,
+2019,7,Release work,Vendor B,Not given,Execution,15.0,558.0,558.0,13.0,CI 2,Vendor B
+2019,7,Release work,Vendor A,Not given,Execution,2.5,82.0,72.0,0.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Execution,4.0,213.0,109.0,0.0,1.39,Vendor A
+2019,7,Release work,Vendor A,Not given,Execution,3.5,1812.0,111.0,0.0,1.39,Vendor A
+2019,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,40.0,40.0,1.0,,
+2019,8,Release work,Vendor C,Not given,Execution,1.0,,10.0,1.0,,
+2019,8,Release work,Vendor C,Not given,Execution,1.0,10.0,10.0,1.0,,
+2019,8,Release work,Vendor A,Not given,Execution,18.0,2137.0,242.0,13.0,1.39,Vendor A
+2019,8,Release work,Vendor A,Not given,Execution,1.5,15.0,15.0,0.0,1.39,Vendor A
+2019,8,Release work,Vendor A,Not given,Design,,300.0,190.0,,1.39,Vendor A
+2019,8,Release work,Vendor B,Not given,Execution,5.0,282.0,282.0,13.0,CI 2,Vendor B
+2019,8,Release work,Vendor A,Not given,Execution,,,973.0,15.0,1.39,Vendor A
+2019,8,Out of scope,Performance testing,Not given,Execution,1.0,,1.0,0.0,1.39,Vendor A
+2019,8,Release work,Vendor A,Not given,Execution,,,183.0,0.0,1.39,Vendor A
+2019,8,Release work,Vendor B,Not given,Execution,10.0,251.0,251.0,10.0,CI 2,Vendor B
+2019,8,Out of scope,Automation upkeep,Not given,Execution,21.0,769.0,401.0,1.0,,
+2019,9,Release work,Vendor A,Not given,Execution,12.0,333.0,177.0,8.0,1.39,Vendor A
+2019,9,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,3.0,40.0,40.0,0.0,,
+2019,9,Release work,Vendor A,Not given,Execution,3.0,2150.0,31.0,11.0,1.39,Vendor A
+2019,9,Release work,Vendor C,Not given,Execution,1.0,15.0,15.0,0.0,,
+2019,9,Release work,Vendor A,Not given,Execution,54.0,,1076.0,20.0,1.39,Vendor A
+2019,9,Release work,Vendor A,Not given,Execution,8.0,164.0,164.0,11.0,1.37,Vendor A
+2019,9,Release work,Vendor A,Not given,Execution,5.0,,412.0,0.0,1.39,Vendor A
+2019,9,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,1.0,,41.0,0.0,,
+2019,9,Out of scope,Performance testing,Not given,Execution,6.0,,4.0,0.0,1.39,Vendor A
+2019,10,Release work,Vendor A,Not given,Execution,4.0,2527.0,44.0,10.0,1.39,Vendor A
+2019,10,Release work,Vendor A,Not given,Design,7.0,86.0,86.0,,,
+2019,10,Release work,Vendor A,Not given,Design,2.0,340.0,40.0,,1.39,Vendor A
+2019,10,Release work,Vendor C,Not given,Execution,2.0,23.0,22.0,3.0,,
+2019,10,Release work,Vendor C,Not given,Execution,8.0,111.0,101.0,13.0,,
+2019,10,Release work,Vendor A,Not given,Execution,16.0,,480.0,1.0,1.39,Vendor A
+2019,10,Other,General,Not given,Execution,7.0,231.0,231.0,1.0,,
+2019,10,Other,General,Not given,Design,4.0,50.0,50.0,,,
+2019,10,Release work,Vendor C,Not given,Execution,20.0,,1.0,0.0,,
+2019,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,11.0,2.0,2.0,0.0,,
+2019,11,Release work,Vendor A,Not given,Design,5.0,127.0,127.0,,,
+2019,11,Release work,Vendor A,Not given,Execution,3.0,127.0,77.0,6.0,,
+2019,11,Release work,Vendor A,Not given,Design,7.0,95.0,95.0,,1.39,Vendor A
+2019,11,Release work,Vendor A,Not given,Execution,1.0,95.0,31.0,1.0,1.39,Vendor A
+2019,11,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,1.0,,40.0,0.0,,
+2019,11,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,1.0,,40.0,0.0,,
+2019,11,Release work,Vendor A,Not given,Design,1.0,10.0,10.0,0.0,,
+2019,11,Release work,Vendor C,Not given,Execution,21.0,3.0,3.0,0.0,,
+2019,12,Out of scope,Not test work,Not given,Design,13.0,310.0,310.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Design,7.0,629.0,200.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Design,1.0,74.0,9.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Design,5.0,593.0,143.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor B,Not given,Design,8.0,246.0,246.0,0.0,CI 3,Vendor B
+2019,12,Out of scope,Performance testing,Not given,Execution,2.0,36.0,12.0,0.0,1.39,Vendor A
+2019,12,Programme work,Programme work,Not given,Execution,1.0,2.0,2.0,0.0,,
+2019,12,Release work,Vendor A,Not given,Design,1.0,2.0,2.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Execution,1.0,105.0,7.0,4.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Execution,1.0,47.0,47.0,0.0,1.39,Vendor A
+2019,12,Release work,Vendor A,Not given,Execution,2.0,40.0,40.0,0.0,1.39,Vendor A
+2019,12,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,1.0,28.0,20.0,0.0,,
+2019,12,Release work,Vendor A,Not given,Execution,10.0,176.0,176.0,0.0,1.39,Vendor A
+2019,12,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,6.0,2.0,2.0,0.0,,
+2019,12,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,9.0,2.0,2.0,0.0,,
+2020,1,Release work,Vendor A,Not given,Design,3.5,32.0,32.0,,1.41,Vendor A
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,1.0,54.0,54.0,,,
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,3.0,54.0,54.0,2.0,,
+2020,1,Release work,Vendor A,Not given,Design,5.0,108.0,108.0,,,
+2020,1,Out of scope,Automation upkeep,Not given,Design,17.0,24.0,24.0,,,
+2020,1,Out of scope,Automation upkeep,Not given,Execution,6.0,24.0,24.0,,,
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,4.0,80.0,60.0,0.0,,
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,5.75,80.0,80.0,1.0,,
+2020,1,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Not given,Execution,1.5,49.0,49.0,0.0,,
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,10.0,184.0,184.0,9.0,,
+2020,1,Release work,Vendor A,Not given,Design,5.0,2.0,2.0,0.0,,
+2020,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,7.0,3.0,3.0,0.0,,
+2020,1,Other,General,Not given,Design,2.0,3.0,3.0,0.0,,
+2020,1,Release work,Vendor C,Not given,Execution,6.0,5.0,5.0,0.0,,
+2020,2,Release work,Vendor A,Not given,Design,3.5,68.0,36.0,,1.41,Vendor A
+2020,2,Release work,Vendor A,Not given,Execution,1.5,68.0,15.0,6.0,1.41,Vendor A
+2020,2,Release work,Vendor A,Not given,Execution,5.0,80.0,0.0,6.0,,
+2020,2,Out of scope,Automation upkeep,Not given,Maintenance,5.0,414.0,60.0,,,
+2020,2,Out of scope,Automation upkeep,Not given,Execution,5.0,414.0,414.0,0.0,,
+2020,2,Out of scope,Automation upkeep,Not given,Maintenance,5.0,414.0,60.0,,,
+2020,2,Out of scope,Automation upkeep,Not given,Execution,5.0,414.0,414.0,0.0,,
+2020,2,Release work,Vendor A,Not given,Execution,13.0,639.0,324.0,14.0,1.41,Vendor A
+2020,2,Release work,Vendor C,Not given,Execution,3.5,78.0,78.0,4.0,1.37,Vendor A
+2020,2,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.75,40.0,40.0,0.0,,
+2020,2,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,12.0,2.0,2.0,0.0,1.37,Vendor A
+2020,2,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,4.0,4.0,0.0,1.39,Vendor A
+2020,3,Release work,Vendor B,Not given,Execution,4.0,112.0,82.0,3.0,CI 3,Vendor B
+2020,3,Release work,Vendor A,Not given,Design,2.5,70.0,70.0,0.0,,
+2020,3,Release work,Vendor A,Not given,Execution,4.0,70.0,70.0,3.0,,
+2020,3,Release work,Shared: Vendor A + Vendor B,Not given,Execution,1.5,20.0,20.0,0.0,,
+2020,3,Release work,Vendor A,Not given,Execution,5.0,68.0,51.0,0.0,1.41,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,0.25,3.0,3.0,0.0,1.41,Vendor A
+2020,3,Out of scope,Not test work,Not given,Execution,0.5,10.0,10.0,3.0,1.39,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,7.0,120.0,120.0,7.0,,
+2020,3,Release work,Vendor A,Not given,Execution,5.0,241.0,0.0,4.0,1.41,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,2.0,166.0,0.0,1.0,1.41,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,3.0,166.0,0.0,0.0,1.39,Vendor A
+2020,3,Programme work,Programme work,Not given,Execution,2.5,166.0,0.0,1.0,,
+2020,3,Release work,Vendor A,Not given,Execution,4.0,414.0,0.0,1.0,1.41,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,0.5,15.0,0.0,0.0,,
+2020,3,Release work,Vendor A,Not given,Execution,12.0,678.0,294.0,8.0,1.41,Vendor A
+2020,3,Release work,Vendor B,Not given,Execution,3.5,66.0,66.0,0.0,1.39,Vendor A
+2020,3,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,1.0,176.0,17.0,0.0,,
+2020,3,Other,General,Not given,Execution,6.0,1.0,1.0,0.0,,
+2020,3,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,4.0,4.0,0.0,1.39,Vendor A
+2020,3,Release work,Vendor A,Not given,Execution,4.0,1.0,1.0,0.0,1.41,Vendor A
+2020,3,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,10.0,5.0,5.0,3.0,,
+2020,4,Release work,Vendor A,Not given,Execution,0.5,68.0,1.0,0.0,1.41,Vendor A
+2020,4,Release work,Vendor A,Not given,Execution,0.75,12.0,12.0,0.0,,
+2020,4,Release work,Vendor A,Not given,Execution,2.0,25.0,25.0,0.0,,
+2020,4,Release work,Shared: Vendor A + Vendor B,Not given,Execution,0.5,20.0,5.0,0.0,,
+2020,4,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,6.5,948.0,250.0,,,
+2020,4,Other,General,Not given,Design,12.0,644.0,644.0,,,
+2020,4,Other,General,Not given,Execution,0.5,644.0,2.0,2.0,,
+2020,4,Release work,Vendor A,Not given,Execution,11.0,864.0,165.0,5.0,1.41,Vendor A
+2020,4,Release work,Vendor A,Not given,Execution,2.0,173.0,173.0,0.0,1.41,Vendor A
+2020,4,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,53.0,53.0,0.0,,
+2020,4,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.5,10.0,10.0,0.0,,
+2020,4,Release work,Vendor A,Not given,Execution,6.0,117.0,117.0,1.0,1.41,Vendor A
+2020,4,Release work,Vendor A,Not given,Execution,7.0,4.0,4.0,0.0,1.41,Vendor A
+2020,4,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,6.0,8.0,8.0,0.0,,
+2020,4,Out of scope,Performance testing,Not given,Design,3.0,1.0,1.0,0.0,,
+2020,4,Release work,Vendor E,Not given,Maintenance,2.0,8.0,8.0,0.0,,
+2020,4,Out of scope,Not test work,Not given,Design,4.0,1.0,1.0,0.0,,
+2020,5,Release work,Vendor B,Not given,Execution,5.0,80.0,80.0,2.0,CI 3,Vendor B
+2020,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,7.0,948.0,285.0,,,
+2020,5,Out of scope,Automation upkeep,Not given,Design,6.0,30.0,29.0,1.0,,
+2020,5,Release work,Vendor C,Not given,Execution,9.0,230.0,230.0,12.0,,
+2020,5,Out of scope,Not test work,Not given,Execution,0.75,30.0,30.0,0.0,1.41,Vendor A
+2020,5,Release work,Vendor C,Not given,Execution,1.0,22.0,22.0,0.0,,
+2020,5,Release work,Vendor A,Not given,Execution,0.0,3.0,3.0,3.0,,
+2020,5,Release work,Vendor C,Not given,Execution,7.0,192.0,192.0,6.0,,
+2020,5,Programme work,Programme work,Not given,Execution,11.0,1.0,1.0,0.0,,
+2020,5,Programme work,Programme work,Not given,Execution,2.0,1.0,1.0,0.0,,
+2020,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,2.0,0.0,11.0,0.0,,
+2020,5,Out of scope,Not test work,Not given,Documentation,5.0,0.0,,0.0,,
+2020,5,Other,General,Not given,Execution,39.0,633.0,339.0,52.0,,
+2020,6,Out of scope,Automation upkeep,Not given,Design,6.0,20.0,20.0,0.0,,
+2020,6,Out of scope,Automation upkeep,Not given,Execution,1.0,20.0,20.0,0.0,,
+2020,6,Release work,Vendor B,Not given,Execution,11.0,166.0,166.0,0.0,,
+2020,6,Release work,Shared: Vendor B + Vendor C,Not given,Execution,2.0,42.0,42.0,3.0,CI 3,Vendor B
+2020,6,Release work,Vendor C,Not given,Execution,5.0,98.0,98.0,7.0,,
+2020,6,Release work,Vendor C,Not given,Design,0.75,15.0,15.0,0.0,,
+2020,6,Release work,Vendor A,Not given,Execution,1.5,50.0,50.0,0.0,,
+2020,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,49.0,49.0,1.0,,
+2020,6,Release work,Vendor B,Not given,Execution,10.0,234.0,234.0,6.0,,
+2020,6,Release work,Vendor B,Not given,Execution,3.0,75.0,75.0,0.0,,
+2020,6,Release work,Vendor C,Not given,Execution,3.0,103.0,103.0,0.0,,
+2020,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,10.0,14.0,14.0,0.0,,
+2020,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,12.0,5.0,5.0,0.0,,
+2020,6,Other,General,Not given,Execution,44.0,633.0,194.0,35.0,,
+2020,7,Release work,Vendor B,Not given,Execution,3.0,75.0,75.0,1.0,,
+2020,7,Release work,Vendor B,Not given,Execution,1.0,18.0,18.0,0.0,CI 3,Vendor B
+2020,7,Out of scope,Automation upkeep,Not given,Design,3.0,15.0,15.0,,,
+2020,7,Out of scope,Automation upkeep,Not given,Maintenance,6.0,380.0,,,,
+2020,7,Out of scope,Automation upkeep,Not given,Execution,3.0,395.0,395.0,0.0,,
+2020,7,Release work,Vendor B,Not given,Execution,0.5,42.0,10.0,0.0,,
+2020,7,Release work,Vendor A,Not given,Execution,0.5,3.0,3.0,1.0,,
+2020,7,Release work,Vendor C,Not given,Design,2.0,35.0,35.0,,,
+2020,7,Release work,Vendor A,Not given,Execution,1.0,66.0,16.0,0.0,,
+2020,7,Release work,Vendor C,Not given,Design,4.0,31.0,31.0,,,
+2020,7,Release work,Vendor C,Not given,Execution,1.0,317.0,317.0,4.0,,
+2020,7,Release work,Vendor B,Not given,Design,5.0,60.0,60.0,,,
+2020,7,Release work,Vendor B,Not given,Execution,5.0,15.0,20.0,3.0,,
+2020,7,Out of scope,Automation upkeep,Not given,Design,3.0,10.0,10.0,,,
+2020,7,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,14.0,14.0,14.0,0.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,37.0,37.0,0.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,150.0,150.0,1.0,,
+2020,8,Release work,Vendor B,Not given,Execution,2.5,10.0,10.0,0.0,,
+2020,8,Release work,Vendor A,Not given,Design,2.0,30.0,5.0,0.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,28.0,28.0,3.0,,
+2020,8,Release work,Vendor E,Not given,Execution,1.0,45.0,45.0,3.0,,
+2020,8,Release work,Vendor C,Not given,Execution,0.12,6.0,6.0,0.0,,
+2020,8,Out of scope,Automation upkeep,Not given,Design,4.0,12.0,12.0,0.0,,
+2020,8,Out of scope,Automation upkeep,Not given,Execution,0.12,12.0,12.0,1.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.12,15.0,15.0,2.0,,
+2020,8,Release and upgrade work,Shared: Vendor A + upgrade,Not given,Execution,0.12,5.0,5.0,1.0,,
+2020,8,Release and upgrade work,Shared: Vendor A + upgrade,Not given,Execution,0.12,10.0,10.0,1.0,,
+2020,8,Release work,Vendor B,Not given,Execution,3.0,71.0,0.0,4.0,CI 3,Vendor B
+2020,8,Release work,Vendor A,Not given,Execution,4.0,62.0,0.0,2.0,1.41,Vendor A
+2020,8,Release work,Vendor C,Not given,Execution,0.25,30.0,30.0,1.0,,
+2020,8,Release work,Vendor C,Not given,Execution,0.5,25.0,25.0,0.0,,
+2020,8,Release work,Vendor C,Not given,Execution,1.0,21.0,21.0,0.0,,
+2020,8,Release work,Vendor C,Not given,Execution,5.0,111.0,111.0,11.0,,
+2020,8,Release work,Vendor C,Not given,Execution,1.5,640.0,640.0,4.0,,
+2020,8,Release work,Vendor C,Not given,Execution,1.0,30.0,30.0,0.0,,
+2020,8,Release work,Vendor C,Not given,Execution,0.25,5.0,5.0,1.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,14.0,14.0,14.0,0.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,5.0,6.0,6.0,0.0,,
+2020,8,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,10.0,6.0,6.0,0.0,,
+2020,9,Release work,Vendor A,Not given,Design,6.0,30.0,25.0,0.0,,
+2020,9,Release work,Vendor A,Not given,Execution,0.2,30.0,30.0,1.0,,
+2020,9,Out of scope,Automation upkeep,Not given,Execution,1.5,175.0,175.0,0.0,,
+2020,9,Release work,Vendor A,Not given,Execution,1.5,175.0,175.0,0.0,1.41,Vendor A
+2020,9,Release work,Vendor A,Not given,Execution,4.0,56.0,56.0,5.0,1.41,Vendor A
+2020,9,Release work,Vendor E,Not given,Execution,1.0,20.0,20.0,0.0,,
+2020,9,Release work,Vendor C,Not given,Execution,2.0,30.0,30.0,5.0,,
+2020,9,Release work,Vendor C,Not given,Execution,1.0,10.0,10.0,0.0,,
+2020,9,Release and upgrade work,Shared: Vendor A + upgrade,Not given,Design,0.75,12.0,12.0,0.0,,
+2020,9,Release work,Vendor C,Not given,Execution,0.12,10.0,10.0,0.0,,
+2020,9,Release work,Vendor C,Not given,Execution,0.12,20.0,20.0,0.0,,
+2020,9,Release work,Vendor C,Not given,Execution,2.25,650.0,650.0,7.0,,
+2020,9,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,3.0,40.0,35.0,1.0,,
+2020,9,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,15.0,6.0,6.0,1.0,,
+2020,9,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,4.0,4.0,4.0,0.0,,
+2020,10,Release work,Vendor A,Not given,Execution,1.5,175.0,175.0,0.0,1.41,Vendor A
+2020,10,Release work,Vendor A,Not given,Execution,3.0,72.0,72.0,0.0,1.41,Vendor A
+2020,10,Release work,Vendor A,Not given,Execution,4.0,69.0,69.0,1.0,1.41,Vendor A
+2020,10,Release work,Vendor C,Not given,Execution,0.75,15.0,5.0,0.0,,
+2020,10,Release work,Vendor C,Not given,Execution,3.0,24.0,24.0,0.0,,
+2020,10,Release work,Vendor C,Not given,Execution,2.0,55.0,55.0,1.0,,
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,60.0,60.0,0.0,1.41,Vendor A
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.12,3.0,3.0,3.0,,
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,0.25,10.0,10.0,2.0,,
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,4.0,62.0,0.0,0.0,,
+2020,10,Release work,Vendor B,Not given,Execution,20.0,377.0,0.0,6.0,,
+2020,10,Release work,Vendor B,Not given,Execution,8.0,83.0,0.0,3.0,CI 3,Vendor B
+2020,10,Release work,Vendor C,Not given,Execution,2.0,650.0,650.0,3.0,,
+2020,10,Release work,Vendor C,Not given,Execution,6.0,179.0,179.0,2.0,,
+2020,10,Release work,Vendor C,Not given,Execution,1.5,48.0,48.0,1.0,,
+2020,10,Release work,Vendor A,Not given,Execution,1.0,75.0,75.0,0.0,1.41,Vendor A
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,7.0,6.0,8.0,0.0,,
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,7.5,6.0,,0.0,,
+2020,10,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,7.5,0.0,,0.0,,
+2020,11,Release work,Vendor B,Not given,Design,3.0,114.0,114.0,,CI 4,Vendor B
+2020,11,Release work,Vendor B,Not given,Execution,10.0,210.0,0.0,0.0,CI 4,Vendor B
+2020,11,Release work,Vendor E,Not given,Execution,1.0,10.0,0.0,0.0,,
+2020,11,Release work,Vendor C,Not given,Execution,1.5,41.0,24.0,3.0,,
+2020,11,Release work,Vendor C,Not given,Design,1.0,17.0,17.0,,,
+2020,11,Release work,Vendor C,Not given,Execution,1.0,20.0,20.0,2.0,,
+2020,11,Release work,Vendor C,Not given,Execution,1.5,20.0,20.0,6.0,,
+2020,11,Release work,Vendor B,Not given,Execution,2.0,30.0,0.0,1.0,CI 4,Vendor B
+2020,11,Release work,Vendor C,Not given,Execution,2.0,650.0,650.0,4.0,,
+2020,11,Release work,Vendor C,Not given,Execution,2.5,66.0,66.0,0.0,,
+2020,11,Release work,Vendor C,Not given,Execution,3.0,58.0,45.0,1.0,,
+2020,11,Release work,Vendor C,Not given,Execution,1.0,20.0,20.0,1.0,,
+2020,11,Release work,Vendor A,Not given,Execution,3.0,52.0,0.0,0.0,1.41,Vendor A
+2020,11,Release work,Vendor B,Not given,Execution,8.0,165.0,0.0,0.0,CI 3,Vendor B
+2020,11,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,15.0,6.0,6.0,0.0,,
+2020,12,Release work,Vendor C,Not given,Execution,1.0,30.0,30.0,14.0,,
+2020,12,Release work,Vendor B,Not given,Execution,6.0,256.0,111.0,23.0,CI 4,Vendor B
+2020,12,Release work,Vendor A,Not given,Not given,8.0,614.0,614.0,,1.42,Vendor A
+2020,12,Release work,Vendor B,Not given,Execution,29.0,615.0,435.0,15.0,CI 4,Vendor B
+2020,12,Release work,Vendor A,Not given,Execution,3.5,68.0,68.0,1.0,1.41,Vendor A
+2020,12,Release work,Vendor C,Not given,Execution,1.5,650.0,400.0,1.0,,
+2020,12,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,6.0,6.0,0.0,,
+2021,1,Release work,Vendor C,Not given,Execution,2.25,60.0,50.0,3.0,,
+2021,1,Release work,Vendor C,Not given,Execution,5.75,52.0,24.0,33.0,,
+2021,1,Release work,Vendor A,Not given,Execution,27.5,550.0,550.0,14.0,1.42,Vendor A
+2021,1,Release work,Vendor C,Not given,Execution,19.0,325.0,219.0,5.0,,
+2021,1,Release work,Vendor C,Not given,Execution,1.5,400.0,400.0,2.0,,
+2021,1,Release work,Vendor A,Not given,Execution,2.5,55.0,55.0,0.0,1.42,Vendor A
+2021,1,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,2.0,52.0,52.0,1.0,,
+2021,1,Release work,Vendor A,Not given,Execution,7.0,1.0,1.0,0.0,1.42,Vendor A
+2021,2,Release work,Vendor C,Not given,Execution,9.0,180.0,129.0,4.0,,
+2021,2,Release work,Vendor C,Not given,Execution,2.0,81.0,20.0,,,
+2021,2,Release work,Vendor A,Not given,Execution,7.0,115.0,138.0,3.0,1.42,Vendor A
+2021,2,Release work,Vendor C,Not given,Execution,10.0,112.0,112.0,5.0,,
+2021,2,Release work,Vendor C,Not given,Execution,4.0,399.0,101.0,0.0,,
+2021,2,Release work,Vendor A,Not given,Execution,1.0,175.0,80.0,0.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,3.0,175.0,175.0,0.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,45.0,618.0,583.0,8.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,1.0,414.0,20.0,1.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,3.0,100.0,37.0,0.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,3.0,330.0,330.0,0.0,1.42,Vendor A
+2021,2,Release work,Vendor A,Not given,Execution,5.0,7.0,0.0,0.0,1.42,Vendor A
+2021,3,Release work,Vendor C,Not given,Execution,6.0,316.0,136.0,20.0,,
+2021,3,Release work,Vendor C,Not given,Execution,4.0,116.0,57.0,,,
+2021,3,Release work,Vendor C,Not given,Execution,8.0,334.0,222.0,1.0,,
+2021,3,Release work,Vendor C,Not given,Execution,10.0,701.0,331.0,0.0,,
+2021,3,Release work,Vendor A,Not given,Execution,3.0,414.0,410.0,1.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,2.0,330.0,328.0,1.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,2.0,414.0,170.0,0.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,2.0,330.0,328.0,0.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,27.0,266.0,266.0,5.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,15.0,191.0,191.0,1.0,1.42,Vendor A
+2021,3,Release work,Vendor A,Not given,Execution,6.0,75.0,75.0,0.0,1.42,Vendor A
+2021,3,Release work,Vendor B,Not given,Execution,0.25,0.0,5.0,2.0,CI 4,Vendor B
+2021,3,Release work,Vendor A,Not given,Execution,7.0,7.0,0.0,0.0,1.42,Vendor A
+2021,4,Release work,Vendor C,Not given,Execution,4.0,375.0,42.0,4.0,,
+2021,4,Release work,Vendor B,Not given,Design,2.0,60.0,60.0,,CI 5,Vendor B
+2021,4,Release work,Vendor C,Not given,Execution,7.0,916.0,215.0,2.0,,
+2021,4,Release work,Vendor C,Not given,Execution,0.5,30.0,30.0,2.0,,
+2021,4,Other,General,Not given,Execution,8.0,168.0,168.0,5.0,,
+2021,4,Other,General,Not given,Execution,4.0,479.0,479.0,0.0,,
+2021,4,Release work,Vendor B,Not given,Execution,2.5,800.0,50.0,0.0,CI 5,Vendor B
+2021,4,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Design,5.0,3.0,3.0,0.0,,
+2021,4,Release work,Vendor C,Not given,Design,4.0,0.0,3.0,0.0,,
+2021,5,Release work,Vendor B,Not given,Design,2.5,64.0,64.0,,CI 5,Vendor B
+2021,5,Release work,Vendor B,Not given,Execution,5.0,124.0,124.0,3.0,CI 5,Vendor B
+2021,5,Release work,Vendor C,Not given,Execution,1.0,40.0,40.0,0.0,,
+2021,5,Release work,Vendor C,Not given,Execution,0.5,30.0,30.0,0.0,,
+2021,5,Release work,Vendor B,Not given,Execution,40.0,757.0,757.0,8.0,CI 5,Vendor B
+2021,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,1.5,36.0,36.0,1.0,,
+2021,5,Release work,Vendor B,Not given,Maintenance,4.0,1114.0,60.0,0.0,,
+2021,5,Out of scope,Not test work,Not given,Execution,0.25,,10.0,3.0,,
+2021,5,Release work,Vendor C,Not given,Execution,1.12,6.0,6.0,0.0,,
+2021,5,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,10.0,6.0,6.0,0.0,,
+2021,5,Programme work,Programme work,Not given,Design,1.0,8.0,8.0,0.0,,
+2021,5,Programme work,Programme work,Not given,Execution,0.5,8.0,8.0,0.0,,
+2021,6,Release work,Vendor A,Not given,Design,22.0,483.0,483.0,0.0,1.43,Vendor A
+2021,6,Release work,Vendor A,Not given,Execution,2.0,483.0,34.0,4.0,1.43,Vendor A
+2021,6,Release work,Vendor A,Not given,Execution,0.5,15.0,15.0,0.0,1.43,Vendor A
+2021,6,Release work,Vendor C,Not given,Execution,0.5,30.0,30.0,0.0,,
+2021,6,Release work,Vendor B,Not given,Maintenance,4.0,1114.0,60.0,0.0,,
+2021,6,Out of scope,Not test work,Not given,Execution,0.25,,10.0,5.0,,
+2021,6,Out of scope,Automation upkeep,Not given,Maintenance,20.0,751.0,200.0,0.0,1.41,Vendor A
+2021,6,Release work,Vendor C,Not given,Execution,2.25,77.0,77.0,6.0,1.42,Vendor A
+2021,6,Release work,Vendor A,Not given,Execution,6.0,686.0,150.0,0.0,1.43,Vendor A
+2021,6,Release work,Vendor C,Not given,Execution,0.5,15.0,15.0,0.0,,
+2021,6,Release work,Vendor C,Not given,Execution,9.0,6.0,6.0,0.0,,
+2021,6,Upgrade and infrastructure,Upgrade and infrastructure,Not given,Execution,8.0,6.0,2.0,0.0,,
+2021,7,Release work,Shared: Vendor A + Vendor B,Regression,Execution,3.0,55.0,55.0,2.0,,
+2021,7,Release work,Vendor A,Automation,Execution,2.0,328.0,328.0,0.0,1.43,Vendor A
+2021,7,Release work,Vendor A,Automation,Execution,1.0,174.0,174.0,0.0,1.43,Vendor A
+2021,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,25.0,25.0,0.0,,
+2021,7,Release work,Vendor E,Other,Execution,7.0,160.0,160.0,0.0,,
+2021,7,Release work,Vendor A,Automation,Execution,2.0,328.0,328.0,0.0,1.43,Vendor A
+2021,7,Other,General,Non-functional,Execution,17.5,10.0,10.0,0.0,,
+2021,7,Other,General,Non-functional,Execution,9.0,7.0,7.0,0.0,,
+2021,7,Release work,Vendor A,Non-functional,Execution,7.0,1.0,1.0,0.0,1.43,Vendor A
+2021,7,Release work,Vendor A,Functional,Execution,24.0,872.0,724.0,15.0,1.43,Vendor A
+2021,7,Release work,Vendor A,Regression,Execution,9.0,886.0,296.0,10.0,1.43,Vendor A
+2021,7,Release work,Vendor C,Regression,Execution,0.25,10.0,10.0,0.0,,
+2021,8,Release work,Vendor E,Other,Execution,2.0,40.0,40.0,1.0,,
+2021,8,Release work,Vendor A,Automation,Execution,2.0,328.0,328.0,1.0,1.43,Vendor A
+2021,8,Release work,Vendor A,Automation,Execution,2.0,174.0,174.0,,1.43,Vendor A
+2021,8,Release work,Vendor A,Automation,Execution,2.0,174.0,174.0,,1.43,Vendor A
+2021,8,Other,Gift cards,Regression,Execution,2.0,40.0,40.0,,,
+2021,8,Release work,Vendor E,Functional,Design,3.0,160.0,160.0,,,
+2021,8,Release work,Vendor E,Functional,Execution,8.0,160.0,160.0,9.0,,
+2021,8,Programme work,Programme work,Non-functional,Execution,5.0,10.0,10.0,,,
+2021,8,Release work,Vendor A,Non-functional,Execution,5.0,1.0,1.0,,1.43,Vendor A
+2021,8,Release work,Vendor C,Non-functional,Execution,16.0,6.0,6.0,,1.37,Vendor A
+2021,8,Release work,Vendor A,Functional,Execution,4.5,91.0,91.0,6.0,1.43,Vendor A
+2021,8,Release work,Vendor A,Regression,Execution,10.0,248.0,248.0,1.0,1.43,Vendor A
+2021,8,Release work,Vendor C,Regression,Execution,4.0,106.0,106.0,4.0,,
+2021,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.5,46.0,46.0,0.0,,
+2021,9,Out of scope,Performance testing,Regression,Execution,2.0,60.0,60.0,1.0,,
+2021,9,Release work,Vendor E,Regression,Execution,2.0,40.0,40.0,0.0,,
+2021,9,Release work,Vendor E,Regression,Execution,2.0,40.0,40.0,0.0,,
+2021,9,Out of scope,Not test work,Automation,Execution,2.0,174.0,174.0,0.0,,
+2021,9,Programme work,Programme work,Non-functional,Execution,12.0,12.0,12.0,0.0,,
+2021,9,Release work,Vendor C,Non-functional,Execution,9.0,6.0,6.0,0.0,1.37,Vendor A
+2021,9,Release work,Vendor C,Regression,Execution,0.25,20.0,20.0,0.0,1.37,Vendor A
+2021,9,Release work,Vendor A,Regression,Execution,1.0,30.0,30.0,0.0,,
+2021,9,Programme work,Programme work,Regression,Execution,6.0,129.0,129.0,4.0,,
+2021,9,Release work,Vendor C,Regression,Execution,0.25,40.0,40.0,0.0,,
+2021,9,Other,Gift cards,Regression,Execution,2.0,36.0,36.0,1.0,,
+2021,9,Release work,Vendor B,Functional,Design,3.0,138.0,138.0,,CI 6,Vendor B
+2021,9,Release work,Vendor B,Functional,Execution,5.0,138.0,103.0,19.0,CI 6,Vendor B
+2021,9,Release work,Vendor B,Regression,Execution,13.0,789.0,342.0,0.0,CI 6,Vendor B
+2021,9,Out of scope,Not test work,Regression,Execution,0.25,7.0,7.0,2.0,,
+2021,10,Programme work,Programme work,Non-functional,Execution,9.0,12.0,12.0,0.0,,
+2021,10,Release work,Vendor C,Non-functional,Execution,15.0,6.0,6.0,0.0,1.37,Vendor A
+2021,10,Out of scope,Automation upkeep,Automation,Maintenance,4.0,423.0,174.0,0.0,,
+2021,10,Out of scope,Automation upkeep,Automation,Design,3.0,15.0,15.0,0.0,,
+2021,10,Out of scope,Automation upkeep,Automation,Execution,0.5,15.0,15.0,0.0,,
+2021,10,Out of scope,Automation upkeep,Automation,Maintenance,2.0,12.0,12.0,0.0,,
+2021,10,Release work,Vendor B,Functional,Execution,4.0,188.0,85.0,0.0,CI 6,Vendor B
+2021,10,Release work,Vendor B,Regression,Execution,22.0,789.0,547.0,1.0,CI 6,Vendor B
+2021,10,Other,General,Regression,Maintenance,16.0,996.0,500.0,0.0,,
+2021,10,Programme work,Programme work,Regression,Execution,0.5,15.0,15.0,0.0,CI 6,Vendor B
+2021,10,Release work,Vendor C,Regression,Execution,0.5,10.0,15.0,0.0,,
+2021,10,Release work,Vendor C,Regression,Execution,1.5,42.0,42.0,1.0,,
+2021,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,60.0,60.0,0.0,,
+2021,10,Release work,Vendor A,Regression,Execution,0.25,5.0,5.0,2.0,,
+2021,10,Release work,Vendor C,Regression,Execution,0.25,10.0,10.0,0.0,,
+2021,10,Release work,Vendor C,Regression,Execution,0.25,10.0,10.0,0.0,1.42,Vendor A
+2021,10,Other,Test support,Other,Execution,1.5,40.0,40.0,0.0,,
+2021,10,Other,General,Regression,Maintenance,8.0,590.0,250.0,0.0,,
+2021,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,40.0,40.0,0.0,,
+2021,11,Release work,Vendor C,Non-functional,Execution,2.0,6.0,6.0,0.0,1.37,Vendor A
+2021,11,Out of scope,Performance testing,Non-functional,Design,16.0,3.0,3.0,0.0,,
+2021,11,Other,General,Regression,Maintenance,10.0,250.0,250.0,0.0,,
+2021,11,Release work,Vendor B,Functional,Execution,3.0,206.0,206.0,0.0,1.43,Vendor A
+2021,11,Release work,Vendor B,Regression,Execution,1.0,50.0,50.0,0.0,1.43,Vendor A
+2021,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,40.0,40.0,0.0,,
+2021,11,Release work,Vendor B,Other,Execution,1.0,30.0,18.0,0.0,CI 6,Vendor B
+2021,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,30.0,30.0,1.0,,
+2021,11,Other,General,Regression,Maintenance,10.0,874.0,284.0,0.0,,
+2021,11,Release work,Vendor C,Regression,Execution,0.5,50.0,50.0,4.0,,
+2021,11,Out of scope,Not test work,Regression,Execution,0.5,10.0,10.0,3.0,,
+2021,11,Release work,Vendor C,Regression,Execution,0.5,20.0,20.0,0.0,1.43,Vendor A
+2021,12,Out of scope,Performance testing,Non-functional,Design,22.0,3.0,3.0,0.0,,
+2021,12,Release work,Vendor C,Regression,Execution,0.5,50.0,50.0,2.0,,
+2021,12,Out of scope,Automation upkeep,Automation,Design,4.5,15.0,15.0,1.0,,
+2021,12,Out of scope,Automation upkeep,Automation,Execution,0.1,15.0,15.0,0.0,,
+2021,12,Release work,Vendor C,Regression,Execution,6.0,130.0,130.0,0.0,,
+2021,12,Release work,Vendor C,Regression,Execution,0.5,20.0,20.0,1.0,,
+2021,12,Other,Ad hoc and exploratory,Regression,Execution,1.0,15.0,15.0,2.0,,
+2021,12,Out of scope,Not test work,Regression,Maintenance,8.5,410.0,410.0,0.0,,
+2021,12,Release work,Vendor C,Regression,Execution,0.25,15.0,15.0,0.0,,
+2022,12,Release work,Vendor C,Regression,Execution,1.5,30.0,30.0,,,
+2022,12,Release work,Vendor B,Regression,Execution,10.0,160.0,250.0,4.0,CI 8,Vendor B
+2022,12,Release work,Vendor A,Automation,Execution,3.0,428.0,428.0,,1.45,Vendor A
+2022,12,Release work,Vendor A,Automation,Execution,3.0,195.0,195.0,,1.45,Vendor A
+2022,12,Release work,Vendor A,Automation,Execution,2.0,423.0,174.0,,1.45,Vendor A
+2022,12,Release work,Vendor A,Automation,Execution,3.0,428.0,428.0,,1.45,Vendor A
+2022,12,Release work,Vendor A,Automation,Execution,3.0,195.0,195.0,,1.45,Vendor A
+2022,12,Release work,Vendor C,Non-functional,Execution,18.0,6.0,6.0,,,
+2022,12,Release work,Vendor A,Functional,Design,4.0,100.0,100.0,,1.45,Vendor A
+2022,12,Release work,Vendor A,Functional,Execution,14.0,390.0,290.0,2.0,1.45,Vendor A
+2022,12,Release work,Vendor A,Regression,Execution,11.0,420.0,225.0,,1.45,Vendor A
+2022,12,Other,Ad hoc and exploratory,Regression,Execution,0.1,1.0,1.0,1.0,,
+2022,11,Release work,Vendor C,Regression,Execution,1.0,20.0,20.0,,,
+2022,11,Release work,Vendor C,Regression,Execution,16.0,295.0,295.0,4.0,,
+2022,11,Release work,Vendor C,Non-functional,Execution,9.0,6.0,6.0,,,
+2022,11,Release work,Vendor C,Non-functional,Design,10.0,4.0,4.0,,,
+2022,11,Release work,Vendor C,Non-functional,Execution,2.0,6.0,2.0,,,
+2022,11,Out of scope,Automation upkeep,Automation,Design,10.0,46.0,46.0,,,
+2022,11,Out of scope,Automation upkeep,Automation,Execution,1.0,46.0,46.0,,,
+2022,11,Release work,Vendor A,Functional,Design,2.5,300.0,100.0,,1.45,Vendor A
+2022,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,2.0,,
+2022,11,Release work,Vendor B,Functional,Execution,0.0,,0.0,2.0,CI 8,Vendor B
+2022,11,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,1.0,18.0,18.0,3.0,,
+2022,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,4.0,4.0,4.0,,
+2022,10,Release work,Vendor C,Regression,Execution,2.0,50.0,50.0,1.0,,
+2022,10,Release work,Vendor C,Regression,Execution,2.5,40.0,35.0,,,
+2022,10,Release work,Vendor C,Non-functional,Execution,14.0,6.0,6.0,,,
+2022,10,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,4.0,10.0,10.0,,,
+2022,10,Out of scope,Automation upkeep,Regression,Design,10.0,195.0,60.0,,,
+2022,10,Out of scope,Automation upkeep,Regression,Execution,1.0,195.0,195.0,,,
+2022,10,Release work,Vendor B,Regression,Execution,27.0,996.0,546.0,6.0,CI 8,Vendor B
+2022,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2022,10,Release work,Vendor C,Regression,Execution,1.0,2.0,1.0,1.0,,
+2022,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,12.0,12.0,,,
+2022,10,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,1.0,10.0,10.0,1.0,,
+2022,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.1,4.0,4.0,1.0,,
+2022,9,Release work,Vendor C,Regression,Execution,16.0,50.0,40.0,1.0,,
+2022,9,Release work,Vendor C,Regression,Execution,0.13,10.0,10.0,,,
+2022,9,Release work,Vendor C,Non-functional,Execution,6.0,6.0,6.0,,,
+2022,9,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,15.0,10.0,10.0,1.0,,
+2022,9,Out of scope,Automation upkeep,Automation,Design,13.0,195.0,135.0,,,
+2022,9,Out of scope,Not test work,Functional,Execution,1.0,12.0,12.0,1.0,,
+2022,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.5,46.0,46.0,,,
+2022,9,Release work,Vendor B,Regression,Execution,50.0,996.0,996.0,6.0,CI 8,Vendor B
+2022,9,Other,Test support,Regression,Execution,5.0,50.0,50.0,0.0,,
+2022,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2022,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2022,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,41.0,41.0,0.0,,
+2022,8,Release work,Vendor C,Regression,Execution,1.0,17.0,17.0,1.0,,
+2022,8,Release work,Vendor C,Regression,Execution,1.0,2.0,2.0,5.0,,
+2022,8,Out of scope,Automation upkeep,Automation,Design,19.0,195.0,60.0,1.0,,
+2022,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,14.0,22.0,2.0,,
+2022,8,Release work,Vendor C,Non-functional,Execution,19.0,6.0,6.0,,,
+2022,8,Release work,Vendor A,Functional,Execution,3.0,20.0,61.0,10.0,,
+2022,8,Release work,Vendor B,Regression,Design,2.0,750.0,750.0,,CI 8,Vendor B
+2022,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.0,2.0,0.0,2.0,,
+2022,7,Release work,Vendor C,Functional,Execution,5.0,195.0,111.0,4.0,,
+2022,7,Release work,Vendor C,Regression,Execution,5.0,198.0,174.0,3.0,,
+2022,7,Other,General,Non-functional,Execution,18.0,20.0,20.0,5.0,,
+2022,7,Release work,Vendor C,Non-functional,Execution,2.0,6.0,6.0,,,
+2022,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,30.0,30.0,0.0,,
+2022,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.5,35.0,35.0,0.0,,
+2022,7,Release work,Vendor B,Regression,Execution,3.0,77.0,77.0,2.0,CI 7,Vendor B
+2022,7,Other,Gift cards,Functional,Execution,0.5,10.0,10.0,0.0,,
+2022,7,Other,Gift cards,Regression,Execution,0.5,20.0,20.0,0.0,,
+2022,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,7.5,160.0,110.0,0.0,,
+2022,7,Other,General,Functional,Execution,0.5,12.0,12.0,0.0,,
+2022,7,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,2.0,34.0,34.0,0.0,,
+2022,6,Release work,Vendor C,Functional,Execution,5.0,124.0,121.0,0.0,,
+2022,6,Release work,Vendor C,Regression,Execution,13.0,405.0,331.0,10.0,,
+2022,6,Release work,Vendor C,Regression,Execution,4.0,122.0,122.0,2.0,,
+2022,6,Release work,Vendor B,Functional,Execution,2.0,60.0,60.0,2.0,,
+2022,6,Release work,Vendor B,Regression,Execution,1.0,10.0,10.0,0.0,,
+2022,6,Release work,Vendor B,Functional,Execution,2.5,356.0,44.0,3.0,CI 7,Vendor B
+2022,6,Release work,Vendor C,Non-functional,Execution,8.0,6.0,6.0,0.0,,
+2022,6,Out of scope,Performance testing,Non-functional,Execution,6.0,4.0,4.0,3.0,,
+2022,6,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Documentation,4.0,,,0.0,,
+2022,6,Release work,Vendor C,Non-functional,Execution,2.0,6.0,6.0,0.0,,
+2022,6,Release work,Vendor C,Regression,Execution,,1.0,,1.0,,
+2022,5,Release work,Vendor C,Non-functional,Execution,12.0,6.0,6.0,0.0,,
+2022,5,Release work,Vendor C,Non-functional,Execution,5.0,6.0,6.0,0.0,,
+2022,5,Release work,Vendor C,Non-functional,Design,4.0,4.0,,0.0,,
+2022,5,Release work,Vendor A,Functional,Execution,1.0,12.0,12.0,3.0,1.44,Vendor A
+2022,5,Release work,Vendor A,Regression,Execution,1.0,25.0,25.0,0.0,1.44,Vendor A
+2022,5,Release work,Vendor B,Functional,Execution,2.0,50.0,50.0,0.0,CI 7,Vendor B
+2022,5,Release work,Vendor B,Regression,Execution,38.0,760.0,760.0,0.0,CI 7,Vendor B
+2022,5,Release work,Vendor B,Regression,Execution,8.0,150.0,150.0,2.0,CI 7,Vendor B
+2022,5,Release work,Vendor C,Functional,Execution,18.0,664.0,356.0,15.0,,
+2022,5,Release work,Vendor C,Regression,Execution,11.0,786.0,320.0,0.0,,
+2022,5,Release work,Vendor C,Regression,Execution,1.5,60.0,60.0,0.0,,
+2022,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,35.0,35.0,0.0,,
+2022,4,Release work,Vendor C,Non-functional,Execution,17.0,6.0,6.0,0.0,,
+2022,4,Release work,Vendor B,Functional,Design,8.5,214.0,214.0,,CI 7,Vendor B
+2022,4,Release work,Vendor B,Functional,Execution,10.0,209.0,209.0,10.0,CI 7,Vendor B
+2022,4,Release work,Vendor B,Regression,Execution,10.0,560.0,201.0,0.0,CI 7,Vendor B
+2022,4,Release work,Vendor A,Regression,Execution,1.5,500.0,37.0,0.0,1.44,Vendor A
+2022,4,Release work,Vendor C,Functional,Execution,2.0,80.0,40.0,0.0,,
+2022,4,Release work,Vendor C,Functional,Execution,12.0,328.0,286.0,36.0,,
+2022,4,Release work,Vendor C,Regression,Execution,9.0,466.0,270.0,0.0,,
+2022,4,Out of scope,Not test work,Regression,Execution,0.12,2.0,2.0,2.0,,
+2022,1,Release work,Vendor A,Automation,Design,8.0,25.0,25.0,,1.42,Vendor A
+2022,1,Release work,Vendor A,Automation,Execution,0.5,25.0,25.0,,1.42,Vendor A
+2022,1,Other,General,Automation,Design,8.0,14.0,14.0,,,
+2022,1,Other,General,Automation,Execution,0.5,14.0,14.0,,,
+2022,1,Out of scope,Performance testing,Non-functional,Design,4.0,3.0,3.0,0.0,,
+2022,1,Programme work,Programme work,Non-functional,Execution,14.0,14.0,14.0,7.0,,
+2022,1,Release work,Vendor A,Functional,Design,7.5,150.0,150.0,,1.44,Vendor A
+2022,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,60.0,15.0,4.0,,
+2022,1,Release work,Vendor C,Regression,Execution,0.5,80.0,80.0,0.0,,
+2022,1,Release work,Vendor C,Regression,Execution,1.5,47.0,47.0,0.0,,
+2022,1,Release work,Vendor C,Regression,Execution,1.5,49.0,49.0,2.0,,
+2022,1,Release work,Vendor C,Regression,Execution,2.0,77.0,77.0,0.0,,
+2022,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,0.0,,
+2022,1,Out of scope,Not test work,Regression,Maintenance,7.0,3695.0,203.0,,,
+2022,1,Release work,Vendor C,Regression,Design,0.12,2.0,2.0,,,
+2022,1,Release work,Vendor C,Regression,Execution,0.5,20.0,20.0,0.0,,
+2022,2,Out of scope,Performance testing,Non-functional,Design,7.0,3.0,3.0,0.0,,
+2022,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,6.0,4.0,4.0,3.0,,
+2022,2,Release work,Vendor C,Non-functional,Execution,5.0,6.0,6.0,0.0,,
+2022,2,Programme work,Programme work,Non-functional,Execution,2.0,14.0,14.0,0.0,,
+2022,2,Release work,Vendor B,Functional,Execution,10.0,200.0,200.0,3.0,1.44,Vendor A
+2022,2,Release work,Vendor B,Functional,Execution,2.0,10.0,10.0,0.0,1.44,Vendor A
+2022,2,Release work,Vendor B,Regression,Execution,0.5,0.0,,0.0,CI 7,Vendor B
+2022,2,Release work,Vendor B,Regression,Execution,1.0,0.0,,0.0,CI 7,Vendor B
+2022,2,Release work,Vendor C,Regression,Execution,0.5,20.0,20.0,3.0,,
+2022,2,Release work,Vendor C,Functional,Design,11.0,162.0,162.0,,,
+2022,2,Release work,Vendor C,Regression,Execution,5.5,135.0,135.0,1.0,,
+2022,2,Release work,Vendor C,Regression,Execution,6.0,141.0,141.0,0.0,,
+2022,2,Out of scope,Not test work,Regression,Execution,0.12,5.0,5.0,1.0,,
+2022,3,Release work,Vendor C,Non-functional,Execution,9.0,6.0,6.0,0.0,,
+2022,3,Out of scope,Performance testing,Non-functional,Execution,10.0,4.0,4.0,1.0,1.44,Vendor A
+2022,3,Release work,Vendor B,Regression,Execution,1.0,0.0,,0.0,CI 7,Vendor B
+2022,3,Release work,Vendor A,Automation,Execution,3.0,386.0,374.0,0.0,1.44,Vendor A
+2022,3,Release work,Vendor A,Automation,Execution,1.0,423.0,174.0,0.0,1.44,Vendor A
+2022,3,Release work,Vendor A,Automation,Execution,3.0,386.0,386.0,0.0,1.44,Vendor A
+2022,3,Release work,Vendor A,Automation,Execution,3.5,423.0,423.0,0.0,1.44,Vendor A
+2022,3,Release work,Vendor A,Functional,Execution,12.0,670.0,670.0,8.0,1.44,Vendor A
+2022,3,Release work,Vendor A,Regression,Execution,12.0,500.0,500.0,4.0,1.44,Vendor A
+2022,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,2.0,,
+2022,3,Release work,Vendor C,Functional,Execution,2.0,40.0,40.0,2.0,,
+2022,3,Release work,Vendor C,Functional,Execution,3.0,366.0,39.0,4.0,,
+2022,3,Release work,Vendor C,Regression,Execution,9.0,481.0,195.0,27.0,,
+2022,3,Release work,Vendor B,Regression,Execution,1.0,0.0,,0.0,CI 7,Vendor B
+2023,12,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,4.0,230.0,40.0,1.0,,
+2023,12,Out of scope,Performance testing,Non-functional,Execution,16.0,3.0,3.0,0.0,,
+2023,12,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,0.0,,
+2023,12,Release work,Vendor C,Regression,Execution,6.5,127.0,127.0,4.0,,
+2023,12,Out of scope,Automation upkeep,Automation,Design,12.0,55.0,55.0,0.0,,
+2023,12,Release work,Vendor B,Regression,Execution,1.0,20.0,20.0,0.0,CI 10,Vendor B
+2023,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,94.0,94.0,0.0,,
+2023,12,Out of scope,Not test work,Other,Maintenance,10.0,200.0,200.0,0.0,,
+2023,12,Release work,Vendor C,Regression,Execution,3.0,90.0,90.0,3.0,,
+2023,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,60.0,60.0,1.0,,
+2023,12,Other,Ad hoc and exploratory,Regression,Execution,0.5,10.0,10.0,4.0,,
+2023,11,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,18.0,692.0,229.0,2.0,,
+2023,11,Other,Other system 1,Non-functional,Execution,6.0,4.0,4.0,0.0,,
+2023,11,Out of scope,Performance testing,Automation,Execution,12.0,3.0,3.0,0.0,,
+2023,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,0.0,,
+2023,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,0.0,,
+2023,11,Other,Other system 2,Regression,Execution,0.5,20.0,6.0,0.0,,
+2023,11,Out of scope,Not test work,Regression,Execution,1.0,10.0,10.0,0.0,,
+2023,11,Out of scope,Automation upkeep,Functional,Design,4.0,20.0,20.0,0.0,,
+2023,11,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,0.5,10.0,10.0,0.0,,
+2023,11,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Automation,Execution,3.0,797.0,797.0,0.0,,
+2023,11,Other,Ad hoc and exploratory,Regression,Execution,1.0,10.0,4.0,5.0,,
+2023,10,Other,Other system 1,Functional,Execution,2.0,40.0,40.0,2.0,,
+2023,10,Other,Other system 1,Regression,Execution,4.0,80.0,80.0,0.0,,
+2023,10,Other,Other system 2,Regression,Execution,2.0,20.0,18.0,1.0,,
+2023,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,20.0,20.0,1.0,,
+2023,10,Release work,Vendor A,Functional,Execution,16.0,235.0,235.0,18.0,,
+2023,10,Release work,Vendor A,Regression,Execution,7.0,105.0,105.0,0.0,,
+2023,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,12.5,270.0,250.0,1.0,,
+2023,10,Release work,Vendor B,Functional,Execution,2.0,36.0,18.0,0.0,,
+2023,10,Release work,Vendor B,Regression,Execution,2.25,50.0,25.0,0.0,,
+2023,10,Release work,Vendor E,Regression,Execution,0.5,10.0,10.0,0.0,,
+2023,10,Release work,Vendor E,Regression,Execution,3.0,53.0,53.0,1.0,,
+2023,10,Other,Ad hoc and exploratory,Regression,Execution,1.0,24.0,24.0,3.0,,
+2023,10,Release work,Vendor C,Non-functional,Execution,14.0,3.0,3.0,0.0,,
+2023,10,Other,Other system 1,Non-functional,Execution,9.0,4.0,4.0,0.0,,
+2023,9,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,,,
+2023,9,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,13.5,495.0,300.0,18.0,,
+2023,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,,,
+2023,9,Release work,Vendor B,Functional,Design,1.0,36.0,36.0,,,
+2023,9,Release work,Vendor B,Functional,Execution,8.0,86.0,18.0,7.0,,
+2023,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,240.0,20.0,,,
+2023,9,Release work,Vendor E,Regression,Execution,0.5,40.0,40.0,,,
+2023,9,Release work,Vendor A,Regression,Execution,0.25,1140.0,4.0,,1.46,Vendor A
+2023,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,69.0,5.0,,,
+2023,9,Out of scope,Not test work,Regression,Execution,0.5,10.0,10.0,,,
+2023,9,Release work,Vendor C,Functional,Design,0.25,34.0,10.0,,,
+2023,9,Release work,Vendor C,Functional,Execution,0.5,34.0,10.0,1.0,,
+2023,9,Release work,Vendor C,Regression,Execution,1.0,34.0,24.0,,,
+2023,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2023,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2023,9,Out of scope,Performance testing,Regression,Execution,1.0,20.0,20.0,,1.46,Vendor A
+2023,9,Other,Other system 1,Functional,Design,1.5,40.0,40.0,,,
+2023,9,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,1.0,,
+2023,9,Release work,Vendor A,Regression,Execution,1.0,162.0,8.0,8.0,,
+2023,9,Release work,Vendor A,Functional,Execution,1.0,164.0,6.0,,,
+2023,9,Release work,Vendor A,Functional,Design,4.0,164.0,164.0,,,
+2023,9,Release work,Vendor A,Non-functional,Execution,4.0,3.0,3.0,,1.46,Vendor A
+2023,9,Release work,Vendor C,Non-functional,Execution,13.5,6.0,6.0,,,
+2023,9,Release work,Vendor A,Non-functional,Execution,1.5,3.0,3.0,,1.46,Vendor A
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Other,Execution,0.5,10.0,10.0,1.0,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,25.0,,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2023,8,Release work,Vendor A,Regression,Execution,6.0,120.0,120.0,5.0,1.46,Vendor A
+2023,8,Release work,Vendor A,Automation,Execution,2.5,428.0,428.0,,1.46,Vendor A
+2023,8,Release work,Vendor A,Automation,Execution,1.5,195.0,195.0,,1.46,Vendor A
+2023,8,Release work,Vendor A,Automation,Execution,1.0,166.0,166.0,,1.46,Vendor A
+2023,8,Other,Other system 2,Regression,Execution,0.5,10.0,10.0,,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,9.0,9.0,,,
+2023,8,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,16.0,495.0,192.0,17.0,,
+2023,8,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Design,6.0,495.0,495.0,,,
+2023,8,Release work,Vendor E,Regression,Execution,0.2,5.0,5.0,1.0,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,6.0,100.0,70.0,2.0,,
+2023,8,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.5,10.0,10.0,1.0,,
+2023,8,Other,Ad hoc and exploratory,Regression,Execution,0.5,5.0,5.0,7.0,,
+2023,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,19.0,,,
+2023,8,Out of scope,Performance testing,Non-functional,Execution,21.0,4.0,4.0,1.0,1.46,Vendor A
+2023,8,Other,Downtime,Regression,Maintenance,0.0,,,,,
+2023,6,Release work,Vendor A,Automation,Design,3.0,20.0,20.0,,,
+2023,6,Release work,Vendor A,Automation,Execution,1.0,20.0,20.0,,,
+2023,6,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,8.0,4.0,4.0,,,
+2023,6,Release work,Vendor C,Non-functional,Execution,14.0,6.0,6.0,,,
+2023,6,Release work,Vendor A,Regression,Execution,13.0,270.0,270.0,2.0,1.46,Vendor A
+2023,6,Release work,Vendor A,Regression,Execution,4.0,797.0,797.0,,1.46,Vendor A
+2023,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,8.0,1.0,,
+2023,6,Other,Other system 2,Regression,Execution,1.5,30.0,30.0,1.0,,
+2023,6,Release work,Vendor D,Regression,Execution,3.5,70.0,70.0,,,
+2023,6,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.25,25.0,25.0,1.0,,
+2023,6,Release work,Vendor B,Functional,Execution,20.0,381.0,114.0,1.0,CI 9,Vendor B
+2023,6,Release work,Vendor B,Regression,Execution,18.0,327.0,96.0,1.0,CI 9,Vendor B
+2023,6,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,0.5,10.0,10.0,1.0,,
+2023,6,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,0.5,10.0,10.0,1.0,,
+2023,6,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,25.0,25.0,1.0,,
+2023,6,Release work,Vendor E,Regression,Execution,1.0,20.0,20.0,,CI 8,Vendor B
+2023,7,Release work,Vendor A,Automation,Design,0.0,,,,,
+2023,7,Release work,Vendor B,Functional,Execution,9.0,578.0,139.0,,CI 9,Vendor B
+2023,7,Release work,Vendor B,Regression,Execution,9.0,537.0,129.0,,CI 9,Vendor B
+2023,7,Out of scope,Performance testing,Non-functional,Execution,19.0,4.0,4.0,,1.46,Vendor A
+2023,7,Release work,Vendor A,Regression,Execution,25.0,1001.0,504.0,8.0,1.46,Vendor A
+2023,7,Release work,Vendor A,Automation,Execution,4.0,797.0,797.0,,1.46,Vendor A
+2023,7,Release work,Vendor A,Automation,Execution,3.0,797.0,623.0,,1.46,Vendor A
+2023,7,Release work,Vendor A,Automation,Execution,2.5,253.0,623.0,,1.46,Vendor A
+2023,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,30.0,30.0,,,
+2023,7,Other,Other system 2,Functional,Execution,0.5,10.0,10.0,,,
+2023,7,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,,,
+2023,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,100.0,14.0,2.0,,
+2023,7,Release work,Vendor E,Regression,Execution,1.0,10.0,10.0,,,
+2023,7,Release work,Vendor C,Regression,Execution,1.0,20.0,20.0,,,
+2023,7,Release work,Vendor C,Regression,Execution,0.5,10.0,20.0,1.0,,
+2023,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.0,2.0,2.0,2.0,,
+2023,7,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,0.3,10.0,10.0,,,
+2023,5,Release work,Vendor C,Regression,Execution,2.0,54.0,54.0,1.0,,
+2023,5,Out of scope,Automation upkeep,Automation,Execution,1.5,259.0,259.0,0.0,,
+2023,5,Release work,Vendor A,Functional,Design,3.5,130.0,130.0,0.0,1.46,Vendor A
+2023,5,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,13.0,3.0,3.0,,,
+2023,5,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,9.0,4.0,4.0,,,
+2023,5,Release work,Vendor A,Functional,Execution,3.0,110.0,110.0,3.0,1.46,Vendor A
+2023,5,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.5,30.0,30.0,0.0,,
+2023,5,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,20.0,1.0,,
+2023,5,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,1.0,14.0,14.0,,,
+2023,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,40.0,40.0,,,
+2023,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2023,5,Other,Other system 2,Functional,Execution,1.0,25.0,25.0,,,
+2023,5,Other,Other system 2,Regression,Execution,1.5,32.0,32.0,,,
+2023,5,Release work,Vendor B,Functional,Execution,13.0,381.0,290.0,5.0,CI 9,Vendor B
+2023,5,Release work,Vendor B,Regression,Execution,8.0,327.0,327.0,12.0,CI 9,Vendor B
+2023,5,Other,Ad hoc and exploratory,Regression,Execution,0.5,10.0,10.0,3.0,,
+2023,5,Release work,Vendor B,Regression,Execution,2.0,100.0,100.0,,,
+2023,4,Release work,Vendor C,Regression,Execution,1.0,27.0,27.0,,,
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,42.0,42.0,1.0,,
+2023,4,Release work,Vendor C,Regression,Execution,1.0,25.0,25.0,,,
+2023,4,Out of scope,Automation upkeep,Automation,Design,5.0,259.0,259.0,,,
+2023,4,Out of scope,Automation upkeep,Automation,Execution,1.5,259.0,259.0,,,
+2023,4,Release work,Vendor A,Functional,Design,10.0,400.0,200.0,,1.46,Vendor A
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,8.0,8.0,1.0,,
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.3,8.0,8.0,,,
+2023,4,Release work,Vendor B,Regression,Execution,3.0,30.0,30.0,5.0,CI 9,Vendor B
+2023,4,Release work,Vendor B,Functional,Execution,1.0,15.0,15.0,2.0,,
+2023,4,Release work,Shared: Vendor A + Vendor B,Regression,Execution,1.5,40.0,40.0,,1.45,Vendor A
+2023,4,Release work,Vendor C,Regression,Execution,1.0,50.0,50.0,1.0,,
+2023,4,Release work,Vendor C,Regression,Execution,1.0,50.0,50.0,,,
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2023,4,Other,General,Functional,Execution,2.0,96.0,36.0,,,
+2023,4,Other,General,Regression,Execution,1.0,30.0,15.0,,,
+2023,4,Other,Ad hoc and exploratory,Regression,Execution,1.0,10.0,10.0,1.0,,
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,15.0,3.0,3.0,,,
+2023,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,2.0,4.0,4.0,,,
+2023,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,8.0,3.0,3.0,1.0,,
+2023,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,8.0,4.0,4.0,1.0,,
+2023,3,Release work,Vendor C,Non-functional,Execution,7.0,6.0,6.0,,,
+2023,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,5.0,105.0,105.0,2.0,,
+2023,3,Release work,Vendor A,Regression,Execution,2.5,50.0,50.0,,1.45,Vendor A
+2023,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,97.0,56.0,3.0,,
+2023,3,Other,General,Functional,Design,1.0,96.0,96.0,,,
+2023,3,Other,General,Functional,Execution,2.5,96.0,50.0,,,
+2023,3,Other,General,Regression,Execution,0.5,30.0,15.0,,,
+2023,3,Release work,Vendor A,Regression,Execution,0.25,15.0,15.0,,1.45,Vendor A
+2023,3,Release work,Vendor C,Regression,Execution,1.0,30.0,30.0,2.0,,
+2023,3,Out of scope,Automation upkeep,Automation,Design,10.0,20.0,20.0,,,
+2023,3,Release work,Vendor C,Regression,Execution,3.0,52.0,52.0,3.0,,
+2023,3,Release work,Vendor B,Regression,Execution,5.5,505.0,114.0,,CI 8,Vendor B
+2023,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,30.0,30.0,0.0,,
+2023,3,Release work,Vendor E,Functional,Design,2.0,70.0,70.0,0.0,,
+2023,3,Release work,Vendor E,Functional,Execution,3.0,70.0,70.0,1.0,,
+2023,3,Release work,Vendor E,Regression,Execution,3.0,50.0,80.0,0.0,,
+2023,3,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,20.0,5.0,,
+2023,2,Release work,Vendor A,Automation,Execution,3.0,424.0,424.0,,1.45,Vendor A
+2023,2,Release work,Vendor A,Automation,Execution,3.0,423.0,423.0,,1.45,Vendor A
+2023,2,Out of scope,Automation upkeep,Automation,Execution,2.0,195.0,195.0,,1.45,Vendor A
+2023,2,Out of scope,Automation upkeep,Automation,Execution,2.0,174.0,174.0,,,
+2023,2,Release work,Vendor A,Automation,Maintenance,3.0,424.0,424.0,,1.45,Vendor A
+2023,2,Release work,Vendor A,Automation,Maintenance,3.0,423.0,423.0,,1.45,Vendor A
+2023,2,Out of scope,Performance testing,Non-functional,Execution,6.0,4.0,4.0,,1.45,Vendor A
+2023,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,6.5,2.0,2.0,1.0,,
+2023,2,Release and upgrade work,Shared: Vendor C + upgrade,Non-functional,Execution,2.0,6.0,6.0,1.0,,
+2023,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,0.5,4.0,4.0,,,
+2023,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,4.0,4.0,4.0,,,
+2023,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,5.5,110.0,110.0,,,
+2023,2,Release work,Vendor E,Regression,Design,1.5,80.0,80.0,,,
+2023,2,Release work,Vendor B,Regression,Execution,14.0,505.0,331.0,,CI 8,Vendor B
+2023,2,Release work,Vendor A,Functional,Execution,10.0,646.0,194.0,4.0,1.45,Vendor A
+2023,2,Release work,Vendor A,Regression,Execution,13.5,655.0,325.0,1.0,1.45,Vendor A
+2023,2,Release work,Vendor C,Regression,Execution,1.0,40.0,40.0,,,
+2023,1,Release work,Vendor A,Automation,Execution,4.0,423.0,423.0,,1.45,Vendor A
+2023,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,50.0,50.0,,,
+2023,1,Release work,Vendor B,Regression,Execution,1.0,20.0,20.0,1.0,CI 8,Vendor B
+2023,1,Release work,Vendor A,Regression,Execution,4.0,60.0,80.0,2.0,1.45,Vendor A
+2023,1,Release work,Vendor A,Functional,Execution,4.0,80.0,80.0,2.0,1.45,Vendor A
+2023,1,Release work,Vendor C,Regression,Execution,5.0,40.0,160.0,,,
+2023,1,Release work,Vendor C,Functional,Execution,3.0,75.0,75.0,5.0,,
+2023,1,Release work,Vendor C,Regression,Execution,1.5,45.0,45.0,,,
+2023,1,Release work,Vendor C,Functional,Execution,1.5,45.0,45.0,2.0,,
+2023,1,Out of scope,Performance testing,Non-functional,Execution,17.0,4.0,4.0,2.0,1.45,Vendor A
+2024,12,Release work,Vendor A,Regression,Execution,3.5,719.0,719.0,6.0,1.50,Vendor A
+2024,12,Release work,Vendor A,Regression,Execution,3.5,1095.0,1095.0,5.0,1.50,Vendor A
+2024,12,Release work,Vendor A,Regression,Execution,6.0,90.0,135.0,,1.50,Vendor A
+2024,12,Release work,Vendor A,Functional,Execution,11.5,588.0,230.0,4.0,1.50,Vendor A
+2024,12,Release work,Vendor A,Regression,Execution,1.5,801.0,32.0,,1.50,Vendor A
+2024,12,Other,Test support,Regression,Execution,1.0,20.0,20.0,,,
+2024,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,30.0,30.0,,,
+2024,12,Other,General,Regression,Execution,5.0,50.0,50.0,,,
+2024,12,Other,General,Regression,Execution,3.0,80.0,75.0,5.0,,
+2024,12,Other,Sales audit system,Regression,Execution,5.0,100.0,100.0,,,
+2024,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,5.0,,
+2024,12,Release work,Vendor B,Regression,Execution,3.0,60.0,60.0,,CI 11,Vendor B
+2024,12,Release work,Vendor B,Functional,Execution,1.5,30.0,30.0,5.0,CI 10,Vendor B
+2024,12,Release work,Vendor B,Regression,Execution,1.5,45.0,45.0,,CI 10,Vendor B
+2024,12,Other,Ad hoc and exploratory,Regression,Execution,0.0,5.0,,5.0,,
+2024,12,Release work,Vendor A,Non-functional,Maintenance,2.0,4.0,4.0,7.0,1.50,Vendor A
+2024,12,Out of scope,Performance testing,Non-functional,Design,10.0,20.0,20.0,,1.50,Vendor A
+2024,12,Out of scope,Performance testing,Non-functional,Documentation,5.0,4.0,4.0,,,
+2024,12,Release work,Vendor A,Non-functional,Maintenance,2.0,4.0,4.0,,1.50,Vendor A
+2024,11,Other,Sales audit system,Non-functional,Execution,6.0,4.0,4.0,6.0,,
+2024,11,Release work,Vendor C,Non-functional,Execution,5.0,3.0,3.0,1.0,,
+2024,11,Out of scope,Performance testing,Non-functional,Design,6.0,1.0,1.0,,,
+2024,11,Out of scope,Performance testing,Non-functional,Design,2.0,1.0,1.0,,,
+2024,11,Release work,Shared: Vendor A + Vendor D,Regression,Execution,8.0,840.0,160.0,1.0,1.49,Vendor A
+2024,11,Release work,Shared: Vendor A + Vendor D,Functional,Execution,2.0,40.0,40.0,,1.49,Vendor A
+2024,11,Release work,Shared: Vendor A + Vendor D,Functional,Design,5.0,100.0,,,1.50,Vendor A
+2024,11,Release work,Shared: Vendor A + Vendor D,Regression,Execution,0.5,10.0,10.0,,1.50,Vendor A
+2024,11,Release work,Shared: Vendor A + Vendor D,Regression,Execution,0.5,10.0,10.0,,1.50,Vendor A
+2024,11,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,0.5,340.0,10.0,,,
+2024,11,Release work,Vendor A,Functional,Execution,4.0,75.0,75.0,,,
+2024,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,1.0,,
+2024,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,1.0,,
+2024,11,Out of scope,Automation upkeep,Automation,Design,4.0,30.0,30.0,,,
+2024,11,Release work,Vendor A,Automation,Execution,2.0,30.0,30.0,,,
+2024,11,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,20.0,,,
+2024,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,11,Other,Sales audit system,Regression,Execution,0.0,80.0,,,,
+2024,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,5.0,10.0,2.0,,
+2024,11,Other,Ad hoc and exploratory,Regression,Execution,0.5,5.0,5.0,1.0,,
+2024,10,Other,Sales audit system,Non-functional,Execution,10.0,4.0,4.0,3.0,,
+2024,10,Out of scope,Performance testing,Non-functional,Design,10.0,1.0,1.0,,,
+2024,10,Out of scope,Performance testing,Non-functional,Execution,1.0,5.0,5.0,,,
+2024,10,Release work,Vendor B,Regression,Execution,8.0,123.0,123.0,8.0,CI 10,Vendor B
+2024,10,Release work,Vendor B,Functional,Execution,16.0,194.0,194.0,,CI 10,Vendor B
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Design,5.0,50.0,50.0,,,
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Execution,20.0,600.0,600.0,,,
+2024,10,Out of scope,Automation upkeep,Automation,Design,5.0,20.0,20.0,,1.48,Vendor A
+2024,10,Out of scope,Automation upkeep,Automation,Execution,2.0,20.0,50.0,,1.48,Vendor A
+2024,10,Release work,Shared: Vendor A + Vendor D,Functional,Execution,3.0,416.0,60.0,12.0,1.49,Vendor A
+2024,10,Release work,Shared: Vendor A + Vendor D,Regression,Execution,3.0,424.0,60.0,8.0,1.49,Vendor A
+2024,10,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,20.0,2.0,,
+2024,10,Release work,Vendor C,Regression,Execution,0.5,10.0,10.0,,,
+2024,10,Other,Other system 2,Regression,Execution,1.5,27.0,27.0,1.0,,
+2024,10,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,20.0,,,
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,10,Other,General,Regression,Execution,0.4,10.0,10.0,,,
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,10,Other,Ad hoc and exploratory,Regression,Execution,2.0,20.0,20.0,1.0,,
+2024,10,Other,Sales audit system,Functional,Execution,3.0,80.0,180.0,,,
+2024,10,Release work,Vendor C,Regression,Execution,1.0,30.0,30.0,,,
+2024,10,Other,Sales audit system,Regression,Execution,1.0,10.0,10.0,,,
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,9,Release work,Vendor A,Functional,Execution,1.0,20.0,20.0,,1.48,Vendor A
+2024,9,Release work,Vendor A,Regression,Execution,4.5,88.0,88.0,,1.48,Vendor A
+2024,9,Out of scope,Performance testing,Non-functional,Execution,6.0,4.0,4.0,,1.48,Vendor A
+2024,9,Out of scope,Performance testing,Non-functional,Design,12.0,1.0,1.0,,,
+2024,9,Out of scope,Performance testing,Non-functional,Execution,1.0,5.0,5.0,,,
+2024,9,Release work,Vendor B,Regression,Execution,52.0,1165.0,950.0,9.0,CI 10,Vendor B
+2024,9,Release work,Vendor A,Regression,Execution,5.0,100.0,100.0,1.0,,
+2024,9,Release work,Vendor A,Regression,Execution,2.0,35.0,35.0,3.0,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,0.0,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,10.0,40.0,1.0,,
+2024,9,Other,Sales audit system,Functional,Execution,2.5,80.0,80.0,,,
+2024,9,Release work,Vendor A,Regression,Execution,2.0,30.0,40.0,0.0,1.48,Vendor A
+2024,9,Out of scope,Automation upkeep,Automation,Design,5.0,100.0,100.0,0.0,,
+2024,9,Other,Other system 2,Functional,Execution,1.0,10.0,10.0,1.0,,
+2024,9,Other,Other system 2,Automation,Execution,1.0,30.0,30.0,,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2024,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,80.0,80.0,,,
+2024,9,Release work,Shared: Vendor A + Vendor D,Functional,Execution,20.0,266.0,236.0,,1.49,Vendor A
+2024,9,Release work,Shared: Vendor A + Vendor D,Regression,Execution,8.0,298.0,164.0,1.0,1.49,Vendor A
+2024,9,Release work,Shared: Vendor A + Vendor D,Functional,Design,5.0,266.0,100.0,,1.49,Vendor A
+2024,9,Other,Ad hoc and exploratory,Regression,Execution,3.0,30.0,30.0,7.0,,
+2024,8,Release work,Vendor A,Functional,Execution,13.7,500.0,274.0,11.0,1.48,Vendor A
+2024,8,Release work,Vendor A,Regression,Execution,42.2,970.0,844.0,,1.48,Vendor A
+2024,8,Release work,Vendor A,Regression,Execution,2.25,135.0,45.0,,1.48,Vendor A
+2024,8,Release work,Vendor A,Regression,Execution,1.2,69.0,24.0,,1.48,Vendor A
+2024,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,8,Release work,Vendor B,Functional,Execution,52.0,630.0,630.0,24.0,CI 10,Vendor B
+2024,8,Release work,Vendor B,Regression,Execution,0.0,410.0,410.0,,CI 10,Vendor B
+2024,8,Other,Sales audit system,Regression,Execution,3.0,200.0,100.0,,,
+2024,8,Release work,Vendor A,Automation,Execution,5.0,1095.0,1095.0,,1.48,Vendor A
+2024,8,Release work,Vendor A,Automation,Execution,2.0,400.0,400.0,,1.48,Vendor A
+2024,8,Release work,Vendor A,Automation,Execution,3.0,700.0,700.0,,1.48,Vendor A
+2024,8,Release work,Vendor A,Automation,Execution,2.0,195.0,195.0,,1.48,Vendor A
+2024,8,Out of scope,Performance testing,Non-functional,Execution,14.0,4.0,4.0,2.0,1.48,Vendor A
+2024,8,Out of scope,Performance testing,Non-functional,Maintenance,2.0,2.0,2.0,,,
+2024,8,Out of scope,Performance testing,Non-functional,Design,7.0,1.0,1.0,,,
+2024,7,Release work,Vendor A,Regression,Execution,4.5,90.0,90.0,,1.48,Vendor A
+2024,7,Release work,Vendor A,Functional,Execution,8.35,340.0,167.0,6.0,1.48,Vendor A
+2024,7,Release work,Vendor B,Functional,Execution,52.0,1080.0,1080.0,64.0,CI 10,Vendor B
+2024,7,Out of scope,Performance testing,Non-functional,Execution,8.0,4.0,4.0,,,
+2024,7,Out of scope,Performance testing,Non-functional,Execution,10.0,5.0,5.0,,,
+2024,7,Out of scope,Performance testing,Non-functional,Execution,2.0,22.0,22.0,,,
+2024,7,Other,General,Regression,Execution,0.5,10.0,10.0,3.0,,
+2024,7,Release work,Vendor A,Regression,Execution,3.0,595.0,595.0,,1.48,Vendor A
+2024,7,Out of scope,Performance testing,Non-functional,Execution,3.0,4.0,4.0,,1.48,Vendor A
+2024,7,Out of scope,Not test work,Automation,Execution,3.0,10.0,10.0,,,
+2024,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,10.0,,,
+2024,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,10.0,,,
+2024,7,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,20.0,4.0,,
+2024,7,Other,Sales audit system,Regression,Execution,5.0,100.0,100.0,,,
+2024,7,Other,Test support,Regression,Execution,3.0,40.0,40.0,,,
+2024,7,Other,Test support,Regression,Execution,3.0,60.0,60.0,,,
+2024,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2024,6,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,4.0,,,
+2024,6,Release work,Vendor C,Non-functional,Execution,11.0,3.0,3.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,6,Release work,Vendor B,Functional,Design,6.0,120.0,120.0,,CI 10,Vendor B
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,30.0,30.0,1.0,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,1.0,,
+2024,6,Release work,Vendor C,Regression,Execution,4.0,47.0,47.0,1.0,,
+2024,6,Release work,Vendor C,Regression,Execution,2.0,35.0,35.0,1.0,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,8.0,8.0,,,
+2024,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2024,6,Release work,Vendor B,Regression,Execution,3.0,60.0,60.0,,CI 10,Vendor B
+2024,6,Other,Sales audit system,Regression,Execution,4.0,80.0,80.0,,,
+2024,6,Out of scope,Automation upkeep,Automation,Execution,2.0,30.0,30.0,,1.47,Vendor A
+2024,6,Release work,Vendor A,Functional,Design,16.0,350.0,350.0,,1.48,Vendor A
+2024,6,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,4.0,,,
+2024,6,Out of scope,Automation upkeep,Non-functional,Execution,6.0,4.0,4.0,,,
+2024,6,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,1.0,9.0,,
+2024,6,Other,Ad hoc and exploratory,Regression,Execution,0.5,10.0,10.0,2.0,,
+2024,6,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,10.0,11.0,,
+2024,6,Other,General,Regression,Execution,,10.0,,,,
+2024,5,Out of scope,Performance testing,Non-functional,Execution,2.0,4.0,4.0,0.0,1.47,Vendor A
+2024,5,Release work,Vendor C,Non-functional,Execution,17.0,3.0,3.0,0.0,,
+2024,5,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,4.0,0.0,,
+2024,5,Release work,Vendor C,Regression,Execution,5.0,74.0,74.0,2.0,,
+2024,5,Release work,Vendor A,Functional,Execution,3.0,400.0,60.0,1.0,1.47,Vendor A
+2024,5,Release work,Vendor A,Regression,Execution,3.0,765.0,60.0,2.0,1.47,Vendor A
+2024,5,Release work,Vendor A,Functional,Documentation,2.0,,,,1.47,Vendor A
+2024,5,Release work,Vendor C,Regression,Execution,2.0,80.0,80.0,4.0,,
+2024,5,Release work,Vendor A,Regression,Design,1.0,40.0,40.0,,1.48,Vendor A
+2024,5,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,2.0,1169.0,40.0,2.0,,
+2024,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,5,Release work,Vendor B,Functional,Design,4.0,80.0,80.0,,CI 10,Vendor B
+2024,5,Out of scope,Automation upkeep,Automation,Design,10.0,30.0,80.0,,1.47,Vendor A
+2024,5,Other,Sales audit system,Regression,Execution,5.0,50.0,50.0,,,
+2024,5,Other,Test support,Regression,Execution,2.0,40.0,30.0,,,
+2024,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,5,Release work,Vendor C,Regression,Execution,1.5,30.0,30.0,7.0,,
+2024,4,Out of scope,Performance testing,Non-functional,Execution,13.0,4.0,4.0,0.0,1.47,Vendor A
+2024,4,Out of scope,Performance testing,Non-functional,Execution,5.0,3.0,3.0,0.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,0.0,,
+2024,4,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Functional,Execution,1.0,30.0,30.0,0.0,,
+2024,4,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,10.0,1174.0,170.0,3.0,,
+2024,4,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,1.0,30.0,30.0,0.0,,
+2024,4,Release work,Vendor A,Automation,Execution,2.5,428.0,428.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Automation,Execution,1.0,195.0,195.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Automation,Execution,1.0,174.0,174.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Automation,Execution,2.5,428.0,428.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Automation,Execution,1.0,195.0,195.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Automation,Execution,2.0,400.0,400.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Regression,Execution,1.0,120.0,20.0,0.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Functional,Execution,15.0,350.0,300.0,10.0,1.47,Vendor A
+2024,4,Release work,Vendor A,Regression,Execution,26.5,625.0,525.0,12.0,1.47,Vendor A
+2024,4,Release work,Vendor B,Regression,Execution,4.0,120.0,120.0,0.0,CI 10,Vendor B
+2024,4,Release work,Vendor C,Regression,Execution,1.0,20.0,20.0,1.0,,
+2024,4,Release work,Vendor C,Regression,Execution,2.0,45.0,45.0,11.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,4,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,25.0,25.0,1.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,80.0,80.0,0.0,,
+2024,4,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,25.0,25.0,0.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,3.0,,
+2024,4,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Design,1.0,10.0,10.0,0.0,,
+2024,4,Other,Ad hoc and exploratory,Functional,Execution,1.0,10.0,10.0,9.0,,
+2024,3,Release work,Vendor C,Non-functional,Execution,4.0,3.0,3.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,0.0,,
+2024,3,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,12.0,12.0,0.0,,
+2024,3,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,3,Other,Other system 1,Regression,Execution,4.0,80.0,80.0,0.0,,
+2024,3,Release work,Vendor C,Regression,Execution,1.5,30.0,30.0,3.0,,
+2024,3,Release work,Vendor A,Functional,Design,10.0,91.0,200.0,0.0,1.47,Vendor A
+2024,3,Release work,Vendor A,Functional,Execution,4.5,91.0,91.0,1.0,1.47,Vendor A
+2024,3,Release work,Vendor C,Regression,Execution,2.0,40.0,40.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,0.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,15.0,4.0,4.0,0.0,,
+2024,3,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,16.0,1073.0,526.0,13.0,,
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,20.0,4.0,0.0,,
+2024,3,Release work,Vendor B,Regression,Execution,1.0,40.0,40.0,0.0,CI 10,Vendor B
+2024,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,23.0,23.0,0.0,,
+2024,3,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,20.0,13.0,,
+2024,3,Other,Downtime,Regression,Execution,0.0,,0.0,0.0,,
+2024,2,Out of scope,Performance testing,Non-functional,Execution,21.0,3.0,3.0,,,
+2024,2,Release work,Vendor C,Regression,Execution,1.0,1.0,25.0,1.0,,
+2024,2,Out of scope,Automation upkeep,Automation,Design,15.0,40.0,40.0,,,
+2024,2,Out of scope,Automation upkeep,Automation,Execution,5.0,90.0,40.0,,,
+2024,2,Out of scope,Not test work,Regression,Maintenance,12.0,584.0,584.0,,,
+2024,2,Other,Other system 1,Regression,Execution,5.0,100.0,100.0,,,
+2024,2,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,20.0,,,
+2024,2,Release work,Vendor C,Regression,Execution,2.0,25.0,50.0,1.0,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,40.0,40.0,2.0,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,3.0,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,1.0,,
+2024,2,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,1.0,,
+2024,2,Release work,Vendor C,Regression,Execution,2.0,70.0,70.0,2.0,,
+2024,2,Release work,Vendor C,Functional,Execution,1.0,5.0,5.0,,,
+2024,2,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,10.0,1059.0,341.0,8.0,,
+2024,2,Other,Ad hoc and exploratory,Regression,Execution,1.0,5.0,5.0,6.0,,
+2024,2,Other,Ad hoc and exploratory,Regression,Execution,0.5,5.0,5.0,2.0,,
+2024,2,Other,Test support,Regression,Execution,1.0,20.0,20.0,,,
+2024,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.5,20.0,20.0,7.0,,
+2024,1,Release work,Vendor C,Non-functional,Execution,7.0,3.0,3.0,,,
+2024,1,Other,General,Functional,Execution,1.0,10.0,10.0,1.0,,
+2024,1,Release work,Vendor B,Regression,Execution,0.5,20.0,,,CI 10,Vendor B
+2024,1,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,10.0,154.0,154.0,,,
+2024,1,Other,Other system 1,Non-functional,Execution,13.0,4.0,4.0,,,
+2024,1,Out of scope,Automation upkeep,Automation,Execution,3.0,40.0,40.0,,,
+2024,1,Out of scope,Automation upkeep,Automation,Execution,1.0,15.0,15.0,,,
+2024,1,Other,Other system 1,Regression,Execution,10.0,70.0,30.0,,,
+2024,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2024,1,Release work,Vendor A,Regression,Execution,10.0,160.0,160.0,4.0,,
+2024,1,Release work,Vendor C,Regression,Execution,2.0,100.0,100.0,,,
+2024,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,100.0,100.0,2.0,,
+2024,1,Other,Ad hoc and exploratory,Regression,Execution,0.1,10.0,10.0,4.0,,
+2025,12,Release work,Vendor A,Functional,Execution,1.5,60.0,60.0,,1.52,Vendor A
+2025,12,Out of scope,Performance testing,Non-functional,Design,20.5,,,,,
+2025,12,Release work,Vendor A,Functional,Design,18.0,460.0,,,1.53,Vendor A
+2025,12,Release work,Vendor A,Functional,Execution,18.0,1525.0,,,1.53,Vendor A
+2025,12,Release work,Vendor A,Regression,Execution,4.0,80.0,,,1.52,Vendor A
+2025,12,Out of scope,Automation upkeep,Automation,Design,2.0,30.0,,,,
+2025,12,Out of scope,Automation upkeep,Automation,Design,3.0,20.0,,,1.52,Vendor A
+2025,12,Other,Store inventory system,Regression,Execution,2.0,60.0,60.0,,,
+2025,12,Other,Sales audit system,Regression,Execution,2.0,60.0,60.0,,,
+2025,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.5,25.0,25.0,,,
+2025,12,Release work,Vendor C,Regression,Execution,2.0,50.0,50.0,,,
+2025,12,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,50.0,50.0,,,
+2025,12,Out of scope,Not test work,Functional,Execution,,,,5.0,,
+2025,12,Out of scope,Not test work,Regression,Execution,,,,4.0,,
+2025,11,Release work,Vendor A,Functional,Execution,10.0,573.0,136.0,,1.52,Vendor A
+2025,11,Release work,Vendor A,Regression,Execution,19.0,1425.0,467.0,,1.52,Vendor A
+2025,11,Out of scope,Performance testing,Non-functional,Design,10.0,,,,,
+2025,11,Out of scope,Performance testing,Non-functional,Execution,10.0,2.0,2.0,,,
+2025,11,Release work,Vendor A,Functional,Documentation,36.0,4.0,,,1.52,Vendor A
+2025,11,Release work,Vendor C,Regression,Execution,1.0,100.0,100.0,,,
+2025,11,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,100.0,100.0,,,
+2025,11,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,1.0,25.0,25.0,,,
+2025,11,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Execution,1.0,25.0,25.0,,,
+2025,11,Other,Test support,Regression,Execution,1.0,30.0,30.0,,,
+2025,11,Release work,Vendor A,Functional,Design,2.0,,,,1.53,Vendor A
+2025,11,Out of scope,Automation upkeep,Automation,Design,2.0,40.0,40.0,,1.52,Vendor A
+2025,11,Other,Test support,Regression,Execution,1.0,20.0,20.0,,,
+2025,11,Other,Store inventory system,Regression,Execution,2.0,100.0,100.0,,,
+2025,11,Other,Sales audit system,Regression,Execution,2.0,100.0,100.0,,,
+2025,11,Other,Other system 2,Regression,Execution,1.0,40.0,40.0,9.0,,
+2025,11,Out of scope,Not test work,Not given,Execution,0.0,,,,,
+2025,10,Release work,Vendor A,Functional,Execution,27.0,573.0,437.0,,1.52,Vendor A
+2025,10,Release work,Vendor A,Regression,Execution,36.5,1425.0,910.0,,1.52,Vendor A
+2025,10,Out of scope,Performance testing,Non-functional,Execution,10.0,4.0,4.0,,1.52,Vendor A
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,4.0,8.0,8.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,2.0,4.0,4.0,,,
+2025,10,Out of scope,Performance testing,Non-functional,Execution,5.0,,,,,
+2025,10,Release work,Vendor A,Automation,Execution,5.0,740.0,740.0,,1.52,Vendor A
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,7.0,7.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,7.0,7.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,10,Release work,Vendor B,Regression,Execution,8.0,257.0,257.0,,CI 11.4,Vendor B
+2025,10,Other,Sales audit system,Regression,Execution,7.0,100.0,70.0,,,
+2025,10,Other,Sales audit system,Regression,Execution,3.0,50.0,60.0,,,
+2025,10,Other,Test support,Regression,Execution,1.0,20.0,20.0,,,
+2025,10,Release work,Vendor C,Regression,Execution,4.0,80.0,80.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,3.0,60.0,60.0,2.0,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,10,Other,Other system 1,Regression,Execution,3.0,50.0,50.0,,,
+2025,10,Release work,Vendor A,Regression,Execution,0.5,20.0,20.0,,1.52,Vendor A
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.2,5.0,5.0,,,
+2025,10,Out of scope,Not test work,Functional,Execution,0.0,,,29.0,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,5.0,8.0,8.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,9.0,4.0,4.0,1.0,,
+2025,9,Release and upgrade work,Shared: Vendor C + upgrade,Non-functional,Execution,0.5,2.0,2.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,0.5,4.0,4.0,,,
+2025,9,Out of scope,Performance testing,Non-functional,Execution,1.0,,,,,
+2025,9,Out of scope,Performance testing,Non-functional,Execution,5.0,4.0,4.0,1.0,1.52,Vendor A
+2025,9,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,15.0,15.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,9,Release work,Vendor A,Automation,Execution,4.0,634.0,634.0,,1.52,Vendor A
+2025,9,Release work,Vendor A,Automation,Execution,7.0,900.0,900.0,,1.52,Vendor A
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Execution,1.0,20.0,20.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Execution,4.0,500.0,500.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,20.0,,,
+2025,9,Release work,Vendor A,Regression,Execution,0.5,13.0,13.0,,1.52,Vendor A
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,1.0,,
+2025,9,Other,Other system 1,Regression,Execution,1.5,30.0,30.0,0.0,,
+2025,9,Other,Sales audit system,Regression,Execution,3.0,60.0,60.0,,,
+2025,9,Other,Sales audit system,Regression,Execution,3.0,60.0,60.0,,,
+2025,9,Other,Other system 1,Regression,Execution,1.0,20.0,20.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,2.0,,
+2025,9,Release work,Vendor C,Regression,Execution,2.0,40.0,40.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,40.0,40.0,,,
+2025,9,Out of scope,Not test work,Regression,Not given,0.0,,,28.0,,
+2025,9,Out of scope,Automation upkeep,Regression,Design,5.0,110.0,110.0,,,
+2025,9,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,7.0,7.0,1.0,,
+2025,9,Release work,Vendor A,Functional,Execution,5.5,480.0,135.0,,1.52,Vendor A
+2025,9,Release work,Vendor A,Regression,Execution,24.0,1050.0,390.0,,1.52,Vendor A
+2025,8,Out of scope,Performance testing,Non-functional,Execution,10.0,22.0,22.0,,,
+2025,8,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,,,,
+2025,8,Out of scope,Performance testing,Non-functional,Execution,1.0,1.0,,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,6.0,22.0,22.0,2.0,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2025,8,Release work,Vendor A,Functional,Design,8.0,150.0,,,1.52,Vendor A
+2025,8,Release work,Vendor A,Regression,Execution,5.0,90.0,90.0,,1.52,Vendor A
+2025,8,Release work,Vendor A,Regression,Execution,7.0,140.0,140.0,9.0,1.52,Vendor A
+2025,8,Out of scope,Automation upkeep,Automation,Design,5.0,20.0,20.0,,1.51,Vendor A
+2025,8,Out of scope,Automation upkeep,Automation,Design,7.0,110.0,110.0,,,
+2025,8,Release work,Vendor B,Regression,Execution,11.0,138.0,138.0,3.0,CI 11,Vendor B
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,2.0,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,8,Release work,Vendor C,Regression,Execution,0.25,20.0,20.0,,,
+2025,8,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,20.0,20.0,,,
+2025,8,Release work,Vendor E,Regression,Execution,1.0,20.0,20.0,,,
+2025,8,Other,Sales audit system,Regression,Execution,3.0,60.0,60.0,,,
+2025,8,Other,Sales audit system,Regression,Execution,3.0,60.0,60.0,,,
+2025,8,Other,Test support,Regression,Execution,1.0,20.0,20.0,,,
+2025,8,Other,Other system 1,Regression,Execution,3.5,40.0,40.0,,,
+2025,8,Other,Test support,Regression,Execution,5.75,100.0,100.0,,,
+2025,8,Other,Other system 1,Regression,Execution,2.0,40.0,40.0,,,
+2025,8,Other,Ad hoc and exploratory,Regression,Execution,1.0,20.0,20.0,2.0,,
+2025,7,Out of scope,Performance testing,Non-functional,Execution,4.0,2.0,2.0,,,
+2025,7,Out of scope,Performance testing,Non-functional,Execution,7.0,4.0,4.0,,1.51,Vendor A
+2025,7,Out of scope,Performance testing,Non-functional,Execution,10.0,22.0,22.0,1.0,,
+2025,7,Out of scope,Performance testing,Non-functional,Execution,2.0,4.0,4.0,,,
+2025,7,Release work,Vendor A,Functional,Execution,3.0,250.0,50.0,3.0,1.51,Vendor A
+2025,7,Release work,Vendor A,Regression,Execution,33.0,1045.0,965.0,1.0,1.51,Vendor A
+2025,7,Release work,Vendor B,Functional,Execution,5.0,1142.0,150.0,5.0,CI 11.2,Vendor B
+2025,7,Other,Sales audit system,Regression,Execution,7.0,130.0,150.0,,,
+2025,7,Other,Store inventory system,Regression,Execution,0.2,80.0,2.0,,,
+2025,7,Other,General,Functional,Execution,1.0,30.0,30.0,4.0,,
+2025,7,Other,General,Functional,Design,3.0,30.0,30.0,,,
+2025,7,Other,General,Regression,Execution,2.0,40.0,40.0,,,
+2025,7,Release work,Vendor A,Regression,Execution,1.0,74.0,30.0,,1.50,Vendor A
+2025,7,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,25.0,25.0,,,
+2025,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,15.0,15.0,,,
+2025,7,Release work,Vendor B,Regression,Execution,6.2,275.0,162.0,,CI 11.3,Vendor B
+2025,7,Release work,Vendor A,Automation,Execution,6.0,1845.0,1845.0,,1.51,Vendor A
+2025,7,Release work,Vendor A,Automation,Execution,2.0,945.0,945.0,,1.51,Vendor A
+2025,7,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,20.0,20.0,,,
+2025,7,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,,,
+2025,7,Other,Other system 1,Regression,Execution,0.5,4.0,4.0,,,
+2025,6,Out of scope,Performance testing,Non-functional,Execution,15.5,22.0,22.0,6.0,,
+2025,6,Out of scope,Performance testing,Non-functional,Execution,4.0,4.0,4.0,,1.51,Vendor A
+2025,6,Release work,Vendor A,Functional,Design,8.0,130.0,,,1.51,Vendor A
+2025,6,Release work,Vendor A,Functional,Execution,10.0,250.0,200.0,3.0,1.51,Vendor A
+2025,6,Release work,Vendor A,Regression,Execution,4.0,1045.0,80.0,1.0,1.51,Vendor A
+2025,6,Release work,Vendor A,Automation,Execution,6.0,1366.0,1366.0,,1.51,Vendor A
+2025,6,Out of scope,Automation upkeep,Automation,Execution,2.0,25.0,25.0,,,
+2025,6,Other,Other system 2,Regression,Execution,1.0,20.0,20.0,,,
+2025,6,Other,General,Regression,Execution,1.0,5.0,20.0,,,
+2025,6,Other,Sales audit system,Regression,Execution,7.0,130.0,150.0,,,
+2025,6,Release work,Vendor B,Regression,Execution,40.0,1274.0,750.0,14.0,CI 11.1,Vendor B
+2025,6,Release work,Vendor D,Functional,Execution,2.0,30.0,30.0,5.0,,
+2025,6,Release work,Vendor D,Regression,Execution,3.0,60.0,60.0,,,
+2025,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,4.5,87.0,87.0,3.0,,
+2025,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,4.0,76.0,76.0,4.0,,
+2025,6,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,6,Release work,Vendor A,Functional,Execution,1.0,20.0,20.0,1.0,1.50,Vendor A
+2025,6,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,15.0,15.0,,,
+2025,6,Release work,Vendor A,Regression,Execution,2.0,80.0,80.0,1.0,1.50,Vendor A
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Execution,4.0,500.0,500.0,2.0,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,30.0,30.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,6.0,182.0,176.0,1.0,,
+2025,5,Out of scope,Performance testing,Non-functional,Execution,15.5,22.0,22.0,1.0,,
+2025,5,Out of scope,Performance testing,Non-functional,Execution,0.5,4.0,4.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,1.5,4.0,4.0,,,
+2025,5,Out of scope,Performance testing,Non-functional,Execution,0.5,,,1.0,,
+2025,5,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,4.0,1.0,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,15.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2025,5,Release work,Vendor B,Functional,Execution,1.0,20.0,20.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,35.0,35.0,,,
+2025,5,Release work,Vendor B,Regression,Execution,1.0,20.0,20.0,,,
+2025,5,Release work,Vendor C,Regression,Execution,0.5,35.0,10.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2025,5,Release work,Vendor B,Regression,Execution,10.0,1274.0,170.0,2.0,CI 11.1,Vendor B
+2025,5,Release work,Vendor D,Functional,Execution,4.0,60.0,60.0,3.0,,
+2025,5,Release work,Vendor D,Regression,Execution,4.0,120.0,120.0,,,
+2025,5,Release work,Vendor A,Regression,Execution,2.0,70.0,70.0,,1.50,Vendor A
+2025,5,Release work,Vendor A,Automation,Execution,2.0,350.0,350.0,,1.50,Vendor A
+2025,5,Release work,Shared: Vendor A + Vendor D,Functional,Execution,8.0,240.0,150.0,4.0,1.50,Vendor A
+2025,5,Release work,Shared: Vendor A + Vendor D,Regression,Execution,2.0,60.0,40.0,,1.50,Vendor A
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,5,Release work,Vendor A,Regression,Execution,2.0,46.0,46.0,,1.48,Vendor A
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2025,5,Other,Sales audit system,Regression,Execution,6.0,130.0,130.0,,,
+2025,5,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.0,30.0,30.0,6.0,,
+2025,5,Release work,Vendor B,Regression,Design,8.0,180.0,180.0,,CI 11,Vendor B
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,6.0,4.0,4.0,1.0,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,3.0,8.0,8.0,,,
+2025,4,Out of scope,Automation upkeep,Non-functional,Design,5.0,1.0,1.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,2.0,4.0,4.0,,,
+2025,4,Out of scope,Performance testing,Non-functional,Execution,1.0,4.0,4.0,,,
+2025,4,Other,Other system 1,Regression,Execution,2.75,50.0,50.0,,,
+2025,4,Release work,Vendor A,Automation,Design,4.0,20.0,20.0,,1.50,Vendor A
+2025,4,Release and upgrade work,Shared: Vendor A + Vendor B + upgrade,Regression,Execution,8.0,90.0,115.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,10.0,240.0,227.0,3.0,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,15.0,20.0,1.0,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,4.0,80.0,80.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,,,
+2025,4,Release work,Vendor C,Regression,Execution,0.8,30.0,20.0,2.0,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,20.0,20.0,1.0,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,5.0,89.0,79.0,,,
+2025,4,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,8.0,200.0,200.0,,,
+2025,4,Other,Sales audit system,Regression,Execution,6.0,120.0,120.0,,,
+2025,4,Release work,Vendor A,Functional,Execution,6.0,110.0,110.0,4.0,1.50,Vendor A
+2025,4,Release work,Vendor A,Regression,Execution,7.0,130.0,130.0,1.0,1.50,Vendor A
+2025,4,Release work,Shared: Vendor A + Vendor D,Functional,Execution,5.0,240.0,90.0,6.0,1.50,Vendor A
+2025,4,Release work,Shared: Vendor A + Vendor D,Regression,Execution,1.0,60.0,20.0,1.0,1.50,Vendor A
+2025,4,Release work,Shared: Vendor A + Vendor D,Functional,Execution,1.0,20.0,13.0,1.0,1.50,Vendor A
+2025,4,Release work,Shared: Vendor A + Vendor D,Regression,Execution,2.5,65.0,30.0,0.0,1.50,Vendor A
+2025,3,Release work,Vendor B,Functional,Execution,8.0,1116.0,99.0,3.0,CI 11,Vendor B
+2025,3,Release work,Vendor B,Regression,Execution,0.0,,,,CI 11,Vendor B
+2025,3,Release work,Vendor A,Non-functional,Execution,7.25,4.0,4.0,,1.50,Vendor A
+2025,3,Out of scope,Performance testing,Non-functional,Execution,0.25,,,,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,8.5,4.0,4.0,1.0,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,3.0,,8.0,,,
+2025,3,Release work,Vendor C,Regression,Execution,0.75,15.0,15.0,,,
+2025,3,Release work,Vendor B,Functional,Execution,4.0,110.0,88.0,4.0,,
+2025,3,Other,Sales audit system,Regression,Execution,0.0,100.0,,,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,7.0,986.0,124.0,,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,16.0,16.0,,,
+2025,3,Release work,Shared: Vendor A + Vendor D,Functional,Execution,18.0,354.0,354.0,9.0,1.50,Vendor A
+2025,3,Release work,Shared: Vendor A + Vendor D,Regression,Execution,29.0,585.0,585.0,,1.50,Vendor A
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,18.0,18.0,,,
+2025,3,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.5,10.0,10.0,,,
+2025,3,Other,Ad hoc and exploratory,Regression,Execution,3.0,50.0,50.0,8.0,,
+2025,3,Release work,Vendor A,Automation,Execution,4.0,709.0,709.0,0.0,1.50,Vendor A
+2025,2,Release work,Vendor B,Functional,Execution,14.3,386.0,286.0,21.0,CI 11,Vendor B
+2025,2,Release work,Vendor B,Regression,Execution,18.0,700.0,360.0,6.0,CI 11,Vendor B
+2025,2,Release work,Vendor A,Functional,Execution,4.5,90.0,90.0,0.0,,
+2025,2,Other,Other system 1,Functional,Execution,5.0,95.0,95.0,0.0,,
+2025,2,Other,Other system 1,Automation,Design,5.0,155.0,155.0,0.0,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.75,15.0,15.0,,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Automation,Execution,1.0,50.0,50.0,,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,1.0,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,2,Other,Sales audit system,Regression,Execution,6.0,120.0,120.0,,,
+2025,2,Release work,Vendor E,Regression,Execution,5.0,20.0,20.0,,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,2.5,50.0,50.0,9.0,,
+2025,2,Release work,Vendor A,Non-functional,Execution,10.0,4.0,4.0,,1.50,Vendor A
+2025,2,Out of scope,Performance testing,Non-functional,Execution,0.25,,,,,
+2025,2,Release work,Vendor A,Non-functional,Execution,5.0,4.0,4.0,2.0,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Non-functional,Execution,3.25,,8.0,,,
+2025,2,Out of scope,Performance testing,Non-functional,Design,1.5,3.0,3.0,,,
+2025,2,Upgrade and infrastructure,Upgrade and infrastructure,Functional,Design,2.0,40.0,40.0,,,
+2025,1,Release work,Shared: Vendor A + Vendor D,Functional,Execution,11.0,588.0,130.0,4.0,1.50,Vendor A
+2025,1,Release work,Shared: Vendor A + Vendor D,Regression,Execution,11.0,1031.0,239.0,0.0,1.50,Vendor A
+2025,1,Other,General,Regression,Execution,0.0,30.0,,,,
+2025,1,Other,General,Regression,Execution,2.0,80.0,15.0,2.0,,
+2025,1,Other,Sales audit system,Regression,Execution,3.0,80.0,80.0,0.0,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,25.0,25.0,2.0,,
+2025,1,Release work,Shared: Vendor A + Vendor D,Functional,Execution,3.0,40.0,40.0,1.0,1.49,Vendor A
+2025,1,Release work,Shared: Vendor A + Vendor D,Regression,Execution,3.0,70.0,70.0,1.0,1.49,Vendor A
+2025,1,Release work,Vendor B,Functional,Design,30.0,500.0,500.0,,CI 11,Vendor B
+2025,1,Release work,Vendor E,Regression,Execution,5.0,20.0,20.0,,,
+2025,1,Release work,Vendor B,Regression,Execution,10.0,20.0,20.0,,CI 11,Vendor B
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2025,1,Release and upgrade work,Shared: Vendor C + upgrade,Regression,Execution,1.0,20.0,18.0,1.0,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,10.0,10.0,,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,10.0,10.0,,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,10.0,10.0,,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,30.0,30.0,9.0,,
+2025,1,Other,Other system 1,Functional,Execution,5.0,100.0,92.0,6.0,,
+2025,1,Other,Other system 1,Automation,Execution,4.0,250.0,250.0,,,
+2025,1,Release work,Vendor A,Functional,Design,1.0,25.0,,,,
+2025,1,Release work,Vendor A,Functional,Execution,1.0,100.0,,,,
+2025,1,Release work,Vendor A,Non-functional,Execution,21.0,4.0,4.0,10.0,1.50,Vendor A
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,10.0,10.0,,,
+2025,1,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,0.25,10.0,10.0,,,
+2025,1,Release work,Vendor C,Regression,Execution,0.5,30.0,30.0,,,
+2026,10,Out of scope,Performance testing,Non-functional,Design,3.0,,,,,
+2026,10,Out of scope,Performance testing,Non-functional,Execution,19.0,4.0,4.0,3.0,1.56,Vendor A
+2026,10,Release work,Vendor A,Functional,Execution,61.0,1795.0,1220.0,,1.56,Vendor A
+2026,10,Release work,Vendor A,Regression,Execution,2.0,100.0,100.0,0.0,1.56,Vendor A
+2026,10,Release work,Vendor B,Regression,Execution,8.0,265.0,190.0,,,
+2026,10,Other,Other system 1,Regression,Execution,2.0,40.0,40.0,,,
+2026,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,10,Upgrade and infrastructure,Upgrade and infrastructure,Regression,Execution,1.0,20.0,20.0,,,
+2026,10,Release work,Vendor E,Regression,Execution,0.5,20.0,20.0,,,
+2026,10,Other,Other system 2,Regression,Execution,1.5,30.0,30.0,,,

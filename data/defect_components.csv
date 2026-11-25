@@ -1,0 +1,4877 @@
+defect,component,component_role
+D-0001,Reporting,Main
+D-0002,Gift cards,Main
+D-0002,Payments and PED,Other
+D-0002,Receipts and printing,Other
+D-0003,"Promotions, pricing and loyalty",Main
+D-0003,Receipts and printing,Other
+D-0004,Scan and go (handsets),Main
+D-0005,Unknown,Main
+D-0006,Payments and PED,Main
+D-0006,Reporting,Other
+D-0007,Till application (POS core),Main
+D-0008,Payments and PED,Main
+D-0009,"Promotions, pricing and loyalty",Main
+D-0010,Unknown,Main
+D-0011,Payments and PED,Main
+D-0011,Reporting,Other
+D-0012,Payments and PED,Main
+D-0012,Environment and infrastructure,Other
+D-0013,Payments and PED,Main
+D-0014,Payments and PED,Main
+D-0014,"Promotions, pricing and loyalty",Other
+D-0015,Unknown,Main
+D-0016,Payments and PED,Main
+D-0017,Unknown,Main
+D-0018,"Promotions, pricing and loyalty",Main
+D-0018,Receipts and printing,Other
+D-0019,Receipts and printing,Main
+D-0020,Payments and PED,Main
+D-0020,Receipts and printing,Other
+D-0021,"Promotions, pricing and loyalty",Main
+D-0021,Receipts and printing,Other
+D-0022,Payments and PED,Main
+D-0023,Receipts and printing,Main
+D-0024,Receipts and printing,Main
+D-0025,Receipts and printing,Main
+D-0026,Receipts and printing,Main
+D-0027,Receipts and printing,Main
+D-0028,Payments and PED,Main
+D-0028,Receipts and printing,Other
+D-0029,Payments and PED,Main
+D-0029,"Promotions, pricing and loyalty",Other
+D-0030,"Promotions, pricing and loyalty",Main
+D-0031,Payments and PED,Main
+D-0032,Payments and PED,Main
+D-0033,"Promotions, pricing and loyalty",Main
+D-0033,Receipts and printing,Other
+D-0034,"Promotions, pricing and loyalty",Main
+D-0034,Receipts and printing,Other
+D-0035,Receipts and printing,Main
+D-0035,Reporting,Other
+D-0036,"Promotions, pricing and loyalty",Main
+D-0037,Till application (POS core),Main
+D-0037,Receipts and printing,Other
+D-0038,"Promotions, pricing and loyalty",Main
+D-0038,Receipts and printing,Other
+D-0039,Receipts and printing,Main
+D-0040,Receipts and printing,Main
+D-0041,Payments and PED,Main
+D-0041,"Promotions, pricing and loyalty",Other
+D-0042,Reporting,Main
+D-0043,Till application (POS core),Main
+D-0044,Till application (POS core),Main
+D-0044,Receipts and printing,Other
+D-0045,Till application (POS core),Main
+D-0046,Unknown,Main
+D-0047,Reporting,Main
+D-0048,Till application (POS core),Main
+D-0049,"Promotions, pricing and loyalty",Main
+D-0050,"Promotions, pricing and loyalty",Main
+D-0051,Till application (POS core),Main
+D-0052,"Promotions, pricing and loyalty",Main
+D-0053,Reporting,Main
+D-0053,Till application (POS core),Other
+D-0054,Scan and go (handsets),Main
+D-0055,Scan and go (handsets),Main
+D-0056,Unknown,Main
+D-0057,Unknown,Main
+D-0058,Unknown,Main
+D-0059,Reporting,Main
+D-0060,Payments and PED,Main
+D-0061,"Promotions, pricing and loyalty",Main
+D-0062,Payments and PED,Main
+D-0062,"Promotions, pricing and loyalty",Other
+D-0063,Receipts and printing,Main
+D-0064,Receipts and printing,Main
+D-0065,Receipts and printing,Main
+D-0066,Reporting,Main
+D-0067,Reporting,Main
+D-0068,Payments and PED,Main
+D-0069,Receipts and printing,Main
+D-0070,Reporting,Main
+D-0071,Unknown,Main
+D-0072,"Promotions, pricing and loyalty",Main
+D-0072,Reporting,Other
+D-0073,Till application (POS core),Main
+D-0074,"Promotions, pricing and loyalty",Main
+D-0074,Receipts and printing,Other
+D-0075,Environment and infrastructure,Main
+D-0076,Till application (POS core),Main
+D-0077,Receipts and printing,Main
+D-0078,"Promotions, pricing and loyalty",Main
+D-0079,"Promotions, pricing and loyalty",Main
+D-0079,Receipts and printing,Other
+D-0080,"Promotions, pricing and loyalty",Main
+D-0080,Receipts and printing,Other
+D-0081,"Promotions, pricing and loyalty",Main
+D-0081,Receipts and printing,Other
+D-0082,"Promotions, pricing and loyalty",Main
+D-0082,Receipts and printing,Other
+D-0083,Payments and PED,Main
+D-0083,"Promotions, pricing and loyalty",Other
+D-0083,Receipts and printing,Other
+D-0084,"Promotions, pricing and loyalty",Main
+D-0084,Receipts and printing,Other
+D-0085,"Promotions, pricing and loyalty",Main
+D-0085,Receipts and printing,Other
+D-0086,"Promotions, pricing and loyalty",Main
+D-0087,Environment and infrastructure,Main
+D-0088,Environment and infrastructure,Main
+D-0089,Payments and PED,Main
+D-0089,"Promotions, pricing and loyalty",Other
+D-0090,Payments and PED,Main
+D-0090,"Promotions, pricing and loyalty",Other
+D-0090,Receipts and printing,Other
+D-0091,"Promotions, pricing and loyalty",Main
+D-0091,Reporting,Other
+D-0092,Receipts and printing,Main
+D-0093,Receipts and printing,Main
+D-0094,Receipts and printing,Main
+D-0095,Receipts and printing,Main
+D-0096,Till application (POS core),Main
+D-0097,Payments and PED,Main
+D-0097,Receipts and printing,Other
+D-0098,Receipts and printing,Main
+D-0098,Environment and infrastructure,Other
+D-0099,Unknown,Main
+D-0100,Receipts and printing,Main
+D-0101,Till application (POS core),Main
+D-0101,Reporting,Other
+D-0102,Unknown,Main
+D-0103,Unknown,Main
+D-0104,Till application (POS core),Main
+D-0105,Reporting,Main
+D-0106,"Promotions, pricing and loyalty",Main
+D-0107,Payments and PED,Main
+D-0108,Till application (POS core),Main
+D-0109,"Promotions, pricing and loyalty",Main
+D-0110,Payments and PED,Main
+D-0110,Receipts and printing,Other
+D-0111,Receipts and printing,Main
+D-0112,Environment and infrastructure,Main
+D-0113,"Promotions, pricing and loyalty",Main
+D-0114,Payments and PED,Main
+D-0114,Receipts and printing,Other
+D-0115,Receipts and printing,Main
+D-0116,Receipts and printing,Main
+D-0117,Environment and infrastructure,Main
+D-0118,"Promotions, pricing and loyalty",Main
+D-0118,Receipts and printing,Other
+D-0119,Integrations and interfaces,Main
+D-0120,Environment and infrastructure,Main
+D-0121,Receipts and printing,Main
+D-0122,"Promotions, pricing and loyalty",Main
+D-0122,Receipts and printing,Other
+D-0123,Environment and infrastructure,Main
+D-0124,Integrations and interfaces,Main
+D-0125,Till application (POS core),Main
+D-0126,Payments and PED,Main
+D-0127,"Promotions, pricing and loyalty",Main
+D-0127,Reporting,Other
+D-0128,Till application (POS core),Main
+D-0129,"Promotions, pricing and loyalty",Main
+D-0130,"Promotions, pricing and loyalty",Main
+D-0131,Environment and infrastructure,Main
+D-0132,Till application (POS core),Main
+D-0133,Till application (POS core),Main
+D-0134,"Promotions, pricing and loyalty",Main
+D-0134,Receipts and printing,Other
+D-0134,Reporting,Other
+D-0135,Out of scope (perf),Main
+D-0136,Till application (POS core),Main
+D-0136,Home delivery service,Other
+D-0137,Self-checkout (SCO),Main
+D-0138,Reporting,Main
+D-0139,Scan and go (handsets),Main
+D-0140,Not a product defect,Main
+D-0141,Till application (POS core),Main
+D-0142,"Promotions, pricing and loyalty",Main
+D-0143,"Promotions, pricing and loyalty",Main
+D-0144,Till application (POS core),Main
+D-0145,Integrations and interfaces,Main
+D-0146,Reporting,Main
+D-0147,Scan and go (handsets),Main
+D-0147,Receipts and printing,Other
+D-0148,Returns and refunds,Main
+D-0149,Reporting,Main
+D-0150,"Promotions, pricing and loyalty",Main
+D-0151,Till application (POS core),Main
+D-0152,Environment and infrastructure,Main
+D-0153,Till application (POS core),Main
+D-0153,Home delivery service,Other
+D-0154,Till application (POS core),Main
+D-0155,Integrations and interfaces,Main
+D-0156,Integrations and interfaces,Main
+D-0157,Till application (POS core),Main
+D-0158,Integrations and interfaces,Main
+D-0159,Payments and PED,Main
+D-0160,Unknown,Main
+D-0161,Till application (POS core),Main
+D-0162,Returns and refunds,Main
+D-0163,Till application (POS core),Main
+D-0164,Not a product defect,Main
+D-0165,Not a product defect,Main
+D-0166,Not a product defect,Main
+D-0167,Not a product defect,Main
+D-0168,Not a product defect,Main
+D-0169,Receipts and printing,Main
+D-0170,Receipts and printing,Main
+D-0171,Receipts and printing,Main
+D-0171,Environment and infrastructure,Other
+D-0172,Unknown,Main
+D-0173,Till application (POS core),Main
+D-0174,Till application (POS core),Main
+D-0175,"Promotions, pricing and loyalty",Main
+D-0176,Returns and refunds,Main
+D-0176,Till application (POS core),Other
+D-0177,Returns and refunds,Main
+D-0177,Payments and PED,Other
+D-0178,Till application (POS core),Main
+D-0179,Till application (POS core),Main
+D-0180,Till application (POS core),Main
+D-0181,Returns and refunds,Main
+D-0182,Returns and refunds,Main
+D-0182,Till application (POS core),Other
+D-0183,Returns and refunds,Main
+D-0183,Till application (POS core),Other
+D-0184,Returns and refunds,Main
+D-0184,Payments and PED,Other
+D-0184,"Promotions, pricing and loyalty",Other
+D-0184,Till application (POS core),Other
+D-0185,Returns and refunds,Main
+D-0185,Payments and PED,Other
+D-0185,Till application (POS core),Other
+D-0186,Returns and refunds,Main
+D-0186,"Promotions, pricing and loyalty",Other
+D-0186,Till application (POS core),Other
+D-0187,Returns and refunds,Main
+D-0187,"Promotions, pricing and loyalty",Other
+D-0187,Till application (POS core),Other
+D-0188,Returns and refunds,Main
+D-0188,Till application (POS core),Other
+D-0189,Returns and refunds,Main
+D-0189,Till application (POS core),Other
+D-0190,Returns and refunds,Main
+D-0190,Till application (POS core),Other
+D-0191,Returns and refunds,Main
+D-0191,Till application (POS core),Other
+D-0192,Returns and refunds,Main
+D-0192,Payments and PED,Other
+D-0192,Till application (POS core),Other
+D-0193,Returns and refunds,Main
+D-0193,Till application (POS core),Other
+D-0194,Till application (POS core),Main
+D-0195,Returns and refunds,Main
+D-0195,Till application (POS core),Other
+D-0196,Returns and refunds,Main
+D-0196,"Promotions, pricing and loyalty",Other
+D-0196,Till application (POS core),Other
+D-0197,Returns and refunds,Main
+D-0197,Reporting,Other
+D-0197,Till application (POS core),Other
+D-0198,Returns and refunds,Main
+D-0198,Payments and PED,Other
+D-0198,"Promotions, pricing and loyalty",Other
+D-0198,Till application (POS core),Other
+D-0199,Returns and refunds,Main
+D-0199,Till application (POS core),Other
+D-0200,Returns and refunds,Main
+D-0200,"Promotions, pricing and loyalty",Other
+D-0200,Till application (POS core),Other
+D-0201,Till application (POS core),Main
+D-0202,"Promotions, pricing and loyalty",Main
+D-0203,Payments and PED,Main
+D-0204,Unknown,Main
+D-0205,Reporting,Main
+D-0206,Returns and refunds,Main
+D-0206,Payments and PED,Other
+D-0206,Till application (POS core),Other
+D-0207,Till application (POS core),Main
+D-0207,Receipts and printing,Other
+D-0208,Payments and PED,Main
+D-0209,Self-checkout (SCO),Main
+D-0210,Not a product defect,Main
+D-0211,Not a product defect,Main
+D-0212,Not a product defect,Main
+D-0213,Self-checkout (SCO),Main
+D-0214,Payments and PED,Main
+D-0214,"Promotions, pricing and loyalty",Other
+D-0214,Self-checkout (SCO),Other
+D-0215,Till application (POS core),Main
+D-0216,Reporting,Main
+D-0217,Hardware and cash devices,Main
+D-0218,Self-checkout (SCO),Main
+D-0219,Self-checkout (SCO),Main
+D-0220,Self-checkout (SCO),Main
+D-0221,Self-checkout (SCO),Main
+D-0222,Self-checkout (SCO),Main
+D-0222,"Promotions, pricing and loyalty",Other
+D-0223,Not a product defect,Main
+D-0224,Self-checkout (SCO),Main
+D-0225,Self-checkout (SCO),Main
+D-0226,Scan and go (handsets),Main
+D-0226,"Promotions, pricing and loyalty",Other
+D-0227,Gift cards,Main
+D-0227,Payments and PED,Other
+D-0227,Self-checkout (SCO),Other
+D-0228,Self-checkout (SCO),Main
+D-0229,Self-checkout (SCO),Main
+D-0230,Self-checkout (SCO),Main
+D-0231,Self-checkout (SCO),Main
+D-0232,Self-checkout (SCO),Main
+D-0232,Receipts and printing,Other
+D-0233,Self-checkout (SCO),Main
+D-0234,Self-checkout (SCO),Main
+D-0235,Self-checkout (SCO),Main
+D-0236,Gift cards,Main
+D-0236,Payments and PED,Other
+D-0236,Self-checkout (SCO),Other
+D-0237,Gift cards,Main
+D-0237,Payments and PED,Other
+D-0237,Self-checkout (SCO),Other
+D-0238,Self-checkout (SCO),Main
+D-0239,Self-checkout (SCO),Main
+D-0239,Environment and infrastructure,Other
+D-0240,Self-checkout (SCO),Main
+D-0241,Self-checkout (SCO),Main
+D-0242,Self-checkout (SCO),Main
+D-0243,Self-checkout (SCO),Main
+D-0244,Self-checkout (SCO),Main
+D-0245,Self-checkout (SCO),Main
+D-0246,Reporting,Main
+D-0246,Self-checkout (SCO),Other
+D-0247,Self-checkout (SCO),Main
+D-0247,Receipts and printing,Other
+D-0248,Self-checkout (SCO),Main
+D-0248,Receipts and printing,Other
+D-0249,Payments and PED,Main
+D-0249,"Promotions, pricing and loyalty",Other
+D-0249,Self-checkout (SCO),Other
+D-0250,Payments and PED,Main
+D-0250,Self-checkout (SCO),Other
+D-0251,Self-checkout (SCO),Main
+D-0252,Self-checkout (SCO),Main
+D-0252,"Promotions, pricing and loyalty",Other
+D-0253,Hardware and cash devices,Main
+D-0253,Reporting,Other
+D-0253,Self-checkout (SCO),Other
+D-0254,Gift cards,Main
+D-0254,Payments and PED,Other
+D-0254,Self-checkout (SCO),Other
+D-0255,Self-checkout (SCO),Main
+D-0256,Self-checkout (SCO),Main
+D-0257,Self-checkout (SCO),Main
+D-0258,Self-checkout (SCO),Main
+D-0258,"Promotions, pricing and loyalty",Other
+D-0259,Self-checkout (SCO),Main
+D-0259,Environment and infrastructure,Other
+D-0259,Integrations and interfaces,Other
+D-0260,Payments and PED,Main
+D-0260,"Promotions, pricing and loyalty",Other
+D-0260,Receipts and printing,Other
+D-0260,Self-checkout (SCO),Other
+D-0261,Self-checkout (SCO),Main
+D-0262,Self-checkout (SCO),Main
+D-0263,Self-checkout (SCO),Main
+D-0264,Self-checkout (SCO),Main
+D-0265,Self-checkout (SCO),Main
+D-0266,Self-checkout (SCO),Main
+D-0266,Environment and infrastructure,Other
+D-0267,Self-checkout (SCO),Main
+D-0268,Self-checkout (SCO),Main
+D-0269,Self-checkout (SCO),Main
+D-0270,Self-checkout (SCO),Main
+D-0271,Self-checkout (SCO),Main
+D-0271,Receipts and printing,Other
+D-0272,Payments and PED,Main
+D-0272,Self-checkout (SCO),Other
+D-0273,Self-checkout (SCO),Main
+D-0273,Environment and infrastructure,Other
+D-0274,Payments and PED,Main
+D-0274,Self-checkout (SCO),Other
+D-0275,Self-checkout (SCO),Main
+D-0276,Self-checkout (SCO),Main
+D-0277,Self-checkout (SCO),Main
+D-0277,Receipts and printing,Other
+D-0278,Self-checkout (SCO),Main
+D-0279,Self-checkout (SCO),Main
+D-0280,Self-checkout (SCO),Main
+D-0281,Self-checkout (SCO),Main
+D-0282,Self-checkout (SCO),Main
+D-0282,Scan and go (handsets),Other
+D-0283,Payments and PED,Main
+D-0283,Self-checkout (SCO),Other
+D-0284,Hardware and cash devices,Main
+D-0284,Self-checkout (SCO),Other
+D-0285,Self-checkout (SCO),Main
+D-0286,Self-checkout (SCO),Main
+D-0287,Self-checkout (SCO),Main
+D-0288,Gift cards,Main
+D-0288,Payments and PED,Other
+D-0288,Self-checkout (SCO),Other
+D-0289,Self-checkout (SCO),Main
+D-0290,Self-checkout (SCO),Main
+D-0291,Gift cards,Main
+D-0291,Payments and PED,Other
+D-0291,Self-checkout (SCO),Other
+D-0292,Payments and PED,Main
+D-0292,"Promotions, pricing and loyalty",Other
+D-0292,Self-checkout (SCO),Other
+D-0293,Self-checkout (SCO),Main
+D-0294,Self-checkout (SCO),Main
+D-0295,Self-checkout (SCO),Main
+D-0296,Self-checkout (SCO),Main
+D-0297,"Promotions, pricing and loyalty",Main
+D-0297,Self-checkout (SCO),Other
+D-0298,Payments and PED,Main
+D-0298,Environment and infrastructure,Other
+D-0298,Self-checkout (SCO),Other
+D-0299,"Promotions, pricing and loyalty",Main
+D-0299,Self-checkout (SCO),Other
+D-0300,Self-checkout (SCO),Main
+D-0301,Self-checkout (SCO),Main
+D-0301,Environment and infrastructure,Other
+D-0302,Self-checkout (SCO),Main
+D-0302,Receipts and printing,Other
+D-0303,Self-checkout (SCO),Main
+D-0304,Self-checkout (SCO),Main
+D-0305,Self-checkout (SCO),Main
+D-0306,Self-checkout (SCO),Main
+D-0307,Gift cards,Main
+D-0307,Payments and PED,Other
+D-0307,Self-checkout (SCO),Other
+D-0308,Payments and PED,Main
+D-0308,Environment and infrastructure,Other
+D-0308,Self-checkout (SCO),Other
+D-0309,Self-checkout (SCO),Main
+D-0310,Self-checkout (SCO),Main
+D-0311,Self-checkout (SCO),Main
+D-0312,Hardware and cash devices,Main
+D-0312,Self-checkout (SCO),Other
+D-0313,"Promotions, pricing and loyalty",Main
+D-0313,Self-checkout (SCO),Other
+D-0314,Self-checkout (SCO),Main
+D-0315,Self-checkout (SCO),Main
+D-0316,Self-checkout (SCO),Main
+D-0317,Scan and go (handsets),Main
+D-0318,Self-checkout (SCO),Main
+D-0319,Self-checkout (SCO),Main
+D-0320,Self-checkout (SCO),Main
+D-0321,Hardware and cash devices,Main
+D-0321,Payments and PED,Other
+D-0321,Self-checkout (SCO),Other
+D-0322,Self-checkout (SCO),Main
+D-0323,Self-checkout (SCO),Main
+D-0324,Self-checkout (SCO),Main
+D-0325,Self-checkout (SCO),Main
+D-0326,Self-checkout (SCO),Main
+D-0327,Scan and go (handsets),Main
+D-0328,Not a product defect,Main
+D-0329,"Promotions, pricing and loyalty",Main
+D-0329,Self-checkout (SCO),Other
+D-0330,Not a product defect,Main
+D-0331,Not a product defect,Main
+D-0332,Till application (POS core),Main
+D-0332,Environment and infrastructure,Other
+D-0333,"Promotions, pricing and loyalty",Main
+D-0333,EPP,Other
+D-0334,EPP,Main
+D-0335,Scan and go (handsets),Main
+D-0336,Payments and PED,Main
+D-0336,"Promotions, pricing and loyalty",Other
+D-0337,Till application (POS core),Main
+D-0337,Receipts and printing,Other
+D-0338,"Promotions, pricing and loyalty",Main
+D-0339,Self-checkout (SCO),Main
+D-0340,"Promotions, pricing and loyalty",Main
+D-0341,"Promotions, pricing and loyalty",Main
+D-0342,"Promotions, pricing and loyalty",Main
+D-0343,EPP,Main
+D-0344,Self-checkout (SCO),Main
+D-0344,"Promotions, pricing and loyalty",Other
+D-0345,"Promotions, pricing and loyalty",Main
+D-0345,Receipts and printing,Other
+D-0346,"Promotions, pricing and loyalty",Main
+D-0347,Scan and go (handsets),Main
+D-0348,Payments and PED,Main
+D-0348,Self-checkout (SCO),Other
+D-0349,"Promotions, pricing and loyalty",Main
+D-0350,"Promotions, pricing and loyalty",Main
+D-0351,"Promotions, pricing and loyalty",Main
+D-0352,EPP,Main
+D-0353,Integrations and interfaces,Main
+D-0353,EPP,Other
+D-0354,"Promotions, pricing and loyalty",Main
+D-0354,Receipts and printing,Other
+D-0355,"Promotions, pricing and loyalty",Main
+D-0356,Scan and go (handsets),Main
+D-0357,"Promotions, pricing and loyalty",Main
+D-0358,"Promotions, pricing and loyalty",Main
+D-0359,"Promotions, pricing and loyalty",Main
+D-0360,"Promotions, pricing and loyalty",Main
+D-0360,Home delivery service,Other
+D-0361,Payments and PED,Main
+D-0362,Scan and go (handsets),Main
+D-0363,EPP,Main
+D-0364,"Promotions, pricing and loyalty",Main
+D-0364,Home delivery service,Other
+D-0365,Till application (POS core),Main
+D-0366,Payments and PED,Main
+D-0367,"Promotions, pricing and loyalty",Main
+D-0367,Home delivery service,Other
+D-0367,Receipts and printing,Other
+D-0368,Receipts and printing,Main
+D-0368,Home delivery service,Other
+D-0368,Reporting,Other
+D-0369,Self-checkout (SCO),Main
+D-0370,EPP,Main
+D-0371,Self-checkout (SCO),Main
+D-0371,Receipts and printing,Other
+D-0372,Reporting,Main
+D-0373,Scan and go (handsets),Main
+D-0373,Environment and infrastructure,Other
+D-0374,Self-checkout (SCO),Main
+D-0374,"Promotions, pricing and loyalty",Other
+D-0375,Payments and PED,Main
+D-0375,EPP,Other
+D-0375,"Promotions, pricing and loyalty",Other
+D-0376,Receipts and printing,Main
+D-0376,Home delivery service,Other
+D-0377,"Promotions, pricing and loyalty",Main
+D-0377,Home delivery service,Other
+D-0378,Self-checkout (SCO),Main
+D-0378,"Promotions, pricing and loyalty",Other
+D-0379,"Promotions, pricing and loyalty",Main
+D-0380,Scan and go (handsets),Main
+D-0381,"Promotions, pricing and loyalty",Main
+D-0382,Payments and PED,Main
+D-0383,Self-checkout (SCO),Main
+D-0383,"Promotions, pricing and loyalty",Other
+D-0384,"Promotions, pricing and loyalty",Main
+D-0384,Home delivery service,Other
+D-0385,Receipts and printing,Main
+D-0386,Payments and PED,Main
+D-0387,Environment and infrastructure,Main
+D-0388,Environment and infrastructure,Main
+D-0389,Integrations and interfaces,Main
+D-0389,EPP,Other
+D-0390,Reporting,Main
+D-0391,Scan and go (handsets),Main
+D-0392,"Promotions, pricing and loyalty",Main
+D-0393,Payments and PED,Main
+D-0393,EPP,Other
+D-0394,Reporting,Main
+D-0394,Environment and infrastructure,Other
+D-0395,"Promotions, pricing and loyalty",Main
+D-0395,Home delivery service,Other
+D-0396,EPP,Main
+D-0397,Reporting,Main
+D-0398,Payments and PED,Main
+D-0398,Self-checkout (SCO),Other
+D-0399,Scan and go (handsets),Main
+D-0399,Environment and infrastructure,Other
+D-0400,Scan and go (handsets),Main
+D-0401,Payments and PED,Main
+D-0402,Self-checkout (SCO),Main
+D-0402,Receipts and printing,Other
+D-0403,Vendor E features,Main
+D-0403,"Promotions, pricing and loyalty",Other
+D-0403,Receipts and printing,Other
+D-0404,Scan and go (handsets),Main
+D-0404,Environment and infrastructure,Other
+D-0405,Environment and infrastructure,Main
+D-0406,Gift cards,Main
+D-0406,Payments and PED,Other
+D-0406,Self-checkout (SCO),Other
+D-0407,Scan and go (handsets),Main
+D-0408,Environment and infrastructure,Main
+D-0409,Till application (POS core),Main
+D-0410,Till application (POS core),Main
+D-0410,Home delivery service,Other
+D-0411,Scan and go (handsets),Main
+D-0412,Scan and go (handsets),Main
+D-0413,Scan and go (handsets),Main
+D-0414,Scan and go (handsets),Main
+D-0415,Scan and go (handsets),Main
+D-0416,Scan and go (handsets),Main
+D-0416,Payments and PED,Other
+D-0417,Till application (POS core),Main
+D-0418,Environment and infrastructure,Main
+D-0419,Reporting,Main
+D-0420,Reporting,Main
+D-0420,Self-checkout (SCO),Other
+D-0421,Scan and go (handsets),Main
+D-0422,Self-checkout (SCO),Main
+D-0423,"Promotions, pricing and loyalty",Main
+D-0424,"Promotions, pricing and loyalty",Main
+D-0425,Scan and go (handsets),Main
+D-0426,Scan and go (handsets),Main
+D-0427,Scan and go (handsets),Main
+D-0428,Scan and go (handsets),Main
+D-0429,Scan and go (handsets),Main
+D-0430,Scan and go (handsets),Main
+D-0431,Scan and go (handsets),Main
+D-0432,Scan and go (handsets),Main
+D-0433,Scan and go (handsets),Main
+D-0434,Scan and go (handsets),Main
+D-0435,Not a product defect,Main
+D-0436,Unknown,Main
+D-0437,Scan and go (handsets),Main
+D-0438,Scan and go (handsets),Main
+D-0439,Scan and go (handsets),Main
+D-0440,Scan and go (handsets),Main
+D-0441,Scan and go (handsets),Main
+D-0442,Environment and infrastructure,Main
+D-0443,Environment and infrastructure,Main
+D-0444,Payments and PED,Main
+D-0444,"Promotions, pricing and loyalty",Other
+D-0445,Scan and go (handsets),Main
+D-0446,Environment and infrastructure,Main
+D-0447,Scan and go (handsets),Main
+D-0448,"Promotions, pricing and loyalty",Main
+D-0449,Scan and go (handsets),Main
+D-0450,Scan and go (handsets),Main
+D-0451,Till application (POS core),Main
+D-0452,Till application (POS core),Main
+D-0452,Home delivery service,Other
+D-0453,Scan and go (handsets),Main
+D-0453,Environment and infrastructure,Other
+D-0454,Scan and go (handsets),Main
+D-0454,Environment and infrastructure,Other
+D-0455,Reporting,Main
+D-0456,Self-checkout (SCO),Main
+D-0457,Scan and go (handsets),Main
+D-0458,Scan and go (handsets),Main
+D-0459,"Promotions, pricing and loyalty",Main
+D-0460,Scan and go (handsets),Main
+D-0461,Reporting,Main
+D-0461,Self-checkout (SCO),Other
+D-0462,Scan and go (handsets),Main
+D-0463,Scan and go (handsets),Main
+D-0464,Environment and infrastructure,Main
+D-0465,Scan and go (handsets),Main
+D-0466,Self-checkout (SCO),Main
+D-0466,Environment and infrastructure,Other
+D-0467,Vendor E features,Main
+D-0467,"Promotions, pricing and loyalty",Other
+D-0467,Receipts and printing,Other
+D-0467,Self-checkout (SCO),Other
+D-0468,Self-checkout (SCO),Main
+D-0469,Reporting,Main
+D-0469,Self-checkout (SCO),Other
+D-0470,Scan and go (handsets),Main
+D-0471,Scan and go (handsets),Main
+D-0472,Unknown,Main
+D-0473,Scan and go (handsets),Main
+D-0474,Environment and infrastructure,Main
+D-0475,Self-checkout (SCO),Main
+D-0476,Integrations and interfaces,Main
+D-0477,Reporting,Main
+D-0478,Scan and go (handsets),Main
+D-0479,Scan and go (handsets),Main
+D-0480,Scan and go (handsets),Main
+D-0481,Till application (POS core),Main
+D-0482,Scan and go (handsets),Main
+D-0483,Scan and go (handsets),Main
+D-0484,Scan and go (handsets),Main
+D-0485,Payments and PED,Main
+D-0486,Scan and go (handsets),Main
+D-0487,Reporting,Main
+D-0488,Scan and go (handsets),Main
+D-0489,Hardware and cash devices,Main
+D-0490,Scan and go (handsets),Main
+D-0491,Scan and go (handsets),Main
+D-0492,Scan and go (handsets),Main
+D-0493,Reporting,Main
+D-0494,Scan and go (handsets),Main
+D-0495,Scan and go (handsets),Main
+D-0496,Scan and go (handsets),Main
+D-0497,Scan and go (handsets),Main
+D-0498,Scan and go (handsets),Main
+D-0499,Scan and go (handsets),Main
+D-0500,Scan and go (handsets),Main
+D-0501,Scan and go (handsets),Main
+D-0502,Scan and go (handsets),Main
+D-0503,Scan and go (handsets),Main
+D-0504,Scan and go (handsets),Main
+D-0504,Payments and PED,Other
+D-0505,Till application (POS core),Main
+D-0506,Scan and go (handsets),Main
+D-0507,Scan and go (handsets),Main
+D-0508,Scan and go (handsets),Main
+D-0508,Reporting,Other
+D-0509,Reporting,Main
+D-0510,Scan and go (handsets),Main
+D-0511,Scan and go (handsets),Main
+D-0512,Scan and go (handsets),Main
+D-0513,Scan and go (handsets),Main
+D-0514,Integrations and interfaces,Main
+D-0515,Environment and infrastructure,Main
+D-0516,Scan and go (handsets),Main
+D-0516,Environment and infrastructure,Other
+D-0517,Scan and go (handsets),Main
+D-0518,Environment and infrastructure,Main
+D-0519,Scan and go (handsets),Main
+D-0520,Payments and PED,Main
+D-0521,Scan and go (handsets),Main
+D-0521,Environment and infrastructure,Other
+D-0522,"Promotions, pricing and loyalty",Main
+D-0522,Reporting,Other
+D-0523,"Promotions, pricing and loyalty",Main
+D-0523,Reporting,Other
+D-0524,Environment and infrastructure,Main
+D-0525,Scan and go (handsets),Main
+D-0525,Environment and infrastructure,Other
+D-0526,Scan and go (handsets),Main
+D-0526,Environment and infrastructure,Other
+D-0527,Scan and go (handsets),Main
+D-0527,"Promotions, pricing and loyalty",Other
+D-0528,Scan and go (handsets),Main
+D-0529,Scan and go (handsets),Main
+D-0530,Scan and go (handsets),Main
+D-0530,Reporting,Other
+D-0531,Scan and go (handsets),Main
+D-0532,Scan and go (handsets),Main
+D-0533,Scan and go (handsets),Main
+D-0534,Till application (POS core),Main
+D-0535,Scan and go (handsets),Main
+D-0536,Payments and PED,Main
+D-0537,Scan and go (handsets),Main
+D-0538,Scan and go (handsets),Main
+D-0539,Scan and go (handsets),Main
+D-0540,Scan and go (handsets),Main
+D-0541,Till application (POS core),Main
+D-0542,Scan and go (handsets),Main
+D-0543,Scan and go (handsets),Main
+D-0544,Scan and go (handsets),Main
+D-0545,Till application (POS core),Main
+D-0546,Scan and go (handsets),Main
+D-0547,Scan and go (handsets),Main
+D-0548,Scan and go (handsets),Main
+D-0549,Scan and go (handsets),Main
+D-0550,Scan and go (handsets),Main
+D-0551,Scan and go (handsets),Main
+D-0552,Reporting,Main
+D-0552,Environment and infrastructure,Other
+D-0553,Scan and go (handsets),Main
+D-0554,Scan and go (handsets),Main
+D-0555,Environment and infrastructure,Main
+D-0556,Scan and go (handsets),Main
+D-0557,Self-checkout (SCO),Main
+D-0557,Environment and infrastructure,Other
+D-0558,Environment and infrastructure,Main
+D-0559,Scan and go (handsets),Main
+D-0559,Environment and infrastructure,Other
+D-0560,Environment and infrastructure,Main
+D-0561,"Promotions, pricing and loyalty",Main
+D-0562,Hardware and cash devices,Main
+D-0562,Self-checkout (SCO),Other
+D-0563,Scan and go (handsets),Main
+D-0564,Hardware and cash devices,Main
+D-0564,Self-checkout (SCO),Other
+D-0565,Scan and go (handsets),Main
+D-0566,Scan and go (handsets),Main
+D-0567,Integrations and interfaces,Main
+D-0568,Reporting,Main
+D-0568,Environment and infrastructure,Other
+D-0569,Environment and infrastructure,Main
+D-0570,Reporting,Main
+D-0570,Environment and infrastructure,Other
+D-0571,Scan and go (handsets),Main
+D-0571,Environment and infrastructure,Other
+D-0571,Reporting,Other
+D-0572,Scan and go (handsets),Main
+D-0572,Environment and infrastructure,Other
+D-0572,"Promotions, pricing and loyalty",Other
+D-0572,Reporting,Other
+D-0573,Environment and infrastructure,Main
+D-0574,Vendor E features,Main
+D-0574,"Promotions, pricing and loyalty",Other
+D-0574,Receipts and printing,Other
+D-0575,Payments and PED,Main
+D-0575,Environment and infrastructure,Other
+D-0575,Home delivery service,Other
+D-0576,Scan and go (handsets),Main
+D-0576,Environment and infrastructure,Other
+D-0577,Scan and go (handsets),Main
+D-0578,"Promotions, pricing and loyalty",Main
+D-0579,Gift cards,Main
+D-0579,Hardware and cash devices,Other
+D-0579,Payments and PED,Other
+D-0580,Scan and go (handsets),Main
+D-0581,Unknown,Main
+D-0582,Vendor E features,Main
+D-0582,Hardware and cash devices,Other
+D-0582,"Promotions, pricing and loyalty",Other
+D-0582,Receipts and printing,Other
+D-0583,Payments and PED,Main
+D-0583,"Promotions, pricing and loyalty",Other
+D-0584,Hardware and cash devices,Main
+D-0585,Vendor E features,Main
+D-0585,"Promotions, pricing and loyalty",Other
+D-0585,Receipts and printing,Other
+D-0586,Scan and go (handsets),Main
+D-0587,Hardware and cash devices,Main
+D-0588,Payments and PED,Main
+D-0588,Environment and infrastructure,Other
+D-0588,"Promotions, pricing and loyalty",Other
+D-0589,Scan and go (handsets),Main
+D-0590,Scan and go (handsets),Main
+D-0591,Scan and go (handsets),Main
+D-0592,"Promotions, pricing and loyalty",Main
+D-0592,Reporting,Other
+D-0593,Till application (POS core),Main
+D-0593,Home delivery service,Other
+D-0594,Till application (POS core),Main
+D-0594,Home delivery service,Other
+D-0595,Environment and infrastructure,Main
+D-0596,Payments and PED,Main
+D-0597,"Promotions, pricing and loyalty",Main
+D-0597,Environment and infrastructure,Other
+D-0598,"Promotions, pricing and loyalty",Main
+D-0599,Till application (POS core),Main
+D-0600,Assortment,Main
+D-0601,Scan and go (handsets),Main
+D-0602,Till application (POS core),Main
+D-0602,Home delivery service,Other
+D-0603,"Promotions, pricing and loyalty",Main
+D-0603,Reporting,Other
+D-0604,Till application (POS core),Main
+D-0605,Till application (POS core),Main
+D-0606,Till application (POS core),Main
+D-0607,Till application (POS core),Main
+D-0608,"Promotions, pricing and loyalty",Main
+D-0608,Reporting,Other
+D-0609,"Promotions, pricing and loyalty",Main
+D-0610,Environment and infrastructure,Main
+D-0611,Scan and go (handsets),Main
+D-0612,Payments and PED,Main
+D-0612,"Promotions, pricing and loyalty",Other
+D-0613,Hardware and cash devices,Main
+D-0614,"Promotions, pricing and loyalty",Main
+D-0614,Environment and infrastructure,Other
+D-0615,"Promotions, pricing and loyalty",Main
+D-0616,"Promotions, pricing and loyalty",Main
+D-0617,Payments and PED,Main
+D-0617,"Promotions, pricing and loyalty",Other
+D-0618,"Promotions, pricing and loyalty",Main
+D-0619,"Promotions, pricing and loyalty",Main
+D-0620,"Promotions, pricing and loyalty",Main
+D-0620,Environment and infrastructure,Other
+D-0621,"Promotions, pricing and loyalty",Main
+D-0622,"Promotions, pricing and loyalty",Main
+D-0623,Integrations and interfaces,Main
+D-0623,Environment and infrastructure,Other
+D-0623,"Promotions, pricing and loyalty",Other
+D-0624,"Promotions, pricing and loyalty",Main
+D-0624,Reporting,Other
+D-0625,"Promotions, pricing and loyalty",Main
+D-0626,Payments and PED,Main
+D-0626,"Promotions, pricing and loyalty",Other
+D-0627,Gift cards,Main
+D-0627,Payments and PED,Other
+D-0627,"Promotions, pricing and loyalty",Other
+D-0628,Hardware and cash devices,Main
+D-0628,Environment and infrastructure,Other
+D-0629,"Promotions, pricing and loyalty",Main
+D-0629,EPP,Other
+D-0630,Till application (POS core),Main
+D-0631,Till application (POS core),Main
+D-0632,"Promotions, pricing and loyalty",Main
+D-0632,Reporting,Other
+D-0633,Vendor E features,Main
+D-0633,"Promotions, pricing and loyalty",Other
+D-0633,Receipts and printing,Other
+D-0634,"Promotions, pricing and loyalty",Main
+D-0634,Reporting,Other
+D-0635,Till application (POS core),Main
+D-0636,Till application (POS core),Main
+D-0637,Environment and infrastructure,Main
+D-0638,Payments and PED,Main
+D-0639,Scan and go (handsets),Main
+D-0640,Self-checkout (SCO),Main
+D-0641,Self-checkout (SCO),Main
+D-0642,Self-checkout (SCO),Main
+D-0643,Self-checkout (SCO),Main
+D-0644,Self-checkout (SCO),Main
+D-0645,Scan and go (handsets),Main
+D-0645,"Promotions, pricing and loyalty",Other
+D-0646,Self-checkout (SCO),Main
+D-0647,Self-checkout (SCO),Main
+D-0648,Self-checkout (SCO),Main
+D-0649,Self-checkout (SCO),Main
+D-0650,Self-checkout (SCO),Main
+D-0651,Payments and PED,Main
+D-0652,Self-checkout (SCO),Main
+D-0653,Self-checkout (SCO),Main
+D-0654,Payments and PED,Main
+D-0655,Self-checkout (SCO),Main
+D-0656,Self-checkout (SCO),Main
+D-0657,Self-checkout (SCO),Main
+D-0658,Self-checkout (SCO),Main
+D-0659,Self-checkout (SCO),Main
+D-0660,Payments and PED,Main
+D-0660,Self-checkout (SCO),Other
+D-0661,"Promotions, pricing and loyalty",Main
+D-0661,Environment and infrastructure,Other
+D-0662,"Promotions, pricing and loyalty",Main
+D-0663,Self-checkout (SCO),Main
+D-0664,Self-checkout (SCO),Main
+D-0665,Self-checkout (SCO),Main
+D-0666,Hardware and cash devices,Main
+D-0666,Self-checkout (SCO),Other
+D-0667,Till application (POS core),Main
+D-0668,Self-checkout (SCO),Main
+D-0669,Self-checkout (SCO),Main
+D-0670,Self-checkout (SCO),Main
+D-0671,Scan and go (handsets),Main
+D-0672,Scan and go (handsets),Main
+D-0673,Receipts and printing,Main
+D-0673,Reporting,Other
+D-0673,Self-checkout (SCO),Other
+D-0674,Self-checkout (SCO),Main
+D-0674,"Promotions, pricing and loyalty",Other
+D-0675,Payments and PED,Main
+D-0675,Self-checkout (SCO),Other
+D-0676,Self-checkout (SCO),Main
+D-0677,Hardware and cash devices,Main
+D-0677,Self-checkout (SCO),Other
+D-0678,Hardware and cash devices,Main
+D-0679,Self-checkout (SCO),Main
+D-0680,Receipts and printing,Main
+D-0680,Reporting,Other
+D-0680,Self-checkout (SCO),Other
+D-0681,Payments and PED,Main
+D-0681,Environment and infrastructure,Other
+D-0681,Self-checkout (SCO),Other
+D-0682,Self-checkout (SCO),Main
+D-0682,Environment and infrastructure,Other
+D-0683,Self-checkout (SCO),Main
+D-0683,Environment and infrastructure,Other
+D-0684,Self-checkout (SCO),Main
+D-0685,Till application (POS core),Main
+D-0686,Reporting,Main
+D-0687,Scan and go (handsets),Main
+D-0688,Unknown,Main
+D-0689,Payments and PED,Main
+D-0690,Payments and PED,Main
+D-0691,Hardware and cash devices,Main
+D-0692,Hardware and cash devices,Main
+D-0692,Environment and infrastructure,Other
+D-0693,Payments and PED,Main
+D-0694,"Promotions, pricing and loyalty",Main
+D-0694,EPP,Other
+D-0694,Reporting,Other
+D-0695,"Promotions, pricing and loyalty",Main
+D-0695,EPP,Other
+D-0696,Payments and PED,Main
+D-0696,Receipts and printing,Other
+D-0697,Payments and PED,Main
+D-0697,Environment and infrastructure,Other
+D-0698,Payments and PED,Main
+D-0699,Payments and PED,Main
+D-0700,Payments and PED,Main
+D-0700,Receipts and printing,Other
+D-0701,Till application (POS core),Main
+D-0702,Environment and infrastructure,Main
+D-0703,Integrations and interfaces,Main
+D-0703,EPP,Other
+D-0704,"Promotions, pricing and loyalty",Main
+D-0704,EPP,Other
+D-0705,Environment and infrastructure,Main
+D-0706,Environment and infrastructure,Main
+D-0706,EPP,Other
+D-0707,"Promotions, pricing and loyalty",Main
+D-0707,EPP,Other
+D-0707,Reporting,Other
+D-0708,Scan and go (handsets),Main
+D-0709,"Promotions, pricing and loyalty",Main
+D-0709,EPP,Other
+D-0709,Reporting,Other
+D-0710,Environment and infrastructure,Main
+D-0710,EPP,Other
+D-0711,Payments and PED,Main
+D-0711,Self-checkout (SCO),Other
+D-0712,"Promotions, pricing and loyalty",Main
+D-0712,EPP,Other
+D-0713,"Promotions, pricing and loyalty",Main
+D-0713,EPP,Other
+D-0714,"Promotions, pricing and loyalty",Main
+D-0714,EPP,Other
+D-0715,Till application (POS core),Main
+D-0716,Integrations and interfaces,Main
+D-0716,Environment and infrastructure,Other
+D-0717,Integrations and interfaces,Main
+D-0717,Environment and infrastructure,Other
+D-0718,"Promotions, pricing and loyalty",Main
+D-0719,"Promotions, pricing and loyalty",Main
+D-0719,Receipts and printing,Other
+D-0720,Payments and PED,Main
+D-0720,"Promotions, pricing and loyalty",Other
+D-0720,Reporting,Other
+D-0721,Hardware and cash devices,Main
+D-0722,"Promotions, pricing and loyalty",Main
+D-0723,"Promotions, pricing and loyalty",Main
+D-0724,"Promotions, pricing and loyalty",Main
+D-0725,Returns and refunds,Main
+D-0725,Receipts and printing,Other
+D-0725,Till application (POS core),Other
+D-0726,"Promotions, pricing and loyalty",Main
+D-0726,Receipts and printing,Other
+D-0727,"Promotions, pricing and loyalty",Main
+D-0727,Receipts and printing,Other
+D-0728,"Promotions, pricing and loyalty",Main
+D-0729,Scan and go (handsets),Main
+D-0729,Environment and infrastructure,Other
+D-0730,"Promotions, pricing and loyalty",Main
+D-0730,Reporting,Other
+D-0731,"Promotions, pricing and loyalty",Main
+D-0732,"Promotions, pricing and loyalty",Main
+D-0733,"Promotions, pricing and loyalty",Main
+D-0734,"Promotions, pricing and loyalty",Main
+D-0734,Reporting,Other
+D-0735,Vendor E features,Main
+D-0735,"Promotions, pricing and loyalty",Other
+D-0735,Receipts and printing,Other
+D-0736,"Promotions, pricing and loyalty",Main
+D-0736,Reporting,Other
+D-0737,Gift cards,Main
+D-0737,Payments and PED,Other
+D-0738,Integrations and interfaces,Main
+D-0738,Environment and infrastructure,Other
+D-0739,"Promotions, pricing and loyalty",Main
+D-0740,"Promotions, pricing and loyalty",Main
+D-0741,"Promotions, pricing and loyalty",Main
+D-0742,"Promotions, pricing and loyalty",Main
+D-0743,"Promotions, pricing and loyalty",Main
+D-0744,Assortment,Main
+D-0744,Reporting,Other
+D-0745,Scan and go (handsets),Main
+D-0746,Payments and PED,Main
+D-0746,Receipts and printing,Other
+D-0747,Scan and go (handsets),Main
+D-0748,Scan and go (handsets),Main
+D-0749,Payments and PED,Main
+D-0749,EPP,Other
+D-0749,"Promotions, pricing and loyalty",Other
+D-0750,Scan and go (handsets),Main
+D-0751,Payments and PED,Main
+D-0751,"Promotions, pricing and loyalty",Other
+D-0752,Scan and go (handsets),Main
+D-0753,Scan and go (handsets),Main
+D-0754,Scan and go (handsets),Main
+D-0755,Scan and go (handsets),Main
+D-0756,Scan and go (handsets),Main
+D-0757,Payments and PED,Main
+D-0757,Receipts and printing,Other
+D-0757,Self-checkout (SCO),Other
+D-0758,Self-checkout (SCO),Main
+D-0759,Payments and PED,Main
+D-0760,Receipts and printing,Main
+D-0760,Reporting,Other
+D-0761,Till application (POS core),Main
+D-0762,Integrations and interfaces,Main
+D-0762,EPP,Other
+D-0763,Integrations and interfaces,Main
+D-0763,EPP,Other
+D-0764,"Promotions, pricing and loyalty",Main
+D-0764,EPP,Other
+D-0765,Payments and PED,Main
+D-0765,EPP,Other
+D-0765,"Promotions, pricing and loyalty",Other
+D-0766,"Promotions, pricing and loyalty",Main
+D-0766,EPP,Other
+D-0767,"Promotions, pricing and loyalty",Main
+D-0767,EPP,Other
+D-0768,Integrations and interfaces,Main
+D-0768,EPP,Other
+D-0769,"Promotions, pricing and loyalty",Main
+D-0769,EPP,Other
+D-0770,"Promotions, pricing and loyalty",Main
+D-0771,"Promotions, pricing and loyalty",Main
+D-0771,EPP,Other
+D-0772,Payments and PED,Main
+D-0772,EPP,Other
+D-0773,Till application (POS core),Main
+D-0773,Receipts and printing,Other
+D-0774,Integrations and interfaces,Main
+D-0774,Environment and infrastructure,Other
+D-0775,Till application (POS core),Main
+D-0776,"Promotions, pricing and loyalty",Main
+D-0777,Self-checkout (SCO),Main
+D-0778,Payments and PED,Main
+D-0779,"Promotions, pricing and loyalty",Main
+D-0779,Receipts and printing,Other
+D-0780,Payments and PED,Main
+D-0780,"Promotions, pricing and loyalty",Other
+D-0780,Receipts and printing,Other
+D-0781,Self-checkout (SCO),Main
+D-0781,Environment and infrastructure,Other
+D-0782,Payments and PED,Main
+D-0782,Receipts and printing,Other
+D-0783,Payments and PED,Main
+D-0783,Receipts and printing,Other
+D-0784,Environment and infrastructure,Main
+D-0784,EPP,Other
+D-0785,Payments and PED,Main
+D-0785,"Promotions, pricing and loyalty",Other
+D-0785,Receipts and printing,Other
+D-0786,"Promotions, pricing and loyalty",Main
+D-0786,EPP,Other
+D-0787,Gift cards,Main
+D-0787,Payments and PED,Other
+D-0788,"Promotions, pricing and loyalty",Main
+D-0789,Environment and infrastructure,Main
+D-0789,EPP,Other
+D-0790,Environment and infrastructure,Main
+D-0791,Reporting,Main
+D-0792,Vendor E features,Main
+D-0792,"Promotions, pricing and loyalty",Other
+D-0792,Receipts and printing,Other
+D-0793,Scan and go (handsets),Main
+D-0793,Payments and PED,Other
+D-0793,"Promotions, pricing and loyalty",Other
+D-0794,Till application (POS core),Main
+D-0795,Till application (POS core),Main
+D-0796,Till application (POS core),Main
+D-0797,Environment and infrastructure,Main
+D-0798,Scan and go (handsets),Main
+D-0799,Environment and infrastructure,Main
+D-0800,Till application (POS core),Main
+D-0800,Receipts and printing,Other
+D-0801,"Promotions, pricing and loyalty",Main
+D-0801,Home delivery service,Other
+D-0801,Reporting,Other
+D-0802,"Promotions, pricing and loyalty",Main
+D-0803,"Promotions, pricing and loyalty",Main
+D-0804,Till application (POS core),Main
+D-0804,Receipts and printing,Other
+D-0805,Scan and go (handsets),Main
+D-0806,Environment and infrastructure,Main
+D-0807,Till application (POS core),Main
+D-0808,Till application (POS core),Main
+D-0809,Till application (POS core),Main
+D-0809,Home delivery service,Other
+D-0810,Till application (POS core),Main
+D-0810,Home delivery service,Other
+D-0811,"Promotions, pricing and loyalty",Main
+D-0811,EPP,Other
+D-0812,Payments and PED,Main
+D-0813,Vendor E features,Main
+D-0813,Integrations and interfaces,Other
+D-0814,Reporting,Main
+D-0815,Vendor E features,Main
+D-0815,"Promotions, pricing and loyalty",Other
+D-0816,"Promotions, pricing and loyalty",Main
+D-0816,Receipts and printing,Other
+D-0817,Scan and go (handsets),Main
+D-0818,Scan and go (handsets),Main
+D-0819,Environment and infrastructure,Main
+D-0820,Self-checkout (SCO),Main
+D-0820,Environment and infrastructure,Other
+D-0821,"Promotions, pricing and loyalty",Main
+D-0822,Self-checkout (SCO),Main
+D-0822,Environment and infrastructure,Other
+D-0823,Hardware and cash devices,Main
+D-0824,Till application (POS core),Main
+D-0825,Gift cards,Main
+D-0825,Payments and PED,Other
+D-0826,Self-checkout (SCO),Main
+D-0827,Integrations and interfaces,Main
+D-0827,Environment and infrastructure,Other
+D-0828,Integrations and interfaces,Main
+D-0829,"Promotions, pricing and loyalty",Main
+D-0829,Reporting,Other
+D-0830,Payments and PED,Main
+D-0831,Integrations and interfaces,Main
+D-0831,Environment and infrastructure,Other
+D-0832,"Promotions, pricing and loyalty",Main
+D-0833,Integrations and interfaces,Main
+D-0834,Receipts and printing,Main
+D-0835,"Promotions, pricing and loyalty",Main
+D-0835,Receipts and printing,Other
+D-0836,Environment and infrastructure,Main
+D-0837,"Promotions, pricing and loyalty",Main
+D-0838,Self-checkout (SCO),Main
+D-0839,Till application (POS core),Main
+D-0840,"Promotions, pricing and loyalty",Main
+D-0841,"Promotions, pricing and loyalty",Main
+D-0841,Reporting,Other
+D-0842,"Promotions, pricing and loyalty",Main
+D-0843,"Promotions, pricing and loyalty",Main
+D-0843,Reporting,Other
+D-0844,"Promotions, pricing and loyalty",Main
+D-0845,"Promotions, pricing and loyalty",Main
+D-0846,"Promotions, pricing and loyalty",Main
+D-0846,Receipts and printing,Other
+D-0847,"Promotions, pricing and loyalty",Main
+D-0848,Integrations and interfaces,Main
+D-0849,Payments and PED,Main
+D-0849,Environment and infrastructure,Other
+D-0850,Hardware and cash devices,Main
+D-0851,Self-checkout (SCO),Main
+D-0851,Receipts and printing,Other
+D-0852,Scan and go (handsets),Main
+D-0853,"Promotions, pricing and loyalty",Main
+D-0854,Scan and go (handsets),Main
+D-0855,Payments and PED,Main
+D-0855,Reporting,Other
+D-0856,Scan and go (handsets),Main
+D-0857,Scan and go (handsets),Main
+D-0858,Scan and go (handsets),Main
+D-0859,Environment and infrastructure,Main
+D-0860,Scan and go (handsets),Main
+D-0860,Environment and infrastructure,Other
+D-0861,Scan and go (handsets),Main
+D-0862,Scan and go (handsets),Main
+D-0863,Payments and PED,Main
+D-0863,"Promotions, pricing and loyalty",Other
+D-0864,"Promotions, pricing and loyalty",Main
+D-0864,Reporting,Other
+D-0865,"Promotions, pricing and loyalty",Main
+D-0865,Environment and infrastructure,Other
+D-0865,Reporting,Other
+D-0866,"Promotions, pricing and loyalty",Main
+D-0866,Reporting,Other
+D-0867,"Promotions, pricing and loyalty",Main
+D-0868,"Promotions, pricing and loyalty",Main
+D-0869,"Promotions, pricing and loyalty",Main
+D-0870,Payments and PED,Main
+D-0870,"Promotions, pricing and loyalty",Other
+D-0871,Till application (POS core),Main
+D-0872,Integrations and interfaces,Main
+D-0873,Integrations and interfaces,Main
+D-0874,Environment and infrastructure,Main
+D-0875,Integrations and interfaces,Main
+D-0876,Payments and PED,Main
+D-0877,Self-checkout (SCO),Main
+D-0878,Payments and PED,Main
+D-0878,Self-checkout (SCO),Other
+D-0879,Self-checkout (SCO),Main
+D-0879,Receipts and printing,Other
+D-0880,Self-checkout (SCO),Main
+D-0881,Self-checkout (SCO),Main
+D-0882,Payments and PED,Main
+D-0883,Environment and infrastructure,Main
+D-0884,"Promotions, pricing and loyalty",Main
+D-0885,Receipts and printing,Main
+D-0886,Self-checkout (SCO),Main
+D-0887,"Promotions, pricing and loyalty",Main
+D-0888,Payments and PED,Main
+D-0888,Self-checkout (SCO),Other
+D-0889,Self-checkout (SCO),Main
+D-0890,Payments and PED,Main
+D-0890,Self-checkout (SCO),Other
+D-0891,Payments and PED,Main
+D-0892,Self-checkout (SCO),Main
+D-0893,Self-checkout (SCO),Main
+D-0894,Self-checkout (SCO),Main
+D-0895,Scan and go (handsets),Main
+D-0896,Scan and go (handsets),Main
+D-0897,Environment and infrastructure,Main
+D-0898,Self-checkout (SCO),Main
+D-0898,Receipts and printing,Other
+D-0899,Self-checkout (SCO),Main
+D-0899,Environment and infrastructure,Other
+D-0900,Payments and PED,Main
+D-0900,Self-checkout (SCO),Other
+D-0901,Payments and PED,Main
+D-0901,Self-checkout (SCO),Other
+D-0902,"Promotions, pricing and loyalty",Main
+D-0903,Scan and go (handsets),Main
+D-0904,"Promotions, pricing and loyalty",Main
+D-0905,Receipts and printing,Main
+D-0906,Hardware and cash devices,Main
+D-0906,Self-checkout (SCO),Other
+D-0907,Receipts and printing,Main
+D-0907,Reporting,Other
+D-0907,Self-checkout (SCO),Other
+D-0908,"Promotions, pricing and loyalty",Main
+D-0908,Reporting,Other
+D-0909,Scan and go (handsets),Main
+D-0910,Payments and PED,Main
+D-0911,Self-checkout (SCO),Main
+D-0911,Receipts and printing,Other
+D-0912,Environment and infrastructure,Main
+D-0913,Self-checkout (SCO),Main
+D-0914,Payments and PED,Main
+D-0914,Self-checkout (SCO),Other
+D-0915,"Promotions, pricing and loyalty",Main
+D-0915,Reporting,Other
+D-0916,Self-checkout (SCO),Main
+D-0917,Integrations and interfaces,Main
+D-0918,Self-checkout (SCO),Main
+D-0919,Payments and PED,Main
+D-0919,Self-checkout (SCO),Other
+D-0920,Self-checkout (SCO),Main
+D-0921,Payments and PED,Main
+D-0921,Self-checkout (SCO),Other
+D-0922,Self-checkout (SCO),Main
+D-0923,Self-checkout (SCO),Main
+D-0924,Self-checkout (SCO),Main
+D-0925,Self-checkout (SCO),Main
+D-0925,Receipts and printing,Other
+D-0926,Payments and PED,Main
+D-0926,"Promotions, pricing and loyalty",Other
+D-0927,"Promotions, pricing and loyalty",Main
+D-0927,Self-checkout (SCO),Other
+D-0928,Vendor E features,Main
+D-0928,Integrations and interfaces,Other
+D-0929,Self-checkout (SCO),Main
+D-0929,Receipts and printing,Other
+D-0930,Reporting,Main
+D-0930,Environment and infrastructure,Other
+D-0931,Environment and infrastructure,Main
+D-0932,"Promotions, pricing and loyalty",Main
+D-0932,EPP,Other
+D-0933,"Promotions, pricing and loyalty",Main
+D-0933,Receipts and printing,Other
+D-0934,Till application (POS core),Main
+D-0935,Self-checkout (SCO),Main
+D-0936,Self-checkout (SCO),Main
+D-0937,Reporting,Main
+D-0937,Environment and infrastructure,Other
+D-0937,Self-checkout (SCO),Other
+D-0938,Till application (POS core),Main
+D-0938,Receipts and printing,Other
+D-0939,Self-checkout (SCO),Main
+D-0940,Payments and PED,Main
+D-0940,EPP,Other
+D-0940,"Promotions, pricing and loyalty",Other
+D-0941,Vendor E features,Main
+D-0941,"Promotions, pricing and loyalty",Other
+D-0941,Receipts and printing,Other
+D-0942,Reporting,Main
+D-0943,Scan and go (handsets),Main
+D-0944,Reporting,Main
+D-0945,Vendor E features,Main
+D-0945,"Promotions, pricing and loyalty",Other
+D-0945,Receipts and printing,Other
+D-0946,Integrations and interfaces,Main
+D-0946,Environment and infrastructure,Other
+D-0946,Home delivery service,Other
+D-0947,Payments and PED,Main
+D-0947,EPP,Other
+D-0947,"Promotions, pricing and loyalty",Other
+D-0948,Vendor E features,Main
+D-0948,"Promotions, pricing and loyalty",Other
+D-0948,Receipts and printing,Other
+D-0949,Vendor E features,Main
+D-0949,"Promotions, pricing and loyalty",Other
+D-0949,Receipts and printing,Other
+D-0950,Till application (POS core),Main
+D-0951,Till application (POS core),Main
+D-0952,Payments and PED,Main
+D-0952,Self-checkout (SCO),Other
+D-0953,"Promotions, pricing and loyalty",Main
+D-0953,Reporting,Other
+D-0954,Reporting,Main
+D-0955,Vendor E features,Main
+D-0955,"Promotions, pricing and loyalty",Other
+D-0955,Receipts and printing,Other
+D-0956,Integrations and interfaces,Main
+D-0957,Payments and PED,Main
+D-0957,Environment and infrastructure,Other
+D-0958,"Promotions, pricing and loyalty",Main
+D-0958,EPP,Other
+D-0959,Vendor E features,Main
+D-0959,"Promotions, pricing and loyalty",Other
+D-0959,Receipts and printing,Other
+D-0960,Self-checkout (SCO),Main
+D-0960,Environment and infrastructure,Other
+D-0961,Unknown,Main
+D-0962,Self-checkout (SCO),Main
+D-0962,Environment and infrastructure,Other
+D-0963,Self-checkout (SCO),Main
+D-0963,Environment and infrastructure,Other
+D-0964,"Promotions, pricing and loyalty",Main
+D-0964,Reporting,Other
+D-0965,Payments and PED,Main
+D-0966,Vendor E features,Main
+D-0966,Environment and infrastructure,Other
+D-0966,Receipts and printing,Other
+D-0967,Vendor E features,Main
+D-0967,"Promotions, pricing and loyalty",Other
+D-0967,Receipts and printing,Other
+D-0968,"Promotions, pricing and loyalty",Main
+D-0969,Reporting,Main
+D-0970,Scan and go (handsets),Main
+D-0970,Reporting,Other
+D-0971,Payments and PED,Main
+D-0971,Self-checkout (SCO),Other
+D-0972,Self-checkout (SCO),Main
+D-0973,Integrations and interfaces,Main
+D-0974,Vendor E features,Main
+D-0974,"Promotions, pricing and loyalty",Other
+D-0974,Receipts and printing,Other
+D-0975,Self-checkout (SCO),Main
+D-0975,Environment and infrastructure,Other
+D-0976,Payments and PED,Main
+D-0976,Home delivery service,Other
+D-0977,Scan and go (handsets),Main
+D-0978,EPP,Main
+D-0979,"Promotions, pricing and loyalty",Main
+D-0979,Environment and infrastructure,Other
+D-0980,"Promotions, pricing and loyalty",Main
+D-0980,EPP,Other
+D-0981,Self-checkout (SCO),Main
+D-0981,Environment and infrastructure,Other
+D-0982,Self-checkout (SCO),Main
+D-0982,Environment and infrastructure,Other
+D-0983,Vendor E features,Main
+D-0983,Payments and PED,Other
+D-0983,"Promotions, pricing and loyalty",Other
+D-0984,Integrations and interfaces,Main
+D-0985,Environment and infrastructure,Main
+D-0986,Self-checkout (SCO),Main
+D-0987,Scan and go (handsets),Main
+D-0987,Environment and infrastructure,Other
+D-0988,Till application (POS core),Main
+D-0988,Receipts and printing,Other
+D-0989,Vendor E features,Main
+D-0989,"Promotions, pricing and loyalty",Other
+D-0989,Receipts and printing,Other
+D-0990,Scan and go (handsets),Main
+D-0991,Reporting,Main
+D-0991,Environment and infrastructure,Other
+D-0992,Payments and PED,Main
+D-0992,Environment and infrastructure,Other
+D-0993,"Promotions, pricing and loyalty",Main
+D-0993,EPP,Other
+D-0994,Vendor E features,Main
+D-0994,"Promotions, pricing and loyalty",Other
+D-0994,Receipts and printing,Other
+D-0995,Environment and infrastructure,Main
+D-0996,Scan and go (handsets),Main
+D-0996,Integrations and interfaces,Other
+D-0997,"Promotions, pricing and loyalty",Main
+D-0997,Receipts and printing,Other
+D-0997,Self-checkout (SCO),Other
+D-0998,Vendor E features,Main
+D-0998,Integrations and interfaces,Other
+D-0999,Self-checkout (SCO),Main
+D-1000,Payments and PED,Main
+D-1001,Till application (POS core),Main
+D-1002,Till application (POS core),Main
+D-1002,Receipts and printing,Other
+D-1003,Vendor E features,Main
+D-1003,Payments and PED,Other
+D-1003,"Promotions, pricing and loyalty",Other
+D-1004,Till application (POS core),Main
+D-1005,Scan and go (handsets),Main
+D-1006,Scan and go (handsets),Main
+D-1007,Payments and PED,Main
+D-1007,Environment and infrastructure,Other
+D-1008,Scan and go (handsets),Main
+D-1009,Scan and go (handsets),Main
+D-1010,Scan and go (handsets),Main
+D-1010,Environment and infrastructure,Other
+D-1011,Scan and go (handsets),Main
+D-1012,Scan and go (handsets),Main
+D-1013,Scan and go (handsets),Main
+D-1014,Scan and go (handsets),Main
+D-1015,Scan and go (handsets),Main
+D-1015,Reporting,Other
+D-1016,Scan and go (handsets),Main
+D-1016,Reporting,Other
+D-1017,Scan and go (handsets),Main
+D-1017,Reporting,Other
+D-1018,Scan and go (handsets),Main
+D-1018,Reporting,Other
+D-1019,Scan and go (handsets),Main
+D-1020,Till application (POS core),Main
+D-1021,Environment and infrastructure,Main
+D-1022,Scan and go (handsets),Main
+D-1022,Environment and infrastructure,Other
+D-1022,Integrations and interfaces,Other
+D-1023,"Promotions, pricing and loyalty",Main
+D-1023,Reporting,Other
+D-1024,"Promotions, pricing and loyalty",Main
+D-1025,Environment and infrastructure,Main
+D-1026,"Promotions, pricing and loyalty",Main
+D-1027,"Promotions, pricing and loyalty",Main
+D-1027,Reporting,Other
+D-1028,Payments and PED,Main
+D-1028,EPP,Other
+D-1028,"Promotions, pricing and loyalty",Other
+D-1029,Payments and PED,Main
+D-1029,"Promotions, pricing and loyalty",Other
+D-1030,Not a product defect,Main
+D-1031,Returns and refunds,Main
+D-1031,EPP,Other
+D-1031,Payments and PED,Other
+D-1031,"Promotions, pricing and loyalty",Other
+D-1032,"Promotions, pricing and loyalty",Main
+D-1033,Returns and refunds,Main
+D-1033,EPP,Other
+D-1033,Payments and PED,Other
+D-1033,"Promotions, pricing and loyalty",Other
+D-1034,Scan and go (handsets),Main
+D-1034,Environment and infrastructure,Other
+D-1035,Payments and PED,Main
+D-1035,EPP,Other
+D-1035,"Promotions, pricing and loyalty",Other
+D-1036,Gift cards,Main
+D-1036,EPP,Other
+D-1037,Payments and PED,Main
+D-1037,EPP,Other
+D-1037,"Promotions, pricing and loyalty",Other
+D-1038,"Promotions, pricing and loyalty",Main
+D-1038,Reporting,Other
+D-1039,"Promotions, pricing and loyalty",Main
+D-1040,Not a product defect,Main
+D-1041,Not a product defect,Main
+D-1042,Till application (POS core),Main
+D-1043,Scan and go (handsets),Main
+D-1044,EPP,Main
+D-1045,"Promotions, pricing and loyalty",Main
+D-1046,"Promotions, pricing and loyalty",Main
+D-1047,Payments and PED,Main
+D-1047,"Promotions, pricing and loyalty",Other
+D-1048,Gift cards,Main
+D-1048,EPP,Other
+D-1048,Payments and PED,Other
+D-1049,"Promotions, pricing and loyalty",Main
+D-1050,"Promotions, pricing and loyalty",Main
+D-1050,Self-checkout (SCO),Other
+D-1051,Scan and go (handsets),Main
+D-1052,Reporting,Main
+D-1053,Payments and PED,Main
+D-1053,EPP,Other
+D-1053,"Promotions, pricing and loyalty",Other
+D-1054,Hardware and cash devices,Main
+D-1054,Environment and infrastructure,Other
+D-1054,Self-checkout (SCO),Other
+D-1055,Self-checkout (SCO),Main
+D-1055,Environment and infrastructure,Other
+D-1056,Self-checkout (SCO),Main
+D-1057,Self-checkout (SCO),Main
+D-1058,"Promotions, pricing and loyalty",Main
+D-1058,Self-checkout (SCO),Other
+D-1059,Self-checkout (SCO),Main
+D-1059,"Promotions, pricing and loyalty",Other
+D-1060,Reporting,Main
+D-1061,Scan and go (handsets),Main
+D-1062,Scan and go (handsets),Main
+D-1063,Gift cards,Main
+D-1063,EPP,Other
+D-1064,Scan and go (handsets),Main
+D-1065,Scan and go (handsets),Main
+D-1066,Hardware and cash devices,Main
+D-1066,Environment and infrastructure,Other
+D-1066,Self-checkout (SCO),Other
+D-1067,Hardware and cash devices,Main
+D-1067,Environment and infrastructure,Other
+D-1068,Hardware and cash devices,Main
+D-1068,Environment and infrastructure,Other
+D-1068,Self-checkout (SCO),Other
+D-1069,Self-checkout (SCO),Main
+D-1069,Environment and infrastructure,Other
+D-1070,Reporting,Main
+D-1071,Gift cards,Main
+D-1071,Environment and infrastructure,Other
+D-1071,Payments and PED,Other
+D-1072,Environment and infrastructure,Main
+D-1073,Self-checkout (SCO),Main
+D-1074,Gift cards,Main
+D-1074,Environment and infrastructure,Other
+D-1074,Self-checkout (SCO),Other
+D-1075,Scan and go (handsets),Main
+D-1075,Integrations and interfaces,Other
+D-1076,Scan and go (handsets),Main
+D-1077,Till application (POS core),Main
+D-1078,Scan and go (handsets),Main
+D-1079,Scan and go (handsets),Main
+D-1080,Scan and go (handsets),Main
+D-1081,Hardware and cash devices,Main
+D-1081,Environment and infrastructure,Other
+D-1081,Self-checkout (SCO),Other
+D-1082,Payments and PED,Main
+D-1083,"Promotions, pricing and loyalty",Main
+D-1084,Environment and infrastructure,Main
+D-1085,Environment and infrastructure,Main
+D-1086,Till application (POS core),Main
+D-1087,Hardware and cash devices,Main
+D-1088,Payments and PED,Main
+D-1088,Environment and infrastructure,Other
+D-1089,Self-checkout (SCO),Main
+D-1089,Environment and infrastructure,Other
+D-1090,Environment and infrastructure,Main
+D-1091,Reporting,Main
+D-1092,Scan and go (handsets),Main
+D-1092,Reporting,Other
+D-1093,Integrations and interfaces,Main
+D-1094,Payments and PED,Main
+D-1095,Environment and infrastructure,Main
+D-1096,"Promotions, pricing and loyalty",Main
+D-1096,Reporting,Other
+D-1097,Till application (POS core),Main
+D-1098,Environment and infrastructure,Main
+D-1098,Till application (POS core),Other
+D-1099,Vendor E features,Main
+D-1099,"Promotions, pricing and loyalty",Other
+D-1099,Receipts and printing,Other
+D-1100,Environment and infrastructure,Main
+D-1101,Till application (POS core),Main
+D-1102,"Promotions, pricing and loyalty",Main
+D-1103,Environment and infrastructure,Main
+D-1104,Scan and go (handsets),Main
+D-1105,Payments and PED,Main
+D-1105,Environment and infrastructure,Other
+D-1106,Integrations and interfaces,Main
+D-1106,Environment and infrastructure,Other
+D-1107,Till application (POS core),Main
+D-1107,Integrations and interfaces,Other
+D-1108,Self-checkout (SCO),Main
+D-1109,Till application (POS core),Main
+D-1110,Self-checkout (SCO),Main
+D-1111,Self-checkout (SCO),Main
+D-1112,Self-checkout (SCO),Main
+D-1113,Environment and infrastructure,Main
+D-1114,Integrations and interfaces,Main
+D-1115,"Promotions, pricing and loyalty",Main
+D-1115,Reporting,Other
+D-1116,Reporting,Main
+D-1117,Scan and go (handsets),Main
+D-1117,Payments and PED,Other
+D-1118,Scan and go (handsets),Main
+D-1119,Integrations and interfaces,Main
+D-1120,Reporting,Main
+D-1120,Self-checkout (SCO),Other
+D-1121,Till application (POS core),Main
+D-1121,Integrations and interfaces,Other
+D-1122,"Promotions, pricing and loyalty",Main
+D-1123,Self-checkout (SCO),Main
+D-1124,Integrations and interfaces,Main
+D-1125,Self-checkout (SCO),Main
+D-1125,"Promotions, pricing and loyalty",Other
+D-1126,Self-checkout (SCO),Main
+D-1127,"Promotions, pricing and loyalty",Main
+D-1127,Reporting,Other
+D-1128,"Promotions, pricing and loyalty",Main
+D-1128,Integrations and interfaces,Other
+D-1129,Scan and go (handsets),Main
+D-1130,Scan and go (handsets),Main
+D-1131,Scan and go (handsets),Main
+D-1132,Integrations and interfaces,Main
+D-1133,Till application (POS core),Main
+D-1134,Reporting,Main
+D-1135,Reporting,Main
+D-1136,Environment and infrastructure,Main
+D-1137,Gift cards,Main
+D-1137,Payments and PED,Other
+D-1138,Gift cards,Main
+D-1139,Payments and PED,Main
+D-1139,Home delivery service,Other
+D-1140,Scan and go (handsets),Main
+D-1141,Gift cards,Main
+D-1141,Payments and PED,Other
+D-1142,Environment and infrastructure,Main
+D-1143,Reporting,Main
+D-1144,"Promotions, pricing and loyalty",Main
+D-1144,Reporting,Other
+D-1145,Environment and infrastructure,Main
+D-1146,Reporting,Main
+D-1147,Till application (POS core),Main
+D-1147,Home delivery service,Other
+D-1148,Integrations and interfaces,Main
+D-1149,Home delivery service,Main
+D-1150,Payments and PED,Main
+D-1150,Home delivery service,Other
+D-1151,Home delivery service,Main
+D-1152,Self-checkout (SCO),Main
+D-1153,Environment and infrastructure,Main
+D-1154,Payments and PED,Main
+D-1155,Environment and infrastructure,Main
+D-1156,Environment and infrastructure,Main
+D-1157,Scan and go (handsets),Main
+D-1158,Payments and PED,Main
+D-1158,"Promotions, pricing and loyalty",Other
+D-1159,Scan and go (handsets),Main
+D-1160,Scan and go (handsets),Main
+D-1161,Scan and go (handsets),Main
+D-1162,Scan and go (handsets),Main
+D-1163,Scan and go (handsets),Main
+D-1164,Scan and go (handsets),Main
+D-1165,Scan and go (handsets),Main
+D-1165,Reporting,Other
+D-1166,Scan and go (handsets),Main
+D-1167,Scan and go (handsets),Main
+D-1168,Self-checkout (SCO),Main
+D-1168,Receipts and printing,Other
+D-1169,Scan and go (handsets),Main
+D-1170,Out of scope (perf),Main
+D-1171,Scan and go (handsets),Main
+D-1172,Scan and go (handsets),Main
+D-1173,Scan and go (handsets),Main
+D-1174,Scan and go (handsets),Main
+D-1174,Environment and infrastructure,Other
+D-1175,Scan and go (handsets),Main
+D-1176,Scan and go (handsets),Main
+D-1177,Environment and infrastructure,Main
+D-1178,Returns and refunds,Main
+D-1178,Payments and PED,Other
+D-1178,"Promotions, pricing and loyalty",Other
+D-1179,Returns and refunds,Main
+D-1179,Payments and PED,Other
+D-1180,Payments and PED,Main
+D-1180,"Promotions, pricing and loyalty",Other
+D-1181,Scan and go (handsets),Main
+D-1182,Scan and go (handsets),Main
+D-1182,Environment and infrastructure,Other
+D-1183,Payments and PED,Main
+D-1183,Self-checkout (SCO),Other
+D-1184,Reporting,Main
+D-1185,Reporting,Main
+D-1186,Till application (POS core),Main
+D-1186,Environment and infrastructure,Other
+D-1187,Self-checkout (SCO),Main
+D-1188,Scan and go (handsets),Main
+D-1189,Scan and go (handsets),Main
+D-1190,Scan and go (handsets),Main
+D-1190,Payments and PED,Other
+D-1191,Scan and go (handsets),Main
+D-1192,Scan and go (handsets),Main
+D-1193,Self-checkout (SCO),Main
+D-1194,Reporting,Main
+D-1194,Self-checkout (SCO),Other
+D-1195,Scan and go (handsets),Main
+D-1196,Scan and go (handsets),Main
+D-1197,Scan and go (handsets),Main
+D-1198,Scan and go (handsets),Main
+D-1199,Reporting,Main
+D-1199,Self-checkout (SCO),Other
+D-1200,Reporting,Main
+D-1200,Environment and infrastructure,Other
+D-1200,Self-checkout (SCO),Other
+D-1201,Self-checkout (SCO),Main
+D-1201,Environment and infrastructure,Other
+D-1202,Payments and PED,Main
+D-1202,"Promotions, pricing and loyalty",Other
+D-1202,Self-checkout (SCO),Other
+D-1203,Scan and go (handsets),Main
+D-1203,"Promotions, pricing and loyalty",Other
+D-1204,"Promotions, pricing and loyalty",Main
+D-1204,Self-checkout (SCO),Other
+D-1205,"Promotions, pricing and loyalty",Main
+D-1205,Self-checkout (SCO),Other
+D-1206,Scan and go (handsets),Main
+D-1207,Scan and go (handsets),Main
+D-1207,Environment and infrastructure,Other
+D-1208,Payments and PED,Main
+D-1209,Scan and go (handsets),Main
+D-1209,Environment and infrastructure,Other
+D-1210,Self-checkout (SCO),Main
+D-1210,Environment and infrastructure,Other
+D-1211,Payments and PED,Main
+D-1211,Environment and infrastructure,Other
+D-1212,Scan and go (handsets),Main
+D-1213,Scan and go (handsets),Main
+D-1214,Scan and go (handsets),Main
+D-1215,Till application (POS core),Main
+D-1216,Self-checkout (SCO),Main
+D-1217,Reporting,Main
+D-1217,Environment and infrastructure,Other
+D-1218,Environment and infrastructure,Main
+D-1219,Environment and infrastructure,Main
+D-1220,Receipts and printing,Main
+D-1221,Scan and go (handsets),Main
+D-1222,Till application (POS core),Main
+D-1222,Receipts and printing,Other
+D-1223,Vendor E features,Main
+D-1223,Receipts and printing,Other
+D-1223,Self-checkout (SCO),Other
+D-1224,Vendor E features,Main
+D-1224,"Promotions, pricing and loyalty",Other
+D-1225,Vendor E features,Main
+D-1225,"Promotions, pricing and loyalty",Other
+D-1226,Self-checkout (SCO),Main
+D-1226,Environment and infrastructure,Other
+D-1227,Scan and go (handsets),Main
+D-1228,Scan and go (handsets),Main
+D-1229,Scan and go (handsets),Main
+D-1230,Self-checkout (SCO),Main
+D-1231,Scan and go (handsets),Main
+D-1232,Self-checkout (SCO),Main
+D-1233,Self-checkout (SCO),Main
+D-1234,Reporting,Main
+D-1235,Scan and go (handsets),Main
+D-1236,Scan and go (handsets),Main
+D-1237,Scan and go (handsets),Main
+D-1238,Scan and go (handsets),Main
+D-1239,Self-checkout (SCO),Main
+D-1239,Environment and infrastructure,Other
+D-1240,Scan and go (handsets),Main
+D-1241,Till application (POS core),Main
+D-1242,Scan and go (handsets),Main
+D-1243,Scan and go (handsets),Main
+D-1244,Scan and go (handsets),Main
+D-1245,Scan and go (handsets),Main
+D-1246,Scan and go (handsets),Main
+D-1247,Scan and go (handsets),Main
+D-1248,Scan and go (handsets),Main
+D-1248,Environment and infrastructure,Other
+D-1248,Payments and PED,Other
+D-1249,Scan and go (handsets),Main
+D-1249,Environment and infrastructure,Other
+D-1249,Payments and PED,Other
+D-1250,Environment and infrastructure,Main
+D-1251,Scan and go (handsets),Main
+D-1252,Scan and go (handsets),Main
+D-1253,Scan and go (handsets),Main
+D-1254,Gift cards,Main
+D-1254,Payments and PED,Other
+D-1255,Payments and PED,Main
+D-1256,Integrations and interfaces,Main
+D-1257,Reporting,Main
+D-1258,Environment and infrastructure,Main
+D-1259,Scan and go (handsets),Main
+D-1260,Scan and go (handsets),Main
+D-1261,Scan and go (handsets),Main
+D-1262,"Promotions, pricing and loyalty",Main
+D-1263,Scan and go (handsets),Main
+D-1264,Scan and go (handsets),Main
+D-1265,Self-checkout (SCO),Main
+D-1265,Environment and infrastructure,Other
+D-1266,Scan and go (handsets),Main
+D-1266,Environment and infrastructure,Other
+D-1267,Reporting,Main
+D-1267,Self-checkout (SCO),Other
+D-1268,Scan and go (handsets),Main
+D-1268,Environment and infrastructure,Other
+D-1269,Scan and go (handsets),Main
+D-1269,Environment and infrastructure,Other
+D-1270,Self-checkout (SCO),Main
+D-1271,"Promotions, pricing and loyalty",Main
+D-1272,Reporting,Main
+D-1272,Self-checkout (SCO),Other
+D-1273,Self-checkout (SCO),Main
+D-1273,Environment and infrastructure,Other
+D-1274,Self-checkout (SCO),Main
+D-1275,Self-checkout (SCO),Main
+D-1276,Scan and go (handsets),Main
+D-1277,Scan and go (handsets),Main
+D-1278,Scan and go (handsets),Main
+D-1279,Payments and PED,Main
+D-1279,EPP,Other
+D-1279,Home delivery service,Other
+D-1280,Hardware and cash devices,Main
+D-1281,"Promotions, pricing and loyalty",Main
+D-1281,Self-checkout (SCO),Other
+D-1282,Self-checkout (SCO),Main
+D-1282,Environment and infrastructure,Other
+D-1283,Scan and go (handsets),Main
+D-1283,Environment and infrastructure,Other
+D-1284,Vendor E features,Main
+D-1284,Environment and infrastructure,Other
+D-1284,Self-checkout (SCO),Other
+D-1285,Self-checkout (SCO),Main
+D-1286,Self-checkout (SCO),Main
+D-1287,Scan and go (handsets),Main
+D-1288,Self-checkout (SCO),Main
+D-1289,Self-checkout (SCO),Main
+D-1289,Environment and infrastructure,Other
+D-1290,Payments and PED,Main
+D-1290,Self-checkout (SCO),Other
+D-1291,Self-checkout (SCO),Main
+D-1291,Environment and infrastructure,Other
+D-1292,Scan and go (handsets),Main
+D-1292,Payments and PED,Other
+D-1293,Scan and go (handsets),Main
+D-1294,Scan and go (handsets),Main
+D-1295,Self-checkout (SCO),Main
+D-1295,Environment and infrastructure,Other
+D-1296,Self-checkout (SCO),Main
+D-1296,Environment and infrastructure,Other
+D-1297,Scan and go (handsets),Main
+D-1298,Scan and go (handsets),Main
+D-1298,Payments and PED,Other
+D-1299,Scan and go (handsets),Main
+D-1299,Environment and infrastructure,Other
+D-1300,Scan and go (handsets),Main
+D-1300,Environment and infrastructure,Other
+D-1301,Scan and go (handsets),Main
+D-1301,Environment and infrastructure,Other
+D-1302,Scan and go (handsets),Main
+D-1303,Scan and go (handsets),Main
+D-1303,Environment and infrastructure,Other
+D-1304,Scan and go (handsets),Main
+D-1305,Payments and PED,Main
+D-1305,"Promotions, pricing and loyalty",Other
+D-1305,Self-checkout (SCO),Other
+D-1306,Scan and go (handsets),Main
+D-1306,Reporting,Other
+D-1307,Scan and go (handsets),Main
+D-1307,Environment and infrastructure,Other
+D-1308,"Promotions, pricing and loyalty",Main
+D-1308,Self-checkout (SCO),Other
+D-1309,Scan and go (handsets),Main
+D-1309,"Promotions, pricing and loyalty",Other
+D-1310,Scan and go (handsets),Main
+D-1311,Scan and go (handsets),Main
+D-1312,Scan and go (handsets),Main
+D-1313,Scan and go (handsets),Main
+D-1313,"Promotions, pricing and loyalty",Other
+D-1314,Scan and go (handsets),Main
+D-1314,"Promotions, pricing and loyalty",Other
+D-1315,Scan and go (handsets),Main
+D-1315,"Promotions, pricing and loyalty",Other
+D-1316,Self-checkout (SCO),Main
+D-1317,Scan and go (handsets),Main
+D-1318,Self-checkout (SCO),Main
+D-1319,Self-checkout (SCO),Main
+D-1320,Self-checkout (SCO),Main
+D-1320,Receipts and printing,Other
+D-1321,Self-checkout (SCO),Main
+D-1321,Receipts and printing,Other
+D-1322,Scan and go (handsets),Main
+D-1323,Self-checkout (SCO),Main
+D-1324,Environment and infrastructure,Main
+D-1325,Gift cards,Main
+D-1325,Payments and PED,Other
+D-1325,"Promotions, pricing and loyalty",Other
+D-1325,Receipts and printing,Other
+D-1325,Self-checkout (SCO),Other
+D-1326,Self-checkout (SCO),Main
+D-1327,"Promotions, pricing and loyalty",Main
+D-1327,Self-checkout (SCO),Other
+D-1328,Self-checkout (SCO),Main
+D-1329,Reporting,Main
+D-1329,Self-checkout (SCO),Other
+D-1330,Self-checkout (SCO),Main
+D-1331,Self-checkout (SCO),Main
+D-1332,Scan and go (handsets),Main
+D-1333,Self-checkout (SCO),Main
+D-1333,Receipts and printing,Other
+D-1334,Payments and PED,Main
+D-1334,Receipts and printing,Other
+D-1334,Self-checkout (SCO),Other
+D-1335,Payments and PED,Main
+D-1335,Self-checkout (SCO),Other
+D-1336,Payments and PED,Main
+D-1336,Self-checkout (SCO),Other
+D-1337,Payments and PED,Main
+D-1337,"Promotions, pricing and loyalty",Other
+D-1337,Reporting,Other
+D-1337,Self-checkout (SCO),Other
+D-1338,Payments and PED,Main
+D-1338,Self-checkout (SCO),Other
+D-1339,Hardware and cash devices,Main
+D-1339,Payments and PED,Other
+D-1339,Self-checkout (SCO),Other
+D-1340,"Promotions, pricing and loyalty",Main
+D-1340,Reporting,Other
+D-1340,Self-checkout (SCO),Other
+D-1341,Hardware and cash devices,Main
+D-1341,Self-checkout (SCO),Other
+D-1342,Self-checkout (SCO),Main
+D-1343,Payments and PED,Main
+D-1343,"Promotions, pricing and loyalty",Other
+D-1343,Self-checkout (SCO),Other
+D-1344,Payments and PED,Main
+D-1344,"Promotions, pricing and loyalty",Other
+D-1345,Self-checkout (SCO),Main
+D-1346,Self-checkout (SCO),Main
+D-1347,Self-checkout (SCO),Main
+D-1348,Self-checkout (SCO),Main
+D-1349,Self-checkout (SCO),Main
+D-1350,Self-checkout (SCO),Main
+D-1350,Receipts and printing,Other
+D-1351,Self-checkout (SCO),Main
+D-1352,Self-checkout (SCO),Main
+D-1353,Self-checkout (SCO),Main
+D-1354,Self-checkout (SCO),Main
+D-1355,Scan and go (handsets),Main
+D-1356,Scan and go (handsets),Main
+D-1357,Scan and go (handsets),Main
+D-1358,Scan and go (handsets),Main
+D-1359,Scan and go (handsets),Main
+D-1360,Scan and go (handsets),Main
+D-1360,"Promotions, pricing and loyalty",Other
+D-1361,Scan and go (handsets),Main
+D-1362,Scan and go (handsets),Main
+D-1362,"Promotions, pricing and loyalty",Other
+D-1363,Scan and go (handsets),Main
+D-1363,"Promotions, pricing and loyalty",Other
+D-1364,Scan and go (handsets),Main
+D-1365,Hardware and cash devices,Main
+D-1365,Self-checkout (SCO),Other
+D-1366,Gift cards,Main
+D-1366,Payments and PED,Other
+D-1366,Self-checkout (SCO),Other
+D-1367,Payments and PED,Main
+D-1367,Environment and infrastructure,Other
+D-1368,Environment and infrastructure,Main
+D-1369,Scan and go (handsets),Main
+D-1369,Environment and infrastructure,Other
+D-1369,Receipts and printing,Other
+D-1370,Self-checkout (SCO),Main
+D-1370,Environment and infrastructure,Other
+D-1371,Self-checkout (SCO),Main
+D-1371,Environment and infrastructure,Other
+D-1372,Self-checkout (SCO),Main
+D-1372,Environment and infrastructure,Other
+D-1373,Scan and go (handsets),Main
+D-1374,Scan and go (handsets),Main
+D-1375,Scan and go (handsets),Main
+D-1376,Scan and go (handsets),Main
+D-1376,Environment and infrastructure,Other
+D-1377,Scan and go (handsets),Main
+D-1378,Scan and go (handsets),Main
+D-1379,Scan and go (handsets),Main
+D-1380,Scan and go (handsets),Main
+D-1381,Scan and go (handsets),Main
+D-1382,Scan and go (handsets),Main
+D-1383,Scan and go (handsets),Main
+D-1384,Scan and go (handsets),Main
+D-1385,Scan and go (handsets),Main
+D-1386,Scan and go (handsets),Main
+D-1387,Scan and go (handsets),Main
+D-1388,Scan and go (handsets),Main
+D-1389,Scan and go (handsets),Main
+D-1389,Environment and infrastructure,Other
+D-1390,Payments and PED,Main
+D-1391,Till application (POS core),Main
+D-1392,"Promotions, pricing and loyalty",Main
+D-1393,Scan and go (handsets),Main
+D-1394,Scan and go (handsets),Main
+D-1395,Self-checkout (SCO),Main
+D-1396,Scan and go (handsets),Main
+D-1397,Payments and PED,Main
+D-1398,Scan and go (handsets),Main
+D-1398,Reporting,Other
+D-1399,Scan and go (handsets),Main
+D-1399,"Promotions, pricing and loyalty",Other
+D-1400,Environment and infrastructure,Main
+D-1401,Self-checkout (SCO),Main
+D-1402,Scan and go (handsets),Main
+D-1403,Self-checkout (SCO),Main
+D-1403,Environment and infrastructure,Other
+D-1404,Scan and go (handsets),Main
+D-1405,Scan and go (handsets),Main
+D-1406,Scan and go (handsets),Main
+D-1407,Scan and go (handsets),Main
+D-1408,Scan and go (handsets),Main
+D-1409,Scan and go (handsets),Main
+D-1410,Scan and go (handsets),Main
+D-1411,Scan and go (handsets),Main
+D-1412,Reporting,Main
+D-1413,Scan and go (handsets),Main
+D-1414,Scan and go (handsets),Main
+D-1415,Scan and go (handsets),Main
+D-1416,Scan and go (handsets),Main
+D-1417,Scan and go (handsets),Main
+D-1418,Scan and go (handsets),Main
+D-1419,Payments and PED,Main
+D-1419,Self-checkout (SCO),Other
+D-1420,Receipts and printing,Main
+D-1421,Scan and go (handsets),Main
+D-1422,Scan and go (handsets),Main
+D-1423,Scan and go (handsets),Main
+D-1424,Scan and go (handsets),Main
+D-1424,"Promotions, pricing and loyalty",Other
+D-1425,Scan and go (handsets),Main
+D-1425,"Promotions, pricing and loyalty",Other
+D-1426,Scan and go (handsets),Main
+D-1427,Payments and PED,Main
+D-1427,Self-checkout (SCO),Other
+D-1428,Payments and PED,Main
+D-1429,Payments and PED,Main
+D-1430,Payments and PED,Main
+D-1431,Scan and go (handsets),Main
+D-1432,Till application (POS core),Main
+D-1432,Environment and infrastructure,Other
+D-1432,Receipts and printing,Other
+D-1433,Payments and PED,Main
+D-1434,Self-checkout (SCO),Main
+D-1434,"Promotions, pricing and loyalty",Other
+D-1435,"Promotions, pricing and loyalty",Main
+D-1435,Reporting,Other
+D-1436,Scan and go (handsets),Main
+D-1437,Scan and go (handsets),Main
+D-1438,Self-checkout (SCO),Main
+D-1438,Receipts and printing,Other
+D-1439,Payments and PED,Main
+D-1440,Scan and go (handsets),Main
+D-1441,Scan and go (handsets),Main
+D-1442,Reporting,Main
+D-1442,Environment and infrastructure,Other
+D-1443,Reporting,Main
+D-1443,Environment and infrastructure,Other
+D-1444,"Promotions, pricing and loyalty",Main
+D-1444,Receipts and printing,Other
+D-1445,Scan and go (handsets),Main
+D-1446,Scan and go (handsets),Main
+D-1447,Scan and go (handsets),Main
+D-1448,Scan and go (handsets),Main
+D-1449,Scan and go (handsets),Main
+D-1450,Scan and go (handsets),Main
+D-1451,Payments and PED,Main
+D-1451,Receipts and printing,Other
+D-1451,Self-checkout (SCO),Other
+D-1452,Scan and go (handsets),Main
+D-1453,Scan and go (handsets),Main
+D-1454,"Promotions, pricing and loyalty",Main
+D-1454,Reporting,Other
+D-1455,Reporting,Main
+D-1456,Scan and go (handsets),Main
+D-1457,"Promotions, pricing and loyalty",Main
+D-1458,Self-checkout (SCO),Main
+D-1458,"Promotions, pricing and loyalty",Other
+D-1459,Payments and PED,Main
+D-1460,Payments and PED,Main
+D-1461,Payments and PED,Main
+D-1462,Hardware and cash devices,Main
+D-1463,Environment and infrastructure,Main
+D-1464,Integrations and interfaces,Main
+D-1464,Environment and infrastructure,Other
+D-1465,"Promotions, pricing and loyalty",Main
+D-1465,Environment and infrastructure,Other
+D-1466,Environment and infrastructure,Main
+D-1467,"Promotions, pricing and loyalty",Main
+D-1467,EPP,Other
+D-1467,Home delivery service,Other
+D-1468,Scan and go (handsets),Main
+D-1469,Scan and go (handsets),Main
+D-1470,Scan and go (handsets),Main
+D-1471,Scan and go (handsets),Main
+D-1472,Scan and go (handsets),Main
+D-1473,Self-checkout (SCO),Main
+D-1474,Environment and infrastructure,Main
+D-1475,Scan and go (handsets),Main
+D-1475,"Promotions, pricing and loyalty",Other
+D-1476,Till application (POS core),Main
+D-1476,Environment and infrastructure,Other
+D-1477,Scan and go (handsets),Main
+D-1478,Reporting,Main
+D-1479,Scan and go (handsets),Main
+D-1480,Scan and go (handsets),Main
+D-1481,Scan and go (handsets),Main
+D-1482,Scan and go (handsets),Main
+D-1482,"Promotions, pricing and loyalty",Other
+D-1483,Scan and go (handsets),Main
+D-1484,Reporting,Main
+D-1484,Environment and infrastructure,Other
+D-1485,Self-checkout (SCO),Main
+D-1486,Self-checkout (SCO),Main
+D-1486,Receipts and printing,Other
+D-1487,Scan and go (handsets),Main
+D-1487,"Promotions, pricing and loyalty",Other
+D-1488,Scan and go (handsets),Main
+D-1488,"Promotions, pricing and loyalty",Other
+D-1489,Scan and go (handsets),Main
+D-1490,"Promotions, pricing and loyalty",Main
+D-1491,"Promotions, pricing and loyalty",Main
+D-1491,Receipts and printing,Other
+D-1491,Reporting,Other
+D-1492,Self-checkout (SCO),Main
+D-1492,Environment and infrastructure,Other
+D-1493,Scan and go (handsets),Main
+D-1494,Scan and go (handsets),Main
+D-1495,Scan and go (handsets),Main
+D-1496,Scan and go (handsets),Main
+D-1497,Scan and go (handsets),Main
+D-1498,Scan and go (handsets),Main
+D-1498,Environment and infrastructure,Other
+D-1499,Scan and go (handsets),Main
+D-1500,Environment and infrastructure,Main
+D-1501,Self-checkout (SCO),Main
+D-1502,Scan and go (handsets),Main
+D-1503,Payments and PED,Main
+D-1503,Self-checkout (SCO),Other
+D-1504,Environment and infrastructure,Main
+D-1505,Scan and go (handsets),Main
+D-1505,Environment and infrastructure,Other
+D-1506,"Promotions, pricing and loyalty",Main
+D-1506,Self-checkout (SCO),Other
+D-1507,"Promotions, pricing and loyalty",Main
+D-1507,Self-checkout (SCO),Other
+D-1508,Scan and go (handsets),Main
+D-1509,Scan and go (handsets),Main
+D-1510,Scan and go (handsets),Main
+D-1510,Reporting,Other
+D-1511,Self-checkout (SCO),Main
+D-1512,Scan and go (handsets),Main
+D-1513,Scan and go (handsets),Main
+D-1514,Environment and infrastructure,Main
+D-1514,Self-checkout (SCO),Other
+D-1515,Scan and go (handsets),Main
+D-1515,Environment and infrastructure,Other
+D-1516,Payments and PED,Main
+D-1517,Vendor E features,Main
+D-1517,"Promotions, pricing and loyalty",Other
+D-1518,"Promotions, pricing and loyalty",Main
+D-1519,"Promotions, pricing and loyalty",Main
+D-1520,"Promotions, pricing and loyalty",Main
+D-1521,"Promotions, pricing and loyalty",Main
+D-1522,Scan and go (handsets),Main
+D-1523,Environment and infrastructure,Main
+D-1524,Hardware and cash devices,Main
+D-1524,Self-checkout (SCO),Other
+D-1525,Self-checkout (SCO),Main
+D-1526,Self-checkout (SCO),Main
+D-1526,Receipts and printing,Other
+D-1527,Self-checkout (SCO),Main
+D-1528,Environment and infrastructure,Main
+D-1529,Self-checkout (SCO),Main
+D-1530,Self-checkout (SCO),Main
+D-1531,Gift cards,Main
+D-1531,Payments and PED,Other
+D-1531,"Promotions, pricing and loyalty",Other
+D-1531,Self-checkout (SCO),Other
+D-1532,Self-checkout (SCO),Main
+D-1533,Self-checkout (SCO),Main
+D-1534,Self-checkout (SCO),Main
+D-1535,Self-checkout (SCO),Main
+D-1536,Till application (POS core),Main
+D-1537,Environment and infrastructure,Main
+D-1538,Integrations and interfaces,Main
+D-1538,Environment and infrastructure,Other
+D-1539,Self-checkout (SCO),Main
+D-1539,Environment and infrastructure,Other
+D-1540,Environment and infrastructure,Main
+D-1541,Scan and go (handsets),Main
+D-1542,Scan and go (handsets),Main
+D-1543,Scan and go (handsets),Main
+D-1544,Scan and go (handsets),Main
+D-1545,Scan and go (handsets),Main
+D-1545,"Promotions, pricing and loyalty",Other
+D-1546,Scan and go (handsets),Main
+D-1546,"Promotions, pricing and loyalty",Other
+D-1547,Scan and go (handsets),Main
+D-1548,Assortment,Main
+D-1548,Environment and infrastructure,Other
+D-1549,Integrations and interfaces,Main
+D-1549,Environment and infrastructure,Other
+D-1550,Gift cards,Main
+D-1550,Payments and PED,Other
+D-1551,Gift cards,Main
+D-1551,Payments and PED,Other
+D-1551,Receipts and printing,Other
+D-1552,Scan and go (handsets),Main
+D-1552,Environment and infrastructure,Other
+D-1553,Reporting,Main
+D-1553,Environment and infrastructure,Other
+D-1554,Gift cards,Main
+D-1555,Gift cards,Main
+D-1555,Payments and PED,Other
+D-1555,Self-checkout (SCO),Other
+D-1556,Gift cards,Main
+D-1556,Payments and PED,Other
+D-1556,"Promotions, pricing and loyalty",Other
+D-1557,Environment and infrastructure,Main
+D-1558,Payments and PED,Main
+D-1559,Gift cards,Main
+D-1559,Payments and PED,Other
+D-1559,Receipts and printing,Other
+D-1560,Gift cards,Main
+D-1561,Vendor E features,Main
+D-1562,Gift cards,Main
+D-1563,Gift cards,Main
+D-1563,Payments and PED,Other
+D-1563,Reporting,Other
+D-1564,Gift cards,Main
+D-1564,Payments and PED,Other
+D-1564,Self-checkout (SCO),Other
+D-1565,Gift cards,Main
+D-1565,Payments and PED,Other
+D-1565,Receipts and printing,Other
+D-1565,Self-checkout (SCO),Other
+D-1566,Gift cards,Main
+D-1566,Payments and PED,Other
+D-1567,Gift cards,Main
+D-1568,Gift cards,Main
+D-1568,Payments and PED,Other
+D-1569,Gift cards,Main
+D-1569,"Promotions, pricing and loyalty",Other
+D-1570,Gift cards,Main
+D-1570,Self-checkout (SCO),Other
+D-1571,Integrations and interfaces,Main
+D-1571,Environment and infrastructure,Other
+D-1572,Reporting,Main
+D-1573,Scan and go (handsets),Main
+D-1573,Environment and infrastructure,Other
+D-1574,Environment and infrastructure,Main
+D-1575,Gift cards,Main
+D-1575,Payments and PED,Other
+D-1575,Self-checkout (SCO),Other
+D-1576,Self-checkout (SCO),Main
+D-1576,Environment and infrastructure,Other
+D-1576,"Promotions, pricing and loyalty",Other
+D-1577,Gift cards,Main
+D-1577,Payments and PED,Other
+D-1578,Gift cards,Main
+D-1578,Reporting,Other
+D-1579,Scan and go (handsets),Main
+D-1580,Environment and infrastructure,Main
+D-1581,Environment and infrastructure,Main
+D-1582,Self-checkout (SCO),Main
+D-1583,Scan and go (handsets),Main
+D-1583,Environment and infrastructure,Other
+D-1584,Gift cards,Main
+D-1584,Environment and infrastructure,Other
+D-1584,Payments and PED,Other
+D-1585,Environment and infrastructure,Main
+D-1585,Reporting,Other
+D-1586,Integrations and interfaces,Main
+D-1586,Environment and infrastructure,Other
+D-1587,Gift cards,Main
+D-1587,Payments and PED,Other
+D-1588,Reporting,Main
+D-1588,Environment and infrastructure,Other
+D-1589,Vendor E features,Main
+D-1589,Gift cards,Other
+D-1589,Payments and PED,Other
+D-1589,"Promotions, pricing and loyalty",Other
+D-1589,Receipts and printing,Other
+D-1590,Reporting,Main
+D-1591,Vendor E features,Main
+D-1591,Gift cards,Other
+D-1591,Payments and PED,Other
+D-1591,"Promotions, pricing and loyalty",Other
+D-1591,Receipts and printing,Other
+D-1592,Gift cards,Main
+D-1593,Reporting,Main
+D-1594,"Promotions, pricing and loyalty",Main
+D-1595,Environment and infrastructure,Main
+D-1596,Reporting,Main
+D-1597,Reporting,Main
+D-1597,Environment and infrastructure,Other
+D-1598,Scan and go (handsets),Main
+D-1598,Environment and infrastructure,Other
+D-1598,Integrations and interfaces,Other
+D-1599,Scan and go (handsets),Main
+D-1600,Out of scope (perf),Main
+D-1601,Scan and go (handsets),Main
+D-1602,Scan and go (handsets),Main
+D-1603,Self-checkout (SCO),Main
+D-1604,Scan and go (handsets),Main
+D-1604,Environment and infrastructure,Other
+D-1605,Assortment,Main
+D-1605,Environment and infrastructure,Other
+D-1605,Reporting,Other
+D-1606,Environment and infrastructure,Main
+D-1607,Out of scope (perf),Main
+D-1608,Vendor E features,Main
+D-1609,Vendor E features,Main
+D-1609,"Promotions, pricing and loyalty",Other
+D-1609,Receipts and printing,Other
+D-1609,Self-checkout (SCO),Other
+D-1610,Vendor E features,Main
+D-1610,"Promotions, pricing and loyalty",Other
+D-1610,Receipts and printing,Other
+D-1611,Vendor E features,Main
+D-1612,Vendor E features,Main
+D-1613,Vendor E features,Main
+D-1613,"Promotions, pricing and loyalty",Other
+D-1614,Vendor E features,Main
+D-1615,Vendor E features,Main
+D-1616,Scan and go (handsets),Main
+D-1616,Environment and infrastructure,Other
+D-1616,Integrations and interfaces,Other
+D-1617,Reporting,Main
+D-1617,Self-checkout (SCO),Other
+D-1618,Scan and go (handsets),Main
+D-1618,Integrations and interfaces,Other
+D-1619,Environment and infrastructure,Main
+D-1620,"Promotions, pricing and loyalty",Main
+D-1621,Environment and infrastructure,Main
+D-1621,Self-checkout (SCO),Other
+D-1622,Gift cards,Main
+D-1622,Payments and PED,Other
+D-1622,"Promotions, pricing and loyalty",Other
+D-1623,Payments and PED,Main
+D-1623,Self-checkout (SCO),Other
+D-1624,Self-checkout (SCO),Main
+D-1625,Scan and go (handsets),Main
+D-1626,Payments and PED,Main
+D-1626,Self-checkout (SCO),Other
+D-1627,Scan and go (handsets),Main
+D-1628,Scan and go (handsets),Main
+D-1629,Scan and go (handsets),Main
+D-1630,Scan and go (handsets),Main
+D-1630,Hardware and cash devices,Other
+D-1631,Scan and go (handsets),Main
+D-1632,Scan and go (handsets),Main
+D-1633,Scan and go (handsets),Main
+D-1634,Scan and go (handsets),Main
+D-1635,Payments and PED,Main
+D-1635,Self-checkout (SCO),Other
+D-1636,Payments and PED,Main
+D-1636,Self-checkout (SCO),Other
+D-1637,Scan and go (handsets),Main
+D-1638,Scan and go (handsets),Main
+D-1639,Scan and go (handsets),Main
+D-1640,Scan and go (handsets),Main
+D-1641,"Promotions, pricing and loyalty",Main
+D-1641,Environment and infrastructure,Other
+D-1642,Scan and go (handsets),Main
+D-1642,Environment and infrastructure,Other
+D-1643,Gift cards,Main
+D-1643,Payments and PED,Other
+D-1643,Self-checkout (SCO),Other
+D-1644,Environment and infrastructure,Main
+D-1644,Self-checkout (SCO),Other
+D-1645,Payments and PED,Main
+D-1646,Payments and PED,Main
+D-1646,Environment and infrastructure,Other
+D-1647,Scan and go (handsets),Main
+D-1647,Environment and infrastructure,Other
+D-1648,Scan and go (handsets),Main
+D-1648,Environment and infrastructure,Other
+D-1649,Scan and go (handsets),Main
+D-1650,Scan and go (handsets),Main
+D-1651,Scan and go (handsets),Main
+D-1651,Environment and infrastructure,Other
+D-1652,Reporting,Main
+D-1653,Scan and go (handsets),Main
+D-1654,Vendor E features,Main
+D-1654,Environment and infrastructure,Other
+D-1655,Environment and infrastructure,Main
+D-1655,Reporting,Other
+D-1656,Scan and go (handsets),Main
+D-1657,Scan and go (handsets),Main
+D-1657,Environment and infrastructure,Other
+D-1658,Scan and go (handsets),Main
+D-1659,Scan and go (handsets),Main
+D-1659,Environment and infrastructure,Other
+D-1660,Reporting,Main
+D-1661,Environment and infrastructure,Main
+D-1661,Reporting,Other
+D-1662,Reporting,Main
+D-1662,Environment and infrastructure,Other
+D-1663,Scan and go (handsets),Main
+D-1663,Environment and infrastructure,Other
+D-1664,Reporting,Main
+D-1664,Environment and infrastructure,Other
+D-1665,Self-checkout (SCO),Main
+D-1666,Reporting,Main
+D-1666,Environment and infrastructure,Other
+D-1667,Environment and infrastructure,Main
+D-1668,Scan and go (handsets),Main
+D-1669,Reporting,Main
+D-1669,Environment and infrastructure,Other
+D-1670,Reporting,Main
+D-1670,Environment and infrastructure,Other
+D-1671,Scan and go (handsets),Main
+D-1671,Environment and infrastructure,Other
+D-1671,Integrations and interfaces,Other
+D-1672,Scan and go (handsets),Main
+D-1672,Environment and infrastructure,Other
+D-1673,Integrations and interfaces,Main
+D-1673,Environment and infrastructure,Other
+D-1674,Scan and go (handsets),Main
+D-1674,Environment and infrastructure,Other
+D-1675,Scan and go (handsets),Main
+D-1676,Scan and go (handsets),Main
+D-1677,Out of scope (perf),Main
+D-1678,Payments and PED,Main
+D-1679,Payments and PED,Main
+D-1680,Scan and go (handsets),Main
+D-1681,Scan and go (handsets),Main
+D-1682,Payments and PED,Main
+D-1682,Self-checkout (SCO),Other
+D-1683,Payments and PED,Main
+D-1683,"Promotions, pricing and loyalty",Other
+D-1684,Payments and PED,Main
+D-1685,Payments and PED,Main
+D-1686,Payments and PED,Main
+D-1686,Self-checkout (SCO),Other
+D-1687,Payments and PED,Main
+D-1687,Self-checkout (SCO),Other
+D-1688,Scan and go (handsets),Main
+D-1689,Payments and PED,Main
+D-1690,Reporting,Main
+D-1691,Reporting,Main
+D-1692,Scan and go (handsets),Main
+D-1692,Environment and infrastructure,Other
+D-1692,Integrations and interfaces,Other
+D-1693,Scan and go (handsets),Main
+D-1694,Out of scope (perf),Main
+D-1695,Environment and infrastructure,Main
+D-1696,Reporting,Main
+D-1696,Environment and infrastructure,Other
+D-1697,Scan and go (handsets),Main
+D-1698,Scan and go (handsets),Main
+D-1699,Scan and go (handsets),Main
+D-1700,Reporting,Main
+D-1701,Environment and infrastructure,Main
+D-1702,Scan and go (handsets),Main
+D-1702,Reporting,Other
+D-1703,Environment and infrastructure,Main
+D-1703,EPP,Other
+D-1704,Scan and go (handsets),Main
+D-1704,"Promotions, pricing and loyalty",Other
+D-1705,Scan and go (handsets),Main
+D-1706,Scan and go (handsets),Main
+D-1707,Scan and go (handsets),Main
+D-1708,Scan and go (handsets),Main
+D-1709,Scan and go (handsets),Main
+D-1710,Scan and go (handsets),Main
+D-1711,Scan and go (handsets),Main
+D-1712,Scan and go (handsets),Main
+D-1712,"Promotions, pricing and loyalty",Other
+D-1713,Scan and go (handsets),Main
+D-1714,Scan and go (handsets),Main
+D-1715,Self-checkout (SCO),Main
+D-1716,Scan and go (handsets),Main
+D-1717,Scan and go (handsets),Main
+D-1718,Scan and go (handsets),Main
+D-1719,Scan and go (handsets),Main
+D-1720,Scan and go (handsets),Main
+D-1721,Scan and go (handsets),Main
+D-1721,"Promotions, pricing and loyalty",Other
+D-1722,Scan and go (handsets),Main
+D-1723,Scan and go (handsets),Main
+D-1723,"Promotions, pricing and loyalty",Other
+D-1724,Scan and go (handsets),Main
+D-1725,Scan and go (handsets),Main
+D-1725,"Promotions, pricing and loyalty",Other
+D-1726,Scan and go (handsets),Main
+D-1727,Scan and go (handsets),Main
+D-1728,Scan and go (handsets),Main
+D-1729,Scan and go (handsets),Main
+D-1730,Scan and go (handsets),Main
+D-1730,Environment and infrastructure,Other
+D-1731,Scan and go (handsets),Main
+D-1731,Environment and infrastructure,Other
+D-1732,Scan and go (handsets),Main
+D-1733,Scan and go (handsets),Main
+D-1734,Scan and go (handsets),Main
+D-1735,Not a product defect,Main
+D-1736,Scan and go (handsets),Main
+D-1737,Scan and go (handsets),Main
+D-1738,Scan and go (handsets),Main
+D-1739,Scan and go (handsets),Main
+D-1740,Scan and go (handsets),Main
+D-1741,Scan and go (handsets),Main
+D-1742,Scan and go (handsets),Main
+D-1743,Scan and go (handsets),Main
+D-1744,Scan and go (handsets),Main
+D-1745,Scan and go (handsets),Main
+D-1746,Scan and go (handsets),Main
+D-1747,Self-checkout (SCO),Main
+D-1747,Environment and infrastructure,Other
+D-1748,Scan and go (handsets),Main
+D-1749,Scan and go (handsets),Main
+D-1750,Scan and go (handsets),Main
+D-1751,Payments and PED,Main
+D-1751,Self-checkout (SCO),Other
+D-1752,Payments and PED,Main
+D-1752,Self-checkout (SCO),Other
+D-1753,Hardware and cash devices,Main
+D-1753,Payments and PED,Other
+D-1753,Self-checkout (SCO),Other
+D-1754,Payments and PED,Main
+D-1754,Self-checkout (SCO),Other
+D-1755,Self-checkout (SCO),Main
+D-1756,Scan and go (handsets),Main
+D-1757,Scan and go (handsets),Main
+D-1758,Self-checkout (SCO),Main
+D-1759,Scan and go (handsets),Main
+D-1760,Scan and go (handsets),Main
+D-1761,Payments and PED,Main
+D-1761,Self-checkout (SCO),Other
+D-1762,Hardware and cash devices,Main
+D-1762,Payments and PED,Other
+D-1762,Self-checkout (SCO),Other
+D-1763,Scan and go (handsets),Main
+D-1764,Scan and go (handsets),Main
+D-1764,Environment and infrastructure,Other
+D-1765,Scan and go (handsets),Main
+D-1765,Environment and infrastructure,Other
+D-1766,Scan and go (handsets),Main
+D-1766,Environment and infrastructure,Other
+D-1767,Scan and go (handsets),Main
+D-1768,Scan and go (handsets),Main
+D-1769,Scan and go (handsets),Main
+D-1770,Scan and go (handsets),Main
+D-1771,Scan and go (handsets),Main
+D-1772,Scan and go (handsets),Main
+D-1773,Self-checkout (SCO),Main
+D-1774,Scan and go (handsets),Main
+D-1775,Scan and go (handsets),Main
+D-1776,Scan and go (handsets),Main
+D-1777,Scan and go (handsets),Main
+D-1777,Environment and infrastructure,Other
+D-1778,Scan and go (handsets),Main
+D-1779,Scan and go (handsets),Main
+D-1780,Scan and go (handsets),Main
+D-1781,Scan and go (handsets),Main
+D-1782,Scan and go (handsets),Main
+D-1783,Scan and go (handsets),Main
+D-1784,Scan and go (handsets),Main
+D-1784,Environment and infrastructure,Other
+D-1785,Scan and go (handsets),Main
+D-1786,Scan and go (handsets),Main
+D-1787,Scan and go (handsets),Main
+D-1788,Scan and go (handsets),Main
+D-1789,Scan and go (handsets),Main
+D-1790,"Promotions, pricing and loyalty",Main
+D-1790,Environment and infrastructure,Other
+D-1790,Self-checkout (SCO),Other
+D-1791,Environment and infrastructure,Main
+D-1792,Scan and go (handsets),Main
+D-1793,Scan and go (handsets),Main
+D-1793,Environment and infrastructure,Other
+D-1794,Scan and go (handsets),Main
+D-1794,Environment and infrastructure,Other
+D-1795,Scan and go (handsets),Main
+D-1796,"Promotions, pricing and loyalty",Main
+D-1797,Self-checkout (SCO),Main
+D-1797,Environment and infrastructure,Other
+D-1798,Scan and go (handsets),Main
+D-1799,Payments and PED,Main
+D-1799,Environment and infrastructure,Other
+D-1799,Self-checkout (SCO),Other
+D-1800,Scan and go (handsets),Main
+D-1801,Self-checkout (SCO),Main
+D-1801,Environment and infrastructure,Other
+D-1802,Scan and go (handsets),Main
+D-1803,Scan and go (handsets),Main
+D-1804,Scan and go (handsets),Main
+D-1805,Scan and go (handsets),Main
+D-1806,Scan and go (handsets),Main
+D-1807,Scan and go (handsets),Main
+D-1808,Payments and PED,Main
+D-1808,Environment and infrastructure,Other
+D-1808,Self-checkout (SCO),Other
+D-1809,Scan and go (handsets),Main
+D-1810,Scan and go (handsets),Main
+D-1810,Environment and infrastructure,Other
+D-1811,Scan and go (handsets),Main
+D-1812,Self-checkout (SCO),Main
+D-1812,Receipts and printing,Other
+D-1813,Scan and go (handsets),Main
+D-1813,"Promotions, pricing and loyalty",Other
+D-1814,"Promotions, pricing and loyalty",Main
+D-1814,Self-checkout (SCO),Other
+D-1815,"Promotions, pricing and loyalty",Main
+D-1815,Self-checkout (SCO),Other
+D-1816,Scan and go (handsets),Main
+D-1816,Integrations and interfaces,Other
+D-1817,Scan and go (handsets),Main
+D-1818,Environment and infrastructure,Main
+D-1819,Environment and infrastructure,Main
+D-1820,Reporting,Main
+D-1821,Scan and go (handsets),Main
+D-1822,Scan and go (handsets),Main
+D-1822,Environment and infrastructure,Other
+D-1822,Reporting,Other
+D-1823,Payments and PED,Main
+D-1823,Self-checkout (SCO),Other
+D-1824,Out of scope (perf),Main
+D-1825,Payments and PED,Main
+D-1825,Self-checkout (SCO),Other
+D-1826,Scan and go (handsets),Main
+D-1827,Scan and go (handsets),Main
+D-1828,Scan and go (handsets),Main
+D-1829,Scan and go (handsets),Main
+D-1830,Reporting,Main
+D-1831,Self-checkout (SCO),Main
+D-1832,Self-checkout (SCO),Main
+D-1833,Environment and infrastructure,Main
+D-1834,Scan and go (handsets),Main
+D-1835,Payments and PED,Main
+D-1836,Payments and PED,Main
+D-1836,Environment and infrastructure,Other
+D-1836,Self-checkout (SCO),Other
+D-1837,Payments and PED,Main
+D-1837,Environment and infrastructure,Other
+D-1837,"Promotions, pricing and loyalty",Other
+D-1837,Self-checkout (SCO),Other
+D-1838,Payments and PED,Main
+D-1838,Environment and infrastructure,Other
+D-1838,"Promotions, pricing and loyalty",Other
+D-1838,Self-checkout (SCO),Other
+D-1839,Reporting,Main
+D-1839,Environment and infrastructure,Other
+D-1840,Environment and infrastructure,Main
+D-1840,Payments and PED,Other
+D-1840,Self-checkout (SCO),Other
+D-1841,Scan and go (handsets),Main
+D-1841,Environment and infrastructure,Other
+D-1842,Environment and infrastructure,Main
+D-1842,Payments and PED,Other
+D-1842,Self-checkout (SCO),Other
+D-1843,Environment and infrastructure,Main
+D-1843,Payments and PED,Other
+D-1843,Self-checkout (SCO),Other
+D-1844,Environment and infrastructure,Main
+D-1844,Payments and PED,Other
+D-1844,Self-checkout (SCO),Other
+D-1845,Environment and infrastructure,Main
+D-1845,Payments and PED,Other
+D-1845,Self-checkout (SCO),Other
+D-1846,Environment and infrastructure,Main
+D-1847,Environment and infrastructure,Main
+D-1847,"Promotions, pricing and loyalty",Other
+D-1847,Self-checkout (SCO),Other
+D-1848,Environment and infrastructure,Main
+D-1849,Scan and go (handsets),Main
+D-1849,Payments and PED,Other
+D-1850,Scan and go (handsets),Main
+D-1851,Scan and go (handsets),Main
+D-1851,Environment and infrastructure,Other
+D-1852,"Promotions, pricing and loyalty",Main
+D-1852,Environment and infrastructure,Other
+D-1852,Reporting,Other
+D-1853,Scan and go (handsets),Main
+D-1853,"Promotions, pricing and loyalty",Other
+D-1854,Not a product defect,Main
+D-1855,Self-checkout (SCO),Main
+D-1855,Environment and infrastructure,Other
+D-1856,Self-checkout (SCO),Main
+D-1857,Self-checkout (SCO),Main
+D-1858,Self-checkout (SCO),Main
+D-1859,Payments and PED,Main
+D-1860,Self-checkout (SCO),Main
+D-1861,Self-checkout (SCO),Main
+D-1861,Environment and infrastructure,Other
+D-1862,Out of scope (perf),Main
+D-1863,Scan and go (handsets),Main
+D-1864,Out of scope (perf),Main
+D-1865,Self-checkout (SCO),Main
+D-1866,Payments and PED,Main
+D-1866,"Promotions, pricing and loyalty",Other
+D-1866,Receipts and printing,Other
+D-1866,Self-checkout (SCO),Other
+D-1867,Self-checkout (SCO),Main
+D-1867,Environment and infrastructure,Other
+D-1868,Gift cards,Main
+D-1868,Environment and infrastructure,Other
+D-1868,Payments and PED,Other
+D-1868,Self-checkout (SCO),Other
+D-1869,Scan and go (handsets),Main
+D-1870,Scan and go (handsets),Main
+D-1871,Self-checkout (SCO),Main
+D-1872,Payments and PED,Main
+D-1872,Self-checkout (SCO),Other
+D-1873,Receipts and printing,Main
+D-1873,Environment and infrastructure,Other
+D-1874,Environment and infrastructure,Main
+D-1875,Environment and infrastructure,Main
+D-1875,Reporting,Other
+D-1876,Environment and infrastructure,Main
+D-1877,Payments and PED,Main
+D-1877,Environment and infrastructure,Other
+D-1877,Self-checkout (SCO),Other
+D-1878,Environment and infrastructure,Main
+D-1879,Scan and go (handsets),Main
+D-1880,Scan and go (handsets),Main
+D-1880,Reporting,Other
+D-1881,Scan and go (handsets),Main
+D-1881,"Promotions, pricing and loyalty",Other
+D-1882,Self-checkout (SCO),Main
+D-1883,Self-checkout (SCO),Main
+D-1883,Environment and infrastructure,Other
+D-1884,Scan and go (handsets),Main
+D-1884,Environment and infrastructure,Other
+D-1885,Self-checkout (SCO),Main
+D-1886,Environment and infrastructure,Main
+D-1887,Environment and infrastructure,Main
+D-1888,Scan and go (handsets),Main
+D-1888,Environment and infrastructure,Other
+D-1888,"Promotions, pricing and loyalty",Other
+D-1889,Environment and infrastructure,Main
+D-1890,Scan and go (handsets),Main
+D-1890,Payments and PED,Other
+D-1891,Payments and PED,Main
+D-1891,Self-checkout (SCO),Other
+D-1892,Payments and PED,Main
+D-1893,Self-checkout (SCO),Main
+D-1893,Environment and infrastructure,Other
+D-1894,Self-checkout (SCO),Main
+D-1895,Payments and PED,Main
+D-1895,Self-checkout (SCO),Other
+D-1896,Self-checkout (SCO),Main
+D-1897,Gift cards,Main
+D-1897,Payments and PED,Other
+D-1897,"Promotions, pricing and loyalty",Other
+D-1898,Scan and go (handsets),Main
+D-1899,Scan and go (handsets),Main
+D-1900,Scan and go (handsets),Main
+D-1901,Out of scope (perf),Main
+D-1902,Scan and go (handsets),Main
+D-1903,Scan and go (handsets),Main
+D-1904,Scan and go (handsets),Main
+D-1905,Scan and go (handsets),Main
+D-1905,Environment and infrastructure,Other
+D-1905,Reporting,Other
+D-1906,"Promotions, pricing and loyalty",Main
+D-1906,Self-checkout (SCO),Other
+D-1907,Out of scope (perf),Main
+D-1908,Reporting,Main
+D-1909,Scan and go (handsets),Main
+D-1910,Scan and go (handsets),Main
+D-1911,Scan and go (handsets),Main
+D-1911,Environment and infrastructure,Other
+D-1912,Environment and infrastructure,Main
+D-1913,Scan and go (handsets),Main
+D-1913,Environment and infrastructure,Other
+D-1914,Environment and infrastructure,Main
+D-1915,Environment and infrastructure,Main
+D-1916,Payments and PED,Main
+D-1917,Scan and go (handsets),Main
+D-1918,Environment and infrastructure,Main
+D-1919,Payments and PED,Main
+D-1919,Environment and infrastructure,Other
+D-1920,Environment and infrastructure,Main
+D-1921,Environment and infrastructure,Main
+D-1922,Scan and go (handsets),Main
+D-1922,Reporting,Other
+D-1923,Environment and infrastructure,Main
+D-1924,Environment and infrastructure,Main
+D-1925,Environment and infrastructure,Main
+D-1926,Environment and infrastructure,Main
+D-1927,Scan and go (handsets),Main
+D-1928,Environment and infrastructure,Main
+D-1929,Scan and go (handsets),Main
+D-1930,Scan and go (handsets),Main
+D-1931,Vendor E features,Main
+D-1932,Environment and infrastructure,Main
+D-1933,Payments and PED,Main
+D-1934,Reporting,Main
+D-1935,Payments and PED,Main
+D-1935,Receipts and printing,Other
+D-1936,Reporting,Main
+D-1936,Environment and infrastructure,Other
+D-1937,Integrations and interfaces,Main
+D-1937,Environment and infrastructure,Other
+D-1938,Till application (POS core),Main
+D-1938,Environment and infrastructure,Other
+D-1938,Receipts and printing,Other
+D-1939,Scan and go (handsets),Main
+D-1939,Environment and infrastructure,Other
+D-1940,Scan and go (handsets),Main
+D-1940,Environment and infrastructure,Other
+D-1941,Scan and go (handsets),Main
+D-1942,Scan and go (handsets),Main
+D-1942,Integrations and interfaces,Other
+D-1943,Scan and go (handsets),Main
+D-1943,Integrations and interfaces,Other
+D-1944,Scan and go (handsets),Main
+D-1945,Scan and go (handsets),Main
+D-1945,"Promotions, pricing and loyalty",Other
+D-1946,Gift cards,Main
+D-1946,Environment and infrastructure,Other
+D-1946,Payments and PED,Other
+D-1947,Scan and go (handsets),Main
+D-1948,Reporting,Main
+D-1948,Environment and infrastructure,Other
+D-1949,Scan and go (handsets),Main
+D-1949,"Promotions, pricing and loyalty",Other
+D-1950,Self-checkout (SCO),Main
+D-1951,Self-checkout (SCO),Main
+D-1952,Gift cards,Main
+D-1952,Payments and PED,Other
+D-1952,Self-checkout (SCO),Other
+D-1953,Self-checkout (SCO),Main
+D-1954,Self-checkout (SCO),Main
+D-1955,Vendor E features,Main
+D-1955,"Promotions, pricing and loyalty",Other
+D-1955,Receipts and printing,Other
+D-1955,Self-checkout (SCO),Other
+D-1956,Self-checkout (SCO),Main
+D-1956,Receipts and printing,Other
+D-1957,"Promotions, pricing and loyalty",Main
+D-1957,Receipts and printing,Other
+D-1957,Reporting,Other
+D-1957,Self-checkout (SCO),Other
+D-1958,Self-checkout (SCO),Main
+D-1959,Scan and go (handsets),Main
+D-1959,"Promotions, pricing and loyalty",Other
+D-1960,Payments and PED,Main
+D-1960,Self-checkout (SCO),Other
+D-1961,Environment and infrastructure,Main
+D-1962,Payments and PED,Main
+D-1962,Self-checkout (SCO),Other
+D-1963,Self-checkout (SCO),Main
+D-1964,Self-checkout (SCO),Main
+D-1965,Self-checkout (SCO),Main
+D-1966,Self-checkout (SCO),Main
+D-1967,Self-checkout (SCO),Main
+D-1968,Scan and go (handsets),Main
+D-1968,"Promotions, pricing and loyalty",Other
+D-1969,Payments and PED,Main
+D-1969,Self-checkout (SCO),Other
+D-1970,Self-checkout (SCO),Main
+D-1971,Self-checkout (SCO),Main
+D-1972,Self-checkout (SCO),Main
+D-1973,Scan and go (handsets),Main
+D-1974,Reporting,Main
+D-1974,Environment and infrastructure,Other
+D-1975,Scan and go (handsets),Main
+D-1976,Scan and go (handsets),Main
+D-1977,Payments and PED,Main
+D-1977,Receipts and printing,Other
+D-1977,Self-checkout (SCO),Other
+D-1978,DRS (deposit return),Main
+D-1978,"Promotions, pricing and loyalty",Other
+D-1978,Receipts and printing,Other
+D-1979,DRS (deposit return),Main
+D-1979,Reporting,Other
+D-1980,DRS (deposit return),Main
+D-1980,Reporting,Other
+D-1981,Self-checkout (SCO),Main
+D-1981,Environment and infrastructure,Other
+D-1982,"Promotions, pricing and loyalty",Main
+D-1982,Self-checkout (SCO),Other
+D-1983,Payments and PED,Main
+D-1983,Self-checkout (SCO),Other
+D-1984,Self-checkout (SCO),Main
+D-1985,Scan and go (handsets),Main
+D-1986,Scan and go (handsets),Main
+D-1987,Environment and infrastructure,Main
+D-1988,Reporting,Main
+D-1988,Environment and infrastructure,Other
+D-1989,Reporting,Main
+D-1989,Environment and infrastructure,Other
+D-1989,Self-checkout (SCO),Other
+D-1990,Payments and PED,Main
+D-1991,DRS (deposit return),Main
+D-1991,Payments and PED,Other
+D-1991,"Promotions, pricing and loyalty",Other
+D-1992,Self-checkout (SCO),Main
+D-1993,Scan and go (handsets),Main
+D-1993,Environment and infrastructure,Other
+D-1994,DRS (deposit return),Main
+D-1995,Reporting,Main
+D-1995,Environment and infrastructure,Other
+D-1995,Self-checkout (SCO),Other
+D-1996,Self-checkout (SCO),Main
+D-1997,Self-checkout (SCO),Main
+D-1997,Environment and infrastructure,Other
+D-1998,Scan and go (handsets),Main
+D-1998,Environment and infrastructure,Other
+D-1999,Reporting,Main
+D-1999,Environment and infrastructure,Other
+D-2000,Payments and PED,Main
+D-2000,Receipts and printing,Other
+D-2001,Integrations and interfaces,Main
+D-2001,Environment and infrastructure,Other
+D-2002,Payments and PED,Main
+D-2002,Environment and infrastructure,Other
+D-2003,Gift cards,Main
+D-2003,Environment and infrastructure,Other
+D-2003,Payments and PED,Other
+D-2004,Reporting,Main
+D-2004,Environment and infrastructure,Other
+D-2005,Scan and go (handsets),Main
+D-2005,Environment and infrastructure,Other
+D-2005,Integrations and interfaces,Other
+D-2006,Environment and infrastructure,Main
+D-2007,Scan and go (handsets),Main
+D-2007,Environment and infrastructure,Other
+D-2008,Reporting,Main
+D-2008,Environment and infrastructure,Other
+D-2009,Integrations and interfaces,Main
+D-2009,Environment and infrastructure,Other
+D-2010,Scan and go (handsets),Main
+D-2010,Environment and infrastructure,Other
+D-2011,Gift cards,Main
+D-2011,Environment and infrastructure,Other
+D-2011,Payments and PED,Other
+D-2012,Environment and infrastructure,Main
+D-2013,Environment and infrastructure,Main
+D-2014,Reporting,Main
+D-2014,Environment and infrastructure,Other
+D-2015,Out of scope (perf),Main
+D-2016,Environment and infrastructure,Main
+D-2017,Reporting,Main
+D-2017,Environment and infrastructure,Other
+D-2018,Payments and PED,Main
+D-2018,"Promotions, pricing and loyalty",Other
+D-2018,Receipts and printing,Other
+D-2019,Vendor E features,Main
+D-2019,"Promotions, pricing and loyalty",Other
+D-2019,Receipts and printing,Other
+D-2020,Reporting,Main
+D-2020,Environment and infrastructure,Other
+D-2021,Integrations and interfaces,Main
+D-2021,Environment and infrastructure,Other
+D-2022,Scan and go (handsets),Main
+D-2022,Environment and infrastructure,Other
+D-2022,Integrations and interfaces,Other
+D-2023,"Promotions, pricing and loyalty",Main
+D-2023,Environment and infrastructure,Other
+D-2024,Integrations and interfaces,Main
+D-2024,Environment and infrastructure,Other
+D-2025,Environment and infrastructure,Main
+D-2025,Payments and PED,Other
+D-2025,Receipts and printing,Other
+D-2025,Self-checkout (SCO),Other
+D-2026,Environment and infrastructure,Main
+D-2027,"Promotions, pricing and loyalty",Main
+D-2027,Environment and infrastructure,Other
+D-2027,Reporting,Other
+D-2028,Environment and infrastructure,Main
+D-2029,Self-checkout (SCO),Main
+D-2030,Environment and infrastructure,Main
+D-2031,Environment and infrastructure,Main
+D-2032,Environment and infrastructure,Main
+D-2032,Hardware and cash devices,Other
+D-2033,Environment and infrastructure,Main
+D-2034,Till application (POS core),Main
+D-2035,Environment and infrastructure,Main
+D-2035,Hardware and cash devices,Other
+D-2036,Environment and infrastructure,Main
+D-2037,Integrations and interfaces,Main
+D-2037,Environment and infrastructure,Other
+D-2038,Reporting,Main
+D-2038,Environment and infrastructure,Other
+D-2039,Scan and go (handsets),Main
+D-2039,Environment and infrastructure,Other
+D-2040,Environment and infrastructure,Main
+D-2041,Integrations and interfaces,Main
+D-2041,Environment and infrastructure,Other
+D-2042,Environment and infrastructure,Main
+D-2043,Environment and infrastructure,Main
+D-2044,Environment and infrastructure,Main
+D-2045,Environment and infrastructure,Main
+D-2045,Hardware and cash devices,Other
+D-2046,Environment and infrastructure,Main
+D-2047,Reporting,Main
+D-2047,Environment and infrastructure,Other
+D-2048,Scan and go (handsets),Main
+D-2048,Environment and infrastructure,Other
+D-2049,Environment and infrastructure,Main
+D-2050,Environment and infrastructure,Main
+D-2051,Till application (POS core),Main
+D-2052,Environment and infrastructure,Main
+D-2053,Environment and infrastructure,Main
+D-2053,Hardware and cash devices,Other
+D-2054,Integrations and interfaces,Main
+D-2055,Environment and infrastructure,Main
+D-2055,Hardware and cash devices,Other
+D-2056,Integrations and interfaces,Main
+D-2056,Environment and infrastructure,Other
+D-2057,Environment and infrastructure,Main
+D-2058,Till application (POS core),Main
+D-2058,Environment and infrastructure,Other
+D-2058,Receipts and printing,Other
+D-2059,Integrations and interfaces,Main
+D-2059,Environment and infrastructure,Other
+D-2060,Reporting,Main
+D-2060,Environment and infrastructure,Other
+D-2061,Environment and infrastructure,Main
+D-2061,Hardware and cash devices,Other
+D-2062,Environment and infrastructure,Main
+D-2063,Environment and infrastructure,Main
+D-2064,Environment and infrastructure,Main
+D-2064,Hardware and cash devices,Other
+D-2065,Environment and infrastructure,Main
+D-2066,Scan and go (handsets),Main
+D-2067,Environment and infrastructure,Main
+D-2067,Self-checkout (SCO),Other
+D-2068,Environment and infrastructure,Main
+D-2069,Environment and infrastructure,Main
+D-2070,"Promotions, pricing and loyalty",Main
+D-2070,Reporting,Other
+D-2071,Self-checkout (SCO),Main
+D-2072,"Promotions, pricing and loyalty",Main
+D-2072,Reporting,Other
+D-2073,"Promotions, pricing and loyalty",Main
+D-2073,Reporting,Other
+D-2074,"Promotions, pricing and loyalty",Main
+D-2074,Reporting,Other
+D-2075,"Promotions, pricing and loyalty",Main
+D-2075,Reporting,Other
+D-2076,Environment and infrastructure,Main
+D-2076,Self-checkout (SCO),Other
+D-2077,Environment and infrastructure,Main
+D-2078,"Promotions, pricing and loyalty",Main
+D-2079,Self-checkout (SCO),Main
+D-2080,"Promotions, pricing and loyalty",Main
+D-2080,Reporting,Other
+D-2081,Self-checkout (SCO),Main
+D-2082,Self-checkout (SCO),Main
+D-2083,Self-checkout (SCO),Main
+D-2084,Self-checkout (SCO),Main
+D-2085,Self-checkout (SCO),Main
+D-2086,Scan and go (handsets),Main
+D-2086,Environment and infrastructure,Other
+D-2087,"Promotions, pricing and loyalty",Main
+D-2087,Reporting,Other
+D-2088,"Promotions, pricing and loyalty",Main
+D-2089,"Promotions, pricing and loyalty",Main
+D-2089,Reporting,Other
+D-2090,"Promotions, pricing and loyalty",Main
+D-2090,Reporting,Other
+D-2091,"Promotions, pricing and loyalty",Main
+D-2091,Reporting,Other
+D-2092,"Promotions, pricing and loyalty",Main
+D-2092,Environment and infrastructure,Other
+D-2093,"Promotions, pricing and loyalty",Main
+D-2093,Environment and infrastructure,Other
+D-2094,"Promotions, pricing and loyalty",Main
+D-2094,Reporting,Other
+D-2095,"Promotions, pricing and loyalty",Main
+D-2095,Reporting,Other
+D-2096,"Promotions, pricing and loyalty",Main
+D-2096,Reporting,Other
+D-2097,"Promotions, pricing and loyalty",Main
+D-2098,"Promotions, pricing and loyalty",Main
+D-2098,Reporting,Other
+D-2099,"Promotions, pricing and loyalty",Main
+D-2100,"Promotions, pricing and loyalty",Main
+D-2100,Reporting,Other
+D-2101,"Promotions, pricing and loyalty",Main
+D-2102,"Promotions, pricing and loyalty",Main
+D-2102,Reporting,Other
+D-2103,Environment and infrastructure,Main
+D-2103,Payments and PED,Other
+D-2104,"Promotions, pricing and loyalty",Main
+D-2104,Reporting,Other
+D-2105,Scan and go (handsets),Main
+D-2105,Environment and infrastructure,Other
+D-2106,"Promotions, pricing and loyalty",Main
+D-2107,"Promotions, pricing and loyalty",Main
+D-2107,Reporting,Other
+D-2108,Environment and infrastructure,Main
+D-2109,Vendor E features,Main
+D-2109,Environment and infrastructure,Other
+D-2109,Self-checkout (SCO),Other
+D-2110,Vendor E features,Main
+D-2110,Environment and infrastructure,Other
+D-2110,Self-checkout (SCO),Other
+D-2111,Vendor E features,Main
+D-2111,Environment and infrastructure,Other
+D-2112,Environment and infrastructure,Main
+D-2113,Vendor E features,Main
+D-2113,"Promotions, pricing and loyalty",Other
+D-2113,Receipts and printing,Other
+D-2114,"Promotions, pricing and loyalty",Main
+D-2114,Reporting,Other
+D-2115,Reporting,Main
+D-2115,Environment and infrastructure,Other
+D-2116,Scan and go (handsets),Main
+D-2117,Scan and go (handsets),Main
+D-2117,Environment and infrastructure,Other
+D-2117,Integrations and interfaces,Other
+D-2118,Scan and go (handsets),Main
+D-2119,Environment and infrastructure,Main
+D-2120,Environment and infrastructure,Main
+D-2121,Hardware and cash devices,Main
+D-2122,Environment and infrastructure,Main
+D-2123,Environment and infrastructure,Main
+D-2124,Environment and infrastructure,Main
+D-2125,"Promotions, pricing and loyalty",Main
+D-2125,Environment and infrastructure,Other
+D-2125,Reporting,Other
+D-2126,Reporting,Main
+D-2126,Environment and infrastructure,Other
+D-2127,Environment and infrastructure,Main
+D-2128,Scan and go (handsets),Main
+D-2128,Environment and infrastructure,Other
+D-2128,Integrations and interfaces,Other
+D-2129,Environment and infrastructure,Main
+D-2130,Reporting,Main
+D-2130,Environment and infrastructure,Other
+D-2131,Scan and go (handsets),Main
+D-2131,Environment and infrastructure,Other
+D-2132,Reporting,Main
+D-2132,Environment and infrastructure,Other
+D-2133,Scan and go (handsets),Main
+D-2133,Environment and infrastructure,Other
+D-2134,Scan and go (handsets),Main
+D-2134,Environment and infrastructure,Other
+D-2134,Integrations and interfaces,Other
+D-2135,Scan and go (handsets),Main
+D-2135,Environment and infrastructure,Other
+D-2136,Scan and go (handsets),Main
+D-2136,Environment and infrastructure,Other
+D-2137,Environment and infrastructure,Main
+D-2138,Scan and go (handsets),Main
+D-2138,Environment and infrastructure,Other
+D-2139,Scan and go (handsets),Main
+D-2139,Environment and infrastructure,Other
+D-2140,Scan and go (handsets),Main
+D-2140,Environment and infrastructure,Other
+D-2141,Scan and go (handsets),Main
+D-2142,Environment and infrastructure,Main
+D-2143,Receipts and printing,Main
+D-2144,Scan and go (handsets),Main
+D-2144,Environment and infrastructure,Other
+D-2145,Scan and go (handsets),Main
+D-2145,Environment and infrastructure,Other
+D-2146,Scan and go (handsets),Main
+D-2146,Environment and infrastructure,Other
+D-2147,Scan and go (handsets),Main
+D-2147,Environment and infrastructure,Other
+D-2148,Environment and infrastructure,Main
+D-2149,Reporting,Main
+D-2149,Environment and infrastructure,Other
+D-2149,Self-checkout (SCO),Other
+D-2150,Reporting,Main
+D-2150,Environment and infrastructure,Other
+D-2151,Environment and infrastructure,Main
+D-2152,Scan and go (handsets),Main
+D-2152,Environment and infrastructure,Other
+D-2153,Scan and go (handsets),Main
+D-2153,Environment and infrastructure,Other
+D-2154,Out of scope (perf),Main
+D-2155,Reporting,Main
+D-2155,Environment and infrastructure,Other
+D-2156,Reporting,Main
+D-2156,Environment and infrastructure,Other
+D-2157,Reporting,Main
+D-2157,Environment and infrastructure,Other
+D-2158,Environment and infrastructure,Main
+D-2159,Scan and go (handsets),Main
+D-2160,Out of scope (perf),Main
+D-2161,Scan and go (handsets),Main
+D-2162,Assortment,Main
+D-2162,Environment and infrastructure,Other
+D-2162,Reporting,Other
+D-2163,Scan and go (handsets),Main
+D-2163,Environment and infrastructure,Other
+D-2164,Environment and infrastructure,Main
+D-2164,Hardware and cash devices,Other
+D-2165,Environment and infrastructure,Main
+D-2165,Self-checkout (SCO),Other
+D-2166,Payments and PED,Main
+D-2167,Out of scope (perf),Main
+D-2167,Scan and go (handsets),Other
+D-2168,Out of scope (perf),Main
+D-2169,Scan and go (handsets),Main
+D-2169,Environment and infrastructure,Other
+D-2170,Reporting,Main
+D-2171,Out of scope (perf),Main
+D-2172,Environment and infrastructure,Main
+D-2172,Self-checkout (SCO),Other
+D-2173,Out of scope (perf),Main
+D-2174,Environment and infrastructure,Main
+D-2174,Reporting,Other
+D-2174,Self-checkout (SCO),Other
+D-2175,Self-checkout (SCO),Main
+D-2176,Environment and infrastructure,Main
+D-2176,Self-checkout (SCO),Other
+D-2177,Environment and infrastructure,Main
+D-2177,Self-checkout (SCO),Other
+D-2178,Reporting,Main
+D-2178,Environment and infrastructure,Other
+D-2179,Environment and infrastructure,Main
+D-2179,Payments and PED,Other
+D-2179,Self-checkout (SCO),Other
+D-2180,Scan and go (handsets),Main
+D-2180,Environment and infrastructure,Other
+D-2180,Integrations and interfaces,Other
+D-2181,Out of scope (perf),Main
+D-2182,Vendor E features,Main
+D-2182,"Promotions, pricing and loyalty",Other
+D-2182,Receipts and printing,Other
+D-2182,Self-checkout (SCO),Other
+D-2183,Self-checkout (SCO),Main
+D-2183,Receipts and printing,Other
+D-2184,Self-checkout (SCO),Main
+D-2185,Environment and infrastructure,Main
+D-2186,Environment and infrastructure,Main
+D-2187,Assortment,Main
+D-2187,Environment and infrastructure,Other
+D-2188,Scan and go (handsets),Main
+D-2189,Environment and infrastructure,Main
+D-2190,Environment and infrastructure,Main
+D-2191,Self-checkout (SCO),Main
+D-2192,Self-checkout (SCO),Main
+D-2193,Self-checkout (SCO),Main
+D-2194,Self-checkout (SCO),Main
+D-2195,Self-checkout (SCO),Main
+D-2196,Out of scope (perf),Main
+D-2197,Out of scope (perf),Main
+D-2198,Self-checkout (SCO),Main
+D-2199,Self-checkout (SCO),Main
+D-2200,Self-checkout (SCO),Main
+D-2201,Environment and infrastructure,Main
+D-2201,Self-checkout (SCO),Other
+D-2202,Environment and infrastructure,Main
+D-2202,Self-checkout (SCO),Other
+D-2203,Environment and infrastructure,Main
+D-2203,Gift cards,Other
+D-2203,Payments and PED,Other
+D-2203,Self-checkout (SCO),Other
+D-2204,Scan and go (handsets),Main
+D-2205,Scan and go (handsets),Main
+D-2206,Scan and go (handsets),Main
+D-2206,Integrations and interfaces,Other
+D-2207,Environment and infrastructure,Main
+D-2208,Environment and infrastructure,Main
+D-2209,Self-checkout (SCO),Main
+D-2210,"Promotions, pricing and loyalty",Main
+D-2210,Environment and infrastructure,Other
+D-2210,Reporting,Other
+D-2211,Reporting,Main
+D-2211,Environment and infrastructure,Other
+D-2212,Assortment,Main
+D-2212,Environment and infrastructure,Other
+D-2213,Assortment,Main
+D-2213,Environment and infrastructure,Other
+D-2213,Reporting,Other
+D-2214,Assortment,Main
+D-2214,Environment and infrastructure,Other
+D-2214,Reporting,Other
+D-2215,Environment and infrastructure,Main
+D-2216,Integrations and interfaces,Main
+D-2216,Environment and infrastructure,Other
+D-2217,Out of scope (perf),Main
+D-2218,Environment and infrastructure,Main
+D-2218,Payments and PED,Other
+D-2218,Self-checkout (SCO),Other
+D-2219,Environment and infrastructure,Main
+D-2219,"Promotions, pricing and loyalty",Other
+D-2219,Self-checkout (SCO),Other
+D-2220,Environment and infrastructure,Main
+D-2220,Payments and PED,Other
+D-2220,Self-checkout (SCO),Other
+D-2221,Environment and infrastructure,Main
+D-2222,"Promotions, pricing and loyalty",Main
+D-2223,Scan and go (handsets),Main
+D-2223,Environment and infrastructure,Other
+D-2224,Integrations and interfaces,Main
+D-2224,Environment and infrastructure,Other
+D-2225,Assortment,Main
+D-2225,Environment and infrastructure,Other
+D-2226,Environment and infrastructure,Main
+D-2227,Reporting,Main
+D-2227,Environment and infrastructure,Other
+D-2228,Self-checkout (SCO),Main
+D-2229,Self-checkout (SCO),Main
+D-2230,Payments and PED,Main
+D-2230,"Promotions, pricing and loyalty",Other
+D-2231,Scan and go (handsets),Main
+D-2232,Scan and go (handsets),Main
+D-2233,Scan and go (handsets),Main
+D-2234,Scan and go (handsets),Main
+D-2235,Scan and go (handsets),Main
+D-2236,Environment and infrastructure,Main
+D-2237,Scan and go (handsets),Main
+D-2237,Environment and infrastructure,Other
+D-2237,"Promotions, pricing and loyalty",Other
+D-2238,Scan and go (handsets),Main
+D-2238,Environment and infrastructure,Other
+D-2239,Scan and go (handsets),Main
+D-2240,Scan and go (handsets),Main
+D-2241,Scan and go (handsets),Main
+D-2242,Scan and go (handsets),Main
+D-2243,Scan and go (handsets),Main
+D-2244,Scan and go (handsets),Main
+D-2245,"Promotions, pricing and loyalty",Main
+D-2246,Environment and infrastructure,Main
+D-2247,"Promotions, pricing and loyalty",Main
+D-2248,"Promotions, pricing and loyalty",Main
+D-2249,"Promotions, pricing and loyalty",Main
+D-2249,Reporting,Other
+D-2250,Self-checkout (SCO),Main
+D-2251,"Promotions, pricing and loyalty",Main
+D-2252,Assortment,Main
+D-2252,Environment and infrastructure,Other
+D-2253,Hardware and cash devices,Main
+D-2254,Self-checkout (SCO),Main
+D-2254,Environment and infrastructure,Other
+D-2255,Environment and infrastructure,Main
+D-2256,Environment and infrastructure,Main
+D-2257,"Promotions, pricing and loyalty",Main
+D-2258,Self-checkout (SCO),Main
+D-2258,Receipts and printing,Other
+D-2259,Out of scope (perf),Main
+D-2260,Assortment,Main
+D-2260,Environment and infrastructure,Other
+D-2260,Reporting,Other
+D-2261,Environment and infrastructure,Main
+D-2261,Payments and PED,Other
+D-2261,Self-checkout (SCO),Other
+D-2262,Environment and infrastructure,Main
+D-2262,Self-checkout (SCO),Other
+D-2263,Environment and infrastructure,Main
+D-2264,Environment and infrastructure,Main
+D-2265,Integrations and interfaces,Main
+D-2265,Environment and infrastructure,Other
+D-2266,Environment and infrastructure,Main
+D-2266,Payments and PED,Other
+D-2266,Self-checkout (SCO),Other
+D-2267,Not a product defect,Main
+D-2268,Payments and PED,Main
+D-2268,"Promotions, pricing and loyalty",Other
+D-2269,"Promotions, pricing and loyalty",Main
+D-2269,Self-checkout (SCO),Other
+D-2270,"Promotions, pricing and loyalty",Main
+D-2270,Self-checkout (SCO),Other
+D-2271,"Promotions, pricing and loyalty",Main
+D-2271,Reporting,Other
+D-2271,Self-checkout (SCO),Other
+D-2272,Reporting,Main
+D-2272,Environment and infrastructure,Other
+D-2273,Scan and go (handsets),Main
+D-2273,Environment and infrastructure,Other
+D-2273,Integrations and interfaces,Other
+D-2274,Scan and go (handsets),Main
+D-2274,Environment and infrastructure,Other
+D-2274,Integrations and interfaces,Other
+D-2275,Reporting,Main
+D-2275,Environment and infrastructure,Other
+D-2276,Out of scope (perf),Main
+D-2277,Scan and go (handsets),Main
+D-2277,Environment and infrastructure,Other
+D-2277,Integrations and interfaces,Other
+D-2278,"Promotions, pricing and loyalty",Main
+D-2279,"Promotions, pricing and loyalty",Main
+D-2279,Environment and infrastructure,Other
+D-2280,Out of scope (perf),Main
+D-2281,Out of scope (perf),Main
+D-2282,Scan and go (handsets),Main
+D-2282,Environment and infrastructure,Other
+D-2283,Out of scope (perf),Main
+D-2284,Integrations and interfaces,Main
+D-2284,Environment and infrastructure,Other
+D-2285,Environment and infrastructure,Main
+D-2285,"Promotions, pricing and loyalty",Other
+D-2285,Self-checkout (SCO),Other
+D-2286,Self-checkout (SCO),Main
+D-2286,Environment and infrastructure,Other
+D-2286,Receipts and printing,Other
+D-2286,Vendor E features,Other
+D-2287,Self-checkout (SCO),Main
+D-2288,Scan and go (handsets),Main
+D-2289,Scan and go (handsets),Main
+D-2289,Environment and infrastructure,Other
+D-2290,Environment and infrastructure,Main
+D-2290,Self-checkout (SCO),Other
+D-2291,Scan and go (handsets),Main
+D-2292,Out of scope (perf),Main
+D-2293,Scan and go (handsets),Main
+D-2294,Integrations and interfaces,Main
+D-2294,Environment and infrastructure,Other
+D-2295,Integrations and interfaces,Main
+D-2295,Environment and infrastructure,Other
+D-2296,Out of scope (perf),Main
+D-2297,Out of scope (perf),Main
+D-2298,Scan and go (handsets),Main
+D-2298,Environment and infrastructure,Other
+D-2299,Scan and go (handsets),Main
+D-2300,Scan and go (handsets),Main
+D-2300,Environment and infrastructure,Other
+D-2300,Integrations and interfaces,Other
+D-2301,Gift cards,Main
+D-2301,Payments and PED,Other
+D-2301,"Promotions, pricing and loyalty",Other
+D-2302,Out of scope (perf),Main
+D-2303,Environment and infrastructure,Main
+D-2304,Environment and infrastructure,Main
+D-2305,Out of scope (perf),Main
+D-2306,Environment and infrastructure,Main
+D-2307,Out of scope (perf),Main
+D-2308,Scan and go (handsets),Main
+D-2308,Environment and infrastructure,Other
+D-2309,Out of scope (perf),Main
+D-2310,Out of scope (perf),Main
+D-2311,Environment and infrastructure,Main
+D-2311,Self-checkout (SCO),Other
+D-2312,Environment and infrastructure,Main
+D-2312,Self-checkout (SCO),Other
+D-2313,Environment and infrastructure,Main
+D-2313,Self-checkout (SCO),Other
+D-2314,Environment and infrastructure,Main
+D-2315,Environment and infrastructure,Main
+D-2315,Self-checkout (SCO),Other
+D-2316,Environment and infrastructure,Main
+D-2316,Self-checkout (SCO),Other
+D-2317,Out of scope (perf),Main
+D-2318,Scan and go (handsets),Main
+D-2318,Environment and infrastructure,Other
+D-2319,Out of scope (perf),Main
+D-2320,Environment and infrastructure,Main
+D-2321,Out of scope (perf),Main
+D-2322,Scan and go (handsets),Main
+D-2323,Scan and go (handsets),Main
+D-2324,Environment and infrastructure,Main
+D-2325,Reporting,Main
+D-2325,Environment and infrastructure,Other
+D-2326,Out of scope (perf),Main
+D-2327,Out of scope (perf),Main
+D-2328,Environment and infrastructure,Main
+D-2329,Environment and infrastructure,Main
+D-2330,Environment and infrastructure,Main
+D-2331,Environment and infrastructure,Main
+D-2332,Environment and infrastructure,Main
+D-2333,Environment and infrastructure,Main
+D-2334,Environment and infrastructure,Main
+D-2335,Environment and infrastructure,Main
+D-2335,Self-checkout (SCO),Other
+D-2336,Environment and infrastructure,Main
+D-2337,Environment and infrastructure,Main
+D-2338,Environment and infrastructure,Main
+D-2339,Out of scope (perf),Main
+D-2340,Out of scope (perf),Main
+D-2341,Scan and go (handsets),Main
+D-2341,Environment and infrastructure,Other
+D-2341,Integrations and interfaces,Other
+D-2342,Scan and go (handsets),Main
+D-2342,Integrations and interfaces,Other
+D-2343,Environment and infrastructure,Main
+D-2344,Environment and infrastructure,Main
+D-2345,Reporting,Main
+D-2345,Environment and infrastructure,Other
+D-2346,Assortment,Main
+D-2346,Environment and infrastructure,Other
+D-2346,Reporting,Other
+D-2347,Environment and infrastructure,Main
+D-2348,Environment and infrastructure,Main
+D-2349,Integrations and interfaces,Main
+D-2349,Environment and infrastructure,Other
+D-2350,Payments and PED,Main
+D-2351,Integrations and interfaces,Main
+D-2351,Environment and infrastructure,Other
+D-2352,Out of scope (perf),Main
+D-2353,Out of scope (perf),Main
+D-2354,Environment and infrastructure,Main
+D-2354,Self-checkout (SCO),Other
+D-2355,Environment and infrastructure,Main
+D-2356,Scan and go (handsets),Main
+D-2356,Environment and infrastructure,Other
+D-2356,"Promotions, pricing and loyalty",Other
+D-2357,Receipts and printing,Main
+D-2358,Reporting,Main
+D-2359,Scan and go (handsets),Main
+D-2360,Scan and go (handsets),Main
+D-2360,Environment and infrastructure,Other
+D-2360,"Promotions, pricing and loyalty",Other
+D-2361,Assortment,Main
+D-2361,Environment and infrastructure,Other
+D-2361,Reporting,Other
+D-2362,Integrations and interfaces,Main
+D-2362,Environment and infrastructure,Other
+D-2362,Till application (POS core),Other
+D-2363,Payments and PED,Main
+D-2363,Self-checkout (SCO),Other
+D-2364,Payments and PED,Main
+D-2364,Self-checkout (SCO),Other
+D-2365,Self-checkout (SCO),Main
+D-2366,Self-checkout (SCO),Main
+D-2367,Reporting,Main
+D-2367,Environment and infrastructure,Other
+D-2368,Self-checkout (SCO),Main
+D-2369,Self-checkout (SCO),Main
+D-2370,Payments and PED,Main
+D-2370,Self-checkout (SCO),Other
+D-2371,Self-checkout (SCO),Main
+D-2371,"Promotions, pricing and loyalty",Other
+D-2372,Self-checkout (SCO),Main
+D-2372,"Promotions, pricing and loyalty",Other
+D-2373,Self-checkout (SCO),Main
+D-2373,Environment and infrastructure,Other
+D-2374,Self-checkout (SCO),Main
+D-2375,Self-checkout (SCO),Main
+D-2376,Self-checkout (SCO),Main
+D-2377,Self-checkout (SCO),Main
+D-2378,Payments and PED,Main
+D-2378,Self-checkout (SCO),Other
+D-2379,Self-checkout (SCO),Main
+D-2380,Self-checkout (SCO),Main
+D-2381,Self-checkout (SCO),Main
+D-2382,Self-checkout (SCO),Main
+D-2383,Self-checkout (SCO),Main
+D-2384,Self-checkout (SCO),Main
+D-2385,Payments and PED,Main
+D-2385,Environment and infrastructure,Other
+D-2386,Self-checkout (SCO),Main
+D-2387,Self-checkout (SCO),Main
+D-2388,Self-checkout (SCO),Main
+D-2389,Self-checkout (SCO),Main
+D-2390,Self-checkout (SCO),Main
+D-2391,Self-checkout (SCO),Main
+D-2392,Self-checkout (SCO),Main
+D-2393,Self-checkout (SCO),Main
+D-2393,Receipts and printing,Other
+D-2394,Self-checkout (SCO),Main
+D-2395,Self-checkout (SCO),Main
+D-2396,Self-checkout (SCO),Main
+D-2396,Receipts and printing,Other
+D-2397,"Promotions, pricing and loyalty",Main
+D-2397,Self-checkout (SCO),Other
+D-2398,Payments and PED,Main
+D-2398,"Promotions, pricing and loyalty",Other
+D-2398,Self-checkout (SCO),Other
+D-2399,Self-checkout (SCO),Main
+D-2399,"Promotions, pricing and loyalty",Other
+D-2400,Out of scope (perf),Main
+D-2401,Reporting,Main
+D-2401,Environment and infrastructure,Other
+D-2402,Payments and PED,Main
+D-2402,"Promotions, pricing and loyalty",Other
+D-2402,Self-checkout (SCO),Other
+D-2403,Payments and PED,Main
+D-2403,Receipts and printing,Other
+D-2403,Self-checkout (SCO),Other
+D-2404,Self-checkout (SCO),Main
+D-2404,"Promotions, pricing and loyalty",Other
+D-2404,Receipts and printing,Other
+D-2405,Self-checkout (SCO),Main
+D-2405,Environment and infrastructure,Other
+D-2405,Receipts and printing,Other
+D-2406,Environment and infrastructure,Main
+D-2406,Payments and PED,Other
+D-2407,Self-checkout (SCO),Main
+D-2407,"Promotions, pricing and loyalty",Other
+D-2408,Self-checkout (SCO),Main
+D-2408,Receipts and printing,Other
+D-2409,Self-checkout (SCO),Main
+D-2410,Self-checkout (SCO),Main
+D-2410,Environment and infrastructure,Other
+D-2411,Self-checkout (SCO),Main
+D-2411,Receipts and printing,Other
+D-2412,Self-checkout (SCO),Main
+D-2413,Self-checkout (SCO),Main
+D-2414,Self-checkout (SCO),Main
+D-2415,Self-checkout (SCO),Main
+D-2416,Out of scope (perf),Main
+D-2417,"Promotions, pricing and loyalty",Main
+D-2418,Self-checkout (SCO),Main
+D-2419,Self-checkout (SCO),Main
+D-2420,"Promotions, pricing and loyalty",Main
+D-2420,Reporting,Other
+D-2421,Self-checkout (SCO),Main
+D-2422,Self-checkout (SCO),Main
+D-2423,Self-checkout (SCO),Main
+D-2424,Self-checkout (SCO),Main
+D-2425,Self-checkout (SCO),Main
+D-2425,Receipts and printing,Other
+D-2426,Self-checkout (SCO),Main
+D-2427,Self-checkout (SCO),Main
+D-2428,Self-checkout (SCO),Main
+D-2429,"Promotions, pricing and loyalty",Main
+D-2429,Environment and infrastructure,Other
+D-2430,Self-checkout (SCO),Main
+D-2431,Self-checkout (SCO),Main
+D-2432,Payments and PED,Main
+D-2432,Self-checkout (SCO),Other
+D-2433,Self-checkout (SCO),Main
+D-2434,"Promotions, pricing and loyalty",Main
+D-2435,"Promotions, pricing and loyalty",Main
+D-2436,Returns and refunds,Main
+D-2436,Payments and PED,Other
+D-2436,"Promotions, pricing and loyalty",Other
+D-2437,Self-checkout (SCO),Main
+D-2438,Self-checkout (SCO),Main
+D-2439,Self-checkout (SCO),Main
+D-2440,Self-checkout (SCO),Main
+D-2441,Returns and refunds,Main
+D-2441,Payments and PED,Other
+D-2441,"Promotions, pricing and loyalty",Other
+D-2442,"Promotions, pricing and loyalty",Main
+D-2443,Self-checkout (SCO),Main
+D-2444,Self-checkout (SCO),Main
+D-2445,"Promotions, pricing and loyalty",Main
+D-2446,Payments and PED,Main
+D-2446,"Promotions, pricing and loyalty",Other
+D-2446,Self-checkout (SCO),Other
+D-2447,Self-checkout (SCO),Main
+D-2448,"Promotions, pricing and loyalty",Main
+D-2449,Self-checkout (SCO),Main
+D-2450,Self-checkout (SCO),Main
+D-2451,Self-checkout (SCO),Main
+D-2452,Payments and PED,Main
+D-2452,Self-checkout (SCO),Other
+D-2453,Payments and PED,Main
+D-2453,"Promotions, pricing and loyalty",Other
+D-2453,Reporting,Other
+D-2454,Self-checkout (SCO),Main
+D-2455,Environment and infrastructure,Main
+D-2456,Self-checkout (SCO),Main
+D-2456,"Promotions, pricing and loyalty",Other
+D-2457,Environment and infrastructure,Main
+D-2457,Payments and PED,Other
+D-2458,Scan and go (handsets),Main
+D-2458,Environment and infrastructure,Other
+D-2459,Self-checkout (SCO),Main
+D-2460,Self-checkout (SCO),Main
+D-2461,Out of scope (perf),Main
+D-2462,Integrations and interfaces,Main
+D-2462,Environment and infrastructure,Other
+D-2463,Reporting,Main
+D-2463,Environment and infrastructure,Other
+D-2464,Scan and go (handsets),Main
+D-2464,Environment and infrastructure,Other
+D-2464,Integrations and interfaces,Other
+D-2465,Environment and infrastructure,Main
+D-2465,Self-checkout (SCO),Other
+D-2466,Out of scope (perf),Main
+D-2467,Out of scope (perf),Main
+D-2468,Self-checkout (SCO),Main
+D-2468,"Promotions, pricing and loyalty",Other
+D-2469,Environment and infrastructure,Main
+D-2470,Environment and infrastructure,Main
+D-2471,Scan and go (handsets),Main
+D-2472,Scan and go (handsets),Main
+D-2472,Environment and infrastructure,Other
+D-2472,Integrations and interfaces,Other
+D-2473,Self-checkout (SCO),Main
+D-2474,Self-checkout (SCO),Main
+D-2475,Self-checkout (SCO),Main
+D-2475,Environment and infrastructure,Other
+D-2476,Self-checkout (SCO),Main
+D-2476,Environment and infrastructure,Other
+D-2477,Gift cards,Main
+D-2477,Environment and infrastructure,Other
+D-2477,Payments and PED,Other
+D-2478,Self-checkout (SCO),Main
+D-2478,Environment and infrastructure,Other
+D-2479,Self-checkout (SCO),Main
+D-2480,Self-checkout (SCO),Main
+D-2481,Environment and infrastructure,Main
+D-2482,Out of scope (perf),Main
+D-2483,Self-checkout (SCO),Main
+D-2484,Scan and go (handsets),Main
+D-2484,"Promotions, pricing and loyalty",Other
+D-2485,Out of scope (perf),Main
+D-2486,"Promotions, pricing and loyalty",Main
+D-2486,Reporting,Other
+D-2487,Self-checkout (SCO),Main
+D-2488,Self-checkout (SCO),Main
+D-2488,"Promotions, pricing and loyalty",Other
+D-2489,Self-checkout (SCO),Main
+D-2490,Reporting,Main
+D-2490,Environment and infrastructure,Other
+D-2491,Scan and go (handsets),Main
+D-2492,Integrations and interfaces,Main
+D-2493,Reporting,Main
+D-2494,Receipts and printing,Main
+D-2495,Self-checkout (SCO),Main
+D-2496,Till application (POS core),Main
+D-2496,Environment and infrastructure,Other
+D-2497,Reporting,Main
+D-2497,Environment and infrastructure,Other
+D-2497,Self-checkout (SCO),Other
+D-2498,Environment and infrastructure,Main
+D-2498,Hardware and cash devices,Other
+D-2498,Self-checkout (SCO),Other
+D-2499,Self-checkout (SCO),Main
+D-2499,Environment and infrastructure,Other
+D-2500,Integrations and interfaces,Main
+D-2500,Environment and infrastructure,Other
+D-2500,Self-checkout (SCO),Other
+D-2501,Assortment,Main
+D-2501,Environment and infrastructure,Other
+D-2501,Reporting,Other
+D-2501,Self-checkout (SCO),Other
+D-2502,Gift cards,Main
+D-2502,Payments and PED,Other
+D-2503,Payments and PED,Main
+D-2503,"Promotions, pricing and loyalty",Other
+D-2504,Environment and infrastructure,Main
+D-2505,Integrations and interfaces,Main
+D-2505,Environment and infrastructure,Other
+D-2505,Self-checkout (SCO),Other
+D-2506,Scan and go (handsets),Main
+D-2506,Environment and infrastructure,Other
+D-2507,Scan and go (handsets),Main
+D-2507,Environment and infrastructure,Other
+D-2508,Environment and infrastructure,Main
+D-2509,Out of scope (perf),Main
+D-2510,Vendor D features,Main
+D-2510,Self-checkout (SCO),Other
+D-2511,Vendor D features,Main
+D-2511,Environment and infrastructure,Other
+D-2511,Self-checkout (SCO),Other
+D-2512,Vendor D features,Main
+D-2512,Payments and PED,Other
+D-2512,"Promotions, pricing and loyalty",Other
+D-2512,Self-checkout (SCO),Other
+D-2513,Vendor D features,Main
+D-2513,Environment and infrastructure,Other
+D-2513,Self-checkout (SCO),Other
+D-2514,Environment and infrastructure,Main
+D-2514,Self-checkout (SCO),Other
+D-2515,Out of scope (perf),Main
+D-2516,Vendor D features,Main
+D-2516,Gift cards,Other
+D-2516,Payments and PED,Other
+D-2516,Self-checkout (SCO),Other
+D-2517,Vendor D features,Main
+D-2517,Environment and infrastructure,Other
+D-2517,Self-checkout (SCO),Other
+D-2518,Assortment,Main
+D-2518,Environment and infrastructure,Other
+D-2518,Reporting,Other
+D-2519,"Promotions, pricing and loyalty",Main
+D-2519,Environment and infrastructure,Other
+D-2520,Reporting,Main
+D-2520,Environment and infrastructure,Other
+D-2521,Scan and go (handsets),Main
+D-2521,Environment and infrastructure,Other
+D-2522,Vendor D features,Main
+D-2522,Self-checkout (SCO),Other
+D-2523,Environment and infrastructure,Main
+D-2524,Environment and infrastructure,Main
+D-2525,Vendor D features,Main
+D-2525,Self-checkout (SCO),Other
+D-2526,Vendor D features,Main
+D-2526,Payments and PED,Other
+D-2526,Self-checkout (SCO),Other
+D-2527,Vendor D features,Main
+D-2527,Self-checkout (SCO),Other
+D-2528,Vendor D features,Main
+D-2528,Self-checkout (SCO),Other
+D-2529,Environment and infrastructure,Main
+D-2530,Vendor D features,Main
+D-2530,Integrations and interfaces,Other
+D-2530,Self-checkout (SCO),Other
+D-2531,Vendor D features,Main
+D-2531,Environment and infrastructure,Other
+D-2531,Self-checkout (SCO),Other
+D-2532,Out of scope (perf),Main
+D-2533,Payments and PED,Main
+D-2533,Self-checkout (SCO),Other
+D-2534,Vendor D features,Main
+D-2534,Self-checkout (SCO),Other
+D-2535,Vendor D features,Main
+D-2535,Self-checkout (SCO),Other
+D-2536,Vendor D features,Main
+D-2536,Self-checkout (SCO),Other
+D-2537,Assortment,Main
+D-2537,Environment and infrastructure,Other
+D-2537,Reporting,Other
+D-2538,Vendor D features,Main
+D-2538,Payments and PED,Other
+D-2538,Self-checkout (SCO),Other
+D-2539,Self-checkout (SCO),Main
+D-2540,Environment and infrastructure,Main
+D-2541,Vendor D features,Main
+D-2541,"Promotions, pricing and loyalty",Other
+D-2541,Reporting,Other
+D-2541,Self-checkout (SCO),Other
+D-2542,Self-checkout (SCO),Main
+D-2542,Receipts and printing,Other
+D-2543,Out of scope (perf),Main
+D-2544,Vendor D features,Main
+D-2544,Self-checkout (SCO),Other
+D-2545,Vendor D features,Main
+D-2545,Self-checkout (SCO),Other
+D-2546,Self-checkout (SCO),Main
+D-2547,Out of scope (perf),Main
+D-2548,Self-checkout (SCO),Main
+D-2549,Vendor D features,Main
+D-2549,Reporting,Other
+D-2549,Self-checkout (SCO),Other
+D-2550,Vendor D features,Main
+D-2550,Gift cards,Other
+D-2550,Payments and PED,Other
+D-2550,Reporting,Other
+D-2550,Self-checkout (SCO),Other
+D-2551,Vendor D features,Main
+D-2551,Self-checkout (SCO),Other
+D-2552,Out of scope (perf),Main
+D-2553,Out of scope (perf),Main
+D-2554,Out of scope (perf),Main
+D-2555,Payments and PED,Main
+D-2555,"Promotions, pricing and loyalty",Other
+D-2555,Receipts and printing,Other
+D-2555,Self-checkout (SCO),Other
+D-2556,Out of scope (perf),Main
+D-2557,Vendor D features,Main
+D-2557,Self-checkout (SCO),Other
+D-2558,"Promotions, pricing and loyalty",Main
+D-2558,Environment and infrastructure,Other
+D-2559,Out of scope (perf),Main
+D-2560,Out of scope (perf),Main
+D-2561,Assortment,Main
+D-2561,Environment and infrastructure,Other
+D-2561,Reporting,Other
+D-2562,Assortment,Main
+D-2562,Environment and infrastructure,Other
+D-2562,Reporting,Other
+D-2563,Scan and go (handsets),Main
+D-2563,Environment and infrastructure,Other
+D-2564,Scan and go (handsets),Main
+D-2564,Environment and infrastructure,Other
+D-2565,Self-checkout (SCO),Main
+D-2565,Environment and infrastructure,Other
+D-2566,Self-checkout (SCO),Main
+D-2567,Environment and infrastructure,Main
+D-2568,Self-checkout (SCO),Main
+D-2569,Reporting,Main
+D-2569,Environment and infrastructure,Other
+D-2570,Scan and go (handsets),Main
+D-2570,Environment and infrastructure,Other
+D-2570,Reporting,Other
+D-2571,Reporting,Main
+D-2571,Environment and infrastructure,Other
+D-2572,Environment and infrastructure,Main
+D-2573,Reporting,Main
+D-2573,Environment and infrastructure,Other
+D-2574,Environment and infrastructure,Main
+D-2575,Environment and infrastructure,Main
+D-2576,Environment and infrastructure,Main
+D-2577,Vendor D features,Main
+D-2577,Self-checkout (SCO),Other
+D-2578,Reporting,Main
+D-2578,Environment and infrastructure,Other
+D-2579,Payments and PED,Main
+D-2579,"Promotions, pricing and loyalty",Other
+D-2580,Reporting,Main
+D-2581,Reporting,Main
+D-2582,Integrations and interfaces,Main
+D-2583,Environment and infrastructure,Main
+D-2583,Self-checkout (SCO),Other
+D-2584,Out of scope (perf),Main
+D-2585,Vendor D features,Main
+D-2585,Integrations and interfaces,Other
+D-2585,Self-checkout (SCO),Other
+D-2586,Vendor D features,Main
+D-2586,Integrations and interfaces,Other
+D-2586,Self-checkout (SCO),Other
+D-2587,Vendor D features,Main
+D-2587,Payments and PED,Other
+D-2587,Self-checkout (SCO),Other
+D-2588,Self-checkout (SCO),Main
+D-2589,Self-checkout (SCO),Main
+D-2590,Self-checkout (SCO),Main
+D-2591,Payments and PED,Main
+D-2591,"Promotions, pricing and loyalty",Other
+D-2591,Self-checkout (SCO),Other
+D-2592,Self-checkout (SCO),Main
+D-2593,Out of scope (perf),Main
+D-2594,Vendor D features,Main
+D-2594,Self-checkout (SCO),Other
+D-2595,Out of scope (perf),Main
+D-2596,Self-checkout (SCO),Main
+D-2597,Not a product defect,Main
+D-2598,Out of scope (perf),Main
+D-2599,Out of scope (perf),Main
+D-2600,Reporting,Main
+D-2600,Environment and infrastructure,Other
+D-2601,Self-checkout (SCO),Main
+D-2602,Scan and go (handsets),Main
+D-2602,Environment and infrastructure,Other
+D-2602,Integrations and interfaces,Other
+D-2603,Scan and go (handsets),Main
+D-2603,Environment and infrastructure,Other
+D-2603,Integrations and interfaces,Other
+D-2604,Out of scope (perf),Main
+D-2605,Out of scope (perf),Main
+D-2606,Out of scope (perf),Main
+D-2607,Out of scope (perf),Main
+D-2608,Out of scope (perf),Main
+D-2609,Vendor D features,Main
+D-2609,Self-checkout (SCO),Other
+D-2610,"Promotions, pricing and loyalty",Main
+D-2610,Environment and infrastructure,Other
+D-2611,Vendor D features,Main
+D-2611,Self-checkout (SCO),Other
+D-2612,Scan and go (handsets),Main
+D-2612,Environment and infrastructure,Other
+D-2613,Scan and go (handsets),Main
+D-2613,Payments and PED,Other
+D-2614,Scan and go (handsets),Main
+D-2614,Environment and infrastructure,Other
+D-2614,Reporting,Other
+D-2615,Vendor D features,Main
+D-2615,Self-checkout (SCO),Other
+D-2616,"Promotions, pricing and loyalty",Main
+D-2617,"Promotions, pricing and loyalty",Main
+D-2618,"Promotions, pricing and loyalty",Main
+D-2618,Reporting,Other
+D-2619,Vendor D features,Main
+D-2619,Integrations and interfaces,Other
+D-2619,Self-checkout (SCO),Other
+D-2620,Not a product defect,Main
+D-2621,"Promotions, pricing and loyalty",Main
+D-2622,"Promotions, pricing and loyalty",Main
+D-2623,"Promotions, pricing and loyalty",Main
+D-2623,Reporting,Other
+D-2624,Vendor D features,Main
+D-2624,Self-checkout (SCO),Other
+D-2625,Scan and go (handsets),Main
+D-2625,Environment and infrastructure,Other
+D-2626,Environment and infrastructure,Main
+D-2627,Integrations and interfaces,Main
+D-2628,Out of scope (perf),Main
+D-2629,Reporting,Main
+D-2630,Out of scope (perf),Main
+D-2631,Environment and infrastructure,Main
+D-2632,Integrations and interfaces,Main
+D-2632,Environment and infrastructure,Other
+D-2633,Integrations and interfaces,Main
+D-2634,Reporting,Main
+D-2635,Self-checkout (SCO),Main
+D-2635,Environment and infrastructure,Other
+D-2635,Receipts and printing,Other
+D-2636,Self-checkout (SCO),Main
+D-2636,Receipts and printing,Other
+D-2637,Out of scope (perf),Main
+D-2638,Self-checkout (SCO),Main
+D-2638,Receipts and printing,Other
+D-2639,Self-checkout (SCO),Main
+D-2640,Self-checkout (SCO),Main
+D-2641,Self-checkout (SCO),Main
+D-2642,Out of scope (perf),Main
+D-2643,Reporting,Main
+D-2643,Environment and infrastructure,Other
+D-2643,Self-checkout (SCO),Other
+D-2644,Self-checkout (SCO),Main
+D-2644,Receipts and printing,Other
+D-2645,Self-checkout (SCO),Main
+D-2646,Self-checkout (SCO),Main
+D-2646,Receipts and printing,Other
+D-2647,Environment and infrastructure,Main
+D-2648,Self-checkout (SCO),Main
+D-2649,"Promotions, pricing and loyalty",Main
+D-2649,Self-checkout (SCO),Other
+D-2650,Environment and infrastructure,Main
+D-2651,Self-checkout (SCO),Main
+D-2651,Environment and infrastructure,Other
+D-2651,Receipts and printing,Other
+D-2652,Payments and PED,Main
+D-2652,"Promotions, pricing and loyalty",Other
+D-2652,Self-checkout (SCO),Other
+D-2653,Self-checkout (SCO),Main
+D-2654,Reporting,Main
+D-2654,Environment and infrastructure,Other
+D-2654,Self-checkout (SCO),Other
+D-2655,Self-checkout (SCO),Main
+D-2655,Environment and infrastructure,Other
+D-2656,Scan and go (handsets),Main
+D-2656,Environment and infrastructure,Other
+D-2657,Self-checkout (SCO),Main
+D-2658,Self-checkout (SCO),Main
+D-2658,Environment and infrastructure,Other
+D-2658,Receipts and printing,Other
+D-2659,Self-checkout (SCO),Main
+D-2660,Self-checkout (SCO),Main
+D-2660,Environment and infrastructure,Other
+D-2661,Self-checkout (SCO),Main
+D-2662,Self-checkout (SCO),Main
+D-2663,Not a product defect,Main
+D-2664,Out of scope (perf),Main
+D-2665,Out of scope (perf),Main
+D-2666,Reporting,Main
+D-2666,Self-checkout (SCO),Other
+D-2667,Reporting,Main
+D-2667,Self-checkout (SCO),Other
+D-2668,Self-checkout (SCO),Main
+D-2669,Integrations and interfaces,Main
+D-2669,Self-checkout (SCO),Other
+D-2670,Reporting,Main
+D-2670,Self-checkout (SCO),Other
+D-2671,Self-checkout (SCO),Main
+D-2671,Receipts and printing,Other
+D-2672,Self-checkout (SCO),Main
+D-2673,Reporting,Main
+D-2673,Self-checkout (SCO),Other
+D-2674,Scan and go (handsets),Main
+D-2674,Environment and infrastructure,Other
+D-2674,Reporting,Other
+D-2675,Scan and go (handsets),Main
+D-2675,Environment and infrastructure,Other
+D-2676,Integrations and interfaces,Main
+D-2676,Self-checkout (SCO),Other
+D-2677,Out of scope (perf),Main
+D-2678,Self-checkout (SCO),Main
+D-2679,Reporting,Main
+D-2679,Environment and infrastructure,Other
+D-2680,Reporting,Main
+D-2680,Self-checkout (SCO),Other
+D-2681,Out of scope (perf),Main
+D-2682,Self-checkout (SCO),Main
+D-2683,"Promotions, pricing and loyalty",Main
+D-2684,Vendor D features,Main
+D-2684,Self-checkout (SCO),Other
+D-2685,Vendor D features,Main
+D-2685,Self-checkout (SCO),Other
+D-2686,Self-checkout (SCO),Main
+D-2687,Self-checkout (SCO),Main
+D-2688,Integrations and interfaces,Main
+D-2688,Environment and infrastructure,Other
+D-2689,Assortment,Main
+D-2689,Environment and infrastructure,Other
+D-2690,Reporting,Main
+D-2690,Environment and infrastructure,Other
+D-2691,Reporting,Main
+D-2691,Self-checkout (SCO),Other
+D-2692,Environment and infrastructure,Main
+D-2692,Self-checkout (SCO),Other
+D-2693,Vendor D features,Main
+D-2693,Environment and infrastructure,Other
+D-2693,Self-checkout (SCO),Other
+D-2694,Environment and infrastructure,Main
+D-2695,Integrations and interfaces,Main
+D-2695,Environment and infrastructure,Other
+D-2696,Vendor D features,Main
+D-2696,Self-checkout (SCO),Other
+D-2697,Environment and infrastructure,Main
+D-2697,Self-checkout (SCO),Other
+D-2698,Reporting,Main
+D-2698,Environment and infrastructure,Other
+D-2699,Vendor D features,Main
+D-2699,Self-checkout (SCO),Other
+D-2700,Out of scope (perf),Main
+D-2701,Vendor D features,Main
+D-2701,Self-checkout (SCO),Other
+D-2702,Reporting,Main
+D-2703,Receipts and printing,Main
+D-2703,Reporting,Other
+D-2703,Self-checkout (SCO),Other
+D-2704,Receipts and printing,Main
+D-2704,Reporting,Other
+D-2705,Vendor D features,Main
+D-2705,Self-checkout (SCO),Other
+D-2706,Vendor D features,Main
+D-2706,Integrations and interfaces,Other
+D-2706,Self-checkout (SCO),Other
+D-2707,Reporting,Main
+D-2707,Environment and infrastructure,Other
+D-2708,Integrations and interfaces,Main
+D-2708,Environment and infrastructure,Other
+D-2709,Scan and go (handsets),Main
+D-2709,Environment and infrastructure,Other
+D-2709,Integrations and interfaces,Other
+D-2710,Vendor D features,Main
+D-2710,Payments and PED,Other
+D-2710,Self-checkout (SCO),Other
+D-2711,Vendor D features,Main
+D-2711,Integrations and interfaces,Other
+D-2711,Self-checkout (SCO),Other
+D-2712,Self-checkout (SCO),Main
+D-2713,Environment and infrastructure,Main
+D-2714,Scan and go (handsets),Main
+D-2714,Environment and infrastructure,Other
+D-2714,Reporting,Other
+D-2715,Scan and go (handsets),Main
+D-2715,Environment and infrastructure,Other
+D-2715,Integrations and interfaces,Other
+D-2716,Environment and infrastructure,Main
+D-2716,Reporting,Other
+D-2716,Self-checkout (SCO),Other
+D-2717,Vendor D features,Main
+D-2717,Self-checkout (SCO),Other
+D-2718,Vendor D features,Main
+D-2718,Self-checkout (SCO),Other
+D-2719,Vendor D features,Main
+D-2719,Self-checkout (SCO),Other
+D-2720,Vendor D features,Main
+D-2720,Self-checkout (SCO),Other
+D-2721,Vendor D features,Main
+D-2721,Environment and infrastructure,Other
+D-2721,Self-checkout (SCO),Other
+D-2722,Environment and infrastructure,Main
+D-2722,Payments and PED,Other
+D-2723,Environment and infrastructure,Main
+D-2724,Environment and infrastructure,Main
+D-2725,Out of scope (perf),Main
+D-2726,Vendor D features,Main
+D-2726,Integrations and interfaces,Other
+D-2726,Self-checkout (SCO),Other
+D-2727,Vendor D features,Main
+D-2727,Self-checkout (SCO),Other
+D-2728,Scan and go (handsets),Main
+D-2728,Environment and infrastructure,Other
+D-2729,Assortment,Main
+D-2730,Out of scope (perf),Main
+D-2731,Environment and infrastructure,Main
+D-2732,Reporting,Main
+D-2732,Environment and infrastructure,Other
+D-2733,Environment and infrastructure,Main
+D-2733,Self-checkout (SCO),Other
+D-2734,Vendor D features,Main
+D-2734,Integrations and interfaces,Other
+D-2734,Self-checkout (SCO),Other
+D-2735,Environment and infrastructure,Main
+D-2736,Reporting,Main
+D-2736,Self-checkout (SCO),Other
+D-2737,Vendor D features,Main
+D-2737,Self-checkout (SCO),Other
+D-2738,Vendor D features,Main
+D-2738,Reporting,Other
+D-2738,Self-checkout (SCO),Other
+D-2739,Reporting,Main
+D-2739,Environment and infrastructure,Other
+D-2740,Vendor D features,Main
+D-2740,Self-checkout (SCO),Other
+D-2741,Reporting,Main
+D-2741,Environment and infrastructure,Other
+D-2742,Self-checkout (SCO),Main
+D-2743,Self-checkout (SCO),Main
+D-2744,Vendor D features,Main
+D-2744,Integrations and interfaces,Other
+D-2744,Self-checkout (SCO),Other
+D-2745,Vendor D features,Main
+D-2745,Self-checkout (SCO),Other
+D-2746,Vendor D features,Main
+D-2746,Self-checkout (SCO),Other
+D-2747,Self-checkout (SCO),Main
+D-2748,Vendor D features,Main
+D-2748,Self-checkout (SCO),Other
+D-2749,Self-checkout (SCO),Main
+D-2750,Out of scope (perf),Main
+D-2751,Self-checkout (SCO),Main
+D-2752,Receipts and printing,Main
+D-2752,Self-checkout (SCO),Other
+D-2753,Self-checkout (SCO),Main
+D-2754,Reporting,Main
+D-2754,Environment and infrastructure,Other
+D-2755,Out of scope (perf),Main
+D-2756,Self-checkout (SCO),Main
+D-2756,Receipts and printing,Other
+D-2757,Self-checkout (SCO),Main
+D-2757,Receipts and printing,Other
+D-2758,Environment and infrastructure,Main
+D-2759,Self-checkout (SCO),Main
+D-2760,Out of scope (perf),Main
+D-2761,Environment and infrastructure,Main
+D-2762,Environment and infrastructure,Main
+D-2763,Self-checkout (SCO),Main
+D-2764,Environment and infrastructure,Main
+D-2765,Self-checkout (SCO),Main
+D-2765,Receipts and printing,Other
+D-2766,Self-checkout (SCO),Main
+D-2767,Reporting,Main
+D-2767,Environment and infrastructure,Other
+D-2768,Environment and infrastructure,Main
+D-2769,Reporting,Main
+D-2769,Environment and infrastructure,Other
+D-2769,Self-checkout (SCO),Other
+D-2770,Reporting,Main
+D-2770,Environment and infrastructure,Other
+D-2771,Out of scope (perf),Main
+D-2772,Reporting,Main
+D-2773,Payments and PED,Main
+D-2774,Receipts and printing,Main
+D-2775,Self-checkout (SCO),Main
+D-2775,Receipts and printing,Other
+D-2776,Self-checkout (SCO),Main
+D-2777,Self-checkout (SCO),Main
+D-2777,Receipts and printing,Other
+D-2778,Payments and PED,Main
+D-2778,"Promotions, pricing and loyalty",Other
+D-2778,Self-checkout (SCO),Other
+D-2779,Reporting,Main
+D-2779,Environment and infrastructure,Other
+D-2779,Self-checkout (SCO),Other
+D-2780,Reporting,Main
+D-2780,Environment and infrastructure,Other
+D-2780,Self-checkout (SCO),Other
+D-2781,"Promotions, pricing and loyalty",Main
+D-2782,Self-checkout (SCO),Main
+D-2782,Receipts and printing,Other
+D-2783,Out of scope (perf),Main
+D-2784,Out of scope (perf),Main
+D-2785,Hardware and cash devices,Main
+D-2785,Self-checkout (SCO),Other
+D-2786,Reporting,Main
+D-2787,Self-checkout (SCO),Main
+D-2787,Environment and infrastructure,Other
+D-2787,Receipts and printing,Other
+D-2788,Reporting,Main
+D-2788,Environment and infrastructure,Other
+D-2789,Vendor D features,Main
+D-2789,Integrations and interfaces,Other
+D-2789,Self-checkout (SCO),Other
+D-2790,Vendor D features,Main
+D-2790,Integrations and interfaces,Other
+D-2790,Self-checkout (SCO),Other
+D-2791,Vendor D features,Main
+D-2791,Integrations and interfaces,Other
+D-2791,Self-checkout (SCO),Other
+D-2792,Scan and go (handsets),Main
+D-2792,Environment and infrastructure,Other
+D-2793,Out of scope (perf),Main
+D-2794,Vendor D features,Main
+D-2794,Self-checkout (SCO),Other
+D-2795,Vendor D features,Main
+D-2795,Integrations and interfaces,Other
+D-2795,Self-checkout (SCO),Other
+D-2796,Scan and go (handsets),Main
+D-2796,"Promotions, pricing and loyalty",Other
+D-2797,Scan and go (handsets),Main
+D-2797,Environment and infrastructure,Other
+D-2797,Reporting,Other
+D-2798,Not a product defect,Main
+D-2799,Not a product defect,Main
+D-2800,Not a product defect,Main
+D-2801,Vendor D features,Main
+D-2801,Self-checkout (SCO),Other
+D-2802,Not a product defect,Main
+D-2803,Not a product defect,Main
+D-2804,Not a product defect,Main
+D-2805,Self-checkout (SCO),Main
+D-2805,Receipts and printing,Other
+D-2806,Not a product defect,Main
+D-2807,Environment and infrastructure,Main
+D-2807,Self-checkout (SCO),Other
+D-2808,Vendor D features,Main
+D-2808,Integrations and interfaces,Other
+D-2808,Self-checkout (SCO),Other
+D-2809,Scan and go (handsets),Main
+D-2809,Environment and infrastructure,Other
+D-2810,Self-checkout (SCO),Main
+D-2810,Environment and infrastructure,Other
+D-2810,Receipts and printing,Other
+D-2811,Reporting,Main
+D-2811,Environment and infrastructure,Other
+D-2812,Environment and infrastructure,Main
+D-2813,Self-checkout (SCO),Main
+D-2813,Environment and infrastructure,Other
+D-2814,Payments and PED,Main
+D-2814,Receipts and printing,Other
+D-2815,Receipts and printing,Main
+D-2816,Payments and PED,Main
+D-2816,Receipts and printing,Other
+D-2817,Payments and PED,Main
+D-2817,Receipts and printing,Other
+D-2818,Payments and PED,Main
+D-2818,Reporting,Other
+D-2819,Payments and PED,Main
+D-2819,Receipts and printing,Other
+D-2820,Payments and PED,Main
+D-2820,Receipts and printing,Other
+D-2821,Reporting,Main
+D-2822,Payments and PED,Main
+D-2823,Out of scope (perf),Main
+D-2824,Out of scope (perf),Main
+D-2825,Scan and go (handsets),Main
+D-2825,Environment and infrastructure,Other
+D-2826,Payments and PED,Main
+D-2827,Payments and PED,Main
+D-2827,Receipts and printing,Other
+D-2828,Payments and PED,Main
+D-2828,Receipts and printing,Other
+D-2829,Reporting,Main
+D-2829,Self-checkout (SCO),Other
+D-2830,Environment and infrastructure,Main
+D-2830,Self-checkout (SCO),Other
+D-2831,Scan and go (handsets),Main
+D-2831,Environment and infrastructure,Other
+D-2832,Payments and PED,Main
+D-2833,Payments and PED,Main
+D-2834,Self-checkout (SCO),Main
+D-2834,Environment and infrastructure,Other
+D-2835,Out of scope (perf),Main
+D-2836,Environment and infrastructure,Main
+D-2837,Payments and PED,Main
+D-2837,Receipts and printing,Other
+D-2838,Payments and PED,Main
+D-2839,Payments and PED,Main
+D-2840,Payments and PED,Main
+D-2840,Receipts and printing,Other
+D-2841,Payments and PED,Main
+D-2842,Payments and PED,Main
+D-2842,Receipts and printing,Other
+D-2843,Payments and PED,Main
+D-2844,Payments and PED,Main
+D-2845,Payments and PED,Main
+D-2845,Receipts and printing,Other
+D-2846,Payments and PED,Main
+D-2847,Payments and PED,Main
+D-2848,Payments and PED,Main
+D-2848,Receipts and printing,Other
+D-2849,Payments and PED,Main
+D-2850,Payments and PED,Main
+D-2851,Payments and PED,Main
+D-2852,Payments and PED,Main
+D-2853,Reporting,Main
+D-2853,Environment and infrastructure,Other
+D-2854,Gift cards,Main
+D-2854,Environment and infrastructure,Other
+D-2854,Payments and PED,Other
+D-2855,Integrations and interfaces,Main
+D-2855,Environment and infrastructure,Other
+D-2856,Reporting,Main
+D-2856,Environment and infrastructure,Other
+D-2857,Environment and infrastructure,Main
+D-2858,Environment and infrastructure,Main
+D-2859,Environment and infrastructure,Main
+D-2860,Out of scope (perf),Main
+D-2861,Out of scope (perf),Main
+D-2862,Reporting,Main
+D-2862,Environment and infrastructure,Other
+D-2863,Payments and PED,Main
+D-2864,Integrations and interfaces,Main
+D-2864,Environment and infrastructure,Other
+D-2865,Environment and infrastructure,Main
+D-2866,Payments and PED,Main
+D-2866,Receipts and printing,Other
+D-2866,Self-checkout (SCO),Other
+D-2867,Payments and PED,Main
+D-2867,Self-checkout (SCO),Other
+D-2868,Reporting,Main
+D-2868,Environment and infrastructure,Other
+D-2869,Scan and go (handsets),Main
+D-2869,Environment and infrastructure,Other
+D-2869,Reporting,Other
+D-2870,Integrations and interfaces,Main
+D-2870,Environment and infrastructure,Other
+D-2871,Reporting,Main
+D-2871,Environment and infrastructure,Other
+D-2872,Self-checkout (SCO),Main
+D-2872,Receipts and printing,Other
+D-2873,Payments and PED,Main
+D-2873,Environment and infrastructure,Other
+D-2874,Payments and PED,Main
+D-2874,Reporting,Other
+D-2875,Scan and go (handsets),Main
+D-2875,Environment and infrastructure,Other
+D-2876,Payments and PED,Main
+D-2877,Payments and PED,Main
+D-2877,Receipts and printing,Other
+D-2878,Payments and PED,Main
+D-2878,Receipts and printing,Other
+D-2879,Payments and PED,Main
+D-2879,Receipts and printing,Other
+D-2880,Payments and PED,Main
+D-2880,Self-checkout (SCO),Other
+D-2881,Payments and PED,Main
+D-2881,Receipts and printing,Other
+D-2881,Self-checkout (SCO),Other
+D-2882,Payments and PED,Main
+D-2882,Reporting,Other
+D-2883,Payments and PED,Main
+D-2883,Reporting,Other
+D-2884,Payments and PED,Main
+D-2884,Reporting,Other
+D-2885,Payments and PED,Main
+D-2886,Payments and PED,Main
+D-2886,Receipts and printing,Other
+D-2886,Self-checkout (SCO),Other
+D-2887,Payments and PED,Main
+D-2888,Reporting,Main
+D-2888,Environment and infrastructure,Other
+D-2889,Payments and PED,Main
+D-2890,Scan and go (handsets),Main
+D-2890,Environment and infrastructure,Other
+D-2891,Payments and PED,Main
+D-2892,Payments and PED,Main
+D-2893,Gift cards,Main
+D-2893,Payments and PED,Other
+D-2894,Scan and go (handsets),Main
+D-2894,Environment and infrastructure,Other
+D-2894,Reporting,Other
+D-2895,Payments and PED,Main
+D-2895,Environment and infrastructure,Other
+D-2895,Reporting,Other
+D-2896,Payments and PED,Main
+D-2897,Payments and PED,Main
+D-2897,Environment and infrastructure,Other
+D-2898,"Promotions, pricing and loyalty",Main
+D-2898,Environment and infrastructure,Other
+D-2898,Reporting,Other
+D-2899,Scan and go (handsets),Main
+D-2899,Environment and infrastructure,Other
+D-2900,Payments and PED,Main
+D-2900,Environment and infrastructure,Other
+D-2901,Payments and PED,Main
+D-2902,Self-checkout (SCO),Main
+D-2903,Scan and go (handsets),Main
+D-2903,Environment and infrastructure,Other
+D-2903,Reporting,Other
+D-2904,Payments and PED,Main
+D-2905,Payments and PED,Main
+D-2906,Environment and infrastructure,Main
+D-2906,Payments and PED,Other
+D-2906,Self-checkout (SCO),Other
+D-2907,Environment and infrastructure,Main
+D-2907,Self-checkout (SCO),Other
+D-2908,Reporting,Main
+D-2908,Environment and infrastructure,Other
+D-2909,Integrations and interfaces,Main
+D-2910,Payments and PED,Main
+D-2910,"Promotions, pricing and loyalty",Other
+D-2911,"Promotions, pricing and loyalty",Main
+D-2912,"Promotions, pricing and loyalty",Main
+D-2912,Self-checkout (SCO),Other
+D-2913,"Promotions, pricing and loyalty",Main
+D-2914,Integrations and interfaces,Main
+D-2915,"Promotions, pricing and loyalty",Main
+D-2916,"Promotions, pricing and loyalty",Main
+D-2917,"Promotions, pricing and loyalty",Main
+D-2918,"Promotions, pricing and loyalty",Main
+D-2918,Self-checkout (SCO),Other
+D-2919,"Promotions, pricing and loyalty",Main
+D-2919,Self-checkout (SCO),Other
+D-2920,"Promotions, pricing and loyalty",Main
+D-2920,Self-checkout (SCO),Other
+D-2921,"Promotions, pricing and loyalty",Main
+D-2921,Self-checkout (SCO),Other
+D-2922,"Promotions, pricing and loyalty",Main
+D-2923,Payments and PED,Main
+D-2923,"Promotions, pricing and loyalty",Other
+D-2923,Self-checkout (SCO),Other
+D-2924,Payments and PED,Main
+D-2925,Payments and PED,Main
+D-2926,Environment and infrastructure,Main
+D-2927,"Promotions, pricing and loyalty",Main
+D-2928,"Promotions, pricing and loyalty",Main
+D-2929,"Promotions, pricing and loyalty",Main
+D-2930,"Promotions, pricing and loyalty",Main
+D-2931,Environment and infrastructure,Main
+D-2932,Self-checkout (SCO),Main
+D-2933,Environment and infrastructure,Main
+D-2933,Payments and PED,Other
+D-2934,Reporting,Main
+D-2934,Environment and infrastructure,Other
+D-2935,Self-checkout (SCO),Main
+D-2936,Reporting,Main
+D-2936,Environment and infrastructure,Other
+D-2937,Reporting,Main
+D-2937,Environment and infrastructure,Other
+D-2938,Reporting,Main
+D-2938,Environment and infrastructure,Other
+D-2939,Scan and go (handsets),Main
+D-2939,Environment and infrastructure,Other
+D-2940,Reporting,Main
+D-2941,Reporting,Main
+D-2941,Environment and infrastructure,Other
+D-2942,Reporting,Main
+D-2942,Environment and infrastructure,Other
+D-2943,Reporting,Main
+D-2943,Environment and infrastructure,Other
+D-2944,Integrations and interfaces,Main
+D-2944,Environment and infrastructure,Other
+D-2945,Scan and go (handsets),Main
+D-2945,Environment and infrastructure,Other
+D-2945,Reporting,Other
+D-2946,Scan and go (handsets),Main
+D-2946,Environment and infrastructure,Other
+D-2946,Integrations and interfaces,Other
+D-2947,Payments and PED,Main
+D-2948,Payments and PED,Main
+D-2948,Self-checkout (SCO),Other
+D-2949,Reporting,Main
+D-2950,Out of scope (perf),Main
+D-2951,Out of scope (perf),Main
+D-2952,Payments and PED,Main
+D-2952,Self-checkout (SCO),Other
+D-2953,Vendor D features,Main
+D-2953,Payments and PED,Other
+D-2953,Self-checkout (SCO),Other
+D-2954,Environment and infrastructure,Main
+D-2955,Scan and go (handsets),Main
+D-2956,Scan and go (handsets),Main
+D-2956,"Promotions, pricing and loyalty",Other
+D-2957,Scan and go (handsets),Main
+D-2958,Scan and go (handsets),Main
+D-2958,Environment and infrastructure,Other
+D-2959,Scan and go (handsets),Main
+D-2960,Scan and go (handsets),Main
+D-2960,Environment and infrastructure,Other
+D-2961,Scan and go (handsets),Main
+D-2962,Scan and go (handsets),Main
+D-2963,Scan and go (handsets),Main
+D-2964,Scan and go (handsets),Main
+D-2964,"Promotions, pricing and loyalty",Other
+D-2965,Scan and go (handsets),Main
+D-2966,Scan and go (handsets),Main
+D-2966,"Promotions, pricing and loyalty",Other
+D-2967,Scan and go (handsets),Main
+D-2968,Scan and go (handsets),Main
+D-2968,"Promotions, pricing and loyalty",Other
+D-2969,Scan and go (handsets),Main
+D-2970,Scan and go (handsets),Main
+D-2970,Reporting,Other
+D-2971,Scan and go (handsets),Main
+D-2972,Scan and go (handsets),Main
+D-2972,"Promotions, pricing and loyalty",Other
+D-2973,Out of scope (perf),Main
+D-2974,Scan and go (handsets),Main
+D-2975,Scan and go (handsets),Main
+D-2976,Scan and go (handsets),Main
+D-2977,Scan and go (handsets),Main
+D-2977,Environment and infrastructure,Other
+D-2977,"Promotions, pricing and loyalty",Other
+D-2978,Scan and go (handsets),Main
+D-2978,Environment and infrastructure,Other
+D-2979,Scan and go (handsets),Main
+D-2979,Environment and infrastructure,Other
+D-2980,Scan and go (handsets),Main
+D-2981,Scan and go (handsets),Main
+D-2981,Environment and infrastructure,Other
+D-2981,"Promotions, pricing and loyalty",Other
+D-2982,Scan and go (handsets),Main
+D-2982,Environment and infrastructure,Other
+D-2983,Scan and go (handsets),Main
+D-2984,Reporting,Main
+D-2984,Environment and infrastructure,Other
+D-2985,Scan and go (handsets),Main
+D-2985,Environment and infrastructure,Other
+D-2986,Scan and go (handsets),Main
+D-2986,Environment and infrastructure,Other
+D-2986,Reporting,Other
+D-2987,Scan and go (handsets),Main
+D-2987,Environment and infrastructure,Other
+D-2988,Scan and go (handsets),Main
+D-2988,Environment and infrastructure,Other
+D-2989,Scan and go (handsets),Main
+D-2990,Scan and go (handsets),Main
+D-2990,"Promotions, pricing and loyalty",Other
+D-2991,Scan and go (handsets),Main
+D-2992,Assortment,Main
+D-2992,Environment and infrastructure,Other
+D-2993,Scan and go (handsets),Main
+D-2993,"Promotions, pricing and loyalty",Other
+D-2994,Scan and go (handsets),Main
+D-2994,Environment and infrastructure,Other
+D-2995,Reporting,Main
+D-2995,Environment and infrastructure,Other
+D-2996,Environment and infrastructure,Main
+D-2997,Scan and go (handsets),Main
+D-2998,Scan and go (handsets),Main
+D-2998,Payments and PED,Other
+D-2998,"Promotions, pricing and loyalty",Other
+D-2999,Payments and PED,Main
+D-2999,Reporting,Other
+D-3000,Reporting,Main
+D-3000,Environment and infrastructure,Other
+D-3001,Scan and go (handsets),Main
+D-3001,Environment and infrastructure,Other
+D-3002,Scan and go (handsets),Main
+D-3002,"Promotions, pricing and loyalty",Other
+D-3003,Scan and go (handsets),Main
+D-3003,"Promotions, pricing and loyalty",Other
+D-3004,Scan and go (handsets),Main
+D-3005,Scan and go (handsets),Main
+D-3006,Scan and go (handsets),Main
+D-3006,Environment and infrastructure,Other
+D-3007,Scan and go (handsets),Main
+D-3007,Environment and infrastructure,Other
+D-3008,Scan and go (handsets),Main
+D-3008,Environment and infrastructure,Other
+D-3009,Scan and go (handsets),Main
+D-3010,Environment and infrastructure,Main
+D-3011,Scan and go (handsets),Main
+D-3011,Environment and infrastructure,Other
+D-3011,Integrations and interfaces,Other
+D-3012,Vendor D features,Main
+D-3012,Self-checkout (SCO),Other
+D-3013,Vendor D features,Main
+D-3013,Self-checkout (SCO),Other
+D-3014,Reporting,Main
+D-3014,Environment and infrastructure,Other
+D-3015,Integrations and interfaces,Main
+D-3015,Environment and infrastructure,Other
+D-3016,Payments and PED,Main
+D-3016,"Promotions, pricing and loyalty",Other
+D-3017,Hardware and cash devices,Main
+D-3017,Environment and infrastructure,Other
+D-3018,Reporting,Main
+D-3019,Payments and PED,Main
+D-3020,"Promotions, pricing and loyalty",Main
+D-3021,"Promotions, pricing and loyalty",Main
+D-3022,Self-checkout (SCO),Main
+D-3022,"Promotions, pricing and loyalty",Other
+D-3023,Environment and infrastructure,Main
+D-3023,Integrations and interfaces,Other
+D-3024,Out of scope (perf),Main
+D-3025,Self-checkout (SCO),Main
+D-3026,Hardware and cash devices,Main
+D-3026,Self-checkout (SCO),Other
+D-3027,Self-checkout (SCO),Main
+D-3028,Self-checkout (SCO),Main
+D-3029,"Promotions, pricing and loyalty",Main
+D-3030,"Promotions, pricing and loyalty",Main
+D-3030,Self-checkout (SCO),Other
+D-3031,Payments and PED,Main
+D-3031,Receipts and printing,Other
+D-3032,"Promotions, pricing and loyalty",Main
+D-3033,Vendor D features,Main
+D-3033,Self-checkout (SCO),Other
+D-3034,Environment and infrastructure,Main
+D-3035,"Promotions, pricing and loyalty",Main
+D-3036,Scan and go (handsets),Main
+D-3036,Environment and infrastructure,Other
+D-3037,Integrations and interfaces,Main
+D-3037,Self-checkout (SCO),Other
+D-3038,Reporting,Main
+D-3038,Self-checkout (SCO),Other
+D-3039,Payments and PED,Main
+D-3039,Environment and infrastructure,Other
+D-3040,Reporting,Main
+D-3040,Environment and infrastructure,Other
+D-3041,Payments and PED,Main
+D-3041,Self-checkout (SCO),Other
+D-3042,Environment and infrastructure,Main
+D-3043,Reporting,Main
+D-3043,Environment and infrastructure,Other
+D-3044,Self-checkout (SCO),Main
+D-3045,Self-checkout (SCO),Main
+D-3045,"Promotions, pricing and loyalty",Other
+D-3046,Integrations and interfaces,Main
+D-3046,Environment and infrastructure,Other
+D-3047,Reporting,Main
+D-3048,Vendor D features,Main
+D-3048,Self-checkout (SCO),Other
+D-3049,Scan and go (handsets),Main
+D-3049,Environment and infrastructure,Other
+D-3050,Reporting,Main
+D-3051,Environment and infrastructure,Main
+D-3052,Reporting,Main
+D-3052,Environment and infrastructure,Other
+D-3053,Scan and go (handsets),Main
+D-3053,Environment and infrastructure,Other
+D-3054,Payments and PED,Main
+D-3054,Environment and infrastructure,Other
+D-3055,Payments and PED,Main
+D-3055,Environment and infrastructure,Other
+D-3056,Payments and PED,Main
+D-3056,Environment and infrastructure,Other
+D-3056,Receipts and printing,Other
+D-3057,Hardware and cash devices,Main
+D-3058,Reporting,Main
+D-3058,Environment and infrastructure,Other
+D-3059,Environment and infrastructure,Main
+D-3059,Self-checkout (SCO),Other
+D-3060,Environment and infrastructure,Main
+D-3061,Environment and infrastructure,Main
+D-3061,Reporting,Other
+D-3061,Self-checkout (SCO),Other
+D-3062,Payments and PED,Main
+D-3062,Environment and infrastructure,Other
+D-3063,Payments and PED,Main
+D-3063,Environment and infrastructure,Other
+D-3063,Self-checkout (SCO),Other
+D-3064,Environment and infrastructure,Main
+D-3065,Scan and go (handsets),Main
+D-3065,Environment and infrastructure,Other
+D-3066,Payments and PED,Main
+D-3066,Reporting,Other
+D-3067,Scan and go (handsets),Main
+D-3067,Environment and infrastructure,Other
+D-3068,Payments and PED,Main
+D-3069,Payments and PED,Main
+D-3070,Payments and PED,Main
+D-3071,Payments and PED,Main
+D-3072,Payments and PED,Main
+D-3072,Self-checkout (SCO),Other
+D-3073,Payments and PED,Main
+D-3073,Self-checkout (SCO),Other
+D-3074,Payments and PED,Main
+D-3074,Self-checkout (SCO),Other
+D-3075,Environment and infrastructure,Main
+D-3076,Payments and PED,Main
+D-3076,Reporting,Other
+D-3077,Environment and infrastructure,Main
+D-3078,Environment and infrastructure,Main
+D-3079,Self-checkout (SCO),Main
+D-3080,Self-checkout (SCO),Main
+D-3081,Self-checkout (SCO),Main
+D-3082,Self-checkout (SCO),Main
+D-3083,Out of scope (perf),Main
+D-3084,Reporting,Main
+D-3085,Integrations and interfaces,Main
+D-3085,Environment and infrastructure,Other
+D-3086,Reporting,Main
+D-3087,Out of scope (perf),Main
+D-3088,Payments and PED,Main
+D-3089,Environment and infrastructure,Main
+D-3090,Integrations and interfaces,Main
+D-3090,Environment and infrastructure,Other
+D-3091,Self-checkout (SCO),Main
+D-3092,Reporting,Main
+D-3092,Environment and infrastructure,Other
+D-3093,Environment and infrastructure,Main
+D-3094,Environment and infrastructure,Main
+D-3095,Environment and infrastructure,Main
+D-3096,Environment and infrastructure,Main
+D-3096,Self-checkout (SCO),Other
+D-3097,Environment and infrastructure,Main
+D-3098,Environment and infrastructure,Main
+D-3099,Environment and infrastructure,Main
+D-3100,Environment and infrastructure,Main
+D-3101,Environment and infrastructure,Main
+D-3102,Assortment,Main
+D-3102,Environment and infrastructure,Other
+D-3103,Integrations and interfaces,Main
+D-3103,Environment and infrastructure,Other
+D-3104,Reporting,Main
+D-3104,Environment and infrastructure,Other
+D-3105,Environment and infrastructure,Main
+D-3106,Scan and go (handsets),Main
+D-3106,Environment and infrastructure,Other
+D-3106,Integrations and interfaces,Other
+D-3107,Payments and PED,Main
+D-3108,Vendor D features,Main
+D-3108,Environment and infrastructure,Other
+D-3108,Self-checkout (SCO),Other
+D-3109,Environment and infrastructure,Main
+D-3110,Reporting,Main
+D-3110,Environment and infrastructure,Other
+D-3111,Reporting,Main
+D-3111,Environment and infrastructure,Other
+D-3112,Reporting,Main
+D-3112,Environment and infrastructure,Other
+D-3113,Reporting,Main
+D-3114,Integrations and interfaces,Main
+D-3114,Environment and infrastructure,Other
+D-3115,Scan and go (handsets),Main
+D-3115,Environment and infrastructure,Other
+D-3115,Integrations and interfaces,Other
+D-3116,Environment and infrastructure,Main
+D-3116,Self-checkout (SCO),Other
+D-3117,Vendor D features,Main
+D-3117,Self-checkout (SCO),Other
+D-3118,Hardware and cash devices,Main
+D-3118,Reporting,Other
+D-3119,Reporting,Main
+D-3120,Out of scope (perf),Main
+D-3121,Vendor D features,Main
+D-3121,Payments and PED,Other
+D-3121,Self-checkout (SCO),Other
+D-3122,Vendor D features,Main
+D-3122,Payments and PED,Other
+D-3122,"Promotions, pricing and loyalty",Other
+D-3122,Self-checkout (SCO),Other
+D-3123,Hardware and cash devices,Main
+D-3123,Reporting,Other
+D-3124,Hardware and cash devices,Main
+D-3124,Reporting,Other
+D-3125,Self-checkout (SCO),Main
+D-3125,Receipts and printing,Other
+D-3126,Payments and PED,Main
+D-3126,Reporting,Other
+D-3127,Reporting,Main
+D-3128,Vendor D features,Main
+D-3128,Self-checkout (SCO),Other
+D-3129,Not a product defect,Main
+D-3130,Vendor D features,Main
+D-3130,Self-checkout (SCO),Other
+D-3131,Vendor D features,Main
+D-3131,Self-checkout (SCO),Other
+D-3132,Reporting,Main
+D-3133,Vendor D features,Main
+D-3133,Receipts and printing,Other
+D-3133,Self-checkout (SCO),Other
+D-3134,Hardware and cash devices,Main
+D-3134,Reporting,Other
+D-3135,Hardware and cash devices,Main
+D-3135,Reporting,Other
+D-3136,Reporting,Main
+D-3137,Payments and PED,Main
+D-3137,Environment and infrastructure,Other
+D-3138,Payments and PED,Main
+D-3139,Payments and PED,Main
+D-3139,Receipts and printing,Other
+D-3140,Payments and PED,Main
+D-3140,Receipts and printing,Other
+D-3141,Vendor D features,Main
+D-3141,Self-checkout (SCO),Other
+D-3142,Vendor D features,Main
+D-3142,Self-checkout (SCO),Other
+D-3143,Vendor D features,Main
+D-3143,Self-checkout (SCO),Other
+D-3144,Hardware and cash devices,Main
+D-3144,Reporting,Other
+D-3145,Integrations and interfaces,Main
+D-3145,Environment and infrastructure,Other
+D-3146,Integrations and interfaces,Main
+D-3146,Self-checkout (SCO),Other
+D-3147,Reporting,Main
+D-3147,Environment and infrastructure,Other
+D-3148,Gift cards,Main
+D-3148,Payments and PED,Other
+D-3148,Self-checkout (SCO),Other
+D-3149,Gift cards,Main
+D-3149,Payments and PED,Other
+D-3149,Self-checkout (SCO),Other
+D-3150,Gift cards,Main
+D-3150,Payments and PED,Other
+D-3151,Reporting,Main
+D-3152,"Promotions, pricing and loyalty",Main
+D-3152,Environment and infrastructure,Other

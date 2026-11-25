@@ -1,0 +1,1599 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Hindsight Release Risk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Hindsight: release risk scores and eight years of anonymised multi-vendor QA history for a UK retail organisation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: a sticky top bar, a left rail of pages grouped by purpose (read first, plan, look back, check),
+   and a 12-column grid of chart cards. Every chart has a table view. */
+:root {
+  --bg: #f2f4f7;
+  --surface: #fcfcfd;
+  --surface-2: #e9edf2;
+  --line: #dce1e7;
+  --ink: #0f1720;
+  --ink-2: #435061;
+  --muted: #5f6977;
+  --grid: #e3e7eb;
+  --axis: #c3c9d1;
+  --accent: #2a78d6;
+  --accent-ink: #1c5cab;
+  --accent-soft: #e2edfa;
+  --none: #aeb6c0;
+  --high: #d03b3b;
+  --medium: #fab219;
+  --low: #0ca30c;
+  --v-a: #2a78d6; --v-b: #eb6834; --v-c: #1baf7a; --v-d: #eda100; --v-e: #e87ba4; --c-6: #008300;
+  --seq-0: #edf2f8; --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5;
+  --seq-5: #256abf; --seq-6: #184f95; --seq-7: #0d366b;
+  --tint-good: #e6f5e6; --tint-bad: #fbe9e9; --tint-warn: #fef4dc;
+  --is-dark: 0;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-cond: "IBM Plex Sans Condensed", "IBM Plex Sans", "Arial Narrow", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1015; --surface: #151a21; --surface-2: #1c222b; --line: #29303a; --ink: #eef1f4; --ink-2: #c3c9d1;
+    --muted: #949daa; --grid: #252b33; --axis: #3a414c; --accent: #3987e5; --accent-ink: #7fb2ef; --accent-soft: #17283d;
+    --none: #5d6672; --v-a: #3987e5; --v-b: #d95926; --v-c: #199e70; --v-d: #c98500; --v-e: #d55181; --c-6: #0ca30c;
+    --seq-0: #1b222c; --seq-1: #173a66; --seq-2: #184f95; --seq-3: #256abf; --seq-4: #3987e5; --seq-5: #6da7ec;
+    --seq-6: #9ec5f4; --seq-7: #cde2fb;
+    --tint-good: #13281a; --tint-bad: #321a1c; --tint-warn: #33290f; --is-dark: 1; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1015; --surface: #151a21; --surface-2: #1c222b; --line: #29303a; --ink: #eef1f4; --ink-2: #c3c9d1;
+  --muted: #949daa; --grid: #252b33; --axis: #3a414c; --accent: #3987e5; --accent-ink: #7fb2ef; --accent-soft: #17283d;
+  --none: #5d6672; --v-a: #3987e5; --v-b: #d95926; --v-c: #199e70; --v-d: #c98500; --v-e: #d55181; --c-6: #0ca30c;
+  --seq-0: #1b222c; --seq-1: #173a66; --seq-2: #184f95; --seq-3: #256abf; --seq-4: #3987e5; --seq-5: #6da7ec;
+  --seq-6: #9ec5f4; --seq-7: #cde2fb;
+  --tint-good: #13281a; --tint-bad: #321a1c; --tint-warn: #33290f; --is-dark: 1; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--font-sans); -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+a { color: var(--accent-ink); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { text-wrap: balance; }
+.code, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+.num, td.num, th.num { font-variant-numeric: tabular-nums; text-align: right; }
+
+/* top bar */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
+.topbar-in { max-width: 1480px; margin: 0 auto; display: flex; align-items: center; gap: 16px; padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.brand { display: flex; align-items: baseline; gap: 12px; min-width: 0; text-decoration: none; color: inherit; }
+.brand b { font: 700 22px/1 var(--font-cond); letter-spacing: 0.01em; }
+.brand span { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topbar .spacer { flex: 1; }
+
+/* shell */
+.shell { max-width: 1480px; margin: 0 auto; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 32px;
+  padding-block: 24px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 72px); align-self: start; max-height: calc(100vh - 96px); overflow: auto; }
+.rail h2 { font: 600 11px/1.2 var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 18px 10px 6px; }
+.rail h2:first-child { margin-top: 0; }
+.rail ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.rail a { display: block; padding: 7px 10px; border-radius: 8px; color: var(--ink-2); text-decoration: none; font-size: 14px; }
+.rail a:hover { background: var(--surface-2); color: var(--ink); }
+.rail a[aria-current="page"] { background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; }
+main { min-width: 0; outline: none; }
+
+/* page head */
+.page-head { margin-bottom: 18px; max-width: 980px; }
+.kicker { margin: 0 0 6px; color: var(--accent-ink); font-weight: 500; font-size: 14px; }
+.page-head h1 { margin: 0; font: 600 clamp(24px, 3vw, 32px)/1.18 var(--font-cond); letter-spacing: 0.005em; }
+.lede { margin: 10px 0 0; color: var(--ink-2); max-width: 72ch; }
+
+/* controls */
+.filters { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: flex-end; padding: 12px 14px; margin-bottom: 18px;
+  background: var(--surface-2); border-radius: var(--radius); }
+.ctl { display: grid; gap: 4px; min-width: 0; }
+.ctl > label, .ctl-label { font-size: 12px; font-weight: 500; color: var(--ink-2); }
+select { font: inherit; font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--axis); border-radius: 8px;
+  padding: 6px 30px 6px 10px; max-width: 100%; appearance: none; cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 55%, calc(100% - 10px) 55%; background-size: 5px 5px; background-repeat: no-repeat; }
+.seg { display: inline-flex; flex-wrap: wrap; background: var(--surface); border: 1px solid var(--axis); border-radius: 8px; padding: 2px; gap: 2px; }
+.seg button { font: inherit; font-size: 13.5px; border: 0; background: transparent; color: var(--ink-2); padding: 5px 11px; border-radius: 6px; cursor: pointer; }
+.seg button:hover { color: var(--ink); background: var(--surface-2); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.seg-sm button { font-size: 12.5px; padding: 3px 9px; }
+.card-head .seg { flex-wrap: nowrap; flex: none; }
+.btn { font: inherit; font-size: 13px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); padding: 4px 10px; border-radius: 7px; cursor: pointer; }
+.btn:hover { background: var(--surface-2); }
+.card .filters { padding: 8px 10px; margin: 0 0 10px; }
+
+/* grid and cards */
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.span-12 { grid-column: span 12; } .span-8 { grid-column: span 8; } .span-7 { grid-column: span 7; }
+.span-6 { grid-column: span 6; } .span-5 { grid-column: span 5; } .span-4 { grid-column: span 4; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px 14px; min-width: 0; }
+.card-head { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; margin-bottom: 10px; }
+.card-titles { min-width: 0; }
+.card-title { margin: 0; font: 600 16px/1.3 var(--font-sans); }
+.cap { margin: 4px 0 0; color: var(--muted); font-size: 13px; max-width: 80ch; }
+.chart { width: 100%; min-height: 120px; }
+.table-wrap { overflow: auto; max-height: 560px; border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { position: sticky; top: 0; background: var(--surface-2); font-weight: 600; color: var(--ink-2); white-space: nowrap; z-index: 1; }
+tbody tr:hover { background: var(--surface-2); }
+td.wrap { min-width: 180px; }
+td.nowrap { white-space: nowrap; }
+
+/* tiles */
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 16px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
+.tile .v { font: 600 32px/1.05 var(--font-cond); font-variant-numeric: tabular-nums; }
+.tile .l { margin-top: 4px; font-weight: 500; font-size: 14px; }
+.tile .s { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+
+/* pills and icons */
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px 2px 7px; border-radius: 999px; font-size: 12.5px; font-weight: 600;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); white-space: nowrap; }
+.ic { display: inline-block; width: 10px; height: 10px; flex: none; }
+.ic-High, .ic-Bad { background: var(--high); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.ic-Medium { background: var(--medium); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+.ic-Low, .ic-Clean { background: var(--low); border-radius: 50%; }
+.ic-none { border: 2px solid var(--none); border-radius: 50%; }
+.pill.High, .pill.Bad { background: var(--tint-bad); border-color: color-mix(in srgb, var(--high) 40%, transparent); }
+.pill.Medium { background: var(--tint-warn); border-color: color-mix(in srgb, var(--medium) 55%, transparent); }
+.pill.Low, .pill.Clean { background: var(--tint-good); border-color: color-mix(in srgb, var(--low) 45%, transparent); }
+.chip { display: inline-block; padding: 1px 7px; border-radius: 6px; background: var(--surface-2); font-size: 12px; margin: 1px 4px 1px 0; white-space: nowrap; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+/* start page */
+.hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-bottom: 22px; }
+.hero p { margin: 0 0 10px; max-width: 68ch; }
+.big3 { display: grid; gap: 12px; }
+.big { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; }
+.big .v { font: 700 34px/1 var(--font-cond); color: var(--accent-ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.big .t { font-size: 13.5px; color: var(--ink-2); }
+.glossary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; margin: 0; }
+.glossary div { min-width: 0; }
+.glossary dt { font-weight: 600; font-size: 14px; }
+.glossary dd { margin: 2px 0 0; color: var(--ink-2); font-size: 13.5px; }
+.pagelist { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.pagelist a { display: block; padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; text-decoration: none; color: var(--ink); background: var(--surface); height: 100%; }
+.pagelist a:hover { border-color: var(--accent); }
+.pagelist b { display: block; font-size: 14px; }
+.pagelist span { color: var(--muted); font-size: 13px; }
+.prose p { margin: 0 0 10px; max-width: 76ch; color: var(--ink-2); }
+
+/* next release */
+.rating-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
+.rcard { text-align: left; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; cursor: pointer; display: grid; gap: 6px; min-width: 0; }
+.rcard:hover { border-color: var(--axis); }
+.rcard[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.rcard .nm { font-weight: 600; font-size: 14.5px; }
+.rcard .rel { color: var(--muted); font-size: 12.5px; }
+.rcard .why { color: var(--ink-2); font-size: 13px; }
+.rcard .hot { font-size: 13.5px; line-height: 1.4; }
+.rcard .hot .ic { margin-right: 6px; vertical-align: -1px; }
+.rcard .hot b { font-weight: 600; }
+.checklist { display: grid; gap: 4px; margin: 8px 0 0; padding: 0; list-style: none; max-height: 460px; overflow: auto; }
+.checklist label { display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 6px; font-size: 13.5px; cursor: pointer; }
+.checklist label:hover { background: var(--surface-2); }
+.checklist input { accent-color: var(--accent); width: 16px; height: 16px; flex: none; }
+.checklist .sc { margin-left: auto; color: var(--muted); font-family: var(--font-mono); font-size: 12px; }
+.row-btns { display: flex; flex-wrap: wrap; gap: 6px; }
+.safe { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.safe li { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--surface); }
+.safe b { display: block; font-size: 13.5px; }
+.safe span { color: var(--muted); font-size: 12.5px; }
+.note { margin-top: 12px; padding: 10px 12px; border-radius: 8px; background: var(--surface-2); color: var(--ink-2); font-size: 13px; }
+
+/* inside a release */
+.facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px 16px; margin: -4px 0 16px; padding: 12px 14px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.facts div { min-width: 0; }
+.facts dt { font-size: 12px; color: var(--muted); }
+.facts dd { margin: 2px 0 0; font-weight: 500; font-size: 14px; }
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13.5px; color: var(--ink-2); min-height: 32px; }
+.crumbs .sep { color: var(--muted); }
+.crumbs button { font: inherit; font-size: 13px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 2px 10px; cursor: pointer; }
+.crumbs button:hover { border-color: var(--accent); }
+
+/* four boxes */
+.cm { display: grid; grid-template-columns: minmax(90px, 140px) repeat(2, minmax(0, 1fr)); gap: 8px; }
+.cm .hd { font-size: 12.5px; font-weight: 600; color: var(--ink-2); display: flex; align-items: flex-end; }
+.cm .rh { align-items: center; }
+.box { border-radius: 9px; padding: 10px 12px; border: 1px solid var(--line); min-width: 0; }
+.box .n { font: 700 30px/1 var(--font-cond); font-variant-numeric: tabular-nums; }
+.box .k { font-weight: 600; font-size: 13.5px; margin: 2px 0 6px; }
+.box.good { background: var(--tint-good); } .box.bad { background: var(--tint-bad); } .box.warn { background: var(--tint-warn); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 13.5px; color: var(--ink-2); }
+.stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.rules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.rule { border: 1px solid var(--line); border-radius: 9px; padding: 12px 14px; }
+.rule h3 { margin: 0 0 6px; font-size: 14.5px; }
+.rule ul { margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 13.5px; }
+.rule p { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
+
+.loading, .err { padding: 40px 0; color: var(--ink-2); }
+.err { color: var(--ink); }
+footer.foot { max-width: 1480px; margin: 0 auto; padding-block: 0 32px; color: var(--muted); font-size: 12.5px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+@media (max-width: 1100px) {
+  .span-8, .span-7, .span-6, .span-5, .span-4 { grid-column: span 12; }
+  .hero { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 960px) {
+  .shell { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-top: 12px; }
+  .rail { position: static; max-height: none; overflow-x: auto; overflow-y: hidden; margin: 0 -4px; padding-bottom: 4px; }
+  .rail nav { display: flex; gap: 4px; width: max-content; }
+  .rail h2 { display: none; }
+  .rail ul { display: flex; gap: 4px; }
+  .rail a { white-space: nowrap; background: var(--surface); border: 1px solid var(--line); }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rating-row { grid-template-columns: minmax(0, 1fr); }
+  .glossary, .rules { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .brand span { display: none; }
+  .card { padding: 14px 12px 12px; }
+  .card-head { flex-wrap: wrap; }
+  .tile .v { font-size: 26px; }
+  .cm { grid-template-columns: minmax(70px, 90px) repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .box .n { font-size: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="#start"><b>Hindsight</b><span>Release risk for multi-vendor retail QA · all names anonymised</span></a>
+    <div class="spacer"></div>
+    <div class="seg seg-sm" id="theme" role="group" aria-label="Colour theme">
+      <button type="button" data-mode="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-mode="light" aria-pressed="false">Light</button>
+      <button type="button" data-mode="dark" aria-pressed="false">Dark</button>
+    </div>
+  </div>
+</header>
+<div class="shell">
+  <aside class="rail" aria-label="Pages"><nav id="nav"></nav></aside>
+  <main id="main" tabindex="-1"><p class="loading">Loading the anonymised data (12 files)…</p></main>
+</div>
+<footer class="foot">Hindsight · capstone project, Imperial College Professional Certificate in Data Analytics, 2026 ·
+  data from a UK retail organisation, anonymised: vendors are Vendor A to E and defects are codes · built with Apache ECharts</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+<script>
+(() => {
+'use strict';
+
+/* ------------------------------------------------------------------ constants and state */
+const FILES = ['releases', 'component_release', 'defects', 'defect_tags', 'next_release', 'year_summary',
+  'vendor_scorecard', 'effort', 'model_results', 'pr_curve', 'drivers', 'data_funnel'];
+const VENDORS = ['Vendor A', 'Vendor B', 'Vendor C', 'Vendor D', 'Vendor E'];
+const STREAMS = ['Vendor A', 'Vendor B', 'Vendor C', 'Vendor D', 'Vendor E'];
+const STREAM_OF = Object.fromEntries(VENDORS.map((v, i) => [v, STREAMS[i]]));
+const TEST_START = Date.UTC(2025, 0, 1);
+const SANS = '"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif';
+const MONO = '"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace';
+const REDUCED = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const PAGES = [
+  {id: 'start', label: 'Start here', group: 'Read first', build: buildStart},
+  {id: 'overview', label: 'Overview', group: 'Read first', build: buildOverview},
+  {id: 'next-release', label: 'Next release', group: 'Plan the next release', build: buildNext},
+  {id: 'releases', label: 'Release history', group: 'Look back', build: buildReleases},
+  {id: 'inside', label: 'Inside a release', group: 'Look back', build: buildInside},
+  {id: 'components', label: 'Components', group: 'Look back', build: buildComponents},
+  {id: 'vendors', label: 'Vendor confidence', group: 'Look back', build: buildVendors},
+  {id: 'effort', label: 'Testing effort', group: 'Look back', build: buildEffort},
+  {id: 'outside', label: 'Work outside the model', group: 'Look back', build: buildOutside},
+  {id: 'rating-check', label: 'Release rating check', group: 'Check the method', build: buildRating},
+  {id: 'model', label: 'Model check', group: 'Check the method', build: buildModel},
+];
+
+const S = {
+  overview: {vendor: 'All', from: 2016, to: 2026, basis: 'all'},
+  next: {stream: null, scope: {}},
+  releases: {stream: 'All', period: 'All', from: 2016, to: 2026},
+  inside: {release: null, component: null, tag: null},
+  components: {stream: 'Vendor A', period: 'All'},
+  vendors: {from: 2016, to: 2026},
+  effort: {group: 'All work'},
+  outside: {names: 'Main component', group: 'Other'},
+  rating: {set: 'Test', stream: 'All'},
+  model: {check: 'Walk-forward'},
+};
+const D = {};
+let live = [];
+let currentUpdate = null;
+
+/* ------------------------------------------------------------------ small helpers */
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const range = (a, b) => Array.from({length: Math.max(0, b - a + 1)}, (_, i) => a + i);
+const sum = (arr, f = x => x) => arr.reduce((s, x) => s + (Number(f(x)) || 0), 0);
+const uniq = arr => [...new Set(arr)];
+function countBy(arr, f) { const m = new Map(); for (const x of arr) { const k = f(x); m.set(k, (m.get(k) || 0) + 1); } return m; }
+function sumBy(arr, kf, vf) { const m = new Map(); for (const x of arr) { const k = kf(x); m.set(k, (m.get(k) || 0) + (Number(vf(x)) || 0)); } return m; }
+function groupBy(arr, f) { const m = new Map(); for (const x of arr) { const k = f(x); if (!m.has(k)) m.set(k, []); m.get(k).push(x); } return m; }
+const byDesc = m => [...m.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])));
+const ms = s => s ? Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) : null;
+const nf = new Intl.NumberFormat('en-GB');
+const fmt = {
+  int: v => v == null || isNaN(v) ? '–' : nf.format(Math.round(v)),
+  dec: (v, d = 2) => v == null || isNaN(v) ? '–' : Number(v).toFixed(d),
+  pct: (v, d = 0) => v == null || isNaN(v) ? '–' : (v * 100).toFixed(d) + '%',
+  date: s => s ? new Date(ms(s)).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC'}) : '–',
+  times: v => v == null || isNaN(v) ? '–' : Number(v).toFixed(2) + '×',
+};
+const listText = a => a.length <= 1 ? (a[0] || '') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
+const plural = (n, one, many) => `${fmt.int(n)} ${n === 1 ? one : (many || one + 's')}`;
+const streamIdx = s => { const i = STREAMS.indexOf(s); return i < 0 ? 99 : i; };
+const relSort = (a, b) => a.startMs - b.startMs || String(a.release).localeCompare(String(b.release));
+
+function pill(value, label) {
+  const k = ['High', 'Medium', 'Low', 'Bad', 'Clean'].includes(value) ? value : 'none';
+  return `<span class="pill ${k === 'none' ? '' : k}"><span class="ic ic-${k}"></span>${esc(label || value)}</span>`;
+}
+
+/* ------------------------------------------------------------------ colour tokens */
+function T() {
+  const cs = getComputedStyle(document.documentElement);
+  const g = n => cs.getPropertyValue('--' + n).trim();
+  const t = {surface: g('surface'), bg: g('bg'), ink: g('ink'), ink2: g('ink-2'), muted: g('muted'), grid: g('grid'),
+    axis: g('axis'), accent: g('accent'), none: g('none'), high: g('high'), medium: g('medium'), low: g('low'),
+    dark: g('is-dark') === '1'};
+  t.v = ['v-a', 'v-b', 'v-c', 'v-d', 'v-e'].map(g);
+  t.cat = [...t.v, g('c-6')];
+  t.seq = range(0, 7).map(i => g('seq-' + i));
+  return t;
+}
+const vcol = (t, v) => t.v[VENDORS.indexOf(v)] || t.none;
+const bandCol = (t, b) => ({High: t.high, Medium: t.medium, Low: t.low})[b] || t.none;
+const outCol = (t, o) => o === 'Bad' ? t.high : o === 'Clean' ? t.low : t.none;
+function alpha(hex, a) {
+  let h = String(hex).replace('#', '');
+  if (h.length === 3) h = h.split('').map(c => c + c).join('');
+  const n = parseInt(h, 16);
+  return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${a})`;
+}
+
+/* ------------------------------------------------------------------ chart building blocks */
+function tip(t, extra) {
+  return Object.assign({trigger: 'item', confine: true, backgroundColor: t.surface, borderColor: t.axis, borderWidth: 1,
+    padding: [8, 10], textStyle: {color: t.ink, fontSize: 12, fontFamily: SANS},
+    extraCssText: 'border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.16);max-width:340px;white-space:normal;line-height:1.45;'}, extra);
+}
+function base(t) {
+  return {backgroundColor: 'transparent', animation: !REDUCED, animationDuration: 300, animationDurationUpdate: 250,
+    textStyle: {fontFamily: SANS, color: t.ink2, fontSize: 12}, tooltip: tip(t)};
+}
+const lbl = (t, extra) => Object.assign({color: t.ink2, fontSize: 11.5, fontFamily: SANS}, extra);
+function catAxis(t, extra) {
+  return Object.assign({type: 'category', axisLine: {lineStyle: {color: t.axis}}, axisTick: {show: false},
+    axisLabel: lbl(t), splitLine: {show: false}}, extra);
+}
+function valAxis(t, extra) {
+  return Object.assign({type: 'value', axisLine: {show: false}, axisTick: {show: false},
+    axisLabel: lbl(t, {color: t.muted, fontSize: 11}), splitLine: {lineStyle: {color: t.grid}}}, extra);
+}
+function leg(t, extra) {
+  return Object.assign({top: 0, left: 0, icon: 'roundRect', itemWidth: 12, itemHeight: 12, itemGap: 16,
+    textStyle: {color: t.ink2, fontSize: 12, fontFamily: SANS}}, extra);
+}
+const axisTipShadow = t => ({type: 'shadow', shadowStyle: {color: alpha(t.ink, t.dark ? 0.10 : 0.05)}});
+function markLineStyle(t) {
+  return {silent: true, symbol: 'none', lineStyle: {color: t.ink2, type: [4, 4], width: 1},
+    label: {color: t.ink2, fontSize: 11, fontFamily: SANS}};
+}
+const hBarRadius = [0, 4, 4, 0];
+const labW = c => Math.round(Math.min(240, Math.max(104, ((c && c.chartEl && c.chartEl.clientWidth) || 640) * 0.4)));
+function yCat(t, c, data, extra) { return catAxis(t, Object.assign({data, inverse: true, axisLabel: lbl(t, {width: labW(c), overflow: 'truncate', interval: 0})}, extra)); }
+const vBarRadius = [4, 4, 0, 0];
+
+function makeChart(el) {
+  const chart = echarts.init(el, null, {renderer: 'svg'});
+  const ro = new ResizeObserver(() => { if (el.offsetParent) chart.resize(); });
+  ro.observe(el);
+  live.push({chart, ro});
+  return chart;
+}
+function disposeAll() {
+  live.forEach(({chart, ro}) => { ro.disconnect(); chart.dispose(); });
+  live = [];
+}
+
+/* ------------------------------------------------------------------ page scaffolding */
+function el(tag, cls, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+function pageHead(root, kicker, title, lede) {
+  const h = el('header', 'page-head', `<p class="kicker">${kicker}</p><h1></h1>${lede ? `<p class="lede">${lede}</p>` : ''}`);
+  h.querySelector('h1').innerHTML = title;
+  root.append(h);
+  return {set: (title2, lede2) => { h.querySelector('h1').innerHTML = title2; if (lede2 != null && h.querySelector('.lede')) h.querySelector('.lede').innerHTML = lede2; }};
+}
+function filterBar(root) { const b = el('div', 'filters'); b.setAttribute('role', 'group'); b.setAttribute('aria-label', 'Filters'); root.append(b); return b; }
+function addSelect(bar, id, label, options, value, onChange) {
+  const opt = o => `<option value="${esc(o.value)}"${String(o.value) === String(value) ? ' selected' : ''}>${esc(o.label)}</option>`;
+  const w = el('div', 'ctl', `<label for="${id}">${esc(label)}</label><select id="${id}">${options.map(o => o.group
+    ? `<optgroup label="${esc(o.group)}">${o.items.map(opt).join('')}</optgroup>` : opt(o)).join('')}</select>`);
+  w.querySelector('select').addEventListener('change', e => onChange(e.target.value));
+  bar.append(w);
+  return w.querySelector('select');
+}
+function addSeg(bar, id, label, options, value, onChange) {
+  const w = el('div', 'ctl', `<span class="ctl-label" id="${id}-l">${esc(label)}</span><div class="seg" role="group" aria-labelledby="${id}-l">${options.map(o =>
+    `<button type="button" data-v="${esc(o.value)}" aria-pressed="${String(o.value) === String(value)}">${esc(o.label)}</button>`).join('')}</div>`);
+  w.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+    w.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    onChange(b.dataset.v);
+  }));
+  bar.append(w);
+  return w;
+}
+function yearRange(bar, id, st, min, max, onChange) {
+  const yrs = range(min, max).map(y => ({value: y, label: String(y)}));
+  const a = addSelect(bar, id + '-from', 'From', yrs, st.from, v => { st.from = +v; if (st.from > st.to) { st.to = st.from; b.value = st.to; } onChange(); });
+  const b = addSelect(bar, id + '-to', 'To', yrs, st.to, v => { st.to = +v; if (st.to < st.from) { st.from = st.to; a.value = st.from; } onChange(); });
+}
+function grid(root) { const g = el('div', 'grid'); root.append(g); return g; }
+
+function tableHTML(cols, rows) {
+  const cell = (c, r) => {
+    const v = c.get ? c.get(r) : r[c.key];
+    const s = c.fmt ? c.fmt(v, r) : (v == null || v === '' ? '–' : esc(v));
+    return `<td class="${c.num ? 'num' : ''}${c.cls ? ' ' + c.cls : ''}">${s}</td>`;
+  };
+  return `<table><thead><tr>${cols.map(c => `<th scope="col" class="${c.num ? 'num' : ''}">${esc(c.label)}</th>`).join('')}</tr></thead>` +
+    `<tbody>${rows.map(r => `<tr>${cols.map(c => cell(c, r)).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function card(parent, {span = 12, height = 300, chart = true, table = true} = {}) {
+  const c = el('section', `card span-${span}`);
+  c.innerHTML = `<div class="card-head"><div class="card-titles"><h2 class="card-title"></h2><p class="cap"></p></div>` +
+    (chart && table ? `<div class="seg seg-sm view" role="group" aria-label="Show as"><button type="button" data-v="chart" aria-pressed="true">Chart</button><button type="button" data-v="table" aria-pressed="false">Table</button></div>` : '') +
+    `</div>` + (chart ? `<div class="chart" role="img" style="height:${height}px"></div>` : '') + `<div class="body"${chart ? ' hidden' : ''}></div>`;
+  parent.append(c);
+  const api = {
+    el: c, chartEl: c.querySelector('.chart'), bodyEl: c.querySelector('.body'),
+    head(title, cap) {
+      c.querySelector('.card-title').innerHTML = title;
+      const p = c.querySelector('.cap'); p.innerHTML = cap || ''; p.hidden = !cap;
+      if (api.chartEl) api.chartEl.setAttribute('aria-label', c.querySelector('.card-title').textContent);
+    },
+    table(cols, rows) { api.bodyEl.innerHTML = `<div class="table-wrap">${tableHTML(cols, rows)}</div>`; },
+    html(s) { api.bodyEl.innerHTML = s; },
+    height(px) { if (api.chartEl && api.chartEl.style.height !== px + 'px') { api.chartEl.style.height = px + 'px'; api.chart.resize(); } },
+    set(opt) { api.chart.setOption(opt, true); },
+  };
+  if (chart) {
+    api.chart = makeChart(api.chartEl);
+    const v = c.querySelector('.view');
+    if (v) v.addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      v.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      const showTable = b.dataset.v === 'table';
+      api.chartEl.hidden = showTable; api.bodyEl.hidden = !showTable;
+      if (!showTable) api.chart.resize();
+    });
+  }
+  return api;
+}
+function tile(v, label, sub) { return `<div class="tile"><div class="v">${v}</div><div class="l">${label}</div>${sub ? `<div class="s">${sub}</div>` : ''}</div>`; }
+const goTo = id => { if (location.hash === '#' + id) render(); else location.hash = id; };
+function openRelease(release) {
+  S.inside.release = release; S.inside.component = null; S.inside.tag = null;
+  goTo('inside');
+}
+
+/* ------------------------------------------------------------------ data */
+async function loadAll() {
+  const parts = await Promise.all(FILES.map(async f => {
+    const res = await fetch(`data/${f}.json`);
+    if (!res.ok) throw new Error(`data/${f}.json (${res.status})`);
+    const [head, ...rows] = await res.json();
+    return [f, rows.map(r => Object.fromEntries(head.map((k, i) => [k, r[i]])))];
+  }));
+  parts.forEach(([f, rows]) => { D[f] = rows; });
+  D.releases.forEach(r => { r.startMs = ms(r.test_start); r.endMs = ms(r.test_end); r.year = +r.test_start.slice(0, 4); });
+  D.relBy = new Map(D.releases.map(r => [r.release, r]));
+  D.crByRel = groupBy(D.component_release, r => r.release);
+  D.compsOf = new Map(); D.tagsOf = new Map();
+  for (const t of D.defect_tags) {
+    const m = t.kind === 'Detail tag' ? D.tagsOf : D.compsOf;
+    if (!m.has(t.defect)) m.set(t.defect, []);
+    m.get(t.defect).push(t.name);
+  }
+  D.riskRT = D.defects.filter(d => d.counts_for_risk === 'Yes' && d.work_type === 'Release testing');
+  D.riskByRel = groupBy(D.riskRT, d => d.release);
+}
+
+/* ================================================================== 1. Start here */
+function buildStart(root) {
+  const rf = D.model_results.find(m => m.model === 'Random forest' && m.check === 'Walk-forward');
+  const guess = D.model_results.find(m => m.model === 'Always high' && m.check === 'Walk-forward');
+  const wf = D.pr_curve.filter(p => p.test === 'Walk-forward');
+  const hot = wf.filter(p => p.real_hotspot === 'Yes');
+  const top = Math.round(wf.length * 0.2);
+  const inTop = hot.filter(p => p.position <= top).length;
+  const last = Math.max(...hot.map(p => p.position));
+  const modelRels = D.releases.filter(r => r.in_model === 'Yes').length;
+  pageHead(root, 'Start here', 'Test hardest where defects are likely, before the release starts');
+  const pages = [
+    ['overview', 'Overview', 'Ten years of defects, serious defects per day of testing, and root causes.'],
+    ['next-release', 'Next release', 'Risk score for every component, the release rating, and the safe zone.'],
+    ['releases', 'Release history', 'Test windows, tough releases and signs of long releases.'],
+    ['inside', 'Inside a release', 'Drill down from a release to its components, detail tags and defects.'],
+    ['components', 'Components', 'The usual hotspots, by release and by vendor.'],
+    ['vendors', 'Vendor confidence', 'Clean releases, defect rates, fix speed and root causes per vendor.'],
+    ['effort', 'Testing effort', 'Person-days, testing types, design against execution, test cases.'],
+    ['outside', 'Work outside the model', 'Upgrade, infrastructure and other work, and the data funnel.'],
+    ['rating-check', 'Release rating check', 'How the rating made before each release matched what happened.'],
+    ['model', 'Model check', 'How the component scores were tested, and what drives them.'],
+  ];
+  root.append(el('div', 'hero', `
+    <div class="prose">
+      <p><b>Hindsight</b> gives each component a risk score from 0 to 1 before a release starts. It learns only from releases that have already finished, so the score is a fair forecast. Testers can put the most effort where defects are likely and test lighter where they are not. The scores also roll up into a release rating of High, Medium or Low.</p>
+      <p>The model learned from the ${D.releases.filter(r => r.period === 'Training').length} releases that started before 1 January 2025 and was then tested on the ${D.releases.filter(r => r.period === 'Test').length} releases after that date. In the walk-forward check each test release was scored using only the releases finished before it, just as it would be used for real.</p>
+      <p>The data covers ${fmt.int(D.defects.length)} defects raised from August 2016 to November 2026, test effort from the team's trackers (December 2018 to October 2026), and ${D.releases.length} releases across five vendor streams, of which ${modelRels} are used by the model.</p>
+    </div>
+    <div class="big3">
+      <div class="big"><div class="v">${fmt.dec(rf.pr_auc)}</div><div class="t">Ranking score (PR-AUC) on the 2025–26 releases, walk-forward check. Guessing scores ${fmt.dec(guess.pr_auc)}.</div></div>
+      <div class="big"><div class="v">${inTop} of ${hot.length}</div><div class="t">real hotspots sat in the top 20% of the priority list (the first ${top} of ${wf.length} rows).</div></div>
+      <div class="big"><div class="v">${wf.length - last} rows</div><div class="t">at the bottom of the list held no hotspots: a safe zone for lighter testing, with a minimum floor.</div></div>
+    </div>`));
+  const g = grid(root);
+  const words = card(g, {span: 12, chart: false});
+  words.head('Words used on every page');
+  words.html(`<dl class="glossary">
+    <div><dt>Person-day</dt><dd>One tester working for one day.</dd></div>
+    <div><dt>Per 10 person-days</dt><dd>Defects divided by testing effort, so big and small releases compare fairly.</dd></div>
+    <div><dt>Hotspot</dt><dd>A component whose defects per 10 person-days in a release were above its stream's hotspot line (the top quarter of training releases), with at least 2 defects.</dd></div>
+    <div><dt>Score made before</dt><dd>The random forest's risk score (0 to 1) for a component, made before the release started.</dd></div>
+    <div><dt>Band</dt><dd>${pill('High')} score 0.56 or more · ${pill('Medium')} 0.24 to under 0.56 · ${pill('Low')} under 0.24.</dd></div>
+    <div><dt>Release rating</dt><dd>High when the share of High components or the weighted average score is in the top quarter of the same stream's training releases; Medium when either is in the second quarter; otherwise Low.</dd></div>
+    <div><dt>Bad and clean releases</dt><dd>${pill('Bad')} more defects per 10 person-days than the stream's average training release. ${pill('Clean')} fewer. Releases with no average to compare with are not judged.</dd></div>
+    <div><dt>Training, test, history only</dt><dd>Training releases started before 1 January 2025; test releases from that date. History-only releases sit outside the model (before the trackers, or left out).</dd></div>
+    <div><dt>PR-AUC</dt><dd>How well a priority list puts real hotspots near the top. 1.0 is perfect; guessing scores the share of rows that are hotspots.</dd></div>
+    <div><dt>Four boxes</dt><dd>Caught, false alarms, missed, and correctly left alone: the four ways a flag can meet the real result.</dd></div>
+  </dl>`);
+  const nav = card(g, {span: 12, chart: false});
+  nav.head('The pages', 'Each page answers one question, and its title gives the answer.');
+  nav.html(`<ul class="pagelist">${pages.map(([id, name, d]) => `<li><a href="#${id}"><b>${name}</b><span>${d}</span></a></li>`).join('')}</ul>`);
+  const anon = card(g, {span: 12, chart: false});
+  anon.head('About the data');
+  anon.html(`<div class="prose"><p>All names are anonymised. The organisation is a UK retailer. Vendors appear as Vendor A to E. Product, system and vendor names inside release names, components and tags are replaced with generic names or codes, and defects are shown as codes (D-0001 onwards) with no titles, people, labels or comments.</p>
+    <p>Releases have public numbers: Vendor A 1.28 to 1.56 (next 1.57), Vendor B CI 2 to CI 11.4, Vendor C 3.0 to 5.4, Vendor E 6.0 to 8.2. Every count on these pages matches the project's notebooks. Delay is shown only through signs (long test windows, repeat test runs, fix drops) because no planned release dates exist.</p></div>`);
+  return () => {};
+}
+
+/* ================================================================== 2. Overview */
+function buildOverview(root) {
+  const st = S.overview;
+  const ys = D.year_summary.filter(r => r.vendor === 'All');
+  const a = ys.find(r => r.year === 2019), b = ys.find(r => r.year === 2026);
+  pageHead(root, 'What happened over ten years?',
+    `Critical and High defects per 10 person-days of testing fell from ${fmt.dec(a.critical_high_per_10pd)} in 2019 to ${fmt.dec(b.critical_high_per_10pd)} in 2026`,
+    'Defects are counted by the year they were raised. Rates use release-testing effort from the trackers, which start in December 2018.');
+  const bar = filterBar(root);
+  const upd = () => update();
+  addSelect(bar, 'ov-vendor', 'Vendor', [{value: 'All', label: 'All vendors'}, ...VENDORS.map(v => ({value: v, label: v}))], st.vendor, v => { st.vendor = v; upd(); });
+  yearRange(bar, 'ov', st, 2016, 2026, upd);
+  addSeg(bar, 'ov-basis', 'Defects', [{value: 'all', label: 'All raised'}, {value: 'risk', label: 'Counted for risk'}], st.basis, v => { st.basis = v; upd(); });
+  const tiles = el('div', 'tiles'); root.append(tiles);
+  const g = grid(root);
+  const c1 = card(g, {span: 12, height: 300});
+  const c2 = card(g, {span: 6, height: 250});
+  const c3 = card(g, {span: 6, height: 250});
+  const c4 = card(g, {span: 12, height: 330});
+
+  function update() {
+    const t = T();
+    const years = range(st.from, st.to);
+    const inV = d => st.vendor === 'All' || d.vendor === st.vendor;
+    const raised = D.defects.filter(d => inV(d) && d.year >= st.from && d.year <= st.to);
+    const defs = st.basis === 'all' ? raised : raised.filter(d => d.counts_for_risk === 'Yes');
+    const rels = D.releases.filter(r => inV(r) && r.year >= st.from && r.year <= st.to);
+    const eff = D.effort.filter(e => e.year >= st.from && e.year <= st.to && (st.vendor === 'All' || e.group_detail === STREAM_OF[st.vendor]));
+    const pd = sum(rels, r => r.person_days);
+    const run = sum(eff, e => e.test_cases_run), plan = sum(eff, e => e.test_cases_planned);
+    tiles.innerHTML =
+      tile(fmt.int(defs.length), st.basis === 'all' ? 'Defects raised' : 'Defects counted for risk',
+        st.basis === 'all' ? `${fmt.int(raised.filter(d => d.counts_for_risk === 'Yes').length)} counted for risk` : `out of ${fmt.int(raised.length)} raised`) +
+      tile(fmt.int(rels.length), 'Releases', `${rels.filter(r => r.in_model === 'Yes').length} used by the model`) +
+      tile(fmt.int(pd), 'Release-testing person-days', `in ${rels.filter(r => r.person_days != null).length} releases with tracker effort`) +
+      tile(fmt.int(run), 'Test cases run', `${fmt.int(plan)} planned${st.vendor === 'All' ? ', all tracked work' : ''}`);
+
+    // 1. defects by year and vendor
+    const vs = st.vendor === 'All' ? VENDORS.concat(defs.some(d => d.vendor === 'Not known') ? ['Not known'] : []) : [st.vendor];
+    const cnt = countBy(defs, d => d.vendor + '|' + d.year);
+    const totals = years.map(y => sum(vs, v => cnt.get(v + '|' + y) || 0));
+    const peak = totals.indexOf(Math.max(...totals));
+    c1.head(totals[peak] ? `Most defects were raised in ${years[peak]}: ${fmt.int(totals[peak])}` : 'No defects in this selection',
+      `${st.basis === 'all' ? 'All defects raised' : 'Defects counted for risk'}, by year raised and vendor${vs.includes('Not known') ? '; grey means no vendor could be matched' : ''}. 2026 runs to mid-November.`);
+    c1.set({...base(t),
+      legend: vs.length > 1 ? leg(t) : undefined,
+      grid: {left: 4, right: 8, top: vs.length > 1 ? 34 : 12, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => {
+        const tot = sum(ps, p => p.value);
+        return `<b>${ps[0].axisValue}</b>: ${fmt.int(tot)} defects<br>` + ps.filter(p => p.value).map(p => `${p.marker}${esc(p.seriesName)}: ${fmt.int(p.value)}`).join('<br>');
+      }}),
+      xAxis: catAxis(t, {data: years.map(String)}),
+      yAxis: valAxis(t),
+      series: vs.map(v => ({name: v, type: 'bar', stack: 'y', barMaxWidth: 24,
+        data: years.map(y => cnt.get(v + '|' + y) || 0),
+        itemStyle: {color: vcol(t, v), borderColor: t.surface, borderWidth: vs.length > 1 ? 1 : 0, borderRadius: vs.length > 1 ? 0 : vBarRadius}}))});
+    c1.table([{label: 'Year', key: 'year'}, ...vs.map(v => ({label: v, key: v, num: true, fmt: fmt.int})), {label: 'Total', key: 'total', num: true, fmt: fmt.int}],
+      years.map((y, i) => Object.assign({year: y, total: totals[i]}, ...vs.map(v => ({[v]: cnt.get(v + '|' + y) || 0})))));
+
+    // 2 and 3. Critical + High share and rate (year summary, counted for risk in release testing)
+    const yrow = new Map(D.year_summary.filter(r => r.vendor === (st.vendor === 'All' ? 'All' : st.vendor)).map(r => [r.year, r]));
+    const lineChart = (c, key, isPct, word, cap) => {
+      const vals = years.map(y => yrow.get(y)?.[key] ?? null);
+      const pts = years.map((y, i) => [y, vals[i]]).filter(p => p[1] != null);
+      const show = v => isPct ? fmt.pct(v) : fmt.dec(v);
+      let title = `${word}: not enough data in this selection`;
+      if (pts.length >= 2) {
+        const [y0, v0] = pts[0], [y1, v1] = pts[pts.length - 1];
+        title = `${word} ${v1 < v0 ? 'fell' : v1 > v0 ? 'rose' : 'held'} from ${show(v0)} in ${y0} to ${show(v1)} in ${y1}`;
+      }
+      c.head(title, cap);
+      const col = st.vendor === 'All' ? t.accent : vcol(t, st.vendor);
+      c.set({...base(t), grid: {left: 4, right: 24, top: 26, bottom: 2, containLabel: true},
+        tooltip: tip(t, {trigger: 'axis', formatter: ps => ps[0].value == null ? `<b>${ps[0].axisValue}</b>: no figure` :
+          `<b>${ps[0].axisValue}</b>: ${show(ps[0].value)}${yrow.get(+ps[0].axisValue) ? `<br>${fmt.int(yrow.get(+ps[0].axisValue).critical_high)} of ${fmt.int(yrow.get(+ps[0].axisValue).defects_counted)} counted defects were Critical or High` : ''}`}),
+        xAxis: catAxis(t, {data: years.map(String), boundaryGap: false}),
+        yAxis: valAxis(t, isPct ? {min: 0, max: 1, axisLabel: lbl(t, {color: t.muted, fontSize: 11, formatter: v => fmt.pct(v)})} : {min: 0}),
+        series: [{type: 'line', data: vals, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: {width: 2, color: col},
+          itemStyle: {color: col, borderColor: t.surface, borderWidth: 2},
+          label: {show: true, position: 'top', color: t.ink2, fontSize: 11, formatter: p => p.dataIndex === vals.length - 1 || p.dataIndex === vals.findIndex(v => v != null) ? show(p.value) : ''}}]});
+      c.table([{label: 'Year', key: 'year'}, {label: word, key: 'v', num: true, fmt: v => v == null ? '–' : show(v)},
+        {label: 'Critical + High', key: 'ch', num: true, fmt: fmt.int}, {label: 'Defects counted', key: 'n', num: true, fmt: fmt.int},
+        {label: 'Release-testing person-days', key: 'pd', num: true, fmt: v => v == null ? '–' : fmt.dec(v, 1)}, {label: 'Effort data', key: 'cov'}],
+        years.map((y, i) => ({year: y, v: vals[i], ch: yrow.get(y)?.critical_high, n: yrow.get(y)?.defects_counted,
+          pd: yrow.get(y)?.release_testing_person_days, cov: yrow.get(y)?.effort_coverage})));
+    };
+    lineChart(c2, 'critical_high_share', true, 'Critical + High share',
+      'Share of defects counted for risk in release testing that were Critical or High.');
+    lineChart(c3, 'critical_high_per_10pd', false, 'Critical + High per 10 person-days',
+      'Against testing effort, so a busy year does not look worse just because more testing happened. No effort data before 2019; 2026 covers January to October.');
+
+    // 4. root cause
+    const withRc = defs.filter(d => d.root_cause_group !== 'Not given');
+    const rc = byDesc(countBy(withRc, d => d.root_cause_group));
+    const detail = groupBy(withRc, d => d.root_cause_group);
+    const ec = (rc.find(r => r[0] === 'Environment')?.[1] || 0) + (rc.find(r => r[0] === 'Configuration')?.[1] || 0);
+    c4.head(withRc.length ? `Environment and Configuration are ${fmt.pct(ec / withRc.length)} of the ${fmt.int(withRc.length)} defects with a root cause` : 'No root causes in this selection',
+      `Root cause groups as recorded in the defect tracker; Environment includes infrastructure. ${fmt.int(defs.length - withRc.length)} defects have no root cause and are left out.`);
+    c4.height(Math.max(180, rc.length * 30 + 30));
+    c4.set({...base(t), grid: {left: 4, right: 56, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => {
+        const parts = byDesc(countBy(detail.get(p.name) || [], d => d.root_cause));
+        return `<b>${esc(p.name)}</b>: ${fmt.int(p.value)} defects (${fmt.pct(p.value / withRc.length)})` + (parts.length > 1 ? '<br>' + parts.map(([k, n]) => `${esc(k)}: ${fmt.int(n)}`).join('<br>') : '');
+      }}),
+      xAxis: valAxis(t),
+      yAxis: yCat(t, c4, rc.map(r => r[0])),
+      series: [{type: 'bar', barMaxWidth: 22, data: rc.map(r => r[1]), itemStyle: {color: t.accent, borderRadius: hBarRadius},
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11.5, formatter: p => fmt.int(p.value)}}]});
+    c4.table([{label: 'Root cause group', key: 0}, {label: 'Defects', key: 1, num: true, fmt: fmt.int},
+      {label: 'Share of defects with a root cause', get: r => r[1] / withRc.length, num: true, fmt: v => fmt.pct(v, 1)},
+      {label: 'Recorded as', get: r => byDesc(countBy(detail.get(r[0]) || [], d => d.root_cause)).map(([k, n]) => `${k} ${n}`).join(', '), cls: 'wrap'}], rc);
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 3. Next release */
+function buildNext(root) {
+  const st = S.next;
+  const streams = uniq(D.next_release.map(r => r.stream)).sort((a, b) => streamIdx(a) - streamIdx(b));
+  if (!streams.includes(st.stream)) st.stream = streams.find(s => D.next_release.find(r => r.stream === s).stream_rating === 'High') || streams[0];
+  const ratingOf = s => D.next_release.find(r => r.stream === s);
+  const highs = streams.filter(s => ratingOf(s).stream_rating === 'High');
+  const highComps = s => D.next_release.filter(r => r.stream === s && r.band === 'High').sort((a, b) => b.score - a.score);
+  // A Low or Medium release can still hold a High component; the heading says so, so nobody skips it
+  const lowHigh = streams.filter(s => ratingOf(s).stream_rating !== 'High' && highComps(s).length);
+  const lowWords = uniq(lowHigh.map(s => ratingOf(s).stream_rating));
+  const headHigh = highs.length === 1 ? `${highs[0]} is rated High` : highs.length ? `${listText(highs)} are rated High` : 'No stream is rated High';
+  const headLow = !lowHigh.length ? '' : `; ${listText(lowHigh)} ${lowHigh.length === 1 ? 'is' : 'are'} rated ${lowWords.length === 1 ? lowWords[0] : 'Low or Medium'} overall but ${lowHigh.length === 1 ? 'still has' : 'each still has'} a High component`;
+  pageHead(root, 'Where should we test hardest in the next release?',
+    esc(headHigh + headLow),
+    'Scores are made before the release starts, from releases that have already finished. Tick the components in the new release’s scope; the chart and the safe zone follow.');
+  const row = el('div', 'rating-row'); root.append(row);
+  const g = grid(root);
+  const c1 = card(g, {span: 8, height: 420});
+  const sc = card(g, {span: 4, chart: false});
+  const safe = card(g, {span: 12, chart: false});
+
+  function scopeOf(stream) {
+    if (!st.scope[stream]) st.scope[stream] = new Set(D.next_release.filter(r => r.stream === stream).map(r => r.component));
+    return st.scope[stream];
+  }
+  row.addEventListener('click', e => { const b = e.target.closest('button[data-s]'); if (b) { st.stream = b.dataset.s; update(); } });
+  sc.bodyEl.addEventListener('change', e => {
+    const box = e.target.closest('input[type=checkbox]'); if (!box) return;
+    const s = scopeOf(st.stream);
+    if (box.checked) s.add(box.value); else s.delete(box.value);
+    update(false);
+  });
+  sc.bodyEl.addEventListener('click', e => {
+    const b = e.target.closest('button[data-do]'); if (!b) return;
+    const rows = D.next_release.filter(r => r.stream === st.stream);
+    const want = b.dataset.do === 'all' ? rows : b.dataset.do === 'hm' ? rows.filter(r => r.band !== 'Low') : [];
+    st.scope[st.stream] = new Set(want.map(r => r.component));
+    update();
+  });
+
+  function update(rebuildList = true) {
+    const t = T();
+    row.innerHTML = streams.map(s => {
+      const r = ratingOf(s);
+      const label = r.next_release.split(': ')[1] || 'next release';
+      const hi = highComps(s);
+      const hot = hi.length ? `<span class="hot"><span class="ic ic-High"></span>${r.stream_rating === 'High' ? 'Test hardest' : 'But test hard'}: ${hi.map(x => `<b>${esc(x.component)}</b> (${fmt.dec(x.score)})`).join(', ')}</span>` : '';
+      return `<button type="button" class="rcard" data-s="${esc(s)}" aria-pressed="${s === st.stream}">
+        <span class="nm">${esc(s)}</span><span class="rel">${esc(label.charAt(0).toUpperCase() + label.slice(1))}</span>
+        <span>${pill(r.stream_rating, 'Rated ' + r.stream_rating + ' overall')}</span>${hot}<span class="why">${esc(r.rating_reason)}</span></button>`;
+    }).join('');
+    const rows = D.next_release.filter(r => r.stream === st.stream).sort((a, b) => b.score - a.score);
+    const scope = scopeOf(st.stream);
+    const inScope = rows.filter(r => scope.has(r.component));
+    const n = b => inScope.filter(r => r.band === b).length;
+    const highNames = inScope.filter(r => r.band === 'High').map(r => r.component);
+    c1.head(!inScope.length ? 'No components ticked' : highNames.length ? `Test hardest in ${esc(listText(highNames))}` :
+      `No ticked component is High; ${esc(inScope[0].component)} scores highest (${fmt.dec(inScope[0].score)})`,
+      `${inScope.length} of ${rows.length} components in scope: ${n('High')} High, ${n('Medium')} Medium, ${n('Low')} Low. Hover a bar for its history.`);
+    c1.height(Math.max(300, inScope.length * 30 + 50));
+    c1.set({...base(t), grid: {left: 4, right: 92, top: 22, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => {
+        const r = p.data.row;
+        return `<b>${esc(r.component)}</b><br>Score ${fmt.dec(r.score)} · ${r.band}<br>Usual rate: ${fmt.dec(r.usual_rate)} defects per 10 person-days` +
+          `<br>Recent rate (recent releases count more): ${fmt.dec(r.recent_rate)}<br>Severity-weighted usual rate: ${fmt.dec(r.severity_weighted_rate)}` +
+          `<br>Earlier reopened defects: ${fmt.int(r.earlier_reopens)}<br>Had defects in ${fmt.pct(r.share_of_releases_with_defects)} of ${r.earlier_releases} earlier releases`;
+      }}),
+      xAxis: valAxis(t, {min: 0, max: 1, splitNumber: 5}),
+      yAxis: yCat(t, c1, inScope.map(r => r.component)),
+      series: [{type: 'bar', barMaxWidth: 22, data: inScope.map(r => ({value: r.score, row: r, itemStyle: {color: bandCol(t, r.band), borderRadius: hBarRadius}})),
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11.5, formatter: p => `${fmt.dec(p.value)} · ${p.data.row.band}`},
+        markLine: {...markLineStyle(t), data: c1.chartEl.clientWidth < 520 ? [{xAxis: 0.24, name: 'Medium'}, {xAxis: 0.56, name: 'High'}] : [{xAxis: 0.24, name: 'Medium from 0.24'}, {xAxis: 0.56, name: 'High from 0.56'}],
+          label: {color: t.ink2, fontSize: 11, formatter: '{b}', position: 'start'}}}]});
+    c1.table([{label: 'Component', key: 'component'}, {label: 'Score', key: 'score', num: true, fmt: v => fmt.dec(v)}, {label: 'Band', key: 'band', fmt: v => pill(v)},
+      {label: 'Usual rate', key: 'usual_rate', num: true, fmt: v => fmt.dec(v)}, {label: 'Recent rate', key: 'recent_rate', num: true, fmt: v => fmt.dec(v)},
+      {label: 'Severity-weighted rate', key: 'severity_weighted_rate', num: true, fmt: v => fmt.dec(v)}, {label: 'Earlier reopens', key: 'earlier_reopens', num: true},
+      {label: 'Releases with defects', key: 'share_of_releases_with_defects', num: true, fmt: v => fmt.pct(v)}, {label: 'Earlier releases', key: 'earlier_releases', num: true},
+      {label: 'In scope', get: r => scope.has(r.component) ? 'Yes' : 'No'}], rows);
+
+    sc.head('Scope of the new release', 'Untick the components this release does not touch.');
+    if (rebuildList) {
+      sc.html(`<div class="row-btns"><button type="button" class="btn" data-do="all">Tick all</button><button type="button" class="btn" data-do="hm">High and Medium only</button><button type="button" class="btn" data-do="none">Clear</button></div>
+        <ul class="checklist">${rows.map((r, i) => `<li><label for="scope-${i}"><input type="checkbox" id="scope-${i}" value="${esc(r.component)}"${scope.has(r.component) ? ' checked' : ''}><span class="ic ic-${r.band}"></span>${esc(r.component)}<span class="sc">${fmt.dec(r.score)}</span></label></li>`).join('')}</ul>
+        <p class="note">The release rating above uses every component of the stream, so it does not change with the scope. The scope changes where to focus.</p>`);
+    }
+    const low = inScope.filter(r => r.band === 'Low');
+    const wf = D.pr_curve.filter(p => p.test === 'Walk-forward');
+    const lastHot = Math.max(...wf.filter(p => p.real_hotspot === 'Yes').map(p => p.position));
+    safe.head(`Safe zone: ${plural(low.length, 'Low component')} in scope`, 'Test these lighter, never zero: keep a minimum floor, such as a smoke test of each.');
+    safe.html((low.length ? `<ul class="safe">${low.map(r => `<li><b>${esc(r.component)}</b><span>score ${fmt.dec(r.score)} · usual rate ${fmt.dec(r.usual_rate)} per 10 person-days · ${fmt.int(r.earlier_reopens)} earlier reopens</span></li>`).join('')}</ul>` : '<p class="cap">No Low components are ticked.</p>') +
+      `<p class="note">Why a safe zone is reasonable: in the walk-forward check on the 2025–26 releases, the bottom ${wf.length - lastHot} of ${wf.length} rows of the priority list held no hotspots. A floor still matters, because the model misses some hotspots.</p>`);
+  }
+  update();
+  return () => update();
+}
+
+/* ================================================================== 4. Release history */
+function relFilter(st) {
+  return D.releases.filter(r => (st.stream === 'All' || r.stream === st.stream) && (st.period === 'All' || r.period === st.period) && r.year >= st.from && r.year <= st.to);
+}
+function relTip(r) {
+  const effort = r.person_days != null ? `${fmt.int(r.defects)} defects in ${fmt.dec(r.person_days, 1)} person-days${r.effort_estimated === 'Yes' ? ' (effort estimated)' : ''}: ${fmt.dec(r.defects_per_10pd)} per 10 person-days` : `${fmt.int(r.defects)} defects; no tracker effort`;
+  const vs = r.times_stream_average != null ? `, ${fmt.times(r.times_stream_average)} the stream's average` : '';
+  return `<b>Release ${esc(r.release)}</b> · ${esc(r.stream)}<br>Tested ${fmt.date(r.test_start)} to ${fmt.date(r.test_end)} (${r.window_days} days; this stream usually ${fmt.int(r.usual_window_days)})` +
+    `<br>${effort}${vs}<br>Outcome: ${r.outcome} · rated ${r.rating_before === 'Not scored' ? 'not scored' : r.rating_before} before · ${r.period}`;
+}
+function buildReleases(root) {
+  const st = S.releases;
+  const head = pageHead(root, 'Which past releases were tough, and which ran long?', '', 'Click any release to open it on the Inside a release page.');
+  const bar = filterBar(root);
+  const upd = () => update();
+  addSelect(bar, 'rh-stream', 'Stream', [{value: 'All', label: 'All streams'}, ...STREAMS.map(s => ({value: s, label: s}))], st.stream, v => { st.stream = v; upd(); });
+  addSelect(bar, 'rh-period', 'Period', ['All', 'Training', 'Test', 'History only'].map(v => ({value: v, label: v === 'All' ? 'All periods' : v})), st.period, v => { st.period = v; upd(); });
+  yearRange(bar, 'rh', st, 2016, 2026, upd);
+  const g = grid(root);
+  const c1 = card(g, {span: 12, height: 400});
+  const c2 = card(g, {span: 12, height: 440});
+  const c3 = card(g, {span: 12, chart: false});
+  const click = p => { const r = p.data && p.data.release; if (r) openRelease(r); };
+  c1.chart.on('click', click); c2.chart.on('click', click);
+  c3.bodyEl.addEventListener('click', e => { const b = e.target.closest('button[data-rel]'); if (b) openRelease(b.dataset.rel); });
+
+  function update() {
+    const t = T();
+    const rels = relFilter(st);
+    const judged = rels.filter(r => r.outcome !== 'Not judged' && r.times_stream_average != null).sort(relSort);
+    const bad = judged.filter(r => r.outcome === 'Bad');
+    head.set(judged.length ? `${bad.length} of ${judged.length} judged releases had more defects per 10 person-days than their stream's average` : 'No judged releases in this selection');
+
+    // 1. timeline, one band per stream
+    const groups = STREAMS.map(s => [s, rels.filter(r => r.stream === s).sort(relSort)]).filter(([, a]) => a.length);
+    const narrow = c1.chartEl.clientWidth < 620;
+    const LEFT = narrow ? 104 : 190, ROW = 17, TITLE = 22, AXIS = 22, GAP = 14;
+    const minX = Date.UTC(st.from, 0, 1), maxX = Date.UTC(st.to + 1, 0, 1);
+    let y = 22; const grids = [], xs = [], ysA = [], series = [], titles = [];
+    groups.forEach(([s, arr], i) => {
+      titles.push({type: 'text', left: 0, top: y, style: {text: `${s} · ${plural(arr.length, 'release')}`, fill: t.ink, font: `600 12.5px ${SANS}`}});
+      y += TITLE;
+      const h = arr.length * ROW;
+      grids.push({left: LEFT, right: 14, top: y, height: h});
+      xs.push({type: 'time', gridIndex: i, min: minX, max: maxX, axisLine: {lineStyle: {color: t.axis}}, axisTick: {show: false},
+        splitLine: {show: true, lineStyle: {color: t.grid}}, axisLabel: lbl(t, {color: t.muted, fontSize: 10.5, formatter: '{yyyy}'})});
+      ysA.push({type: 'category', gridIndex: i, data: arr.map(r => r.release), inverse: true, axisLine: {lineStyle: {color: t.axis}}, axisTick: {show: false},
+        axisLabel: lbl(t, {fontSize: 11, width: LEFT - 10, overflow: 'truncate', interval: 0})});
+      series.push({type: 'custom', xAxisIndex: i, yAxisIndex: i, encode: {x: [1, 2], y: 0},
+        renderItem: (params, api) => {
+          const c = api.value(0), a = api.coord([api.value(1), c]), b = api.coord([api.value(2), c]);
+          const bh = Math.max(6, api.size([0, 1])[1] * 0.62), cs = params.coordSys;
+          const shape = echarts.graphic.clipRectByRect({x: a[0], y: a[1] - bh / 2, width: Math.max(b[0] - a[0], 3), height: bh},
+            {x: cs.x, y: cs.y, width: cs.width, height: cs.height});
+          return shape && {type: 'rect', shape: Object.assign(shape, {r: 2}), style: {fill: api.visual('color')}};
+        },
+        data: arr.map((r, k) => ({value: [k, r.startMs, Math.max(r.endMs, r.startMs)], release: r.release, itemStyle: {color: outCol(t, r.outcome)}})),
+        markArea: {silent: true, itemStyle: {color: alpha(t.accent, t.dark ? 0.10 : 0.06)}, data: TEST_START < maxX ? [[{xAxis: Math.max(TEST_START, minX)}, {xAxis: maxX}]] : []}});
+      y += h + AXIS + GAP;
+    });
+    c1.head('Test windows, coloured by what happened',
+      'Each bar runs from the first to the last day of testing. Red: bad release; green: clean; grey: not judged (history-only and Vendor D releases). The shaded area is the test period from 1 January 2025.');
+    c1.height(Math.max(140, y));
+    c1.set({...base(t), legend: leg(t, {data: ['Bad', 'Clean', 'Not judged'], selectedMode: false}),
+      graphic: {elements: titles}, grid: grids, xAxis: xs, yAxis: ysA,
+      tooltip: tip(t, {formatter: p => relTip(D.relBy.get(p.data.release))}),
+      series: [...series, ...['Bad', 'Clean', 'Not judged'].map(o => ({name: o, type: 'line', data: [], xAxisIndex: 0, yAxisIndex: 0, itemStyle: {color: outCol(t, o)}, lineStyle: {color: outCol(t, o)}}))]});
+    const tableCols = [{label: 'Release', key: 'release', fmt: v => `<span class="code">${esc(v)}</span>`}, {label: 'Stream', key: 'stream'}, {label: 'Period', key: 'period'},
+      {label: 'Test start', key: 'test_start', fmt: fmt.date}, {label: 'Test end', key: 'test_end', fmt: fmt.date}, {label: 'Window days', key: 'window_days', num: true},
+      {label: 'Person-days', key: 'person_days', num: true, fmt: v => v == null ? '–' : fmt.dec(v, 1)}, {label: 'Defects', key: 'defects', num: true},
+      {label: 'Per 10 person-days', key: 'defects_per_10pd', num: true, fmt: v => fmt.dec(v)}, {label: 'Times stream average', key: 'times_stream_average', num: true, fmt: fmt.times},
+      {label: 'Outcome', key: 'outcome', fmt: v => pill(v)}, {label: 'Rated before', key: 'rating_before', fmt: v => v === 'Not scored' ? 'Not scored' : pill(v)}];
+    c1.table(tableCols, groups.flatMap(([, a]) => a));
+
+    // 2. against the stream average
+    c2.head(judged.length ? `${bad.length} of ${judged.length} judged releases were above their stream's average` : 'No judged releases in this selection',
+      'Defects per 10 person-days divided by the stream’s average training release. Above 1 is a bad release, below 1 a clean one.');
+    c2.set({...base(t), grid: {left: 4, right: 10, top: 18, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => relTip(D.relBy.get(p.data.release))}),
+      xAxis: catAxis(t, {data: judged.map(r => r.release), axisLabel: lbl(t, {fontSize: 10.5, rotate: 60, interval: 0, width: 120, overflow: 'truncate'})}),
+      yAxis: valAxis(t, {min: 0}),
+      series: [{type: 'bar', barMaxWidth: 22, data: judged.map(r => ({value: r.times_stream_average, release: r.release, itemStyle: {color: outCol(t, r.outcome), borderRadius: vBarRadius}})),
+        markLine: {...markLineStyle(t), data: [{yAxis: 1, name: 'Stream average'}], label: {color: t.ink2, fontSize: 11, formatter: 'Stream average', position: 'insideEndTop'}}}]});
+    c2.table(tableCols, judged);
+
+    // 3. delay signs
+    const signs = rels.filter(r => r.window_days > 0 && r.usual_window_days).map(r => Object.assign({}, r, {ratio: r.window_days / r.usual_window_days}))
+      .sort((a, b) => b.ratio - a.ratio);
+    const long = signs.filter(r => r.ratio >= 1.5);
+    c3.head(`${plural(long.length, 'release')} ran at least 1.5 times their stream's usual test window`,
+      'No planned dates exist, so these are signs of a long release, not proof of delay. Fix drops (PTFs) are recorded for Vendor A only.');
+    c3.table([{label: 'Release', key: 'release', fmt: v => `<button type="button" class="btn code" data-rel="${esc(v)}">${esc(v)}</button>`}, {label: 'Stream', key: 'stream'},
+      {label: 'Test window', get: r => `${fmt.date(r.test_start)} to ${fmt.date(r.test_end)}`, fmt: v => esc(v)},
+      {label: 'Days', key: 'window_days', num: true}, {label: 'Stream usually', key: 'usual_window_days', num: true, fmt: fmt.int},
+      {label: 'Times usual', key: 'ratio', num: true, fmt: v => `${fmt.dec(v)}×`}, {label: 'Test runs', key: 'test_runs', num: true, fmt: v => v == null ? '–' : fmt.int(v)},
+      {label: 'Fix drops (PTF)', key: 'ptf_drops', num: true, fmt: v => v == null ? '–' : fmt.int(v)},
+      {label: 'Signs', get: r => [r.ratio >= 1.5 && 'Long window', r.test_runs >= 2 && 'Tested more than once', r.ptf_drops >= 3 && '3 or more fix drops', r.effort_estimated === 'Yes' && 'Effort estimated'].filter(Boolean),
+        fmt: v => v.map(s => `<span class="chip">${s}</span>`).join('') || '–', cls: 'wrap'},
+      {label: 'Outcome', key: 'outcome', fmt: v => pill(v)}], signs);
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 5. Inside a release */
+function buildInside(root) {
+  const st = S.inside;
+  if (!D.relBy.has(st.release)) {
+    const withDefects = D.releases.filter(r => r.in_model === 'Yes' && (D.riskByRel.get(r.release) || []).length).sort(relSort);
+    st.release = withDefects[withDefects.length - 1].release;
+  }
+  const head = pageHead(root, 'What went wrong inside this release?', '');
+  const bar = filterBar(root);
+  const opts = STREAMS.map(s => ({group: s, items: D.releases.filter(r => r.stream === s).sort((a, b) => b.startMs - a.startMs)
+    .map(r => ({value: r.release, label: `${r.release} · ${r.test_start.slice(0, 4)}${r.in_model === 'Yes' ? '' : ' · history'}`}))})).filter(o => o.items.length);
+  addSelect(bar, 'in-rel', 'Release', opts, st.release, v => { st.release = v; st.component = null; st.tag = null; update(); });
+  const crumbs = el('div', 'ctl'); bar.append(crumbs);
+  const facts = el('dl', 'facts'); root.append(facts);
+  const g = grid(root);
+  const c1 = card(g, {span: 6, height: 420});
+  const c2 = card(g, {span: 6, height: 420});
+  const c3 = card(g, {span: 12, chart: false});
+  c1.chart.on('click', p => { st.component = st.component === p.name ? null : p.name; st.tag = null; update(); });
+  c2.chart.on('click', p => { st.tag = st.tag === p.name ? null : p.name; update(); });
+  crumbs.addEventListener('click', e => {
+    const b = e.target.closest('button[data-up]'); if (!b) return;
+    if (b.dataset.up === 'component') { st.component = null; st.tag = null; } else st.tag = null;
+    update();
+  });
+
+  function update() {
+    const t = T();
+    const r = D.relBy.get(st.release);
+    const defs = (D.riskByRel.get(st.release) || []).slice().sort((a, b) => a.created.localeCompare(b.created) || a.defect.localeCompare(b.defect));
+    const cr = D.crByRel.get(st.release);
+    let comps;
+    if (cr) comps = cr.map(c => ({name: c.component, defects: c.defects, ch: c.critical_high, band: c.band, score: c.score_before, hotspot: c.hotspot, rate: c.defects_per_10pd}));
+    else {
+      const m = new Map();
+      defs.forEach(d => (D.compsOf.get(d.defect) || []).forEach(n => {
+        const o = m.get(n) || {name: n, defects: 0, ch: 0, band: 'Not scored', score: null, hotspot: null};
+        o.defects++; if (d.critical_or_high === 'Yes') o.ch++; m.set(n, o);
+      }));
+      comps = [...m.values()];
+    }
+    comps.sort((a, b) => b.defects - a.defects || a.name.localeCompare(b.name));
+    if (st.component && !comps.some(c => c.name === st.component)) { st.component = null; st.tag = null; }
+    const inComp = st.component ? defs.filter(d => (D.compsOf.get(d.defect) || []).includes(st.component)) : defs;
+    const tags = byDesc(countBy(inComp.flatMap(d => uniq(D.tagsOf.get(d.defect) || [])), x => x));
+    if (st.tag && !tags.some(([k]) => k === st.tag)) st.tag = null;
+    const view = st.tag ? inComp.filter(d => (D.tagsOf.get(d.defect) || []).includes(st.tag)) : inComp;
+
+    const rel = `<span class="code">${esc(r.release)}</span>`;
+    head.set(r.times_stream_average != null
+      ? `Release ${rel}: ${plural(defs.length, 'defect')}, ${r.times_stream_average > 1 ? 'above' : 'below'} its stream's average (${fmt.times(r.times_stream_average)})`
+      : `Release ${rel}: ${plural(defs.length, 'defect')} counted for risk`);
+    crumbs.innerHTML = `<span class="ctl-label">Showing</span><div class="crumbs"><span>Release ${rel}</span>` +
+      (st.component ? `<span class="sep">›</span><button type="button" data-up="component" aria-label="Clear component ${esc(st.component)}">${esc(st.component)} ✕</button>` : '<span class="sep">›</span><span>all components</span>') +
+      (st.tag ? `<span class="sep">›</span><button type="button" data-up="tag" aria-label="Clear tag ${esc(st.tag)}">${esc(st.tag)} ✕</button>` : '') + '</div>';
+    facts.innerHTML = [
+      ['Stream', esc(r.stream)], ['Period', esc(r.period)], ['Test window', `${fmt.date(r.test_start)} to ${fmt.date(r.test_end)} (${r.window_days} days)`],
+      ['Person-days', r.person_days != null ? fmt.dec(r.person_days, 1) + (r.effort_estimated === 'Yes' ? ' (estimated)' : '') : 'No tracker effort'],
+      ['Defects counted', fmt.int(defs.length)], ['Per 10 person-days', r.defects_per_10pd != null ? `${fmt.dec(r.defects_per_10pd)} (stream average ${fmt.dec(r.stream_average)})` : '–'],
+      ['What happened', pill(r.outcome)], ['Rated before', r.rating_before === 'Not scored' ? 'Not scored' : `${pill(r.rating_before)}<br><span class="cap">First version: ${esc(r.rating_first_version)}</span>`],
+    ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+
+    // components
+    const top = comps[0];
+    c1.head(top && top.defects ? `${esc(top.name)} had the most defects (${top.defects})` : 'No defects counted in this release',
+      `Defects by component (a defect can name more than one). Colour shows the band given before the release${cr ? '' : '; this release was not scored'}. Click a bar to drill down.`);
+    c1.height(Math.max(160, comps.length * 26 + 30));
+    c1.set({...base(t), grid: {left: 4, right: 70, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => {
+        const c = p.data.c;
+        return `<b>${esc(c.name)}</b>: ${plural(c.defects, 'defect')}, ${fmt.int(c.ch)} Critical or High` +
+          (c.band !== 'Not scored' ? `<br>Scored ${c.band} before the release (${fmt.dec(c.score)})` : '<br>Not scored before the release') +
+          (c.hotspot ? `<br>${c.hotspot === 'Yes' ? 'Turned out to be a hotspot' : 'Not a hotspot'}` : '');
+      }}),
+      xAxis: valAxis(t, {minInterval: 1}),
+      yAxis: yCat(t, c1, comps.map(c => c.name)),
+      series: [{type: 'bar', barMaxWidth: 20, data: comps.map(c => ({value: c.defects, c, itemStyle: {color: bandCol(t, c.band), borderRadius: hBarRadius,
+          opacity: st.component && st.component !== c.name ? 0.3 : 1}})),
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11, formatter: p => p.value ? `${p.value}${p.data.c.ch ? ` (${p.data.c.ch} C+H)` : ''}` : '0'}}]});
+    c1.table([{label: 'Component', key: 'name'}, {label: 'Defects', key: 'defects', num: true}, {label: 'Critical + High', key: 'ch', num: true},
+      {label: 'Band before', key: 'band', fmt: v => v === 'Not scored' ? 'Not scored' : pill(v)}, {label: 'Score before', key: 'score', num: true, fmt: v => fmt.dec(v)},
+      {label: 'Per 10 person-days', key: 'rate', num: true, fmt: v => fmt.dec(v)}, {label: 'Hotspot', key: 'hotspot'}], comps);
+
+    // detail tags
+    const shownTags = tags.slice(0, 15);
+    c2.head(st.component ? `Detail tags on ${esc(st.component)} defects` : 'Detail tags in this release',
+      tags.length ? `Finer detail than components, from the defect labels. ${tags.length > 15 ? 'Top 15 of ' + tags.length + '. ' : ''}Click a tag to list its defects.` : 'No detail tags on these defects.');
+    c2.height(Math.max(140, shownTags.length * 26 + 30));
+    c2.set({...base(t), grid: {left: 4, right: 40, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(p.name)}</b>: ${plural(p.value, 'defect')}`}),
+      xAxis: valAxis(t, {minInterval: 1}),
+      yAxis: yCat(t, c2, shownTags.map(x => x[0])),
+      series: [{type: 'bar', barMaxWidth: 20, data: shownTags.map(([k, n]) => ({value: n, itemStyle: {color: t.accent, borderRadius: hBarRadius, opacity: st.tag && st.tag !== k ? 0.3 : 1}})),
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11}}]});
+    c2.table([{label: 'Detail tag', key: 0}, {label: 'Defects', key: 1, num: true}], tags);
+
+    // defect list
+    c3.head(`${plural(view.length, 'defect')}${st.component ? ' in ' + esc(st.component) : ''}${st.tag ? ', tagged ' + esc(st.tag) : ''}`,
+      'Defects counted for risk, found in release testing. Days to resolve is given for done defects only.');
+    c3.table([{label: 'Defect', key: 'defect', fmt: v => `<span class="code">${esc(v)}</span>`}, {label: 'Raised', key: 'created', fmt: fmt.date},
+      {label: 'Priority', key: 'priority'}, {label: 'Status', key: 'status'}, {label: 'Resolution', key: 'resolution_group'}, {label: 'Root cause', key: 'root_cause'},
+      {label: 'Days to resolve', key: 'days_to_resolve', num: true, fmt: v => v == null ? '–' : fmt.int(v)}, {label: 'Main component', key: 'main_component'},
+      {label: 'Reopened', key: 'reopened'}], view);
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 6. Components */
+function buildComponents(root) {
+  const st = S.components;
+  const head = pageHead(root, 'Which components are the usual hotspots, overall and by vendor?', '');
+  const bar = filterBar(root);
+  addSelect(bar, 'co-stream', 'Heat map stream', STREAMS.filter(s => D.component_release.some(r => r.stream === s)).map(s => ({value: s, label: s})), st.stream, v => { st.stream = v; update(); });
+  addSeg(bar, 'co-period', 'Period', [{value: 'All', label: 'All model releases'}, {value: 'Training', label: 'Training'}, {value: 'Test', label: 'Test'}], st.period, v => { st.period = v; update(); });
+  const g = grid(root);
+  const c1 = card(g, {span: 12, height: 460});
+  const c2 = card(g, {span: 6, height: 420});
+  const c3 = card(g, {span: 6, height: 420});
+  const c4 = card(g, {span: 12, height: 420});
+  c1.chart.on('click', p => { const r = p.data && p.data.row; if (r) { S.inside.release = r.release; S.inside.component = r.component; S.inside.tag = null; goTo('inside'); } });
+
+  function update() {
+    const t = T();
+    const all = D.component_release.filter(r => st.period === 'All' || r.period === st.period);
+    // page headline: the most frequent hotspot overall
+    const hs = byDesc(countBy(all.filter(r => r.hotspot === 'Yes'), r => r.component));
+    const rowsOf = countBy(all, r => r.component);
+    head.set(hs.length ? `${esc(hs[0][0])} is the most frequent hotspot: ${hs[0][1]} of ${rowsOf.get(hs[0][0])} component-releases` : 'No hotspots in this period');
+
+    // 1. heat map for one stream
+    const rows = all.filter(r => r.stream === st.stream);
+    const rels = uniq(rows.map(r => r.release)).map(x => D.relBy.get(x)).sort(relSort).map(r => r.release);
+    const comps = byDesc(sumBy(rows, r => r.component, r => r.defects)).map(x => x[0]);
+    const hsStream = byDesc(countBy(rows.filter(r => r.hotspot === 'Yes'), r => r.component));
+    c1.head(hsStream.length ? `${esc(hsStream[0][0])} was a hotspot in ${hsStream[0][1]} of ${rels.length} ${esc(st.stream)} releases` : `No hotspots in ${esc(st.stream)} for this period`,
+      'Colour shows defects per 10 person-days; a dot marks a hotspot. Releases run left to right by start date. Click a cell to open that release and component.');
+    const pieces = [{value: 0, label: 'No defects', color: t.seq[0]}, {gt: 0, lte: 0.5, label: 'Up to 0.5', color: t.seq[1]}, {gt: 0.5, lte: 1, label: '0.5 to 1', color: t.seq[2]},
+      {gt: 1, lte: 2, label: '1 to 2', color: t.seq[3]}, {gt: 2, lte: 4, label: '2 to 4', color: t.seq[4]}, {gt: 4, label: 'Over 4', color: t.seq[6]}];
+    c1.height(Math.max(220, comps.length * 24 + 150));
+    const cellTip = r => `<b>${esc(r.component)}</b> in release <span class="code">${esc(r.release)}</span><br>${plural(r.defects, 'defect')} (${fmt.int(r.critical_high)} Critical or High) in ${fmt.dec(r.person_days, 1)} person-days` +
+      `<br>${fmt.dec(r.defects_per_10pd)} per 10 person-days${r.hotspot === 'Yes' ? ' · hotspot' : ''}<br>Band before the release: ${r.band}${r.score_before != null ? ` (${fmt.dec(r.score_before)})` : ''}`;
+    c1.set({...base(t), grid: {left: 4, right: 10, top: 40, bottom: 4, containLabel: true},
+      tooltip: tip(t, {formatter: p => cellTip(p.data.row)}),
+      legend: leg(t, {data: ['Hotspot'], left: 'auto', right: 0, selectedMode: false}),
+      visualMap: {type: 'piecewise', seriesIndex: 0, dimension: 2, orient: 'horizontal', top: 0, left: 0, itemWidth: 14, itemHeight: 12, itemGap: 10,
+        textStyle: {color: t.ink2, fontSize: 11.5}, pieces, selectedMode: false},
+      xAxis: catAxis(t, {data: rels, axisLabel: lbl(t, {fontSize: 10.5, fontFamily: MONO, rotate: 60, interval: 0}), splitArea: {show: false}}),
+      yAxis: yCat(t, c1, comps),
+      series: [{type: 'heatmap', data: rows.map(r => ({value: [rels.indexOf(r.release), comps.indexOf(r.component), r.defects_per_10pd || 0], row: r})),
+          itemStyle: {borderColor: t.surface, borderWidth: 2, borderRadius: 3}, emphasis: {itemStyle: {borderColor: t.ink, borderWidth: 1}}},
+        {name: 'Hotspot', type: 'scatter', symbol: 'circle', symbolSize: 7, z: 3, itemStyle: {color: t.ink, borderColor: t.surface, borderWidth: 1.5},
+          data: rows.filter(r => r.hotspot === 'Yes').map(r => ({value: [rels.indexOf(r.release), comps.indexOf(r.component)], row: r}))}]});
+    c1.table([{label: 'Release', key: 'release', fmt: v => `<span class="code">${esc(v)}</span>`}, {label: 'Component', key: 'component'}, {label: 'Defects', key: 'defects', num: true},
+      {label: 'Critical + High', key: 'critical_high', num: true}, {label: 'Per 10 person-days', key: 'defects_per_10pd', num: true, fmt: v => fmt.dec(v)},
+      {label: 'Hotspot', key: 'hotspot'}, {label: 'Band before', key: 'band'}, {label: 'Score before', key: 'score_before', num: true, fmt: v => fmt.dec(v)}],
+      rows.slice().sort((a, b) => rels.indexOf(a.release) - rels.indexOf(b.release) || comps.indexOf(a.component) - comps.indexOf(b.component)));
+
+    // 2. top components, stacked by vendor
+    const byComp = byDesc(sumBy(all, r => r.component, r => r.defects));
+    const top = byComp.slice(0, 12).map(x => x[0]);
+    const cv = sumBy(all, r => r.component + '|' + r.vendor, r => r.defects);
+    const vs = VENDORS.filter(v => all.some(r => r.vendor === v && r.defects));
+    c2.head(byComp.length ? `${esc(byComp[0][0])} has the most defects: ${fmt.int(byComp[0][1])}` : 'No defects in this period',
+      `Defects counted for risk in model releases, top ${top.length} components, split by vendor.`);
+    c2.height(Math.max(200, top.length * 26 + 50));
+    c2.set({...base(t), legend: leg(t), grid: {left: 4, right: 16, top: 34, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${esc(ps[0].axisValue)}</b>: ${fmt.int(sum(ps, p => p.value))} defects<br>` +
+        ps.filter(p => p.value).map(p => `${p.marker}${esc(p.seriesName)}: ${fmt.int(p.value)}`).join('<br>')}),
+      xAxis: valAxis(t), yAxis: yCat(t, c2, top),
+      series: vs.map(v => ({name: v, type: 'bar', stack: 'c', barMaxWidth: 20, data: top.map(c => cv.get(c + '|' + v) || 0),
+        itemStyle: {color: vcol(t, v), borderColor: t.surface, borderWidth: 1}}))});
+    c2.table([{label: 'Component', key: 'c'}, ...vs.map(v => ({label: v, key: v, num: true, fmt: fmt.int})), {label: 'Total', key: 'n', num: true, fmt: fmt.int}],
+      byComp.map(([c, n]) => Object.assign({c, n}, ...vs.map(v => ({[v]: cv.get(c + '|' + v) || 0})))));
+
+    // 3. component by vendor matrix
+    const mComps = byComp.filter(x => x[1] > 0).map(x => x[0]);
+    const binOf = n => n === 0 ? 0 : n < 10 ? 1 : n < 30 ? 2 : n < 100 ? 3 : n < 300 ? 5 : 6;
+    let biggest = ['', '', 0];
+    const cells = [];
+    mComps.forEach((c, yi) => VENDORS.forEach((v, xi) => {
+      const n = cv.get(c + '|' + v) || 0;
+      if (n > biggest[2]) biggest = [c, v, n];
+      const b = binOf(n);
+      cells.push({value: [xi, yi, n], label: {color: (t.dark ? b <= 4 : b >= 5) ? '#ffffff' : t.ink}});
+    }));
+    c3.head(biggest[2] ? `${esc(biggest[0])} in ${esc(biggest[1])} is the biggest cell: ${fmt.int(biggest[2])} defects` : 'No defects in this period',
+      'Defects counted for risk in model releases, by component and vendor. Darker means more defects.');
+    c3.height(Math.max(200, mComps.length * 24 + 50));
+    c3.set({...base(t), grid: {left: 4, right: 6, top: 26, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(mComps[p.value[1]])}</b> · ${VENDORS[p.value[0]]}: ${plural(p.value[2], 'defect')}`}),
+      visualMap: {type: 'piecewise', show: false, dimension: 2, seriesIndex: 0, pieces: [{value: 0, color: t.seq[0]}, {gt: 0, lt: 10, color: t.seq[1]},
+        {gte: 10, lt: 30, color: t.seq[2]}, {gte: 30, lt: 100, color: t.seq[3]}, {gte: 100, lt: 300, color: t.seq[5]}, {gte: 300, color: t.seq[6]}]},
+      xAxis: catAxis(t, {data: VENDORS, position: 'top', axisLine: {show: false}, axisLabel: lbl(t, {interval: 0})}), yAxis: yCat(t, c3, mComps),
+      series: [{type: 'heatmap', data: cells, label: {show: true, fontSize: 11, formatter: p => p.value[2] ? fmt.int(p.value[2]) : ''},
+        itemStyle: {borderColor: t.surface, borderWidth: 2, borderRadius: 3}}]});
+    c3.table([{label: 'Component', key: 'c'}, ...VENDORS.map(v => ({label: v, key: v, num: true, fmt: fmt.int}))],
+      mComps.map(c => Object.assign({c}, ...VENDORS.map(v => ({[v]: cv.get(c + '|' + v) || 0})))));
+
+    // 4. clean rows
+    const tot = countBy(all, r => r.component), zero = countBy(all.filter(r => r.defects === 0), r => r.component);
+    const cl = [...tot.keys()].map(c => ({c, n: tot.get(c), z: zero.get(c) || 0})).map(o => Object.assign(o, {s: o.z / o.n})).sort((a, b) => b.s - a.s || b.n - a.n);
+    const z = sum(cl, o => o.z), n = sum(cl, o => o.n);
+    c4.head(`${fmt.int(z)} of ${fmt.int(n)} component-releases had no defects`,
+      'Share of releases in which each component had no defects counted for risk. These clean rows are kept in the model, so it learns what "low" looks like.');
+    c4.height(Math.max(200, cl.length * 24 + 20));
+    c4.set({...base(t), grid: {left: 4, right: 70, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(p.name)}</b>: no defects in ${p.data.o.z} of ${p.data.o.n} releases (${fmt.pct(p.data.o.s)})`}),
+      xAxis: valAxis(t, {min: 0, max: 1, axisLabel: lbl(t, {color: t.muted, fontSize: 11, formatter: v => fmt.pct(v)})}),
+      yAxis: yCat(t, c4, cl.map(o => o.c)),
+      series: [{type: 'bar', barMaxWidth: 18, data: cl.map(o => ({value: o.s, o})), itemStyle: {color: t.accent, borderRadius: hBarRadius},
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11, formatter: p => `${p.data.o.z} of ${p.data.o.n}`}}]});
+    c4.table([{label: 'Component', key: 'c'}, {label: 'Releases with no defects', key: 'z', num: true}, {label: 'Releases', key: 'n', num: true},
+      {label: 'Share clean', key: 's', num: true, fmt: v => fmt.pct(v)}], cl);
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 7. Vendor confidence */
+function buildVendors(root) {
+  const st = S.vendors;
+  const sc = D.vendor_scorecard;
+  const solid = sc.filter(v => v.releases_judged >= 5);
+  const worst = solid.slice().sort((a, b) => b.defects_per_10pd - a.defects_per_10pd)[0];
+  const fewest = solid.slice().sort((a, b) => a.clean_share - b.clean_share)[0];
+  pageHead(root, 'How confident can we be in each vendor stream?',
+    worst === fewest ? `${worst.vendor} has the highest defect rate and the fewest clean releases` : `${worst.vendor} has the highest defect rate; ${fewest.vendor} the fewest clean releases`,
+    'A clean release has fewer defects per 10 person-days than its stream’s average training release. Vendor D and Vendor E have few releases and defects, so read them with care.');
+  const g = grid(root);
+  const c1 = card(g, {span: 12, chart: false});
+  const bar = filterBar(root);
+  const g2 = grid(root);
+  yearRange(bar, 've', st, 2016, 2026, () => update());
+  const c2 = card(g2, {span: 6, height: 300});
+  const c3 = card(g2, {span: 6, height: 300});
+
+  const best = solid.slice().sort((a, b) => b.clean_share - a.clean_share)[0];
+  c1.head(`Scorecard: ${best.vendor} has the highest share of clean releases (${best.clean_releases} of ${best.releases_judged})`,
+    'All model releases, 2018 to 2026. Rates use release-testing effort; days to resolve are for done defects.');
+  c1.table([{label: 'Vendor', key: 'vendor', cls: 'nowrap', fmt: v => `<span class="dot" style="background:var(--v-${v.slice(-1).toLowerCase()})"></span>${esc(v)}`},
+    {label: 'Stream', key: 'stream', cls: 'nowrap'}, {label: 'Releases in model', key: 'releases_in_model', num: true},
+    {label: 'Clean releases', get: r => r.releases_judged ? `${r.clean_releases} of ${r.releases_judged} (${fmt.pct(r.clean_share)})` : 'Not judged', num: true},
+    {label: 'Defects per 10 person-days', key: 'defects_per_10pd', num: true, fmt: v => fmt.dec(v)}, {label: 'Defects counted', key: 'defects_counted', num: true, fmt: fmt.int},
+    {label: 'Critical + High share', key: 'critical_high_share', num: true, fmt: v => fmt.pct(v)}, {label: 'Reopened share', key: 'reopen_share', num: true, fmt: v => fmt.pct(v, 1)},
+    {label: 'Median days to resolve', key: 'median_days_to_resolve', num: true, fmt: v => v == null ? '–' : fmt.dec(v, 1).replace(/\.0$/, '')},
+    {label: 'Accepted as is or won’t fix', key: 'accepted_or_wont_fix_share', num: true, fmt: v => fmt.pct(v, 1)},
+    {label: 'Test runs per release', key: 'avg_test_runs', num: true, fmt: v => fmt.dec(v)}, {label: 'Fix drops per release', key: 'ptf_drops_per_release', num: true, fmt: v => v == null ? '–' : fmt.dec(v)},
+    {label: 'Note', key: 'note', cls: 'wrap'}], sc);
+
+  function update() {
+    const t = T();
+    const years = range(st.from, st.to);
+    // 2. defects per 10 person-days by year and vendor
+    const rows = D.year_summary.filter(r => r.vendor !== 'All');
+    const val = new Map(rows.map(r => [r.vendor + '|' + r.year, r.defects_per_10pd]));
+    const vs = VENDORS.filter(v => years.some(y => val.get(v + '|' + y) != null));
+    const leader = countBy(years.map(y => {
+      const vals = vs.map(v => [v, val.get(v + '|' + y)]).filter(x => x[1] != null && ['Vendor A', 'Vendor B', 'Vendor C'].includes(x[0]));
+      return vals.length >= 2 ? vals.sort((a, b) => b[1] - a[1])[0][0] : null;
+    }).filter(Boolean), x => x);
+    const lead = byDesc(leader)[0];
+    c2.head(lead ? `${lead[0]} had the highest rate in ${lead[1]} of ${sum([...leader.values()])} years` : 'Defects per 10 person-days by year',
+      'Defects counted for risk per 10 person-days of release testing, Vendors A to C compared. Years without effort data are blank; 2026 covers January to October.');
+    c2.set({...base(t), legend: leg(t), grid: {left: 4, right: 14, top: 34, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', formatter: ps => `<b>${ps[0].axisValue}</b><br>` + ps.filter(p => p.value != null).map(p => `${p.marker}${esc(p.seriesName)}: ${fmt.dec(p.value)}`).join('<br>')}),
+      xAxis: catAxis(t, {data: years.map(String), boundaryGap: false}), yAxis: valAxis(t, {min: 0}),
+      series: vs.map(v => ({name: v, type: 'line', connectNulls: false, symbol: 'circle', symbolSize: 8, data: years.map(y => val.get(v + '|' + y) ?? null),
+        lineStyle: {width: 2, color: vcol(t, v)}, itemStyle: {color: vcol(t, v), borderColor: t.surface, borderWidth: 2}}))});
+    c2.table([{label: 'Year', key: 'y'}, ...vs.map(v => ({label: v, key: v, num: true, fmt: x => fmt.dec(x)}))],
+      years.map(y => Object.assign({y}, ...vs.map(v => ({[v]: val.get(v + '|' + y) ?? null})))));
+
+    // 3. root cause mix
+    const defs = D.defects.filter(d => d.year >= st.from && d.year <= st.to && d.root_cause_group !== 'Not given');
+    const groups = byDesc(countBy(defs, d => d.root_cause_group)).map(x => x[0]);
+    const per = countBy(defs, d => d.vendor + '|' + d.root_cause_group), totV = countBy(defs, d => d.vendor);
+    const vv = VENDORS.filter(v => totV.get(v));
+    const topOf = v => groups.map(gr => [gr, per.get(v + '|' + gr) || 0]).sort((a, b) => b[1] - a[1])[0][0];
+    const tops = vv.map(v => [v, topOf(v)]);
+    const same = tops.every(x => x[1] === tops[0][1]);
+    c3.head(!tops.length ? 'No root causes in this selection' : same ? `${tops[0][1]} is the top known root cause for every vendor` : `Top known root cause: ${tops.map(([v, gr]) => `${v.replace('Vendor ', '')} ${gr}`).join(', ')}`,
+      'Share of each vendor’s defects with a root cause recorded, all defects raised in the years chosen.');
+    const cells = [];
+    vv.forEach((v, yi) => groups.forEach((gr, xi) => {
+      const s = (per.get(v + '|' + gr) || 0) / totV.get(v);
+      const b = s === 0 ? 0 : s < 0.05 ? 1 : s < 0.1 ? 2 : s < 0.2 ? 3 : s < 0.3 ? 5 : 6;
+      cells.push({value: [xi, yi, s], n: per.get(v + '|' + gr) || 0, label: {color: (t.dark ? b <= 4 : b >= 5) ? '#ffffff' : t.ink}});
+    }));
+    c3.height(Math.max(200, vv.length * 38 + 110));
+    c3.set({...base(t), grid: {left: 4, right: 6, top: 6, bottom: 4, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${vv[p.value[1]]}</b> · ${esc(groups[p.value[0]])}: ${fmt.pct(p.value[2], 1)} (${plural(p.data.n, 'defect')} of ${fmt.int(totV.get(vv[p.value[1]]))})`}),
+      visualMap: {type: 'piecewise', show: false, dimension: 2, seriesIndex: 0, pieces: [{value: 0, color: t.seq[0]}, {gt: 0, lt: 0.05, color: t.seq[1]},
+        {gte: 0.05, lt: 0.1, color: t.seq[2]}, {gte: 0.1, lt: 0.2, color: t.seq[3]}, {gte: 0.2, lt: 0.3, color: t.seq[5]}, {gte: 0.3, color: t.seq[6]}]},
+      xAxis: catAxis(t, {data: groups, axisLabel: lbl(t, {fontSize: 10.5, rotate: 35, interval: 0})}), yAxis: catAxis(t, {data: vv, inverse: true, axisLabel: lbl(t, {interval: 0})}),
+      series: [{type: 'heatmap', data: cells, label: {show: true, fontSize: 10.5, formatter: p => p.value[2] >= 0.005 ? Math.round(p.value[2] * 100) + '%' : ''},
+        itemStyle: {borderColor: t.surface, borderWidth: 2, borderRadius: 3}}]});
+    c3.table([{label: 'Vendor', key: 'v'}, ...groups.map(gr => ({label: gr, key: gr, num: true, fmt: x => fmt.pct(x, 1)})), {label: 'Defects with a root cause', key: 'n', num: true, fmt: fmt.int}],
+      vv.map(v => Object.assign({v, n: totV.get(v)}, ...groups.map(gr => ({[gr]: (per.get(v + '|' + gr) || 0) / totV.get(v)})))));
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 8. Testing effort */
+function buildEffort(root) {
+  const st = S.effort;
+  const yAll = sumBy(D.effort, e => e.year, e => e.person_days);
+  pageHead(root, 'How has our testing changed since 2018?',
+    `Tracked testing effort grew from ${fmt.int(yAll.get(2019))} person-days in 2019 to ${fmt.int(yAll.get(2025))} in 2025`,
+    'From the team’s effort trackers. 2018 holds December only, and 2026 runs to October.');
+  const bar = filterBar(root);
+  const groupsAll = ['Release work', 'Release and upgrade work', 'Upgrade and infrastructure', 'Other', 'Programme work', 'Out of scope'];
+  addSelect(bar, 'ef-group', 'Work group', [{value: 'All work', label: 'All work'}, ...groupsAll.map(x => ({value: x, label: x}))], st.group, v => { st.group = v; update(); });
+  const g = grid(root);
+  const c1 = card(g, {span: 6, height: 300}), c2 = card(g, {span: 6, height: 300});
+  const c3 = card(g, {span: 6, height: 280}), c4 = card(g, {span: 6, height: 280});
+  const TYPES = ['Regression', 'Functional', 'Non-functional', 'Automation', 'Other', 'Not given'];
+  const PHASES = ['Execution', 'Design', 'Design and execution', 'Maintenance', 'Documentation', 'Not given'];
+
+  function stacked(c, eff, key, cats, t, years) {
+    const m = sumBy(eff, e => e[key] + '|' + e.year, e => e.person_days);
+    const used = cats.filter(k => years.some(y => m.get(k + '|' + y)));
+    const col = k => k === 'Not given' ? t.none : t.cat[cats.indexOf(k)];
+    c.set({...base(t), legend: leg(t), grid: {left: 4, right: 8, top: used.length > 4 ? 66 : 40, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${ps[0].axisValue}</b>: ${fmt.int(sum(ps, p => p.value))} person-days<br>` +
+        ps.filter(p => p.value).map(p => `${p.marker}${esc(p.seriesName)}: ${fmt.int(p.value)}`).join('<br>')}),
+      xAxis: catAxis(t, {data: years.map(String)}), yAxis: valAxis(t),
+      series: used.map(k => ({name: k, type: 'bar', stack: 's', barMaxWidth: 24, data: years.map(y => Math.round((m.get(k + '|' + y) || 0) * 10) / 10),
+        itemStyle: {color: col(k), borderColor: t.surface, borderWidth: 1}}))});
+    c.table([{label: 'Year', key: 'y'}, ...used.map(k => ({label: k, key: k, num: true, fmt: fmt.int}))],
+      years.map(y => Object.assign({y}, ...used.map(k => ({[k]: m.get(k + '|' + y) || 0})))));
+    return used.map(k => [k, sum(years, y => m.get(k + '|' + y) || 0)]);
+  }
+  function update() {
+    const t = T();
+    const eff = D.effort.filter(e => st.group === 'All work' || e.work_group === st.group);
+    const years = range(2018, 2026).filter(y => eff.some(e => e.year === y));
+    const total = sum(eff, e => e.person_days);
+    const scope = st.group === 'All work' ? 'all tracked work' : st.group.toLowerCase();
+
+    const types = stacked(c1, eff, 'testing_type', TYPES, t, years);
+    const named = types.filter(x => x[0] !== 'Not given').sort((a, b) => b[1] - a[1]);
+    c1.head(named.length ? `${named[0][0]} is the biggest named testing type: ${fmt.pct(named[0][1] / total)} of person-days` : 'No effort in this group',
+      `Person-days by testing type, ${scope}. "Not given" means the tracker recorded no type, as for most work before 2021.`);
+    const phases = stacked(c2, eff, 'phase', PHASES, t, years);
+    const ph = k => (phases.find(x => x[0] === k) || [k, 0])[1];
+    c2.head(total ? `Execution is ${fmt.pct(ph('Execution') / total)} of person-days; design ${fmt.pct(ph('Design') / total)}` : 'No effort in this group',
+      `Person-days by phase, ${scope}.`);
+
+    const plan = sumBy(eff, e => e.year, e => e.test_cases_planned), run = sumBy(eff, e => e.year, e => e.test_cases_run);
+    const P = sum(years, y => plan.get(y) || 0), R = sum(years, y => run.get(y) || 0);
+    c3.head(P ? `${fmt.pct(R / P)} of planned test cases were run (${fmt.int(R)} of ${fmt.int(P)})` : 'No test case counts in this group',
+      `Test cases planned and run, ${scope}, as recorded in the trackers.`);
+    c3.set({...base(t), legend: leg(t), grid: {left: 4, right: 8, top: 34, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${ps[0].axisValue}</b><br>` + ps.map(p => `${p.marker}${p.seriesName}: ${fmt.int(p.value)}`).join('<br>')}),
+      xAxis: catAxis(t, {data: years.map(String)}), yAxis: valAxis(t, {axisLabel: lbl(t, {color: t.muted, fontSize: 11, formatter: v => v >= 1000 ? (v / 1000) + 'k' : v})}),
+      series: [['Planned', plan, t.seq[2]], ['Run', run, t.accent]].map(([name, m, col]) => ({name, type: 'bar', barMaxWidth: 16, barGap: '15%',
+        data: years.map(y => m.get(y) || 0), itemStyle: {color: col, borderRadius: vBarRadius}}))});
+    c3.table([{label: 'Year', key: 'y'}, {label: 'Planned', key: 'p', num: true, fmt: fmt.int}, {label: 'Run', key: 'r', num: true, fmt: fmt.int},
+      {label: 'Run share', get: o => o.p ? o.r / o.p : null, num: true, fmt: v => fmt.pct(v)}], years.map(y => ({y, p: plan.get(y) || 0, r: run.get(y) || 0})));
+
+    const dr = sumBy(eff, e => e.year, e => e.defects_reported);
+    const rate = years.map(y => y >= 2019 && (run.get(y) || 0) >= 100 ? (dr.get(y) || 0) / run.get(y) * 1000 : null);
+    const pts = years.map((y, i) => [y, rate[i]]).filter(p => p[1] != null);
+    c4.head(pts.length >= 2 ? `Defects per 1,000 test cases run: ${fmt.dec(pts[0][1], 1)} in ${pts[0][0]}, ${fmt.dec(pts[pts.length - 1][1], 1)} in ${pts[pts.length - 1][0]}` : 'Defects per 1,000 test cases run',
+      'Defects reported in the trackers for every 1,000 test cases run. 2018 (December only) and years with fewer than 100 test cases run are left blank.');
+    c4.set({...base(t), grid: {left: 4, right: 14, top: 18, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', formatter: ps => ps[0].value == null ? `<b>${ps[0].axisValue}</b>: no figure` : `<b>${ps[0].axisValue}</b>: ${fmt.dec(ps[0].value, 1)} per 1,000 test cases run`}),
+      xAxis: catAxis(t, {data: years.map(String), boundaryGap: false}), yAxis: valAxis(t, {min: 0}),
+      series: [{type: 'line', data: rate, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: {width: 2, color: t.accent},
+        itemStyle: {color: t.accent, borderColor: t.surface, borderWidth: 2}}]});
+    c4.table([{label: 'Year', key: 'y'}, {label: 'Defects reported', key: 'd', num: true, fmt: fmt.int}, {label: 'Test cases run', key: 'r', num: true, fmt: fmt.int},
+      {label: 'Per 1,000 run', key: 'x', num: true, fmt: v => v == null ? '–' : fmt.dec(v, 1)}], years.map((y, i) => ({y, d: dr.get(y) || 0, r: run.get(y) || 0, x: rate[i]})));
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 9. Work outside the model */
+function buildOutside(root) {
+  const st = S.outside;
+  const GROUPS = ['Release work', 'Release and upgrade work', 'Upgrade and infrastructure', 'Other', 'Programme work', 'Out of scope'];
+  const OUT = ['Upgrade and infrastructure', 'Other', 'Programme work', 'Out of scope'];
+  const total = sum(D.effort, e => e.person_days), out = sum(D.effort.filter(e => OUT.includes(e.work_group)), e => e.person_days);
+  pageHead(root, 'What is left out of the risk scores, and why?',
+    `${fmt.pct(out / total)} of tracked person-days went to work outside releases`,
+    'The model scores release testing only. Upgrade and infrastructure work, other systems, programme work and out-of-scope work are shown here so nothing is hidden.');
+  const g = grid(root);
+  const c1 = card(g, {span: 12, height: 320});
+  const c2 = card(g, {span: 6, height: 280}), c3 = card(g, {span: 6, height: 360});
+  const c4 = card(g, {span: 6, height: 340}), c5 = card(g, {span: 6, height: 300});
+  const s3 = el('div', 'filters'); c3.el.insertBefore(s3, c3.chartEl);
+  addSeg(s3, 'ou-names', 'Show', [{value: 'Main component', label: 'Components'}, {value: 'Detail tag', label: 'Detail tags'}], st.names, v => { st.names = v; update(); });
+  const s4 = el('div', 'filters'); c4.el.insertBefore(s4, c4.chartEl);
+  addSelect(s4, 'ou-group', 'Work group', OUT.map(x => ({value: x, label: x})), st.group, v => { st.group = v; update(); });
+
+  function update() {
+    const t = T();
+    const years = range(2018, 2026);
+    const m = sumBy(D.effort, e => e.work_group + '|' + e.year, e => e.person_days);
+    c1.head('Effort by work group and year', `Person-days from the trackers. Release work feeds the model; shared release-and-upgrade work is shown on its own. 2018 holds December only; 2026 runs to October.`);
+    c1.set({...base(t), legend: leg(t), grid: {left: 4, right: 8, top: 52, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${ps[0].axisValue}</b>: ${fmt.int(sum(ps, p => p.value))} person-days<br>` +
+        ps.filter(p => p.value).map(p => `${p.marker}${esc(p.seriesName)}: ${fmt.int(p.value)}`).join('<br>')}),
+      xAxis: catAxis(t, {data: years.map(String)}), yAxis: valAxis(t),
+      series: GROUPS.map((k, i) => ({name: k, type: 'bar', stack: 'w', barMaxWidth: 26, data: years.map(y => Math.round((m.get(k + '|' + y) || 0) * 10) / 10),
+        itemStyle: {color: t.cat[i], borderColor: t.surface, borderWidth: 1}}))});
+    c1.table([{label: 'Year', key: 'y'}, ...GROUPS.map(k => ({label: k, key: k, num: true, fmt: fmt.int}))], years.map(y => Object.assign({y}, ...GROUPS.map(k => ({[k]: m.get(k + '|' + y) || 0})))));
+
+    const up = D.defects.filter(d => d.work_type === 'Upgrade and infrastructure');
+    const upY = countBy(up, d => d.year);
+    const topY = byDesc(upY).slice(0, 2).map(x => x[0]).sort();
+    c2.head(`${fmt.int(up.length)} defects came from upgrade and infrastructure work; ${listText(topY.map(String))} had the most`,
+      'These defects are kept out of the risk scores, because they do not belong to a vendor release.');
+    c2.set({...base(t), grid: {left: 4, right: 8, top: 14, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${ps[0].axisValue}</b>: ${plural(ps[0].value, 'defect')}`}),
+      xAxis: catAxis(t, {data: years.map(String)}), yAxis: valAxis(t, {minInterval: 1}),
+      series: [{type: 'bar', barMaxWidth: 24, data: years.map(y => upY.get(y) || 0), itemStyle: {color: t.cat[2], borderRadius: vBarRadius},
+        label: {show: true, position: 'top', color: t.ink2, fontSize: 11, formatter: p => p.value || ''}}]});
+    c2.table([{label: 'Year', key: 'y'}, {label: 'Defects', key: 'n', num: true}], years.map(y => ({y, n: upY.get(y) || 0})));
+
+    const ids = new Set(up.map(d => d.defect));
+    const kinds = st.names === 'Detail tag' ? ['Detail tag'] : ['Main component', 'Other component'];
+    const names = byDesc(countBy(D.defect_tags.filter(x => ids.has(x.defect) && kinds.includes(x.kind)), x => x.name));
+    const shown = names.slice(0, 12);
+    c3.head(names.length ? `${esc(names[0][0])} is named most often (${names[0][1]} times)` : 'Nothing named',
+      st.names === 'Detail tag' ? 'Detail tags on upgrade and infrastructure defects, top 12.' : 'Components named on upgrade and infrastructure defects (main or other), top 12.');
+    c3.height(Math.max(160, shown.length * 24 + 20));
+    c3.set({...base(t), grid: {left: 4, right: 36, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(p.name)}</b>: ${plural(p.value, 'defect')}`}),
+      xAxis: valAxis(t, {minInterval: 1}), yAxis: yCat(t, c3, shown.map(x => x[0])),
+      series: [{type: 'bar', barMaxWidth: 18, data: shown.map(x => x[1]), itemStyle: {color: t.cat[2], borderRadius: hBarRadius},
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11}}]});
+    c3.table([{label: st.names === 'Detail tag' ? 'Detail tag' : 'Component', key: 0}, {label: 'Defects', key: 1, num: true}], names);
+
+    const det = byDesc(sumBy(D.effort.filter(e => e.work_group === st.group), e => e.group_detail, e => e.person_days));
+    c4.head(det.length ? `${esc(det[0][0])} is the biggest item in “${esc(st.group)}”: ${fmt.int(det[0][1])} person-days` : 'No effort in this group',
+      'Person-days by type of work, 2018 to 2026.');
+    c4.height(Math.max(140, det.length * 28 + 20));
+    c4.set({...base(t), grid: {left: 4, right: 50, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(p.name)}</b>: ${fmt.dec(p.value, 1)} person-days`}),
+      xAxis: valAxis(t), yAxis: yCat(t, c4, det.map(x => x[0])),
+      series: [{type: 'bar', barMaxWidth: 20, data: det.map(x => Math.round(x[1] * 10) / 10), itemStyle: {color: t.cat[GROUPS.indexOf(st.group)], borderRadius: hBarRadius},
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11, formatter: p => fmt.int(p.value)}}]});
+    c4.table([{label: 'Type of work', key: 0}, {label: 'Person-days', key: 1, num: true, fmt: v => fmt.dec(v, 1)}], det);
+
+    const f = D.data_funnel.slice().sort((a, b) => a.step_order - b.step_order);
+    c5.head(`${fmt.int(f[f.length - 1].defects)} of ${fmt.int(f[0].defects)} defects feed the model`,
+      'From all defects raised to the defects in releases the model uses. Hover a bar for the reason defects were left out at that step.');
+    c5.set({...base(t), grid: {left: 4, right: 56, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => { const r = p.data.r; return `<b>${esc(r.step)}</b>: ${fmt.int(r.defects)} defects` + (r.left_out_at_this_step ? `<br>${fmt.int(r.left_out_at_this_step)} left out. ${esc(r.reason_left_out.replace(/^Left out: /, 'Reason: '))}` : ''); }}),
+      xAxis: valAxis(t), yAxis: yCat(t, c5, f.map(r => r.step)),
+      series: [{type: 'bar', barMaxWidth: 22, data: f.map((r, i) => ({value: r.defects, r, itemStyle: {color: t.seq[Math.min(6, 3 + i)], borderRadius: hBarRadius}})),
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11.5, formatter: p => fmt.int(p.value)}}]});
+    c5.table([{label: 'Step', key: 'step'}, {label: 'Defects', key: 'defects', num: true, fmt: fmt.int}, {label: 'Left out at this step', key: 'left_out_at_this_step', num: true, fmt: fmt.int},
+      {label: 'Why', key: 'reason_left_out', cls: 'wrap'}], f);
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 10. Release rating check */
+function buildRating(root) {
+  const st = S.rating;
+  const head = pageHead(root, 'How well did the rating made before each release match what happened?', '',
+    'A release is judged bad when its defects per 10 person-days are above its stream’s average training release. Vendor D’s releases are rated but cannot be judged, because Vendor D has no training release.');
+  const bar = filterBar(root);
+  addSeg(bar, 'ra-set', 'Releases', [{value: 'Test', label: 'Test releases (2025–26)'}, {value: 'All', label: 'All judged releases'}], st.set, v => { st.set = v; update(); });
+  addSelect(bar, 'ra-stream', 'Stream', [{value: 'All', label: 'All streams'}, ...STREAMS.filter(s => s !== 'Vendor D').map(s => ({value: s, label: s}))], st.stream, v => { st.stream = v; update(); });
+  const g = grid(root);
+  const c1 = card(g, {span: 12, chart: false});
+  const c2 = card(g, {span: 7, height: 360});
+  const c3 = card(g, {span: 5, height: 300});
+  const chips = arr => arr.length ? arr.map(r => `<span class="chip code">${esc(r.release)}</span>`).join('') : '<span class="cap">none</span>';
+
+  function update() {
+    const t = T();
+    const scored = D.releases.filter(r => r.rating_before !== 'Not scored');
+    const judged = scored.filter(r => r.outcome !== 'Not judged' && (st.stream === 'All' || r.stream === st.stream)).sort(relSort);
+    const rows = st.set === 'Test' ? judged.filter(r => r.period === 'Test') : judged;
+    const H = r => r.rating_before === 'High', B = r => r.outcome === 'Bad';
+    const tp = rows.filter(r => H(r) && B(r)), fp = rows.filter(r => H(r) && !B(r)), fn = rows.filter(r => !H(r) && B(r)), tn = rows.filter(r => !H(r) && !B(r));
+    const den = Math.sqrt((tp.length + fp.length) * (tp.length + fn.length) * (tn.length + fp.length) * (tn.length + fn.length));
+    const mcc = den ? (tp.length * tn.length - fp.length * fn.length) / den : null;
+    const n = rows.length, acc = n ? (tp.length + tn.length) / n : null, fine = n ? (fp.length + tn.length) / n : null;
+    head.set(n ? `The rating caught ${tp.length} of ${tp.length + fn.length} bad ${st.set === 'Test' ? 'test ' : ''}releases, with ${plural(fp.length, 'false alarm')}` : 'No judged releases in this selection');
+    c1.head(`Four boxes: ${n} ${st.set === 'Test' ? 'test releases (2025–26)' : 'judged releases'}${st.stream === 'All' ? '' : ' in ' + esc(st.stream)}`,
+      'Rows: what the rating said before the release. Columns: what happened. "Rated High" is the flag being checked.');
+    c1.html(`<div class="cm">
+      <div></div><div class="hd">Turned out bad</div><div class="hd">Turned out clean</div>
+      <div class="hd rh">Rated High before</div>
+      <div class="box good"><div class="n">${tp.length}</div><div class="k">Caught</div>${chips(tp)}</div>
+      <div class="box warn"><div class="n">${fp.length}</div><div class="k">False alarms</div>${chips(fp)}</div>
+      <div class="hd rh">Rated Medium or Low</div>
+      <div class="box bad"><div class="n">${fn.length}</div><div class="k">Missed</div>${chips(fn)}</div>
+      <div class="box good"><div class="n">${tn.length}</div><div class="k">Correctly left alone</div>${chips(tn)}</div>
+    </div>
+    <div class="stats"><span>MCC <b>${mcc == null ? 'not defined' : fmt.dec(mcc)}</b> (0 is guessing, 1 is perfect)</span>
+      <span>Accuracy <b>${fmt.pct(acc)}</b> (${tp.length + tn.length} of ${n})</span>
+      <span>Always saying "fine" would score <b>${fmt.pct(fine)}</b>, which is why accuracy is not used</span></div>`);
+
+    // scatter
+    const bands = ['High', 'Medium', 'Low'], sym = {High: 'triangle', Medium: 'diamond', Low: 'circle'};
+    const all = judged;
+    const hb = all.filter(r => H(r) && B(r)).length, hn = all.filter(H).length;
+    c2.head(hn ? `${hb} of ${hn} releases rated High turned out bad` : 'Rating against what happened',
+      'Each mark is a judged release; its height is defects per 10 person-days divided by the stream average. Above the dashed line is bad, below it clean. Shape and colour show the rating made before. The shaded area is the test period.');
+    c2.set({...base(t), legend: leg(t, {data: bands.map(b => 'Rated ' + b)}), grid: {left: 4, right: 18, top: 34, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => relTip(D.relBy.get(p.data.release))}),
+      xAxis: {type: 'time', axisLine: {lineStyle: {color: t.axis}}, axisTick: {show: false}, splitLine: {show: false}, axisLabel: lbl(t, {color: t.muted, fontSize: 11, formatter: '{yyyy}'})},
+      yAxis: valAxis(t, {min: 0}),
+      series: bands.map((b, i) => ({name: 'Rated ' + b, type: 'scatter', symbol: sym[b], symbolSize: 12,
+        data: all.filter(r => r.rating_before === b).map(r => ({value: [r.startMs, r.times_stream_average], release: r.release})),
+        itemStyle: {color: bandCol(t, b), borderColor: t.surface, borderWidth: 1.5},
+        markLine: i === 0 ? {...markLineStyle(t), data: [{yAxis: 1, name: 'Stream average'}], label: {color: t.ink2, fontSize: 11, formatter: 'Stream average', position: 'insideEndTop'}} : undefined,
+        markArea: i === 0 ? {silent: true, itemStyle: {color: alpha(t.accent, t.dark ? 0.10 : 0.06)}, label: {show: true, position: 'insideTop', color: t.muted, fontSize: 11, formatter: 'Test period'},
+          data: [[{xAxis: TEST_START}, {xAxis: Date.UTC(2026, 11, 31)}]]} : undefined}))});
+    c2.table([{label: 'Release', key: 'release', fmt: v => `<span class="code">${esc(v)}</span>`}, {label: 'Stream', key: 'stream'}, {label: 'Period', key: 'period'},
+      {label: 'Rated before', key: 'rating_before', fmt: v => pill(v)}, {label: 'Times stream average', key: 'times_stream_average', num: true, fmt: fmt.times},
+      {label: 'Outcome', key: 'outcome', fmt: v => pill(v)}, {label: 'Why the rating', key: 'rating_reason', cls: 'wrap'}], all);
+
+    // first version against final
+    const ss = STREAMS.filter(s => scored.some(r => r.stream === s));
+    const a = new Map(ss.map(s => [s, scored.filter(r => r.stream === s && r.rating_first_version === 'High').length]));
+    const b = new Map(ss.map(s => [s, scored.filter(r => r.stream === s && r.rating_before === 'High').length]));
+    const nS = new Map(ss.map(s => [s, scored.filter(r => r.stream === s).length]));
+    c3.head(`The first version rated ${sum([...a.values()])} of ${scored.length} scored releases High; the final rule rates ${sum([...b.values()])}`,
+      'The first version used one cut-off for all streams, so a stream with many components (Vendor A has 17) almost always looked High. The final rule compares each release with its own stream.');
+    c3.set({...base(t), legend: leg(t), grid: {left: 4, right: 30, top: 34, bottom: 2, containLabel: true},
+      tooltip: tip(t, {trigger: 'axis', axisPointer: axisTipShadow(t), formatter: ps => `<b>${esc(ps[0].axisValue)}</b> (${nS.get(ps[0].axisValue)} scored releases)<br>` + ps.map(p => `${p.marker}${p.seriesName}: ${p.value} rated High`).join('<br>')}),
+      xAxis: valAxis(t, {minInterval: 1}), yAxis: yCat(t, c3, ss),
+      series: [['First version (one cut-off)', a, t.none], ['Final (per stream)', b, t.accent]].map(([name, m, col]) => ({name, type: 'bar', barMaxWidth: 14, barGap: '20%',
+        data: ss.map(s => m.get(s)), itemStyle: {color: col, borderRadius: hBarRadius}, label: {show: true, position: 'right', color: t.ink2, fontSize: 11}}))});
+    c3.table([{label: 'Stream', key: 's'}, {label: 'Scored releases', key: 'n', num: true}, {label: 'High, first version', key: 'a', num: true}, {label: 'High, final rule', key: 'b', num: true}],
+      ss.map(s => ({s, n: nS.get(s), a: a.get(s), b: b.get(s)})));
+  }
+  update();
+  return update;
+}
+
+/* ================================================================== 11. Model check */
+function buildModel(root) {
+  const st = S.model;
+  const rf = D.model_results.find(m => m.model === 'Random forest' && m.check === 'Walk-forward');
+  const gs = D.model_results.find(m => m.model === 'Always high' && m.check === 'Walk-forward');
+  pageHead(root, 'Can we trust the component scores?',
+    `On the 2025–26 releases the forest scores ${fmt.dec(rf.pr_auc)}, more than ${Math.floor(rf.pr_auc / gs.pr_auc)} times guessing (${fmt.dec(gs.pr_auc)})`,
+    'Five models were compared on the training releases first; the winner was then tested once on the 16 test releases, in two ways: a fixed test and a walk-forward check.');
+  const bar = filterBar(root);
+  addSeg(bar, 'mo-check', 'Check', [{value: 'Walk-forward', label: 'Walk-forward'}, {value: 'Fixed test', label: 'Fixed test'}, {value: 'Training checks', label: 'Training checks'}], st.check, v => { st.check = v; update(); });
+  const g = grid(root);
+  const c1 = card(g, {span: 6, height: 260}), c2 = card(g, {span: 6, height: 340});
+  const c3 = card(g, {span: 6, chart: false}), c4 = card(g, {span: 6, height: 420});
+  const c5 = card(g, {span: 12, chart: false});
+
+  function update() {
+    const t = T();
+    const rows = D.model_results.filter(m => m.check === st.check).sort((a, b) => a.model_order - b.model_order);
+    const f = rows.find(m => m.final_model === 'Yes'), base0 = rows.find(m => m.model === 'Always high');
+    c1.head(`Random forest ${fmt.dec(f.pr_auc)} against ${fmt.dec(base0.pr_auc)} for guessing (${st.check.toLowerCase()})`,
+      st.check === 'Training checks' ? 'Average PR-AUC over three time-ordered checks inside the training releases; the forest won here and was chosen before any test.' :
+        'PR-AUC on the 16 test releases. "Always high" flags every row, so it scores the share of hotspots: what guessing gets.');
+    c1.set({...base(t), grid: {left: 4, right: 50, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => { const r = p.data.r; return `<b>${esc(r.model)}</b>: PR-AUC ${fmt.dec(r.pr_auc, 3)}` + (r.recall != null ? `<br>Recall ${fmt.dec(r.recall)} · precision ${fmt.dec(r.precision)} · MCC ${fmt.dec(r.mcc)}` : ''); }}),
+      xAxis: valAxis(t, {min: 0, max: 1}), yAxis: yCat(t, c1, rows.map(r => r.model === 'Always high' ? 'Always high (guessing)' : r.model)),
+      series: [{type: 'bar', barMaxWidth: 22, data: rows.map(r => ({value: r.pr_auc, r, itemStyle: {color: r.final_model === 'Yes' ? t.accent : r.model === 'Always high' ? t.none : alpha(t.ink2, 0.45), borderRadius: hBarRadius}})),
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11.5, formatter: p => fmt.dec(p.value)}}]});
+    c1.table([{label: 'Model', key: 'model'}, {label: 'PR-AUC', key: 'pr_auc', num: true, fmt: v => fmt.dec(v, 3)}, {label: 'Recall', key: 'recall', num: true, fmt: v => fmt.dec(v)},
+      {label: 'Precision', key: 'precision', num: true, fmt: v => fmt.dec(v)}, {label: 'MCC', key: 'mcc', num: true, fmt: v => fmt.dec(v)},
+      {label: 'Hotspots in top 20%', key: 'share_of_hotspots_in_top_20pct', num: true, fmt: v => fmt.pct(v)}], rows);
+
+    const test = st.check === 'Training checks' ? 'Walk-forward' : st.check;
+    const pr = D.pr_curve.filter(p => p.test === test);
+    const hot = pr.filter(p => p.real_hotspot === 'Yes'), top = Math.round(pr.length * 0.2);
+    c2.head(`The top 20% of the list held ${hot.filter(p => p.position <= top).length} of ${hot.length} hotspots (${test.toLowerCase()})`,
+      'Walking down the priority list from the riskiest row: recall is the share of real hotspots found so far, precision the share of rows checked so far that were hotspots. The dashed line is guessing.');
+    const tests = ['Fixed test', 'Walk-forward'];
+    c2.set({...base(t), legend: leg(t), grid: {left: 4, right: 18, top: 34, bottom: 18, containLabel: true},
+      tooltip: tip(t, {formatter: p => { const q = p.data.p; const found = Math.round(q.recall_so_far * hot.length);
+        return `<b>${esc(q.test)}</b>, row ${q.position}${q.real_hotspot === 'Yes' ? ' (a real hotspot)' : ''}<br>${found} of ${hot.length} hotspots found so far (recall ${fmt.dec(q.recall_so_far)})<br>${fmt.pct(q.precision_so_far)} of rows so far were hotspots`; }}),
+      xAxis: valAxis(t, {min: 0, max: 1, name: 'Recall so far', nameLocation: 'middle', nameGap: 26, nameTextStyle: {color: t.muted, fontSize: 11}}),
+      yAxis: valAxis(t, {min: 0, max: 1.05, axisLabel: lbl(t, {color: t.muted, fontSize: 11, formatter: v => v > 1 ? '' : fmt.dec(v, 1)})}),
+      series: tests.map((tt, i) => ({name: tt, type: 'line', symbol: 'circle', symbolSize: 5, showSymbol: true,
+        lineStyle: {width: tt === test ? 2.5 : 1.5, color: t.cat[i], opacity: tt === test ? 1 : 0.55}, itemStyle: {color: t.cat[i], opacity: tt === test ? 1 : 0.55},
+        data: D.pr_curve.filter(p => p.test === tt).map(p => ({value: [p.recall_so_far, p.precision_so_far], p})),
+        markLine: i === 0 ? {...markLineStyle(t), data: [{yAxis: gs.pr_auc, name: 'Guessing'}], label: {color: t.ink2, fontSize: 11, formatter: `Guessing ${fmt.dec(gs.pr_auc)}`, position: 'insideEndTop'}} : undefined}))});
+    c2.table([{label: 'Row', key: 'position', num: true}, {label: 'Recall so far', key: 'recall_so_far', num: true, fmt: v => fmt.dec(v, 3)},
+      {label: 'Precision so far', key: 'precision_so_far', num: true, fmt: v => fmt.dec(v, 3)}, {label: 'Real hotspot', key: 'real_hotspot'}], pr);
+
+    const fr = D.model_results.find(m => m.model === 'Random forest' && m.check === test);
+    const n = fr.caught + fr.false_alarms + fr.missed + fr.correctly_left_alone;
+    c3.head(`The forest flagged ${fr.flagged} of ${n} component rows and caught ${fr.caught} of ${fr.caught + fr.missed} hotspots`,
+      `${test}, 16 test releases. A row is flagged when its score is in the High band.${st.check === 'Training checks' ? ' Four boxes are counted on the test releases only.' : ''}`);
+    c3.html(`<div class="cm">
+      <div></div><div class="hd">Real hotspot</div><div class="hd">Not a hotspot</div>
+      <div class="hd rh">Flagged High</div><div class="box good"><div class="n">${fr.caught}</div><div class="k">Caught</div></div><div class="box warn"><div class="n">${fr.false_alarms}</div><div class="k">False alarms</div></div>
+      <div class="hd rh">Not flagged</div><div class="box bad"><div class="n">${fr.missed}</div><div class="k">Missed</div></div><div class="box good"><div class="n">${fr.correctly_left_alone}</div><div class="k">Correctly left alone</div></div>
+    </div>
+    <div class="stats"><span>Recall <b>${fmt.dec(fr.recall)}</b></span><span>Precision <b>${fmt.dec(fr.precision)}</b></span><span>MCC <b>${fmt.dec(fr.mcc)}</b></span>
+      <span>Accuracy would be <b>${fmt.pct((fr.caught + fr.correctly_left_alone) / n)}</b>, but always saying "not a hotspot" scores <b>${fmt.pct((fr.false_alarms + fr.correctly_left_alone) / n)}</b> while catching nothing</span></div>`);
+
+    const dv = D.drivers.slice().sort((a, b) => a.rank - b.rank);
+    c4.head(`What drives the score: ${esc(dv[0].driver.replace(/ \(.*\)$/, '').toLowerCase())} matters most`,
+      'How much worse the forest ranks hotspots (drop in PR-AUC) when one input is shuffled. History of the component dominates; vendor and timing add little.');
+    c4.height(dv.length * 26 + 20);
+    c4.set({...base(t), grid: {left: 4, right: 46, top: 4, bottom: 2, containLabel: true},
+      tooltip: tip(t, {formatter: p => `<b>${esc(dv[p.dataIndex].driver)}</b><br>PR-AUC drops by ${fmt.dec(p.value, 3)} when shuffled`}),
+      xAxis: valAxis(t, {min: 0}), yAxis: catAxis(t, {data: dv.map(d => d.driver.replace(/ \(.*\)$/, '')), inverse: true, axisLabel: lbl(t, {width: Math.min(260, labW(c4) + 20), overflow: 'truncate', interval: 0})}),
+      series: [{type: 'bar', barMaxWidth: 18, data: dv.map(d => d.drop_in_pr_auc), itemStyle: {color: t.accent, borderRadius: hBarRadius},
+        label: {show: true, position: 'right', color: t.ink2, fontSize: 11, formatter: p => fmt.dec(p.value, 3)}}]});
+    c4.table([{label: 'Rank', key: 'rank', num: true}, {label: 'Input', key: 'driver', cls: 'wrap'}, {label: 'Drop in PR-AUC', key: 'drop_in_pr_auc', num: true, fmt: v => fmt.dec(v, 3)}], dv);
+
+    c5.head('Why a component scores High: two rules from the decision tree',
+      'The decision tree is easy to read, so its two clearest rules explain the pattern the forest learned. Both come from the training releases.');
+    c5.html(`<div class="rules">
+      <div class="rule"><h3>${pill('High', 'Always a hotspot in training')}</h3><ul>
+        <li>Severity-weighted usual rate above 2.27 per 10 person-days (Critical 8, High 4, Medium 2, Low 1)</li>
+        <li>2 or more earlier reopened defects</li>
+        <li>More than 0.83 defects per 10 person-days in the last finished release</li>
+        <li>Defects in more than 78% of earlier releases</li></ul>
+        <p>28 training rows fit this rule; all 28 were hotspots.</p></div>
+      <div class="rule"><h3>${pill('Low', 'Never a hotspot in training')}</h3><ul>
+        <li>Severity-weighted usual rate of 2.27 or less</li>
+        <li>At most 1 defect in the 90 days before the release</li>
+        <li>At most 1 earlier reopened defect</li>
+        <li>Defects in at least one earlier release, and not the Gift cards component</li></ul>
+        <p>101 training rows fit this rule; none were hotspots. This is the basis of the safe zone.</p></div>
+    </div>`);
+  }
+  update();
+  return update;
+}
+
+/* ------------------------------------------------------------------ navigation and theme */
+function buildNav() {
+  const nav = document.getElementById('nav');
+  const groups = uniq(PAGES.map(p => p.group));
+  nav.innerHTML = groups.map(gr => `<h2>${gr}</h2><ul>${PAGES.filter(p => p.group === gr).map(p => `<li><a href="#${p.id}" data-id="${p.id}">${p.label}</a></li>`).join('')}</ul>`).join('');
+}
+function render() {
+  const main = document.getElementById('main');
+  const id = (location.hash || '').replace('#', '') || 'start';
+  const page = PAGES.find(p => p.id === id) || PAGES[0];
+  disposeAll();
+  main.innerHTML = '';
+  document.querySelectorAll('#nav a').forEach(a => { if (a.dataset.id === page.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  const cur = document.querySelector('#nav a[aria-current]');
+  if (cur && cur.scrollIntoView && window.innerWidth <= 960) cur.scrollIntoView({block: 'nearest', inline: 'center'});
+  try {
+    currentUpdate = page.build(main);
+  } catch (err) {
+    console.error(err);
+    main.innerHTML = `<p class="err">This page could not be drawn (${esc(err.message)}).</p>`;
+  }
+  window.scrollTo(0, 0);
+}
+let themeTimer = null;
+function redraw() {
+  clearTimeout(themeTimer);
+  themeTimer = setTimeout(() => { try { currentUpdate && currentUpdate(); } catch (err) { console.error(err); } }, 30);
+}
+function setupTheme() {
+  const box = document.getElementById('theme');
+  let mode = 'auto';
+  try { mode = localStorage.getItem('hindsight-theme') || 'auto'; } catch (e) { /* storage blocked */ }
+  const apply = m => {
+    mode = m;
+    if (m === 'light' || m === 'dark') document.documentElement.setAttribute('data-theme', m);
+    else if (m === 'auto' && box.dataset.touched) document.documentElement.removeAttribute('data-theme');
+    box.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === m)));
+  };
+  if (mode !== 'auto') apply(mode); else apply('auto');
+  box.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    box.dataset.touched = '1';
+    apply(b.dataset.mode);
+    try { localStorage.setItem('hindsight-theme', b.dataset.mode); } catch (err) { /* storage blocked */ }
+  });
+  new MutationObserver(redraw).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+  if (window.matchMedia) matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
+}
+
+async function start() {
+  buildNav();
+  setupTheme();
+  const main = document.getElementById('main');
+  if (!window.echarts) {
+    main.innerHTML = '<p class="err">The chart library could not load. Check the internet connection and reload the page.</p>';
+    return;
+  }
+  try {
+    await loadAll();
+  } catch (err) {
+    console.error(err);
+    main.innerHTML = `<p class="err">The data files could not be loaded (${esc(err.message)}). Open this page from a web server such as GitHub Pages, or run <span class="code">python -m http.server</span> in its folder, rather than opening the file directly.</p>`;
+    return;
+  }
+  window.addEventListener('hashchange', render);
+  render();
+}
+start();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+step_order,step,defects,left_out_at_this_step,reason_left_out
+1,All defects raised,3152,0,
+2,Count for risk,2597,555,"Left out: withdrawn, not a defect, or found in performance testing"
+3,Found in release testing,2475,122,Left out: upgrade and infrastructure work
+4,Matched to a release,2053,422,Left out: no release could be found (dashboard only)
+5,In a release the model uses,1853,200,Left out: releases before the trackers (1.28 to 1.36) and other history-only releases

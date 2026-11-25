@@ -1,0 +1,62 @@
+release,stream,vendor,period,in_model,test_start,test_end,window_days,usual_window_days,person_days,effort_estimated,test_runs,ptf_drops,defects,critical_high,defects_per_10pd,stream_average,times_stream_average,outcome,rating_before,rating_first_version,components,high_components,high_share,weighted_avg_score,rating_reason
+1.28,Vendor A,Vendor A,History only,No,2016-08-19,2016-08-19,0,128.0,,No,,0.0,1,0,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.29,Vendor A,Vendor A,History only,No,2016-08-19,2016-08-19,0,128.0,,No,,0.0,6,5,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.33,Vendor A,Vendor A,History only,No,2016-08-19,2016-11-25,98,128.0,,No,,1.0,62,30,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.31,Vendor A,Vendor A,History only,No,2016-08-20,2016-11-25,97,128.0,,No,,0.0,4,0,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.32,Vendor A,Vendor A,History only,No,2016-09-05,2016-11-25,81,128.0,,No,,3.0,4,0,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.34,Vendor A,Vendor A,History only,No,2016-11-17,2017-07-04,229,128.0,,No,,5.0,66,34,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.30,Vendor A,Vendor A,History only,No,2016-11-25,2016-11-25,0,128.0,,No,,0.0,1,0,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.36,Vendor A,Vendor A,History only,No,2017-12-13,2018-11-28,350,128.0,,No,,13.0,54,28,,4.99,,Not judged,Not scored,Not scored,,,,,
+1.37,Vendor A,Vendor A,Training,Yes,2018-04-05,2019-07-06,457,128.0,105.0,Yes,3.0,15.0,77,58,7.33,4.99,1.47,Bad,Not scored,Not scored,,,,,
+Vendor C 3.0,Vendor C,Vendor C,Training,Yes,2018-04-18,2019-10-30,560,123.5,38.5,Yes,1.0,,70,23,18.18,6.28,2.9,Bad,Not scored,Not scored,,,,,
+1.39,Vendor A,Vendor A,Training,Yes,2019-04-01,2019-12-31,274,128.0,279.5,No,2.0,2.0,204,136,7.3,4.99,1.46,Bad,Not scored,Not scored,,,,,
+Vendor C 4.0,Vendor C,Vendor C,Training,Yes,2019-07-19,2020-01-24,189,123.5,57.0,No,1.0,,19,10,3.33,6.28,0.53,Clean,Not scored,Not scored,,,,,
+CI 2,Vendor B,Vendor B,Training,Yes,2019-07-22,2019-08-30,39,56.5,35.0,No,1.0,,18,5,5.14,4.44,1.16,Bad,Not scored,Not scored,,,,,
+1.41,Vendor A,Vendor A,Training,Yes,2020-01-13,2020-04-30,108,128.0,105.8,No,2.0,6.0,73,44,6.9,4.99,1.38,Bad,Not scored,Not scored,,,,,
+CI 3,Vendor B,Vendor B,Training,Yes,2020-03-02,2020-11-11,254,56.5,39.0,No,2.0,,31,12,7.95,4.44,1.79,Bad,Not scored,Not scored,,,,,
+Vendor C 4.1,Vendor C,Vendor C,Training,Yes,2020-05-01,2020-07-23,83,123.5,31.8,No,1.0,,22,14,6.93,6.28,1.1,Bad,Not scored,Not scored,,,,,
+Vendor C 4.2,Vendor C,Vendor C,Training,Yes,2020-08-03,2020-11-30,119,123.5,38.5,No,1.0,,35,23,9.09,6.28,1.45,Bad,Not scored,Not scored,,,,,
+Vendor E 6.0,Vendor E,Vendor E,Training,Yes,2020-08-18,2020-11-12,86,50.0,3.0,No,1.0,,3,0,10.0,6.38,1.57,Bad,Not scored,Not scored,,,,,
+CI 4,Vendor B,Vendor B,Training,Yes,2020-11-02,2020-12-18,46,56.5,50.2,No,2.0,,43,8,8.56,4.44,1.93,Bad,Not scored,Not scored,,,,,
+1.42,Vendor A,Vendor A,Training,Yes,2020-12-04,2021-03-25,111,128.0,185.5,No,2.0,2.0,45,26,2.43,4.99,0.49,Clean,High,High,17.0,8.0,0.471,0.738,8 of 17 components High; average score 0.74
+Vendor C 4.3,Vendor C,Vendor C,Training,Yes,2020-12-08,2021-04-30,143,123.5,92.0,No,1.0,,59,32,6.41,6.28,1.02,Bad,High,High,6.0,2.0,0.333,0.838,2 of 6 components High; average score 0.84
+CI 5,Vendor B,Vendor B,Training,Yes,2021-04-01,2021-05-26,55,56.5,52.0,No,1.0,,19,2,3.65,4.44,0.82,Clean,High,High,10.0,5.0,0.5,0.8,5 of 10 components High; average score 0.8
+Vendor C 4.4,Vendor C,Vendor C,Training,Yes,2021-05-10,2021-11-30,204,123.5,61.4,No,1.0,,17,14,2.77,6.28,0.44,Clean,High,High,6.0,1.0,0.167,0.846,1 of 6 components High; average score 0.85
+1.43,Vendor A,Vendor A,Training,Yes,2021-05-27,2021-08-16,81,128.0,105.0,No,2.0,1.0,47,22,4.48,4.99,0.9,Clean,Low,High,17.0,2.0,0.118,0.419,2 of 17 components High; average score 0.42
+Vendor E 7.0,Vendor E,Vendor E,Training,Yes,2021-07-20,2021-09-08,50,50.0,24.0,No,1.0,,7,2,2.92,6.38,0.46,Clean,High,High,4.0,4.0,1.0,0.793,4 of 4 components High; average score 0.79
+CI 6,Vendor B,Vendor B,Training,Yes,2021-09-07,2021-11-04,58,56.5,48.0,No,1.0,,18,0,3.75,4.44,0.84,Clean,Low,Medium,10.0,1.0,0.1,0.676,1 of 10 components High; average score 0.68
+Vendor C 4.5,Vendor C,Vendor C,Training,Yes,2021-12-08,2022-01-20,43,123.5,8.2,No,1.0,,3,2,3.64,6.28,0.58,Clean,High,High,6.0,2.0,0.333,0.84,2 of 6 components High; average score 0.84
+1.44,Vendor A,Vendor A,Training,Yes,2022-01-17,2022-05-23,126,128.0,57.5,No,1.0,0.0,26,9,4.52,4.99,0.91,Clean,Low,Medium,17.0,1.0,0.059,0.461,1 of 17 components High; average score 0.46
+Vendor C 5.0,Vendor C,Vendor C,Training,Yes,2022-02-04,2023-03-21,410,123.5,318.6,No,3.0,,204,68,6.4,6.28,1.02,Bad,High,High,6.0,1.0,0.167,0.845,1 of 6 components High; average score 0.84
+CI 7,Vendor B,Vendor B,Training,Yes,2022-02-14,2022-07-20,156,56.5,85.5,No,1.0,,15,6,1.75,4.44,0.39,Clean,Low,Medium,10.0,1.0,0.1,0.543,1 of 10 components High; average score 0.54
+CI 8,Vendor B,Vendor B,Training,Yes,2022-08-15,2023-03-08,205,56.5,109.5,No,1.0,,24,14,2.19,4.44,0.49,Clean,Low,High,10.0,2.0,0.2,0.628,2 of 10 components High; average score 0.63
+1.45,Vendor A,Vendor A,Training,Yes,2022-11-24,2023-04-25,152,128.0,97.2,No,1.0,1.0,36,13,3.7,4.99,0.74,Clean,Medium,High,17.0,3.0,0.176,0.478,3 of 17 components High; average score 0.48
+Vendor C 5.1,Vendor C,Vendor C,Training,Yes,2023-01-06,2023-05-05,119,123.5,9.8,No,2.0,,3,0,3.08,6.28,0.49,Clean,Low,Medium,6.0,1.0,0.167,0.793,1 of 6 components High; average score 0.79
+Vendor E 8.0,Vendor E,Vendor E,Training,Yes,2023-02-23,2023-03-14,19,50.0,9.5,No,1.0,,1,0,1.05,6.38,0.17,Clean,Low,Low,4.0,0.0,0.0,0.47,0 of 4 components High; average score 0.47
+CI 9,Vendor B,Vendor B,Training,Yes,2023-04-11,2023-07-17,97,56.5,80.0,No,1.0,,19,9,2.38,4.44,0.53,Clean,High,High,10.0,3.0,0.3,0.683,3 of 10 components High; average score 0.68
+1.46,Vendor A,Vendor A,Training,Yes,2023-04-19,2023-09-19,153,128.0,84.8,No,1.0,1.0,32,23,3.78,4.99,0.76,Clean,Medium,High,17.0,3.0,0.176,0.458,3 of 17 components High; average score 0.46
+Vendor D regression 2023,Vendor D,Vendor D,History only,No,2023-05-31,2023-06-01,1,6.0,3.5,No,1.0,,0,0,0.0,,,Not judged,Not scored,Not scored,,,,,
+Vendor E 8.1,Vendor E,Vendor E,Training,Yes,2023-07-20,2023-10-27,99,50.0,5.2,No,1.0,,6,2,11.54,6.38,1.81,Bad,Low,Low,4.0,0.0,0.0,0.315,0 of 4 components High; average score 0.31
+CI 10,Vendor B,Vendor B,Training,Yes,2023-11-29,2024-12-27,394,56.5,202.5,No,1.0,,114,15,5.63,4.44,1.27,Bad,High,High,10.0,3.0,0.3,0.686,3 of 10 components High; average score 0.69
+Vendor C 5.2,Vendor C,Vendor C,Training,Yes,2024-01-31,2024-06-07,128,123.5,19.5,No,1.0,,29,15,14.87,6.28,2.37,Bad,High,High,6.0,2.0,0.333,0.827,2 of 6 components High; average score 0.83
+1.47,Vendor A,Vendor A,Training,Yes,2024-03-11,2024-05-17,67,128.0,75.0,No,1.0,1.0,46,27,6.13,4.99,1.23,Bad,Medium,High,17.0,3.0,0.176,0.453,3 of 17 components High; average score 0.45
+1.48,Vendor A,Vendor A,Training,Yes,2024-05-20,2024-09-27,130,128.0,113.7,No,2.0,3.0,59,31,5.19,4.99,1.04,Bad,High,High,17.0,6.0,0.353,0.563,6 of 17 components High; average score 0.56
+1.49,Vendor A,Vendor A,Training,Yes,2024-09-18,2025-01-15,119,128.0,55.0,No,1.0,0.0,36,19,6.55,4.99,1.31,Bad,High,High,17.0,6.0,0.353,0.555,6 of 17 components High; average score 0.55
+1.50,Vendor A,Vendor A,Training,Yes,2024-11-26,2025-06-27,213,128.0,191.8,No,1.0,4.0,76,44,3.96,4.99,0.79,Clean,High,High,17.0,5.0,0.294,0.567,5 of 17 components High; average score 0.57
+CI 11,Vendor B,Vendor B,Training,Yes,2024-12-12,2025-05-16,155,56.5,102.3,No,2.0,,35,17,3.42,4.44,0.77,Clean,High,High,10.0,3.0,0.3,0.687,3 of 10 components High; average score 0.69
+Vendor E 8.2,Vendor E,Vendor E,Test,Yes,2025-01-20,2025-02-12,23,50.0,11.0,No,2.0,,0,0,0.0,6.38,0.0,Clean,Low,Low,4.0,0.0,0.0,0.462,0 of 4 components High; average score 0.46
+Vendor C 5.3,Vendor C,Vendor C,Test,Yes,2025-02-27,2025-02-27,0,123.5,0.8,No,1.0,,0,0,0.0,6.28,0.0,Clean,High,High,6.0,2.0,0.333,0.85,2 of 6 components High; average score 0.85
+Vendor D v2.24,Vendor D,Vendor D,Test,Yes,2025-05-15,2025-05-23,8,6.0,8.0,No,1.0,,0,0,0.0,,,Not judged,Low,Low,1.0,0.0,0.0,0.356,0 of 1 components High; average score 0.36
+CI 11.1,Vendor B,Vendor B,Test,Yes,2025-05-19,2025-07-04,46,56.5,50.0,No,1.0,,8,3,1.6,4.44,0.36,Clean,High,High,10.0,2.0,0.2,0.693,2 of 10 components High; average score 0.69
+Vendor D v2.25,Vendor D,Vendor D,Test,Yes,2025-05-27,2025-06-02,6,6.0,5.0,No,1.0,,0,0,0.0,,,Not judged,Low,Low,1.0,0.0,0.0,0.188,0 of 1 components High; average score 0.19
+1.51,Vendor A,Vendor A,Test,Yes,2025-06-04,2025-07-29,55,128.0,72.0,No,1.0,2.0,13,3,1.81,4.99,0.36,Clean,Medium,High,17.0,4.0,0.235,0.548,4 of 17 components High; average score 0.55
+CI 11.2,Vendor B,Vendor B,Test,Yes,2025-07-01,2025-07-04,3,56.5,5.0,No,1.0,,12,3,24.0,4.44,5.4,Bad,High,High,10.0,2.0,0.2,0.711,2 of 10 components High; average score 0.71
+CI 11.3,Vendor B,Vendor B,Test,Yes,2025-07-21,2025-07-31,10,56.5,6.2,No,1.0,,4,1,6.45,4.44,1.45,Bad,Low,Medium,10.0,1.0,0.1,0.669,1 of 10 components High; average score 0.67
+1.52,Vendor A,Vendor A,Test,Yes,2025-07-30,2026-01-29,183,128.0,204.5,No,1.0,3.0,71,22,3.47,4.99,0.7,Clean,Low,High,17.0,2.0,0.118,0.39,2 of 17 components High; average score 0.39
+CI 11.4,Vendor B,Vendor B,Test,Yes,2025-10-01,2025-10-17,16,56.5,8.0,No,1.0,,2,1,2.5,4.44,0.56,Clean,Low,High,10.0,2.0,0.2,0.674,2 of 10 components High; average score 0.67
+1.53,Vendor A,Vendor A,Test,Yes,2025-11-19,2026-04-07,139,128.0,109.3,No,1.0,3.0,36,10,3.29,4.99,0.66,Clean,Low,High,17.0,2.0,0.118,0.367,2 of 17 components High; average score 0.37
+Vendor C 5.4,Vendor C,Vendor C,Test,Yes,2026-02-05,2026-03-31,54,123.5,57.3,No,2.0,,43,3,7.5,6.28,1.19,Bad,High,High,6.0,2.0,0.333,0.585,2 of 6 components High; average score 0.58
+1.54,Vendor A,Vendor A,Test,Yes,2026-03-11,2026-07-23,134,128.0,123.9,No,1.0,0.0,47,11,3.79,4.99,0.76,Clean,Medium,High,17.0,3.0,0.176,0.425,3 of 17 components High; average score 0.43
+Vendor D v2.29,Vendor D,Vendor D,Test,Yes,2026-03-18,2026-03-20,2,6.0,3.0,No,1.0,,1,0,3.33,,,Not judged,Low,Low,1.0,0.0,0.0,0.148,0 of 1 components High; average score 0.15
+1.55,Vendor A,Vendor A,Test,Yes,2026-06-15,2026-08-28,74,128.0,10.0,No,1.0,0.0,12,1,12.0,4.99,2.4,Bad,Medium,High,17.0,3.0,0.176,0.455,3 of 17 components High; average score 0.45
+1.56,Vendor A,Vendor A,Test,Yes,2026-08-18,2026-10-30,73,128.0,115.0,No,1.0,0.0,33,13,2.87,4.99,0.57,Clean,Medium,High,17.0,3.0,0.176,0.512,3 of 17 components High; average score 0.51
